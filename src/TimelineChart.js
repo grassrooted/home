@@ -8,7 +8,6 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 // Function to aggregate data by date
 function aggregateDataByDate(data) {
     const aggregatedData = {};
-    console.log(data)
     data.forEach(record => {
         const date = record["Transaction Date:"].split(' ')[0]; // Extract the date part only
         const amount = record["Amount:"];
@@ -70,7 +69,11 @@ function TimelineChart(contribution_data) {
     }
   };
 
-  return <Line data={data} options={options} />;
-};
+  return (
+    <div className="section" id="timeline">
+        <h2>Individual Contributions Timeline</h2>
+        <Line data={data} options={options} />
+    </div>
+)};
 
 export default TimelineChart;
