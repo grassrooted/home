@@ -6,6 +6,7 @@ import Header from './Header';
 function App() {
   const [profiles, setProfiles] = useState([]);
 
+  // Read profiles from the yaml config
   useEffect(() => {
     const fetchYamlData = async () => {
       try {

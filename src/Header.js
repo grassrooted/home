@@ -4,7 +4,7 @@ function Header() {
   }
 
   return (
-    <div class="section">
+    <div className="section">
         <h1 style={headerStyle}>
             Dallas Elections Watch
         </h1>

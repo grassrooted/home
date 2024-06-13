@@ -1,14 +1,14 @@
 import React from 'react';
 import './ProfileSnapshot.css'
 
-function ProfileSnapshot({ name, firstElection, nextElection, district, city, headshotPath }) {
+function ProfileSnapshot({ profile }) {
   return (
     <div className="profileSnapshot">
-        <h1>{name}</h1>
-        <img src={headshotPath} alt={`${name} headshot`} />
-        <h3>City Council - District {district}</h3>
-        <h4>{city}, Tx</h4>
-        <p>First Election: {firstElection} | Next Election: {nextElection}</p>
+        <h1>{profile.name}</h1>
+        <img src={profile.path_to_headshot_photo} alt={`${profile.name} headshot`} />
+        <h3>City Council - District {profile.district}</h3>
+        <h4>{profile.city}, Tx</h4>
+        <p>First Election: {profile.first_election} | Next Election: {profile.next_election}</p>
     </div>
   );
 }
