@@ -108,6 +108,8 @@ form[action$="destroy"] button {
   border-right: solid 1px #e3e3e3;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  position: fixed;
 }
 
 #sidebar > * {
@@ -241,7 +243,8 @@ i {
 #detail {
   flex: 1;
   padding: 2rem 4rem;
-  width: 100%;
+  width: 80%;
+  margin-left: 20rem;
 }
 
 #detail.loading {
@@ -428,4 +431,19 @@ i {
   font-size: 14px; /* Adjust as needed */
   text-align: center;
   color: #000; /* Adjust as needed */
+}
+
+.section{
+  border: 1px solid #eaeaea;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 15px;
+  align-items: center;
+  text-align: center
+}
+
+img {
+  display: none;
+  height: 500px;
 }

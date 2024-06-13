@@ -11,7 +11,7 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>Dallas Elections Watch Profiles</h1>
+          <h1>Profiles - Dallas City Council</h1>
           <div>
             <form id="search-form" role="search">
               <input

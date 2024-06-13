@@ -1,6 +1,10 @@
 import ProfileSnapshot from '../ProfileSnapshot';
 import { getProfile, getProfiles } from '../Profiles'
+import TimelineChart from '../TimelineChart';
 import { useLoaderData } from "react-router-dom";
+import '../index.css';
+import React, { useState } from 'react';
+
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
     const id = params.profileId
@@ -40,7 +44,10 @@ function Profile() {
     const res = useLoaderData();
     const contribution_data = res.data;
     const profile = res.profile;
-  
+
+    // State to keep track of the selected profile
+    const [selectedMap, setSelectedMap] = useState(profile.path_to_maps[0]);
+
     // Count the number of records with an amount less than $100
     const grassroots_count = contribution_data ? contribution_data.filter(item => item["Amount:"] < 100).length : 0
     // Calculate the percentage
@@ -81,8 +88,13 @@ function Profile() {
 
     totalExcessContributions = Math.round(totalExcessContributions)
 
+    // Handler for when the select value changes
+    const handleMapChange = (event) => {
+        setSelectedMap(event.target.value);
+    };
+
     return (
-        <div className="section">
+        <div>
             <ProfileSnapshot profile = {profile} />
 
             <div className="section" id="highlights">
@@ -106,6 +118,30 @@ function Profile() {
                     </div>
                 </div>
             </div>
+
+            <div className="section" id="donor-map">
+                <h2>
+                    Contributions Across Dallas
+                </h2>
+                <h4>
+                    <i id="map-subtitle"></i>
+                </h4>
+                <label htmlFor="map-cycleFilter">Filter by Election Cycle:</label>
+                <select id="map-cycleFilter" value={selectedMap} onChange={handleMapChange}>
+                    {profile.path_to_maps.map((src, index) => (
+                    <option key={index} value={src}>
+                        {src}
+                    </option>
+                    ))}
+                </select>
+                <img src={selectedMap} alt={selectedMap} />
+            </div>
+
+            <div className="section" id="timeline">
+                <h2>Individual Contributions Timeline</h2>
+                <TimelineChart contribution_data={contribution_data} />
+            </div>
+
         </div>
     );
 }
