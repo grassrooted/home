@@ -1,6 +1,7 @@
 import ProfileSnapshot from '../ProfileSnapshot';
 import { getProfile, getProfiles } from '../Profiles'
 import TimelineChart from '../TimelineChart';
+import ContributionsBarChart  from '../ContributionsBarChart';
 import { useLoaderData } from "react-router-dom";
 import '../index.css';
 import Highlights from '../Highlights';
@@ -27,9 +28,7 @@ function Profile() {
             <ContributionsMap profile={profile} />
 
             <TimelineChart contribution_data={contribution_data} />
-
-
-
+            <ContributionsBarChart contribution_data={contribution_data}/>
         </div>
     );
 }
