@@ -6,6 +6,7 @@ import { useLoaderData } from "react-router-dom";
 import '../index.css';
 import Highlights from '../Highlights';
 import ContributionsMap from '../ContributionsMap';
+import IndividualContributionsTable from '../IndividualContributionsTable';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
@@ -26,9 +27,9 @@ function Profile() {
             <ProfileSnapshot profile = {profile} />
             <Highlights contribution_data={contribution_data} />
             <ContributionsMap profile={profile} />
-
             <TimelineChart contribution_data={contribution_data} />
             <ContributionsBarChart contribution_data={contribution_data}/>
+            <IndividualContributionsTable contribution_data={contribution_data}/>
         </div>
     );
 }

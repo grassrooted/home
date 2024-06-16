@@ -31,7 +31,7 @@ function TimelineChart(contribution_data) {
 
   const data = {
     datasets: [{
-        label: 'Total Contributions',
+        label: 'Total Contributions ($)',
         data: aggregatedData,
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         borderColor: 'rgba(75, 192, 192, 1)',
