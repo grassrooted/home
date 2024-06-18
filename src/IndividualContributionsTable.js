@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import 'react-tabulator/lib/styles.css'; // default theme
-import 'react-tabulator/css/tabulator_simple.min.css'; // use Theme(s)
-import { ReactTabulator } from 'react-tabulator'; // for React 16.4+
+import React, { useState, useEffect } from 'react';
+import {TabulatorFull as Tabulator} from "tabulator-tables"; //import Tabulator library
+import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
 import { CSVLink } from 'react-csv';
 
 
@@ -35,18 +34,30 @@ function IndividualContributionsTable({ contribution_data }) {
     });
     };
 
-    const filteredData = filterDataByDate(contribution_data, selectedDateRange);
+    useEffect(() => {
+        const filteredData = filterDataByDate(contribution_data, selectedDateRange);
+        const tableData = Object.values(filteredData);
 
-    const columns = [
-        { title: "Contributor", field: "Name", headerFilter: true  },
-        { title: "Amount ($)", field: "Amount:" },
-        { title: "Candidate", field: "Cand/Committee:" },
-        { title: "Transaction Date", field: "Transaction Date:", formatter: cell => new Date(cell.getValue()).toLocaleDateString() }
-    ];
+        const columns = [
+            { title: "Contributor", field: "Name", headerFilter: true  },
+            { title: "Amount ($)", field: "Amount:" },
+            { title: "Candidate", field: "Cand/Committee:" },
+            { title: "Transaction Date", field: "Transaction Date:", formatter: cell => new Date(cell.getValue()).toLocaleDateString() }
+        ];
+
+        const table = new Tabulator("#individual-contributions-table", {
+            data: tableData,
+            layout: "fitColumns",
+            columns: columns,
+        });
+
+    return () => table.destroy();
+  }, [contribution_data, selectedDateRange]);
 
     return (
         <div className='section'>
             <h2>Individual Contributions Table</h2>
+            <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>
                 <option value="all">All Data</option>
                 <option value="2017-2019">May 5, 2017 - May 4, 2019</option>
@@ -56,13 +67,8 @@ function IndividualContributionsTable({ contribution_data }) {
             </select>
             <CSVLink data={contribution_data} filename="contribution_data.csv">
                 <button>Download Data</button>
-            </CSVLink>            
-            <ReactTabulator
-                data={filteredData}
-                columns={columns}
-                layout={"fitData"}
-                style={style}
-            />
+            </CSVLink>    
+            <div id="individual-contributions-table" style={style}></div>        
         </div>
     );
 };

@@ -25,7 +25,7 @@ function ContributionsMap({profile}) {
         <h4>
             <i>District {profile.district} is highlighted in green.</i>
         </h4>
-        <label htmlFor="map-cycleFilter">Filter by Election Cycle:</label>
+        <label htmlFor="map-cycleFilter">Filter by Election Cycle: </label>
         <select id="map-cycleFilter" value={selectedMap} onChange={handleMapChange}>
             {profile.path_to_maps.map((src, index) => (
             <option key={index} value={src}>

@@ -79,7 +79,7 @@ function ContributionsBarChart({contribution_data}) {
     return (
         <div className="section" id="contributions-chart-section">
             <h2>Individual Contributions Breakdown</h2>
-            <label htmlFor="contributions-chart-cycleFilter">Filter by Election Cycle:</label>
+            <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>
                 <option value="all">All Data</option>
                 <option value="2017-2019">May 5, 2017 - May 4, 2019</option>

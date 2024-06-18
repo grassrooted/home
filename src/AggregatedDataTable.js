@@ -92,8 +92,9 @@ function AggregatedDataTable ({ contribution_data }) {
   return (
     <div className='section'>
         <h2>Aggregated Contributions Table</h2>
-
-      <select onChange={handleDateRangeChange} value={selectedDateRange}>
+        <h4><i>Contributions made by the same person have been grouped together.</i></h4>
+        <label>Filter by Election Cycle: </label>
+        <select onChange={handleDateRangeChange} value={selectedDateRange}>
         <option value="all">All</option>
         <option value="2017-2019">May 5, 2017 - May 4, 2019</option>
         <option value="2019-2021">May 5, 2019 - May 4, 2021</option>
