@@ -24,8 +24,8 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
     return excessSum;
 }
 
-function Highlights(contribution_data) {
-    const data = contribution_data.contribution_data
+function Highlights({contribution_data}) {
+    const data = contribution_data
     // Count the number of records with an amount less than $100
     const grassroots_count = data ? data.filter(item => item["Amount:"] < 100).length : 0
     // Calculate the percentage

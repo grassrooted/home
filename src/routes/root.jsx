@@ -11,7 +11,7 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>Profiles - Dallas City Council</h1>
+          <h1>Texas Campaign Finance Directory</h1>
           <div>
             <form id="search-form" role="search">
               <input
@@ -43,7 +43,7 @@ export default function Root() {
                     <Link to={`profiles/${profile.id}`}>
                         {profile.name ? (
                         <>
-                            {profile.name}
+                            <strong>{profile.name}</strong> {profile.city} - District {profile.district}
                         </>
                         ) : (
                         <i>No Name</i>

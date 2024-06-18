@@ -25,9 +25,9 @@ function aggregateDataByDate(data) {
     })).sort((a, b) => a.x - b.x);
 }
 
-function TimelineChart(contribution_data) {
+function TimelineChart({contribution_data}) {
     // Aggregate the data by date
-    const aggregatedData = aggregateDataByDate(contribution_data.contribution_data);
+    const aggregatedData = aggregateDataByDate(contribution_data);
 
   const data = {
     datasets: [{

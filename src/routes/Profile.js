@@ -7,6 +7,7 @@ import '../index.css';
 import Highlights from '../Highlights';
 import ContributionsMap from '../ContributionsMap';
 import IndividualContributionsTable from '../IndividualContributionsTable';
+import AggregatedDataTable from '../AggregatedDataTable';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
@@ -29,6 +30,7 @@ function Profile() {
             <ContributionsMap profile={profile} />
             <TimelineChart contribution_data={contribution_data} />
             <ContributionsBarChart contribution_data={contribution_data}/>
+            <AggregatedDataTable contribution_data={contribution_data} />
             <IndividualContributionsTable contribution_data={contribution_data}/>
         </div>
     );

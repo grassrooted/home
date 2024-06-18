@@ -6,6 +6,10 @@ import { CSVLink } from 'react-csv';
 
 
 function IndividualContributionsTable({ contribution_data }) {
+    const style = {
+        height: "600px",
+    }
+
     const [selectedDateRange, setSelectedDateRange] = useState('all');
 
     const handleDateRangeChange = (event) => {
@@ -34,7 +38,7 @@ function IndividualContributionsTable({ contribution_data }) {
     const filteredData = filterDataByDate(contribution_data, selectedDateRange);
 
     const columns = [
-        { title: "Contributor", field: "Name" },
+        { title: "Contributor", field: "Name", headerFilter: true  },
         { title: "Amount ($)", field: "Amount:" },
         { title: "Candidate", field: "Cand/Committee:" },
         { title: "Transaction Date", field: "Transaction Date:", formatter: cell => new Date(cell.getValue()).toLocaleDateString() }
@@ -57,6 +61,7 @@ function IndividualContributionsTable({ contribution_data }) {
                 data={filteredData}
                 columns={columns}
                 layout={"fitData"}
+                style={style}
             />
         </div>
     );

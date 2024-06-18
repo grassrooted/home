@@ -23,13 +23,13 @@ function ContributionsMap({profile}) {
             Contributions Across Dallas
         </h2>
         <h4>
-            <i id="map-subtitle"></i>
+            <i>District {profile.district} is highlighted in green.</i>
         </h4>
         <label htmlFor="map-cycleFilter">Filter by Election Cycle:</label>
         <select id="map-cycleFilter" value={selectedMap} onChange={handleMapChange}>
             {profile.path_to_maps.map((src, index) => (
             <option key={index} value={src}>
-                {src}
+                {src.split("/").at(-1).split(".").at(0)}
             </option>
             ))}
         </select>
