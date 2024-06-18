@@ -18,15 +18,45 @@ export async function loader({ params }) {
     return { data, profile,  id};
 }
 
+const aggregateDataByName = (data) => {
+    return data.reduce((acc, contribution) => {
+        const normalizedName = contribution.Name.toLowerCase();
+        if (!acc[normalizedName]) {
+            acc[normalizedName] = {
+                Amount: 0,
+                Campaign: contribution["Cand/Committee:"],
+                Name: contribution.Name, // Keep the original name for display
+                Address: contribution.Address,
+                children: [] // Initialize the children array for transactions
+            };
+        }
+        acc[normalizedName].Amount += contribution["Amount:"];
+        acc[normalizedName].children.push({
+            ContactType: contribution["Contact Type:"],
+            ReportId: contribution.ReportId,
+            Amount: contribution["Amount:"],
+            Campaign: contribution["Cand/Committee:"],
+            TransactionDate: contribution["Transaction Date:"],
+            Latitude: contribution.Latitude,
+            Longitude: contribution.Longitude,
+            Name: contribution.Name, // Keep the original name for display
+            Address: contribution.Address
+        });
+        return acc;
+    }, {});
+};
+
 function Profile() {
     const res = useLoaderData();
     let contribution_data = res.data;
     let profile = res.profile;
 
+    let aggregated_data = aggregateDataByName(contribution_data);
+
     return (
         <div>
             <ProfileSnapshot profile = {profile} />
-            <Highlights contribution_data={contribution_data} />
+            <Highlights aggregated_data={aggregated_data} contribution_data={contribution_data} />
             <ContributionsMap profile={profile} />
             <TimelineChart contribution_data={contribution_data} />
             <ContributionsBarChart contribution_data={contribution_data}/>

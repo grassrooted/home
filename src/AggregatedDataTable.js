@@ -50,7 +50,7 @@ const filterDataByDate = (data, dateRange) => {
     });
   };
 
-function AggregatedDataTable ({ contribution_data }) {
+function AggregatedDataTable ({contribution_data }) {
     const style = {
         height:"600px"
     }

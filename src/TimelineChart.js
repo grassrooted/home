@@ -48,7 +48,7 @@ function TimelineChart({contribution_data}) {
         x: {
             type: 'time',
             time: {
-                unit: 'day'
+                unit: 'month'
             },
             title: {
                 display: true,

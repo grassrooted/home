@@ -1,30 +1,31 @@
 // Function to calculate the total sum of contributions that exceed the respective limits
 function calculateExcessContributions(data, startDate, endDate, limitNonPAC, limitPAC) {
     let excessSum = 0;
+    Object.keys(data).forEach(true_name => {
+        let total_contributed = 0
+        const name = true_name;
+        const limit = name.includes('PAC') ? limitPAC : limitNonPAC;
 
-    data.forEach(record => {
-        const transactionDate = new Date(record["Transaction Date:"]);
-        if (transactionDate >= startDate && transactionDate <= endDate) {
-            const amount = record["Amount:"];
-            const name = record["Name"];
-            let limit = limitNonPAC;
+        data[true_name].children.forEach(child => {
+            const isodatestring = child["TransactionDate"].replace(" ","T")
+            const transactionDate = new Date(isodatestring);
 
-            // Check if the donor is a PAC
-            if (name.includes('PAC')) {
-                limit = limitPAC;
+            if (transactionDate >= startDate && transactionDate <= endDate) {
+                const amount = child["Amount"];
+                total_contributed += amount
             }
+        });
 
-            // Calculate the excess amount
-            if (amount > limit) {
-                excessSum += (amount - limit);
-            }
+        // Calculate the excess amount
+        if (total_contributed > limit) {
+            excessSum += (total_contributed - limit);
         }
     });
 
     return excessSum;
 }
 
-function Highlights({contribution_data}) {
+function Highlights({aggregated_data, contribution_data}) {
     const data = contribution_data
     // Count the number of records with an amount less than $100
     const grassroots_count = data ? data.filter(item => item["Amount:"] < 100).length : 0
@@ -56,7 +57,7 @@ function Highlights({contribution_data}) {
     let totalExcessContributions = 0;
     electionCycles.forEach(cycle => {
         totalExcessContributions += calculateExcessContributions(
-            data,
+            aggregated_data,
             cycle.startDate,
             cycle.endDate,
             cycle.limitNonPAC,
