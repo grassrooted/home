@@ -25,25 +25,25 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
     return excessSum;
 }
 
-function Highlights({aggregated_data, contribution_data}) {
+function Highlights({profile, aggregated_data, contribution_data}) {
     const data = contribution_data
     // Count the number of records with an amount less than $100
     const grassroots_count = data ? data.filter(item => item["Amount:"] < 100).length : 0
     // Calculate the percentage
     const grassroots_percentage = Math.round((grassroots_count / data.length) * 100);
 
-    // Count records with an amount equal to or greater than $1000
-    const count = data.filter(item => item["Amount:"] >= 1000).length;
+    // Count records with an amount equal to or greater than individual limit
+    const count = data.filter(item => item["Amount:"] >= profile.individual_limit).length;
     // Calculate the percentage
     const big_donor_percentage = Math.round((count / data.length) * 100);
 
 
     // Count the number of records with "Dallas" in the address
-    const dallas_count = data.filter(item => item.Address.includes("Dallas")).length;
+    const in_city_count = data.filter(item => item.Address.includes(profile.city)).length;
     // Subtract count from the total in order to get the records that DO NOT originate from Dallas
-    const non_dallas_count = data.length - dallas_count
+    const outside_city_count = data.length - in_city_count
     // Calculate the percentage
-    const non_dallas_percentage = Math.round((non_dallas_count / data.length) * 100);
+    const outside_city_percentage = Math.round((outside_city_count / data.length) * 100);
 
     // Define election cycles and limits
     const electionCycles = [
@@ -76,15 +76,15 @@ function Highlights({aggregated_data, contribution_data}) {
                 </div>
                 <div className="box-wrapper">
                     <div className="box red" id="BigDonorSupport">{big_donor_percentage}%</div>
-                    <div className="box-title">Big Donor Support<br/>(Contributions of $1000 or More)</div>
+                    <div className="box-title">Big Donor Support<br/>(Contributions of ${profile.individual_limit} or More)</div>
                 </div>
                 <div className="box-wrapper">
-                    <div className="box red" id="ExternalSupport">{non_dallas_percentage}%</div>
-                    <div className="box-title">External Support (Non-Dallas Contributions)</div>
+                    <div className="box red" id="ExternalSupport">{outside_city_percentage}%</div>
+                    <div className="box-title">External Support (Non-{profile.city} Contributions)</div>
                 </div>
                 <div className="box-wrapper">
                     <div className="box red" id="AboveLimitSupport">${totalExcessContributions.toLocaleString()}</div>
-                    <div className="box-title">Above-Limit Support ($1,000 limit for individuals; $2,500 limit for PACs)</div>
+                    <div className="box-title">Above-Limit Support (${profile.individual_limit} limit for individuals; ${profile.pac_limit} limit for PACs)</div>
                 </div>
             </div>
         </div>

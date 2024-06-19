@@ -13,6 +13,9 @@ next_election: "2025"
 district: "1"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Jesus Moreno"
 id: "JesusMoreno"
@@ -27,6 +30,9 @@ next_election: "2025"
 district: "2"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Zarin Gracey"
 id: "ZarinGracey"
@@ -40,6 +46,9 @@ next_election: "2025"
 district: "3"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Carolyn Arnold"
 id: "CarolynArnold"
@@ -55,6 +64,9 @@ next_election: "2025"
 district: "4"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Jaime Resendez"
 id: "JaimeResendez"
@@ -70,6 +82,9 @@ next_election: "2025"
 district: "5"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Omar Narvaez"
 id: "OmarNarvaez"
@@ -85,6 +100,9 @@ next_election: "2025"
 district: "6"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Adam Bazaldua"
 id: "AdamBazaldua"
@@ -100,6 +118,9 @@ next_election: "2025"
 district: "7"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Tennell Atkins"
 id: "TennellAtkins"
@@ -115,6 +136,9 @@ next_election: "2025"
 district: "8"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Paula Blackmon"
 id: "PaulaBlackmon"
@@ -130,6 +154,9 @@ next_election: "2025"
 district: "9"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Kathy Stewart"
 id: "KathyStewart"
@@ -143,6 +170,9 @@ next_election: "2025"
 district: "10"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Jaynie Schultz"
 id: "JaynieSchultz"
@@ -157,6 +187,9 @@ next_election: "2025"
 district: "11"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Cara Mendelsohn"
 id: "CaraMendelsohn"
@@ -172,6 +205,9 @@ next_election: "2025"
 district: "12"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Gay Willis"
 id: "GayWillis"
@@ -186,6 +222,9 @@ next_election: "2025"
 district: "13"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
 ---
 name: "Paul Ridley"
 id: "PaulRidley"
@@ -200,3 +239,181 @@ next_election: "2025"
 district: "14"
 city: "Dallas"
 election_status: "in-office"
+election_day: "05-04"
+individual_limit: 1000
+pac_limit: 2500
+---
+name: "Sukh Kaur"
+id: "SukhKaur"
+path_to_contributions_data: "../candidates/SukhKaur/sukhkaur_contributions.json"
+path_to_headshot_photo: "../candidates/SukhKaur/kaur_headshot.jpeg"
+path_to_maps:
+  - "../candidates/West/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/West/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/West/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/West/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2023"
+next_election: "2025"
+district: "1"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Jalen McKee-Rodriguez"
+id: "JalenMcKee-Rodriguez"
+path_to_contributions_data: "../candidates/JalenMcKee-Rodriguez/JalenMcKeeRodriguez_contributions.json"
+path_to_headshot_photo: "../candidates/JalenMcKee-Rodriguez/rodriguez_headshot.png"
+path_to_maps:
+  - "../candidates/Moreno/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Moreno/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Moreno/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2021"
+next_election: "2025"
+district: "2"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Phyllis Viagran"
+id: "PhyllisViagran"
+path_to_contributions_data: "../candidates/PhyllisViagran/PhyllisViagran_contributions.json"
+path_to_headshot_photo: "../candidates/PhyllisViagran/viagran_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Gracey/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Gracey/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2021"
+next_election: "2025"
+district: "3"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Adriana Garcia"
+id: "AdrianaGarcia"
+path_to_contributions_data: "../candidates/AdrianaGarcia/AdrianaGarcia_contributions.json"
+path_to_headshot_photo: "../candidates/AdrianaGarcia/garcia_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Arnold/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/Arnold/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Arnold/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Arnold/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2019"
+next_election: "2025"
+district: "4"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Teri Castillo"
+id: "TeriCastillo"
+path_to_contributions_data: "../candidates/TeriCastillo/TeriCastillo_contributions.json"
+path_to_headshot_photo: "../candidates/TeriCastillo/castillo_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Resendez/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/Resendez/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Resendez/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Resendez/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2021"
+next_election: "2025"
+district: "5"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Melissa Cabello Havrda"
+id: "MelissaCabelloHavrda"
+path_to_contributions_data: "../candidates/MelissaCabelloHavrda/MelissaCabelloHavrda_contributions.json"
+path_to_headshot_photo: "../candidates/MelissaCabelloHavrda/havrda_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Narvaez/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/Narvaez/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Narvaez/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Narvaez/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2019"
+next_election: "2025"
+district: "6"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Marina Gavito"
+id: "MarinaGavito"
+path_to_contributions_data: "../candidates/MarinaGavito/MarinaGavito_contributions.json"
+path_to_headshot_photo: "../candidates/MarinaGavito/gavito_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Bazaldua/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/Bazaldua/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Bazaldua/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Bazaldua/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2023"
+next_election: "2025"
+district: "7"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Manny Pelaez"
+id: "MannyPelaez"
+path_to_contributions_data: "../candidates/MannyPelaez/MannyPelaez_contributions.json"
+path_to_headshot_photo: "../candidates/MannyPelaez/pelaez_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Atkins/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/Atkins/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Atkins/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2017"
+next_election: "2025"
+district: "8"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "John Courage"
+id: "JohnCourage"
+path_to_contributions_data: "../candidates/JohnCourage/JohnCourage_contributions.json"
+path_to_headshot_photo: "../candidates/JohnCourage/courage_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Blackmon/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "../candidates/Blackmon/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "../candidates/Blackmon/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Blackmon/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2017"
+next_election: "2025"
+district: "9"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500
+---
+name: "Marc Whyte"
+id: "MarcWhyte"
+path_to_contributions_data: "../candidates/MarcWhyte/MarcWhyte_contributions.json"
+path_to_headshot_photo: "../candidates/MarcWhyte/whyte_headshot.jpeg"
+path_to_maps:
+  - "../candidates/Stewart/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "../candidates/Stewart/Visuals/May 5, 2023 - May 4, 2025.jpg"
+first_election: "2023"
+next_election: "2025"
+district: "10"
+city: "San Antonio"
+election_status: "in-office"
+election_day: "06-01"
+individual_limit: 500
+pac_limit: 500

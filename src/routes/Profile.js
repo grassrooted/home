@@ -55,8 +55,8 @@ function Profile() {
 
     return (
         <div>
-            <ProfileSnapshot profile = {profile} />
-            <Highlights aggregated_data={aggregated_data} contribution_data={contribution_data} />
+            <ProfileSnapshot profile={profile} />
+            <Highlights profile={profile} aggregated_data={aggregated_data} contribution_data={contribution_data} />
             <ContributionsMap profile={profile} />
             <TimelineChart contribution_data={contribution_data} />
             <ContributionsBarChart contribution_data={contribution_data}/>
