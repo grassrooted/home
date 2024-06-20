@@ -4,7 +4,7 @@ import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
 import { CSVLink } from 'react-csv';
 
 
-function IndividualContributionsTable({ contribution_data }) {
+function IndividualContributionsTable({dateRanges, contribution_data }) {
     const style = {
         height: "600px",
     }
@@ -60,10 +60,11 @@ function IndividualContributionsTable({ contribution_data }) {
             <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>
                 <option value="all">All Data</option>
-                <option value="2017-2019">May 5, 2017 - May 4, 2019</option>
-                <option value="2019-2021">May 5, 2019 - May 4, 2021</option>
-                <option value="2021-2023">May 5, 2021 - May 4, 2023</option>
-                <option value="2023-2025">May 5, 2023 - May 4, 2025</option>
+                {
+                    Object.keys(dateRanges).map((k) => (
+                        <option key={k} value={k}> {dateRanges[k][0].toDateString()} thru {dateRanges[k][1].toDateString()} </option>
+                    ))
+                }
             </select>
             <CSVLink data={contribution_data} filename="contribution_data.csv">
                 <button>Download Data</button>

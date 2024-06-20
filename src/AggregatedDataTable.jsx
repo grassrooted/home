@@ -84,7 +84,6 @@ function AggregatedDataTable ({dateRanges, contribution_data }) {
   const handleDateRangeChange = (event) => {
     setSelectedDateRange(event.target.value);
   };
-  const dateRanges_keys = Object.keys(dateRanges)
   return (
     <div className='section'>
         <h2>Aggregated Contributions Table</h2>
@@ -93,7 +92,7 @@ function AggregatedDataTable ({dateRanges, contribution_data }) {
         <select onChange={handleDateRangeChange} value={selectedDateRange}>
             <option value="all">All</option>
             {
-              dateRanges_keys.map((k) => (
+              Object.keys(dateRanges).map((k) => (
                 <option key={k} value={k}> {dateRanges[k][0].toDateString()} thru {dateRanges[k][1].toDateString()} </option>
               ))
             }

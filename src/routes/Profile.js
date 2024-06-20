@@ -80,9 +80,9 @@ function Profile() {
             <Highlights profile={profile} aggregated_data={aggregated_data} contribution_data={contribution_data} />
             <ContributionsMap profile={profile} />
             <TimelineChart contribution_data={contribution_data} />
-            <ContributionsBarChart contribution_data={contribution_data}/>
+            <ContributionsBarChart dateRanges={dateRanges} contribution_data={contribution_data}/>
             <AggregatedDataTable dateRanges={dateRanges} contribution_data={contribution_data} />
-            <IndividualContributionsTable contribution_data={contribution_data}/>
+            <IndividualContributionsTable dateRanges={dateRanges} contribution_data={contribution_data}/>
         </div>
     );
 }

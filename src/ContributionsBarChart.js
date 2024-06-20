@@ -5,7 +5,7 @@ import { Chart, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend }
 // Register necessary components with Chart.js
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-function ContributionsBarChart({contribution_data}) {
+function ContributionsBarChart({dateRanges, contribution_data}) {
     const [selectedDateRange, setSelectedDateRange] = useState('all');
 
     const handleDateRangeChange = (event) => {
@@ -82,10 +82,11 @@ function ContributionsBarChart({contribution_data}) {
             <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>
                 <option value="all">All Data</option>
-                <option value="2017-2019">May 5, 2017 - May 4, 2019</option>
-                <option value="2019-2021">May 5, 2019 - May 4, 2021</option>
-                <option value="2021-2023">May 5, 2021 - May 4, 2023</option>
-                <option value="2023-2025">May 5, 2023 - May 4, 2025</option>
+                {
+                    Object.keys(dateRanges).map((k) => (
+                        <option key={k} value={k}> {dateRanges[k][0].toDateString()} thru {dateRanges[k][1].toDateString()} </option>
+                    ))
+                }
             </select>
             <Bar data={data} options={options} width="400" height="200" />
         </div>
