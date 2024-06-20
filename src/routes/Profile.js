@@ -8,6 +8,7 @@ import Highlights from '../Highlights';
 import ContributionsMap from '../ContributionsMap';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
+import Header from '../Header';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
@@ -76,6 +77,7 @@ function Profile() {
 
     return (
         <div>
+            <Header/>
             <ProfileSnapshot profile={profile} />
             <Highlights profile={profile} aggregated_data={aggregated_data} contribution_data={contribution_data} />
             <ContributionsMap profile={profile} />

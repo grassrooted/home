@@ -37,13 +37,17 @@ function Highlights({profile, aggregated_data, contribution_data}) {
     // Calculate the percentage
     const big_donor_percentage = Math.round((count / data.length) * 100);
 
-
     // Count the number of records with "Dallas" in the address
     const in_city_count = data.filter(item => item.Address.includes(profile.city)).length;
     // Subtract count from the total in order to get the records that DO NOT originate from Dallas
     const outside_city_count = data.length - in_city_count
     // Calculate the percentage
     const outside_city_percentage = Math.round((outside_city_count / data.length) * 100);
+
+    let total_contributions = 0
+    data.forEach(record => {
+        total_contributions += record["Amount:"]
+    });
 
     // Define election cycles and limits
     const electionCycles = [
@@ -85,6 +89,10 @@ function Highlights({profile, aggregated_data, contribution_data}) {
                 <div className="box-wrapper">
                     <div className="box red" id="AboveLimitSupport">${totalExcessContributions.toLocaleString()}</div>
                     <div className="box-title">Above-Limit Support (${profile.individual_limit} limit for individuals; ${profile.pac_limit} limit for PACs)</div>
+                </div>
+                <div className="box-wrapper">
+                    <div className="box green" id="TotalContributions">${total_contributions.toLocaleString()}</div>
+                    <div className="box-title">Total Contributions</div>
                 </div>
             </div>
         </div>

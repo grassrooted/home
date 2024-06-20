@@ -1,8 +1,10 @@
-import { Outlet, Link, useLoaderData } from "react-router-dom";
+import { Outlet, NavLink, useLoaderData, Form } from "react-router-dom";
 import { getProfiles } from "../Profiles";
 
-export async function loader() {
-    const profiles = await getProfiles();
+export async function loader({request}) {
+    const url = new URL(request.url);
+    const q = url.searchParams.get("q");
+    const profiles = await getProfiles(q);
     return { profiles }
 }
 
@@ -13,7 +15,7 @@ export default function Root() {
         <div id="sidebar">
           <h1>Texas Campaign Finance Directory</h1>
           <div>
-            <form id="search-form" role="search">
+            <Form id="search-form" role="search">
               <input
                 id="q"
                 aria-label="Search profiles"
@@ -30,25 +32,31 @@ export default function Root() {
                 className="sr-only"
                 aria-live="polite"
               ></div>
-            </form>
-            <form method="post">
-              <button type="submit">New</button>
-            </form>
+            </Form>
           </div>
           <nav>
             {profiles.length ? (
                 <ul>
                 {profiles.map((profile) => (
                     <li key={profile.id}>
-                    <Link to={`profiles/${profile.id}`}>
-                        {profile.name ? (
-                        <>
-                            <strong>{profile.name}</strong> {profile.city} - District {profile.district}
-                        </>
-                        ) : (
-                        <i>No Name</i>
-                        )}
-                    </Link>
+                      <NavLink 
+                        to={`profiles/${profile.id}`}
+                        className={({ isActive, isPending }) =>
+                          isActive
+                            ? "active"
+                            : isPending
+                            ? "pending"
+                            : ""
+                        } 
+                      >
+                          {profile.name ? (
+                          <>
+                              <strong>{profile.name}</strong> {profile.city} - District {profile.district}
+                          </>
+                          ) : (
+                          <i>No Name</i>
+                          )}
+                      </NavLink>
                     </li>
                 ))}
                 </ul>

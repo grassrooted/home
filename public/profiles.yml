@@ -10,7 +10,7 @@ path_to_maps:
   - "../candidates/West/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2019"
 next_election: "2025"
-district: "1"
+district: 1
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -27,7 +27,7 @@ path_to_maps:
   - "../candidates/Moreno/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
-district: "2"
+district: 2
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -43,7 +43,7 @@ path_to_maps:
   - "../candidates/Gracey/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2023"
 next_election: "2025"
-district: "3"
+district: 3
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -61,7 +61,7 @@ path_to_maps:
   - "../candidates/Arnold/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2019"
 next_election: "2025"
-district: "4"
+district: 4
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -79,7 +79,7 @@ path_to_maps:
   - "../candidates/Resendez/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
-district: "5"
+district: 5
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -97,7 +97,7 @@ path_to_maps:
   - "../candidates/Narvaez/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2017"
 next_election: "2025"
-district: "6"
+district: 6
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -115,7 +115,7 @@ path_to_maps:
   - "../candidates/Bazaldua/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2019"
 next_election: "2025"
-district: "7"
+district: 7
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -133,7 +133,7 @@ path_to_maps:
   - "../candidates/Atkins/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2017"
 next_election: "2025"
-district: "8"
+district: 8
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -151,7 +151,7 @@ path_to_maps:
   - "../candidates/Blackmon/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
-district: "9"
+district: 9
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -167,7 +167,7 @@ path_to_maps:
   - "../candidates/Stewart/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2023"
 next_election: "2025"
-district: "10"
+district: 10
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -184,7 +184,7 @@ path_to_maps:
   - "../candidates/Schultz/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
-district: "11"
+district: 11
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -202,7 +202,7 @@ path_to_maps:
   - "../candidates/Mendelsohn/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2017"
 next_election: "2025"
-district: "12"
+district: 12
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -219,7 +219,7 @@ path_to_maps:
   - "../candidates/Willis/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
-district: "13"
+district: 13
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -236,7 +236,7 @@ path_to_maps:
   - "../candidates/Ridley/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
-district: "14"
+district: 14
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
@@ -252,7 +252,7 @@ path_to_maps:
   - "../candidates/SukhKaur/maps/SukhKaur_donors_map_2023-2025.png"
 first_election: "2023"
 next_election: "2025"
-district: "1"
+district: 1
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -269,7 +269,7 @@ path_to_maps:
   - "../candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2023-2025.png"
 first_election: "2021"
 next_election: "2025"
-district: "2"
+district: 2
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -286,7 +286,7 @@ path_to_maps:
   - "../candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2023-2025.png"
 first_election: "2021"
 next_election: "2025"
-district: "3"
+district: 3
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -304,7 +304,7 @@ path_to_maps:
   - "../candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2023-2025.png"
 first_election: "2019"
 next_election: "2025"
-district: "4"
+district: 4
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -339,7 +339,7 @@ path_to_maps:
   - "../candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2023-2025.png"
 first_election: "2019"
 next_election: "2025"
-district: "6"
+district: 6
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -355,7 +355,7 @@ path_to_maps:
   - "../candidates/MarinaGavito/maps/MarinaGavito_donors_map_2023-2025.png"
 first_election: "2023"
 next_election: "2025"
-district: "7"
+district: 7
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -373,7 +373,7 @@ path_to_maps:
   - "../candidates/MannyPelaez/maps/MannyPelaez_donors_map_2023-2025.png"
 first_election: "2017"
 next_election: "2025"
-district: "8"
+district: 8
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -391,7 +391,7 @@ path_to_maps:
   - "../candidates/JohnCourage/maps/JohnCourage_donors_map_2023-2025.png"
 first_election: "2017"
 next_election: "2025"
-district: "9"
+district: 9
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
@@ -407,7 +407,7 @@ path_to_maps:
   - "../candidates/MarcWhyte/maps/MarcWhyte_donors_map_2023-2025.png"
 first_election: "2023"
 next_election: "2025"
-district: "10"
+district: 10
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"

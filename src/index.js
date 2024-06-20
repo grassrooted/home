@@ -7,6 +7,8 @@ import ErrorPage from './error-page'
 import Profile, {
   loader as profileLoader,
 } from "./routes/Profile";
+import Main from "./routes/main";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,6 +20,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     loader: rootLoader,
     children: [
+      { index: true, element: <Main /> },
       {
         path: "profiles/:profileId",
         element: <Profile />,
