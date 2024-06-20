@@ -31,16 +31,29 @@ const aggregateDataByName = (data) => {
     }, {});
 };
 
-const filterDataByDate = (data, dateRange) => {
+const filterDataByDate = (election_date, data, dateRange) => {
     if (dateRange === 'all') {
       return data;
-    }
-  
+    }  
+    const [month, day] = election_date.split("-");
+
+    // Create date objects for the day after the election day for each relevant year
+    const getDateRanges = (year_start, year_end) => {
+        let electionDate = new Date(`${year_end}-${month}-${day}`);
+        const end_date = new Date(electionDate)
+        end_date.setDate(electionDate.getDate() + 1);
+
+        electionDate = new Date(`${year_start}-${month}-${day}`);
+        const start_date = new Date(electionDate);
+        start_date.setDate(electionDate.getDate() + 2);
+        return [start_date, end_date]
+    };
+
     const dateRanges = {
-      '2017-2019': [new Date('2017-05-05'), new Date('2019-05-04')],
-      '2019-2021': [new Date('2019-05-05'), new Date('2021-05-04')],
-      '2021-2023': [new Date('2021-05-05'), new Date('2023-05-04')],
-      '2023-2025': [new Date('2023-05-05'), new Date('2025-05-04')],
+      '2017-2019': getDateRanges(2017, 2019),
+      '2019-2021': getDateRanges(2019, 2021),
+      '2021-2023': getDateRanges(2021, 2023),
+      '2023-2025': getDateRanges(2023, 2025),
     };
   
     const [startDate, endDate] = dateRanges[dateRange];
@@ -50,14 +63,14 @@ const filterDataByDate = (data, dateRange) => {
     });
   };
 
-function AggregatedDataTable ({contribution_data }) {
+function AggregatedDataTable ({profile, contribution_data }) {
     const style = {
         height:"600px"
     }
     const [selectedDateRange, setSelectedDateRange] = useState('all');
-
+    let election_date = profile.election_date
     useEffect(() => {
-        const filteredData = filterDataByDate(contribution_data, selectedDateRange);
+        const filteredData = filterDataByDate(election_date, contribution_data, selectedDateRange);
         let aggregatedData = aggregateDataByName(filteredData);
         const tableData = Object.values(aggregatedData);
         const table = new Tabulator("#aggregated-contributions-table", {

@@ -1,5 +1,27 @@
 # Dallas Election Watch
 
+# TODOs
+1. generate the date ranges in the Profile component
+2. pipe the date ranges through necessary child components
+3. populate dropdowns with these date ranges
+4. display the number of addresses that are missing due to malformed address entries
+5. find the city council shapefiles for san antonio
+6. generate san antonio maps using python scripts
+7. get the search input working
+    - want to be able to filter by name, city, and district
+8. create links to candidate content
+    - campaign website
+    - twitter
+    - profile page from the city website
+9. create a simple homepage
+    - Texas Campaign Finance Directory
+    - Texas imagery (use national bird?)
+    - Give users directions
+10. replace the icon in the nav window
+11. Replace dallas city council photos with ones that are all the same size
+12. Create a 'Find Your Council Member' button for each city that gets onboarded
+13. Wrap each li in the nav window content so we don't cut off the text
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -13,7 +13,7 @@ next_election: "2025"
 district: "1"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -30,7 +30,7 @@ next_election: "2025"
 district: "2"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -46,7 +46,7 @@ next_election: "2025"
 district: "3"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -64,7 +64,7 @@ next_election: "2025"
 district: "4"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -82,7 +82,7 @@ next_election: "2025"
 district: "5"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -100,7 +100,7 @@ next_election: "2025"
 district: "6"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -118,7 +118,7 @@ next_election: "2025"
 district: "7"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -136,7 +136,7 @@ next_election: "2025"
 district: "8"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -154,7 +154,7 @@ next_election: "2025"
 district: "9"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -170,7 +170,7 @@ next_election: "2025"
 district: "10"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -187,7 +187,7 @@ next_election: "2025"
 district: "11"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -205,7 +205,7 @@ next_election: "2025"
 district: "12"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -222,7 +222,7 @@ next_election: "2025"
 district: "13"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -239,7 +239,7 @@ next_election: "2025"
 district: "14"
 city: "Dallas"
 election_status: "in-office"
-election_day: "05-04"
+election_date: "05-04"
 individual_limit: 1000
 pac_limit: 2500
 ---
@@ -257,7 +257,7 @@ next_election: "2025"
 district: "1"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -274,7 +274,7 @@ next_election: "2025"
 district: "2"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -290,7 +290,7 @@ next_election: "2025"
 district: "3"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -308,7 +308,7 @@ next_election: "2025"
 district: "4"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -326,7 +326,7 @@ next_election: "2025"
 district: "5"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -344,7 +344,7 @@ next_election: "2025"
 district: "6"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -362,7 +362,7 @@ next_election: "2025"
 district: "7"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -380,7 +380,7 @@ next_election: "2025"
 district: "8"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -398,7 +398,7 @@ next_election: "2025"
 district: "9"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500
 ---
@@ -414,6 +414,6 @@ next_election: "2025"
 district: "10"
 city: "San Antonio"
 election_status: "in-office"
-election_day: "06-01"
+election_date: "06-01"
 individual_limit: 500
 pac_limit: 500

@@ -60,7 +60,7 @@ function Profile() {
             <ContributionsMap profile={profile} />
             <TimelineChart contribution_data={contribution_data} />
             <ContributionsBarChart contribution_data={contribution_data}/>
-            <AggregatedDataTable contribution_data={contribution_data} />
+            <AggregatedDataTable profile={profile} contribution_data={contribution_data} />
             <IndividualContributionsTable contribution_data={contribution_data}/>
         </div>
     );
