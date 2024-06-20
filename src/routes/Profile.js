@@ -53,6 +53,27 @@ function Profile() {
 
     let aggregated_data = aggregateDataByName(contribution_data);
 
+    const [month, day] = profile.election_date.split("-");
+
+    // Create date objects for the day after the election day for each relevant year
+    const getDateRanges = (year_start, year_end) => {
+        let electionDate = new Date(`${year_end}-${month}-${day}`);
+        const end_date = new Date(electionDate)
+        end_date.setDate(electionDate.getDate() + 1);
+
+        electionDate = new Date(`${year_start}-${month}-${day}`);
+        const start_date = new Date(electionDate);
+        start_date.setDate(electionDate.getDate() + 2);
+        return [start_date, end_date]
+    };
+
+    const dateRanges = {
+      '2017-2019': getDateRanges(2017, 2019),
+      '2019-2021': getDateRanges(2019, 2021),
+      '2021-2023': getDateRanges(2021, 2023),
+      '2023-2025': getDateRanges(2023, 2025),
+    };
+
     return (
         <div>
             <ProfileSnapshot profile={profile} />
@@ -60,7 +81,7 @@ function Profile() {
             <ContributionsMap profile={profile} />
             <TimelineChart contribution_data={contribution_data} />
             <ContributionsBarChart contribution_data={contribution_data}/>
-            <AggregatedDataTable profile={profile} contribution_data={contribution_data} />
+            <AggregatedDataTable dateRanges={dateRanges} contribution_data={contribution_data} />
             <IndividualContributionsTable contribution_data={contribution_data}/>
         </div>
     );
