@@ -5,7 +5,7 @@ import { Chart, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend }
 // Register necessary components with Chart.js
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-function ContributionsBarChart({dateRanges, contribution_data}) {
+function ContributionsBarChart({profile, dateRanges, contribution_data}) {
     const [selectedDateRange, setSelectedDateRange] = useState('all');
 
     const handleDateRangeChange = (event) => {
@@ -26,7 +26,7 @@ function ContributionsBarChart({dateRanges, contribution_data}) {
   
       const [startDate, endDate] = dateRanges[dateRange];
       return data.filter(record => {
-        const transactionDate = new Date(record["Transaction Date:"]);
+        const transactionDate = new Date(record[profile.contributions_fields.Transaction_Date]);
         return transactionDate >= startDate && transactionDate <= endDate;
       });
     };
@@ -38,7 +38,7 @@ function ContributionsBarChart({dateRanges, contribution_data}) {
   
     // Process the contribution_data to fill the buckets
     filteredData.forEach(record => {
-      const amount = record["Amount:"];
+      const amount = record[profile.contribution_fields.Amount];
       if (amount <= 1000) {
         const index = Math.floor(amount / 100);
         buckets[index]++;
