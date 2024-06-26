@@ -4,7 +4,7 @@ import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
 import { CSVLink } from 'react-csv';
 
 
-function IndividualContributionsTable({dateRanges, contribution_data }) {
+function IndividualContributionsTable({profile, dateRanges, contribution_data }) {
     const style = {
         height: "600px",
     }
@@ -40,9 +40,9 @@ function IndividualContributionsTable({dateRanges, contribution_data }) {
 
         const columns = [
             { title: "Contributor", field: "Name", headerFilter: true  },
-            { title: "Amount ($)", field: "Amount:" },
-            { title: "Candidate", field: "Cand/Committee:" },
-            { title: "Transaction Date", field: "Transaction Date:", formatter: cell => new Date(cell.getValue()).toLocaleDateString() }
+            { title: "Amount ($)", field: profile.contribution_fields.Amount },
+            { title: "Candidate", field: profile.contribution_fields.Recipient },
+            { title: "Transaction Date", field: profile.contribution_fields.Transaction_Date, formatter: cell => new Date(cell.getValue()).toLocaleDateString() }
         ];
 
         const table = new Tabulator("#individual-contributions-table", {

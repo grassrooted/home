@@ -81,7 +81,7 @@ function Profile() {
             <TimelineChart profile={profile} contribution_data={contribution_data} />
             <ContributionsBarChart dateRanges={dateRanges} contribution_data={contribution_data}/>
             <AggregatedDataTable profile={profile} dateRanges={dateRanges} contribution_data={contribution_data} />
-            <IndividualContributionsTable dateRanges={dateRanges} contribution_data={contribution_data}/>
+            <IndividualContributionsTable profile={profile} dateRanges={dateRanges} contribution_data={contribution_data}/>
         </div>
     );
 }

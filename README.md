@@ -26,6 +26,7 @@
 16. See about onboarding Waco, Denton, Marfa, Fredericksburg.
 17. Add "Data Source" and "Find My District" values to the yaml config
 18. Revisit the above-limit code; Chad west dropped after I started using the yaml config contribution_fields
+19. Round the "Amount" column in agg contribution table
 
 # Getting Started with Create React App
 
