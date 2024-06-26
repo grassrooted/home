@@ -4,14 +4,14 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
     Object.keys(data).forEach(true_name => {
         let total_contributed = 0
         const name = true_name;
-        const limit = name.includes('PAC') ? limitPAC : limitNonPAC;
+        const limit = name.includes('pac') ? limitPAC : limitNonPAC;
 
         data[true_name].children.forEach(child => {
-            const isodatestring = child["TransactionDate"].replace(" ","T")
+            const isodatestring = child.TransactionDate.replace(" ","T")
             const transactionDate = new Date(isodatestring);
 
             if (transactionDate >= startDate && transactionDate <= endDate) {
-                const amount = child["Amount"];
+                const amount = child.Amount;
                 total_contributed += amount
             }
         });
@@ -28,17 +28,17 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
 function Highlights({profile, aggregated_data, contribution_data}) {
     const data = contribution_data
     // Count the number of records with an amount less than $100
-    const grassroots_count = data ? data.filter(item => item["Amount:"] < 100).length : 0
+    const grassroots_count = data ? data.filter(item => item[profile.contribution_fields.Amount] < 100).length : 0
     // Calculate the percentage
     const grassroots_percentage = Math.round((grassroots_count / data.length) * 100);
 
     // Count records with an amount equal to or greater than individual limit
-    const count = data.filter(item => item["Amount:"] >= profile.individual_limit).length;
+    const count = data.filter(item => item[profile.contribution_fields.Amount] >= profile.individual_limit).length;
     // Calculate the percentage
     const big_donor_percentage = Math.round((count / data.length) * 100);
 
     // Count the number of records with "Dallas" in the address
-    const in_city_count = data.filter(item => item.Address.includes(profile.city)).length;
+    const in_city_count = data.filter(item => item[profile.contribution_fields.Address].includes(profile.city)).length
     // Subtract count from the total in order to get the records that DO NOT originate from Dallas
     const outside_city_count = data.length - in_city_count
     // Calculate the percentage
@@ -46,15 +46,15 @@ function Highlights({profile, aggregated_data, contribution_data}) {
 
     let total_contributions = 0
     data.forEach(record => {
-        total_contributions += record["Amount:"]
+        total_contributions += record[profile.contribution_fields.Amount]
     });
 
     // Define election cycles and limits
     const electionCycles = [
-        { startDate: new Date('2017-05-05'), endDate: new Date('2019-05-04'), limitNonPAC: 1000, limitPAC: 2500 },
-        { startDate: new Date('2019-05-05'), endDate: new Date('2021-05-04'), limitNonPAC: 1000, limitPAC: 2500 },
-        { startDate: new Date('2021-05-05'), endDate: new Date('2023-05-04'), limitNonPAC: 1000, limitPAC: 2500 },
-        { startDate: new Date('2023-05-05'), endDate: new Date('2025-05-04'), limitNonPAC: 1000, limitPAC: 2500 }
+        { startDate: new Date('2017-05-05'), endDate: new Date('2019-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
+        { startDate: new Date('2019-05-05'), endDate: new Date('2021-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
+        { startDate: new Date('2021-05-05'), endDate: new Date('2023-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
+        { startDate: new Date('2023-05-05'), endDate: new Date('2025-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit }
     ];
 
     // Calculate the excess contributions for each election cycle

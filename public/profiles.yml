@@ -14,8 +14,15 @@ district: 1
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Jesus Moreno"
 id: "JesusMoreno"
@@ -31,8 +38,15 @@ district: 2
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Zarin Gracey"
 id: "ZarinGracey"
@@ -47,8 +61,15 @@ district: 3
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Carolyn Arnold"
 id: "CarolynArnold"
@@ -65,8 +86,15 @@ district: 4
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Jaime Resendez"
 id: "JaimeResendez"
@@ -83,8 +111,15 @@ district: 5
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Omar Narvaez"
 id: "OmarNarvaez"
@@ -101,8 +136,15 @@ district: 6
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Adam Bazaldua"
 id: "AdamBazaldua"
@@ -119,8 +161,15 @@ district: 7
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Tennell Atkins"
 id: "TennellAtkins"
@@ -137,8 +186,15 @@ district: 8
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Paula Blackmon"
 id: "PaulaBlackmon"
@@ -155,8 +211,15 @@ district: 9
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Kathy Stewart"
 id: "KathyStewart"
@@ -171,8 +234,15 @@ district: 10
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Jaynie Schultz"
 id: "JaynieSchultz"
@@ -188,8 +258,15 @@ district: 11
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Cara Mendelsohn"
 id: "CaraMendelsohn"
@@ -206,8 +283,15 @@ district: 12
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Gay Willis"
 id: "GayWillis"
@@ -223,8 +307,15 @@ district: 13
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Paul Ridley"
 id: "PaulRidley"
@@ -240,8 +331,15 @@ district: 14
 city: "Dallas"
 election_status: "in-office"
 election_date: "05-04"
+election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Sukh Kaur"
 id: "SukhKaur"
@@ -256,8 +354,15 @@ district: 1
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Jalen McKee-Rodriguez"
 id: "JalenMcKee-Rodriguez"
@@ -273,8 +378,15 @@ district: 2
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Phyllis Viagran"
 id: "PhyllisViagran"
@@ -290,8 +402,15 @@ district: 3
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Adriana Garcia"
 id: "AdrianaGarcia"
@@ -308,8 +427,15 @@ district: 4
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Teri Castillo"
 id: "TeriCastillo"
@@ -325,8 +451,15 @@ district: "5"
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Melissa Cabello Havrda"
 id: "MelissaCabelloHavrda"
@@ -343,8 +476,15 @@ district: 6
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Marina Gavito"
 id: "MarinaGavito"
@@ -359,8 +499,15 @@ district: 7
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Manny Pelaez"
 id: "MannyPelaez"
@@ -377,8 +524,15 @@ district: 8
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "John Courage"
 id: "JohnCourage"
@@ -395,8 +549,15 @@ district: 9
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
 ---
 name: "Marc Whyte"
 id: "MarcWhyte"
@@ -411,5 +572,36 @@ district: 10
 city: "San Antonio"
 election_status: "in-office"
 election_date: "06-01"
+election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Cand/Committee:"
+  Transaction_Date: "Transaction Date:"
+  Amount: "Amount:"
+  Address: "Address"
+---
+name: "Natasha N. Harper-Madison"
+id: "NatashaHarperMadison"
+path_to_contributions_data: "../candidates/NatashaHarperMadison/NatashaHarperMadison_contributions.json"
+path_to_headshot_photo: "../candidates/NatashaHarperMadison/NatashaHarperMadison_headshot.jpeg"
+first_election: "2019"
+next_election: "2027"
+district: 1
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Donor"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"

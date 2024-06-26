@@ -19,29 +19,27 @@ export async function loader({ params }) {
     return { data, profile,  id};
 }
 
-const aggregateDataByName = (data) => {
+const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {
-        const normalizedName = contribution.Name.toLowerCase();
+        const normalizedName = contribution[profile.contribution_fields.Donor].toLowerCase();
         if (!acc[normalizedName]) {
             acc[normalizedName] = {
                 Amount: 0,
-                Campaign: contribution["Cand/Committee:"],
-                Name: contribution.Name, // Keep the original name for display
-                Address: contribution.Address,
+                Campaign: contribution[profile.contribution_fields.Recipient],
+                Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+                Address: contribution[profile.contribution_fields.Address],
                 children: [] // Initialize the children array for transactions
             };
         }
-        acc[normalizedName].Amount += contribution["Amount:"];
+        acc[normalizedName].Amount += contribution[profile.contribution_fields.Amount];
         acc[normalizedName].children.push({
-            ContactType: contribution["Contact Type:"],
-            ReportId: contribution.ReportId,
-            Amount: contribution["Amount:"],
-            Campaign: contribution["Cand/Committee:"],
-            TransactionDate: contribution["Transaction Date:"],
-            Latitude: contribution.Latitude,
-            Longitude: contribution.Longitude,
-            Name: contribution.Name, // Keep the original name for display
-            Address: contribution.Address
+            Amount: contribution[profile.contribution_fields.Amount],
+            Campaign: contribution[profile.contribution_fields.Recipient],
+            TransactionDate: contribution[profile.contribution_fields.Transaction_Date],
+            Latitude: contribution[profile.contribution_fields.Latitude],
+            Longitude: contribution[[profile.contribution_fields.Longitude]],
+            Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+            Address: contribution[profile.contribution_fields.Address]
         });
         return acc;
     }, {});
@@ -52,8 +50,7 @@ function Profile() {
     let contribution_data = res.data;
     let profile = res.profile;
 
-    let aggregated_data = aggregateDataByName(contribution_data);
-
+    let aggregated_data = aggregateDataByName(contribution_data, profile);
     const [month, day] = profile.election_date.split("-");
 
     // Create date objects for the day after the election day for each relevant year
@@ -80,10 +77,10 @@ function Profile() {
             <Header/>
             <ProfileSnapshot profile={profile} />
             <Highlights profile={profile} aggregated_data={aggregated_data} contribution_data={contribution_data} />
-            <ContributionsMap profile={profile} />
-            <TimelineChart contribution_data={contribution_data} />
+            {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
+            <TimelineChart profile={profile} contribution_data={contribution_data} />
             <ContributionsBarChart dateRanges={dateRanges} contribution_data={contribution_data}/>
-            <AggregatedDataTable dateRanges={dateRanges} contribution_data={contribution_data} />
+            <AggregatedDataTable profile={profile} dateRanges={dateRanges} contribution_data={contribution_data} />
             <IndividualContributionsTable dateRanges={dateRanges} contribution_data={contribution_data}/>
         </div>
     );

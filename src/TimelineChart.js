@@ -6,11 +6,11 @@ import 'chartjs-adapter-date-fns';
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
 // Function to aggregate data by date
-function aggregateDataByDate(data) {
+function aggregateDataByDate(profile, data) {
     const aggregatedData = {};
     data.forEach(record => {
-        const date = record["Transaction Date:"].split(' ')[0]; // Extract the date part only
-        const amount = record["Amount:"];
+        const date = record[profile.contribution_fields.Transaction_Date].split(' ')[0]; // Extract the date part only
+        const amount = record[profile.contribution_fields.Amount];
 
         if (!aggregatedData[date]) {
             aggregatedData[date] = 0;
@@ -25,9 +25,9 @@ function aggregateDataByDate(data) {
     })).sort((a, b) => a.x - b.x);
 }
 
-function TimelineChart({contribution_data}) {
+function TimelineChart({profile, contribution_data}) {
     // Aggregate the data by date
-    const aggregatedData = aggregateDataByDate(contribution_data);
+    const aggregatedData = aggregateDataByDate(profile, contribution_data);
 
   const data = {
     datasets: [{

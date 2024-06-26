@@ -3,25 +3,24 @@ import {TabulatorFull as Tabulator} from "tabulator-tables"; //import Tabulator 
 import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
 
 
-const aggregateDataByName = (data) => {
+const aggregateDataByName = (profile, data) => {
     return data.reduce((acc, contribution) => {
-        const normalizedName = contribution.Name.toLowerCase();
+        const normalizedName = contribution[profile.contribution_fields.Donor].toLowerCase();
         if (!acc[normalizedName]) {
             acc[normalizedName] = {
                 Amount: 0,
-                Campaign: contribution["Cand/Committee:"],
+                Campaign: contribution[profile.contribution_fields.Recipient],
                 Name: contribution.Name, // Keep the original name for display
                 Address: contribution.Address,
                 children: [] // Initialize the children array for transactions
             };
         }
-        acc[normalizedName].Amount += contribution["Amount:"];
+        acc[normalizedName].Amount += contribution[profile.contribution_fields.Amount];
         acc[normalizedName].children.push({
-            ContactType: contribution["Contact Type:"],
             ReportId: contribution.ReportId,
-            Amount: contribution["Amount:"],
-            Campaign: contribution["Cand/Committee:"],
-            TransactionDate: contribution["Transaction Date:"],
+            Amount: contribution[profile.contribution_fields.Amount],
+            Campaign: contribution[profile.contribution_fields.Recipient],
+            TransactionDate: contribution[profile.contribution_fields.Transaction_Date],
             Latitude: contribution.Latitude,
             Longitude: contribution.Longitude,
             Name: contribution.Name, // Keep the original name for display
@@ -31,7 +30,7 @@ const aggregateDataByName = (data) => {
     }, {});
 };
 
-function AggregatedDataTable ({dateRanges, contribution_data }) {
+function AggregatedDataTable ({profile, dateRanges, contribution_data }) {
   const style = {
     height:"600px"
   }
@@ -52,7 +51,7 @@ function AggregatedDataTable ({dateRanges, contribution_data }) {
       };
 
     const filteredData = filterDataByDate(contribution_data, selectedDateRange);
-    let aggregatedData = aggregateDataByName(filteredData);
+    let aggregatedData = aggregateDataByName(profile, filteredData);
     const tableData = Object.values(aggregatedData);
 
     const table = new Tabulator("#aggregated-contributions-table", {
