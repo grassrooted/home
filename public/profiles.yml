@@ -597,7 +597,7 @@ individual_limit: 300
 pac_limit: 1000
 out_of_city_aggregate_contribution_limit: 30000
 contribution_fields:
-  Donor: "Donor"
+  Donor: "Name"
   Recipient: "Recipient"
   Transaction_Date: "Contribution_Date"
   Amount: "Contribution_Amount"

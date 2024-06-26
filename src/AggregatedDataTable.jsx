@@ -23,7 +23,7 @@ const aggregateDataByName = (profile, data) => {
             TransactionDate: contribution[profile.contribution_fields.Transaction_Date],
             Latitude: contribution.Latitude,
             Longitude: contribution.Longitude,
-            Name: contribution.Name, // Keep the original name for display
+            Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
             Address: contribution.Address
         });
         return acc;
