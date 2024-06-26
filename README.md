@@ -21,6 +21,10 @@
 11. Replace dallas city council photos with ones that are all the same size
 12. Create a 'Find Your Council Member' button for each city that gets onboarded
 13. Wrap the content in each li in the nav window content so we don't cut off the text
+14. Fonts got messed up due to changes to the Header js/css files; fix that
+15. Selected-Date-Range should be passed down as prop to all components
+16. See about onboarding Waco, Denton, Marfa, Fredericksburg.
+17. Add "Data Source" and "Find My District" values to the yaml config
 
 # Getting Started with Create React App
 
