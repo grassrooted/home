@@ -38,7 +38,7 @@ function Highlights({profile, aggregated_data, contribution_data}) {
     const big_donor_percentage = Math.round((count / data.length) * 100);
 
     // Count the number of records with "Dallas" in the address
-    const in_city_count = data.filter(item => item[profile.contribution_fields.Address].includes(profile.city)).length
+    const in_city_count = data.filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false))).length
     // Subtract count from the total in order to get the records that DO NOT originate from Dallas
     const outside_city_count = data.length - in_city_count
     // Calculate the percentage

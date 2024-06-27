@@ -26,7 +26,7 @@ const aggregateDataByName = (data, profile) => {
             acc[normalizedName] = {
                 Amount: 0,
                 Campaign: contribution[profile.contribution_fields.Recipient],
-                Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+                Name: contribution[normalizedName], // Keep the original name for display
                 Address: contribution[profile.contribution_fields.Address],
                 children: [] // Initialize the children array for transactions
             };

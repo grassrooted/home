@@ -221,7 +221,8 @@ i {
   justify-content: space-between;
   overflow: hidden;
 
-  white-space: pre;
+  word-wrap: break-word; /* Ensures words are broken to fit within the container */
+  white-space: normal; /* Ensures text will wrap to the next line */
   padding: 0.5rem;
   border-radius: 8px;
   color: inherit;

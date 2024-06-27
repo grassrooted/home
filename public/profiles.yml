@@ -586,9 +586,225 @@ name: "Natasha N. Harper-Madison"
 id: "NatashaHarperMadison"
 path_to_contributions_data: "../candidates/NatashaHarperMadison/NatashaHarperMadison_contributions.json"
 path_to_headshot_photo: "../candidates/NatashaHarperMadison/NatashaHarperMadison_headshot.jpeg"
-first_election: "2019"
+first_election: "2018"
 next_election: "2027"
 district: 1
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Vanessa Fuentes"
+id: "VanessaFuentes"
+path_to_contributions_data: "../candidates/VanessaFuentes/VanessaFuentes.json"
+path_to_headshot_photo: "../candidates/VanessaFuentes/VanessaFuentes_headshot.jpeg"
+first_election: "2020"
+next_election: "2025"
+district: 2
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Jose Velasquez"
+id: "JoseVelasquez"
+path_to_contributions_data: "../candidates/JoseVelasquez/JoseVelasquez.json"
+path_to_headshot_photo: "../candidates/JoseVelasquez/JoseVelasquez_headshot.jpeg"
+first_election: "2022"
+next_election: "2027"
+district: 3
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Jose Vela"
+id: "JoseVela"
+path_to_contributions_data: "../candidates/JoseVela/JoseVela.json"
+path_to_headshot_photo: "../candidates/JoseVela/JoseVela.jpeg"
+first_election: "2022"
+next_election: "2025"
+district: 4
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Ryan Alter"
+id: "RyanAlter"
+path_to_contributions_data: "../candidates/RyanAlter/RyanAlter.json"
+path_to_headshot_photo: "../candidates/RyanAlter/RyanAlter_headshot.jpeg"
+first_election: "2022"
+next_election: "2027"
+district: 5
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Mackenzie Kelly"
+id: "MackenzieKelly"
+path_to_contributions_data: "../candidates/MackenzieKelly/MackenzieKelly.json"
+path_to_headshot_photo: "../candidates/MackenzieKelly/MackenzieKelly_headshot.jpeg"
+first_election: "2020"
+next_election: "2025"
+district: 6
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Leslie Pool"
+id: "LesliePool"
+path_to_contributions_data: "../candidates/LesliePool/LesliePool_contributions.json"
+path_to_headshot_photo: "../candidates/LesliePool/LesliePool_headshot.jpeg"
+first_election: "2019"
+next_election: "2027"
+district: 7
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Paige Ellis"
+id: "PaigeEllis"
+path_to_contributions_data: "../candidates/PaigeEllis/PaigeEllis_contributions.json"
+path_to_headshot_photo: "../candidates/PaigeEllis/PaigeEllis_headshot.jpeg"
+first_election: "2019"
+next_election: "2027"
+district: 8
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Zohaib Qadri"
+id: "ZohaibQadri"
+path_to_contributions_data: "../candidates/ZohaibQadri/ZohaibQadri_contributions.json"
+path_to_headshot_photo: "../candidates/ZohaibQadri/ZohaibQadri_headshot.jpeg"
+first_election: "2019"
+next_election: "2027"
+district: 9
+city: "Austin"
+election_status: "in-office"
+election_date: "11-06"
+election_cycle_years: 4
+individual_limit: 300
+pac_limit: 1000
+out_of_city_aggregate_contribution_limit: 30000
+contribution_fields:
+  Donor: "Name"
+  Recipient: "Recipient"
+  Transaction_Date: "Contribution_Date"
+  Amount: "Contribution_Amount"
+  Address: "Donor_Address"
+  City_State_Zip: "City_State_Zip"
+  Donor_Reported_Occupation: "Donor_Reported_Occupation"
+  Donor_Reported_Employer: "Donor_Reported_Employer"
+---
+name: "Alison Alter"
+id: "AlisonAlter"
+path_to_contributions_data: "../candidates/AlisonAlter/AlisonAlter_contributions.json"
+path_to_headshot_photo: "../candidates/AlisonAlter/AlisonAlter_headshot.jpeg"
+first_election: "2019"
+next_election: "2027"
+district: 10
 city: "Austin"
 election_status: "in-office"
 election_date: "11-06"
