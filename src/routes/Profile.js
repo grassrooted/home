@@ -74,7 +74,7 @@ function Profile() {
 
     return (
         <div>
-            <Header/>
+            <Header profile={profile}/>
             <ProfileSnapshot profile={profile} />
             <Highlights profile={profile} aggregated_data={aggregated_data} contribution_data={contribution_data} />
             {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}

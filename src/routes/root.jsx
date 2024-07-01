@@ -33,6 +33,9 @@ export default function Root() {
                 aria-live="polite"
               ></div>
             </Form>
+            <NavLink to={``} className='home-button'>
+              <img className="home-button-icon" src="org-icon.png"></img>
+            </NavLink>
           </div>
           <nav>
             {profiles.length ? (
@@ -51,10 +54,12 @@ export default function Root() {
                       >
                           {profile.name ? (
                           <>
-                              <strong>{profile.name}</strong> {profile.city} - District {profile.district}
+                              <div className="nav-name-container">
+                                <strong>{profile.name}</strong>
+                              </div> {profile.city} - District {profile.district}
                           </>
                           ) : (
-                          <i>No Name</i>
+                          <i>Incorrectly Configured Council Profile</i>
                           )}
                       </NavLink>
                     </li>

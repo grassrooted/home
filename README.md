@@ -20,7 +20,7 @@
 10. replace the icon in the nav window
 11. Replace dallas city council photos with ones that are all the same size
 12. Create a 'Find Your Council Member' button for each city that gets onboarded
-13. Wrap the content in each li in the nav window content so we don't cut off the text
+13. ~~Wrap the content in each li in the nav window content so we don't cut off the text~~
 14. Fonts got messed up due to changes to the Header js/css files; fix that
 15. Pass down the selected-Date-Range as prop to all components so we only select date once and ALL components react
 16. See about onboarding Waco, Denton, Marfa, Fredericksburg.
@@ -31,6 +31,7 @@
 21. Create a Legality themed section that provides stats through the lens of election campfin law
 22. Manage the differences between date formats and use the yaml file election_span field to handle 2yr vs 4yr elections
 23. Election cycles in Austin cycles are ireggular, so maybe we should create a yaml config to handle the election cycles. This would give us more control over handling runoff elections per candidate
+24. Create city-wide data aggregations that we can display via components on the home page
 
 # Getting Started with Create React App
 
