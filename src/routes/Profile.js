@@ -12,8 +12,8 @@ import Header from '../Header';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
-    const id = params.profileId
-    const profiles = await getProfiles()
+    const id = params.profileId;
+    const profiles = await getProfiles();
     const profile = profiles.find(p => p.id === id);
 
     return { data, profile,  id};

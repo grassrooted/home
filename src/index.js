@@ -8,6 +8,7 @@ import Profile, {
   loader as profileLoader,
 } from "./routes/Profile";
 import Main from "./routes/main";
+import City from "./routes/City";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
         element: <Profile />,
         loader: profileLoader,
       },
+      {
+        path: "cities/:cityId",
+        element: <City />,
+        loader: rootLoader
+      }
     ],
   },
 

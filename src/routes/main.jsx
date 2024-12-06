@@ -9,7 +9,7 @@ export default function Index() {
   return (
       <div className="main-container">
         <div className="main-banner">
-          <img id="home-icon" src="org-icon.png"></img>
+          <img alt="home icon" id="home-icon" src="org-icon.png"></img>
           <h1>Texas Campaign Finance Directory</h1>
         </div>
 
