@@ -1,9 +1,8 @@
 /* src/components/CityCard.css */
 .city-card {
     position: relative;
-    width: 100%;
     height: 300px;
-    margin: 10px 0;
+    margin: 10px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -22,6 +21,12 @@
 
 .city-overlay h1 {
     color: white;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: bold;
+}
+
+#city-stream {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

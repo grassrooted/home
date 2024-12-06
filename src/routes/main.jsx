@@ -2,6 +2,7 @@ import "../main.css";
 import { useLoaderData, NavLink } from "react-router-dom";
 import CityCard from '../CityCard';
 import MainBanner from '../MainBanner';
+import Footer from '../Footer';
 
 export default function Index() {
   const { cities } = useLoaderData();
@@ -28,7 +29,6 @@ export default function Index() {
                           {city.name ? (
                           <>
                               <div>
-                                <strong>{city.name}</strong>
                                 <CityCard name={city.name}  coverPhoto={city.cover_photo}/>
                               </div>
                           </>
@@ -45,6 +45,7 @@ export default function Index() {
                 </p>
             )}
         </div>
+        <Footer />
       </div>
   );
   }
