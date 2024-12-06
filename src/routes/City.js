@@ -1,7 +1,10 @@
 import '../index.css';
 import { useParams } from "react-router"
 import { useLoaderData } from "react-router-dom";
-
+import CityDirectory from '../CityDirectory';
+import ProfileStream from '../ProfileStream';
+import Footer from '../Footer';
+import MainBanner from '../MainBanner';
 
 function City() {
     const { cityId } = useParams()
@@ -13,24 +16,12 @@ function City() {
 
     return (
         <div>
-            <h1>{city_config.name}</h1>
+            <MainBanner />
+            <h1 className="city-title">{city_config.name}</h1>
 
-            <h3>Directory</h3>
-            <div id="city-profiles-stream">
-                {city_profiles.length ? (
-                    <ul>
-                    {city_profiles.map((profile) => (
-                        <li className="profile-item" key={profile.id}>
-                            {profile.name}
-                        </li>
-                    ))}
-                    </ul>
-                ) : (
-                    <p>
-                    <i>No profiles</i>
-                    </p>
-                    )}
-            </div>
+            <CityDirectory city_profiles={city_profiles}/>
+            <ProfileStream city_profiles={city_profiles}/>
+            <Footer />
         </div>
     );
 }

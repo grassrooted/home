@@ -1,17 +1,14 @@
 import "../main.css";
 import { useLoaderData, NavLink } from "react-router-dom";
 import CityCard from '../CityCard';
-
+import MainBanner from '../MainBanner';
 
 export default function Index() {
   const { cities } = useLoaderData();
   console.log(cities)
   return (
       <div className="main-container">
-        <div className="main-banner">
-          <img alt="home icon" id="home-icon" src="org-icon.png"></img>
-          <h1>Texas Campaign Finance Directory</h1>
-        </div>
+        <MainBanner />
 
         <div id="city-stream">
         {cities.length ? (

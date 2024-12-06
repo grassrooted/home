@@ -1,18 +1,20 @@
-img {
+.profile-headshot {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: auto;
+    object-fit: contain;
+    width: 400px;
+    height: auto;
   }
 
   .profileSnapshot{
-        border: 1px solid #eaeaea;
-        transition: all 0.2s ease;
-        border-radius: 5px;
-        margin: 5px;
-        padding: 15px;
-        width: 100%;
-        align-items: center;
-        text-align: center
+      border: 1px solid #eaeaea;
+      transition: all 0.2s ease;
+      border-radius: 5px;
+      margin: 5px;
+      padding: 15px;
+      align-items: center;
+      text-align: center;
+      background: #1F6E8C;
+      color: white;
   }

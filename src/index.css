@@ -98,8 +98,7 @@ form[action$="destroy"] button {
 
 #root {
   display: flex;
-  height: 100%;
-  width: 100%;
+  flex-direction: row;
 }
 
 #sidebar {
@@ -110,6 +109,7 @@ form[action$="destroy"] button {
   flex-direction: column;
   height: 100%;
   position: fixed;
+  flex: 1;
 }
 
 #sidebar > * {
@@ -242,10 +242,7 @@ i {
 }
 
 #detail {
-  flex: 1;
-  padding: 2rem 4rem;
-  width: 80%;
-  margin-left: 20rem;
+  width: 100%;
 }
 
 #detail.loading {
@@ -427,23 +424,16 @@ i {
 }
 
 .home-button {
-  border: 1px solid #eaeaea;
-  align-items: center;
-  text-align: center;
-  margin-left: 30px;
-  border-radius: 8px;
-  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  width: auto;
 
 }
 .home-button-icon {
-  height: 30px;
+  object-fit: contain;
+  max-height: 3rem;
 }
 .nav-name-container{
   word-wrap: break-word;
   width: 100px;
-}
-#home-icon {
-  height: 100px;
 }
 
 .city-item {
