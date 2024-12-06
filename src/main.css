@@ -38,3 +38,8 @@
     font-size: 4rem;
 
   }
+
+  #donor-map {
+    display: flex;
+    flex-direction: column;
+  }

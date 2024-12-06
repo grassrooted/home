@@ -368,35 +368,50 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .box-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 95%; /* Adjust the width as needed */
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add spacing between boxes */
 }
 
 .box-wrapper {
   display: flex;
-  flex: 1;
   flex-direction: column;
   align-items: center;
-  width: 150px;
+  text-align: center; /* Ensure titles align properly */
+  width: auto; /* Allow the wrapper to adjust to the content */
 }
 
 .box {
-  width: 180px;
-  height: 100px;
-  margin-top: 10px;
+  padding: 15px 20px; /* Add consistent padding for content */
+  margin: 10px;
+  background-color: #444; /* Optional: Add a background for better visibility */
+  border-radius: 8px; /* Add rounded corners */
+  color: white;
+  font-size: 1.5rem; /* Make font size responsive */
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  position: relative;
-  font-size: 42px;
+  text-align: center;
+  min-width: 150px; /* Prevent boxes from becoming too narrow */
+  white-space: nowrap; /* Prevent content from wrapping */
 }
+
+.box-title {
+  margin-top: 10px; /* Space between the box and its title */
+  font-size: 1rem;
+  color: #333; /* Optional: Title color */
+  text-align: center;
+  max-width: 200px; /* Keep titles within a reasonable width */
+  word-wrap: break-word; /* Handle long words or phrases */
+}
+
 
 .green {
   background-color: green;

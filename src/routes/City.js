@@ -1,7 +1,6 @@
 import '../index.css';
 import { useParams } from "react-router"
 import { useLoaderData } from "react-router-dom";
-import CityDirectory from '../CityDirectory';
 import ProfileStream from '../ProfileStream';
 import Footer from '../Footer';
 import MainBanner from '../MainBanner';
@@ -19,7 +18,6 @@ function City() {
             <MainBanner />
             <h1 className="city-title">{city_config.name}</h1>
 
-            <CityDirectory city_profiles={city_profiles}/>
             <ProfileStream cityId={cityId} city_profiles={city_profiles}/>
 
             <Footer />
