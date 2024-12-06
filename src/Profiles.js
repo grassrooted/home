@@ -3,12 +3,6 @@ import axios from 'axios';
 import { matchSorter } from "match-sorter";
 import sortBy from "sort-by";
 
-export async function getProfil() {
-    // Loop through all yaml docs and store each as a 'profile' object in a list of profiles and then return it
-    
-    // then follow this process here >> https://reactrouter.com/en/main/start/tutorial#creating-contacts
-}
-
 export async function getProfiles(query) {
   try {
     const response = await fetch('/profiles.yml');

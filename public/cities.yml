@@ -1,22 +1,28 @@
 ---
 name: "Dallas"
+id: "Dallas"
 election_cycle_years: 2
 individual_limit: 1000
 pac_limit: 2500
 data_source: "https://campfin.dallascityhall.com/"
 find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+cover_photo: "cities/dallas-skyline.jpg"
 ---
 name: "San Antonio"
+id: "SanAntonio"
 election_cycle_years: 2
 individual_limit: 500
 pac_limit: 500
 data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
 find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+cover_photo: "cities/san-antonio-skyline.png"
 ---
 name: "Austin"
+id: "Austin"
 election_cycle_years: 4
 individual_limit: 300
 pac_limit: 1000
 out_of_city_aggregate_contribution_limit: 30000
 data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
 find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+cover_photo: "cities/austin-skyline.jpg"

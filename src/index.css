@@ -445,3 +445,7 @@ i {
 #home-icon {
   height: 100px;
 }
+
+.city-item {
+  list-style: none;
+}
