@@ -20,7 +20,8 @@ function City() {
             <h1 className="city-title">{city_config.name}</h1>
 
             <CityDirectory city_profiles={city_profiles}/>
-            <ProfileStream city_profiles={city_profiles}/>
+            <ProfileStream cityId={cityId} city_profiles={city_profiles}/>
+
             <Footer />
         </div>
     );

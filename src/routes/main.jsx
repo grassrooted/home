@@ -4,9 +4,8 @@ import CityCard from '../CityCard';
 import MainBanner from '../MainBanner';
 import Footer from '../Footer';
 
-export default function Index() {
+export default function Main() {
   const { cities } = useLoaderData();
-  console.log(cities)
   return (
       <div className="main-container">
         <MainBanner />

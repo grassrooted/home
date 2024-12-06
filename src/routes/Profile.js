@@ -9,9 +9,12 @@ import ContributionsMap from '../ContributionsMap';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
 import Header from '../Header';
+import MainBanner from '../MainBanner';
+import Footer from '../Footer';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
+    console.log(data)
     const id = params.profileId;
     const profiles = await getProfiles();
     const profile = profiles.find(p => p.id === id);
@@ -74,14 +77,39 @@ function Profile() {
 
     return (
         <div>
-            <Header profile={profile}/>
-            <ProfileSnapshot profile={profile} />
-            <Highlights profile={profile} aggregated_data={aggregated_data} contribution_data={contribution_data} />
+            <MainBanner />
+            <Header 
+                profile={profile}/>
+
+            <ProfileSnapshot 
+                profile={profile} />
+
+            <Highlights 
+                profile={profile} 
+                aggregated_data={aggregated_data} 
+                contribution_data={contribution_data} />
+
             {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
-            <TimelineChart profile={profile} contribution_data={contribution_data} />
-            <ContributionsBarChart profile={profile} dateRanges={dateRanges} contribution_data={contribution_data}/>
-            <AggregatedDataTable profile={profile} dateRanges={dateRanges} contribution_data={contribution_data} />
-            <IndividualContributionsTable profile={profile} dateRanges={dateRanges} contribution_data={contribution_data}/>
+
+            <TimelineChart 
+                profile={profile} 
+                contribution_data={contribution_data} />
+
+            <ContributionsBarChart 
+                profile={profile} 
+                dateRanges={dateRanges} 
+                contribution_data={contribution_data}/>
+
+            <AggregatedDataTable 
+                profile={profile} 
+                dateRanges={dateRanges} 
+                contribution_data={contribution_data} />
+
+            <IndividualContributionsTable 
+                profile={profile} 
+                dateRanges={dateRanges} 
+                contribution_data={contribution_data}/>
+            <Footer />
         </div>
     );
 }
