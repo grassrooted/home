@@ -9,7 +9,7 @@ const MainBanner = () => {
             <h1>Texas Campaign Finance Directory</h1>
 
             <NavLink to={`/`} className='home-button'>
-              <img alt="home icon" className="home-button-icon" src="org-icon.png"></img>
+              <img alt="home icon" className="home-button-icon" src="/org-icon.png"></img>
             </NavLink>
         </div>
 
