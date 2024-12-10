@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header({ profile }) {
   return (
-    <div className="section">
+    <div className="section" id="header">
         <h1>
             {profile.city} Election Financials
         </h1>
