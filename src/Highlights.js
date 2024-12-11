@@ -72,27 +72,31 @@ function Highlights({profile, aggregated_data, contribution_data}) {
     totalExcessContributions = Math.round(totalExcessContributions)
     return (
         <div className="section" id="highlights">
-            <h2>Highlights</h2>
+            <h1>Highlights</h1>
             <div className="box-container">
                 <div className="box-wrapper">
-                    <div className="box green">{grassroots_percentage}%</div>
-                    <div className="box-title">Small Donor Support<br/>(Contributions Less than $100)</div>
+                    <div>{grassroots_percentage}%</div>
+                    <div className="box-title">SMALL DONOR SUPPORT</div>
+                    <div className="box-subtitle">Contributions Less than $100</div>
                 </div>
                 <div className="box-wrapper">
-                    <div className="box red" id="BigDonorSupport">{big_donor_percentage}%</div>
-                    <div className="box-title">Big Donor Support<br/>(Contributions of ${profile.individual_limit} or More)</div>
+                    <div id="BigDonorSupport">{big_donor_percentage}%</div>
+                    <div className="box-title">BIG DONOR SUPPORT</div>
+                    <div className="box-subtitle">Contributions of ${profile.individual_limit} or More</div>
                 </div>
                 <div className="box-wrapper">
-                    <div className="box red" id="ExternalSupport">{outside_city_percentage}%</div>
-                    <div className="box-title">External Support (Non-{profile.city} Contributions)</div>
+                    <div id="ExternalSupport">{outside_city_percentage}%</div>
+                    <div className="box-title">EXTERNAL SUPPORT </div>
+                    <div className="box-subtitle">Non-{profile.city} Contributions</div>
                 </div>
                 <div className="box-wrapper">
-                    <div className="box red" id="AboveLimitSupport">${totalExcessContributions.toLocaleString()}</div>
-                    <div className="box-title">Above-Limit Support (${profile.individual_limit} limit for individuals; ${profile.pac_limit} limit for PACs)</div>
+                    <div id="AboveLimitSupport">${totalExcessContributions.toLocaleString()}</div>
+                    <div className="box-title">ABOVE-LIMIT SUPPORT</div>
+                    <div className="box-subtitle">${profile.individual_limit} Limit for Individuals <br></br> ${profile.pac_limit} Limit for PACs</div>
                 </div>
                 <div className="box-wrapper">
-                    <div className="box green" id="TotalContributions">${total_contributions.toLocaleString()}</div>
-                    <div className="box-title">Total Contributions</div>
+                    <div id="TotalContributions">${total_contributions.toLocaleString()}</div>
+                    <div className="box-title">TOTAL CONTRIBUTIONS</div>
                 </div>
             </div>
         </div>

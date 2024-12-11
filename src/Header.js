@@ -3,12 +3,12 @@ import "./Header.css";
 
 function Header({ profile }) {
   return (
-    <div className="section" id="header">
+    <div id="header">
         <h1>
             {profile.city} Election Financials
         </h1>
-        <button><a href={profile.data_source}>Data Source</a></button>
-        <button><a href={profile.find_my_district}> Find My District  </a></button>
+        <button id="data-source-btn"><a href={profile.data_source}>Data Source</a></button>
+        <button id="district-locator-btn"><a href={profile.find_my_district}> Find My District  </a></button>
     </div>
   );
 }

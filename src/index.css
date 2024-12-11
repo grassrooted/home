@@ -385,14 +385,15 @@ i {
   align-items: center;
   text-align: center; /* Ensure titles align properly */
   width: auto; /* Allow the wrapper to adjust to the content */
+  font-size: 4rem;
+  margin: 0.5em;
 }
 
 .box {
   padding: 15px 20px; /* Add consistent padding for content */
   margin: 10px;
-  background-color: #444; /* Optional: Add a background for better visibility */
   border-radius: 8px; /* Add rounded corners */
-  color: white;
+  color: black;
   font-size: 1.5rem; /* Make font size responsive */
   font-weight: bold;
   display: flex;
@@ -405,28 +406,20 @@ i {
 
 .box-title {
   margin-top: 10px; /* Space between the box and its title */
-  font-size: 1rem;
-  color: #333; /* Optional: Title color */
+  font-size: 1.2rem;
   text-align: center;
   max-width: 200px; /* Keep titles within a reasonable width */
   word-wrap: break-word; /* Handle long words or phrases */
-}
-
-
-.green {
-  background-color: green;
-}
-
-.red {
-  background-color: red;
-}
-
-.box-title {
+  color: #BF2A2A;
   margin-bottom: 10px; /* Adjust as needed */
-  font-size: 14px; /* Adjust as needed */
-  text-align: center;
-  color: #000; /* Adjust as needed */
 }
+
+.box-subtitle {
+  word-wrap: break-word;
+  color: black;
+  font-size: 1rem;
+}
+
 
 .section{
   border: 1px solid #eaeaea;
@@ -440,11 +433,12 @@ i {
 
 .home-button {
   width: auto;
-
 }
 .home-button-icon {
   object-fit: contain;
   max-height: 3rem;
+  border-radius: 10%;
+  border: 1px solid white;
 }
 .nav-name-container{
   word-wrap: break-word;

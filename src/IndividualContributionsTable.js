@@ -56,7 +56,7 @@ function IndividualContributionsTable({profile, dateRanges, contribution_data })
 
     return (
         <div className='section'>
-            <h2>Individual Contributions Table</h2>
+            <h1>Individual Contributions Table</h1>
             <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>
                 <option value="all">All Data</option>

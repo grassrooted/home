@@ -11,8 +11,8 @@
     position: relative;
     width: 100%;
     padding: 10px;
-    background-color: #0E2954;
-    color: white;
+    background-color: #F1F2EB;
+    color: black;
     text-align: center;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -35,7 +35,6 @@
   .city-title {
     text-align: center;
     font-size: 4rem;
-
   }
 
   #donor-map {

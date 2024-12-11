@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer">
         <h1>
-            Texas Campaign Finance Directory
+            Texas Election Audits 
         </h1>
         <p>
             est. 2021

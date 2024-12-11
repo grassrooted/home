@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const MainBanner = () => {
     return (
         <div className="main-banner">
-            <h3>Texas Campaign Finance Directory</h3>
+            <h3>Texas Election Audits</h3>
 
             <NavLink to={`/`} className='home-button'>
               <img alt="home icon" className="home-button-icon" src="/org-icon.png"></img>

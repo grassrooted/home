@@ -4,11 +4,11 @@
     height: 300px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     padding: 20px;
     transition: transform 0.2s;
     overflow: hidden;
-    margin: 8px;
+    margin: 50px;
 }
 
 .city-card:hover {
@@ -37,4 +37,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#city-stream ul{
+    padding: 50px;
 }

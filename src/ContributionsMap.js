@@ -19,9 +19,9 @@ function ContributionsMap({profile}) {
 
     return (
         <div className="section" id="donor-map">
-        <h2>
+        <h1>
             Contributions Across Dallas
-        </h2>
+        </h1>
         <h4>
             <i>District {profile.district} is highlighted in green.</i>
         </h4>

@@ -5,6 +5,7 @@
     object-fit: contain;
     width: 250px;
     height: auto;
+    border-radius: 50%;
   }
 
   .profileSnapshot{
@@ -15,17 +16,26 @@
       padding: 15px;
       align-items: center;
       text-align: center;
-      border-color: #003F87;
-      background-color: #003F87;
-      color: white;
+      background-color: #0056a1;
+      color: #F1F2EB;
   }
 
   .profileSnapshot h1{
     max-width: 300px;
+    margin: auto;
     height: 100px;
   }
 
   .profileSnapshot:hover {
     border-color: #eaeaea; 
-    background-color: #0056a1;
+    background-color: #003F87;
     }
+
+
+  .profile-district-header{
+    color: #D7816A;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 2px;
+  }
+
