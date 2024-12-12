@@ -431,15 +431,8 @@ i {
   text-align: center;
 }
 
-.home-button {
-  width: auto;
-}
-.home-button-icon {
-  object-fit: contain;
-  max-height: 3rem;
-  border-radius: 10%;
-  border: 1px solid white;
-}
+
+
 .nav-name-container{
   word-wrap: break-word;
   width: 100px;

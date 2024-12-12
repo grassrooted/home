@@ -38,9 +38,7 @@ function SearchBar({ profiles }) {
                                 <img
                                     src={profile.path_to_headshot_photo}
                                     alt={`${profile.name} headshot`}
-                                    className="profile-headshot"
-                                    maxWidth="50px"
-                                    maxHeight="50px"
+                                    className="search-profile-headshot"
                                 />
                                 <span className="profile-name">{profile.name}</span>
                                 <span className="profile-city">({profile.city})</span>
