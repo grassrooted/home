@@ -84,17 +84,20 @@ function ContributionPieChart({ profile, contribution_data, profiles }) {
     };
 
     const totalAmount = Object.values(categories).reduce((sum, value) => sum + value, 0);
-    const tableData = Object.keys(categories).map((key, index) => {
-        const categoryAmount = categories[key];
-        return {
-            category: data.labels[index],
-            amount: categoryAmount,
-            percentage: ((categoryAmount / totalAmount) * 100).toFixed(2) + '%',
-        };
-    });
+    const tableData = Object.keys(categories)
+        .map((key, index) => {
+            const categoryAmount = categories[key];
+            return {
+                category: data.labels[index],
+                amount: categoryAmount,
+                percentage: ((categoryAmount / totalAmount) * 100).toFixed(2) + '%',
+            };
+        })
+        .sort((a, b) => b.amount - a.amount);
+
 
     return (
-        <div className="contribution-container">
+        <div className="section">
             <h1>Contribution Breakdown</h1>
             <div className="pie-chart-container">
                 <Pie data={data} options={options} />

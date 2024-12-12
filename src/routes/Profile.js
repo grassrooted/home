@@ -87,14 +87,12 @@ function Profile() {
                 aggregated_data={aggregated_data} 
                 contribution_data={contribution_data} />
 
-            <div id="table-section">
-                {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
+            {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
 
-                <ContributionPieChart
-                    profile={profile}
-                    contribution_data={contribution_data}
-                    profiles={profiles} />
-            </div>
+            <ContributionPieChart
+                profile={profile}
+                contribution_data={contribution_data}
+                profiles={profiles} />
 
             <div id="table-section">
                 <TimelineChart 

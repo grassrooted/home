@@ -70,7 +70,7 @@ function TimelineChart({profile, contribution_data}) {
   };
 
   return (
-    <div id="timeline">
+    <div className='section' id="timeline">
         <h1>Individual Contributions Timeline</h1>
         <Line data={data} options={options} />
     </div>

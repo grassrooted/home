@@ -18,25 +18,25 @@ function ContributionsMap({profile}) {
   }, [profile.path_to_maps]);
 
     return (
-        <div id="donor-map">
-        <h1>
-            Contributions Across Dallas
-        </h1>
-        <h4>
-            <i>District {profile.district} is highlighted in green.</i>
-        </h4>
-        <div>
-          <label htmlFor="map-cycleFilter">Filter by Election Cycle: </label>
-          <select id="map-cycleFilter" value={selectedMap} onChange={handleMapChange}>
-              {profile.path_to_maps.map((src, index) => (
-              <option key={index} value={src}>
-                  {src.split("/").at(-1).split(".").at(0)}
-              </option>
-              ))}
-          </select>
-        </div>
+        <div className='section' id="donor-map">
+          <h1>
+              Contributions Across Dallas
+          </h1>
+          <h4>
+              <i>District {profile.district} is highlighted in green.</i>
+          </h4>
+          <div>
+            <label htmlFor="map-cycleFilter">Filter by Election Cycle: </label>
+            <select id="map-cycleFilter" value={selectedMap} onChange={handleMapChange}>
+                {profile.path_to_maps.map((src, index) => (
+                <option key={index} value={src}>
+                    {src.split("/").at(-1).split(".").at(0)}
+                </option>
+                ))}
+            </select>
+          </div>
 
-        <img src={selectedMap} alt={selectedMap} />
+          <img src={selectedMap} alt={selectedMap} />
         </div>
     );
   }
