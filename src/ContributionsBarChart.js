@@ -77,7 +77,7 @@ function ContributionsBarChart({profile, dateRanges, contribution_data}) {
         }
       };
     return (
-        <div className="section" id="contributions-chart-section">
+        <div id="contributions-chart-section">
             <h1>Individual Contributions Breakdown</h1>
             <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>

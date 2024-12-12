@@ -78,14 +78,14 @@ function AggregatedDataTable ({profile, dateRanges, contribution_data }) {
     });
 
     return () => table.destroy();
-  }, [contribution_data, selectedDateRange]);
+  }, [contribution_data, selectedDateRange, dateRanges, profile]);
 
   const handleDateRangeChange = (event) => {
     setSelectedDateRange(event.target.value);
   };
   return (
     <div className='section'>
-        <h2>Aggregated Contributions Table</h2>
+        <h1>Aggregated Contributions Table</h1>
         <h4><i>Contributions made by the same person have been grouped together.</i></h4>
         <label>Filter by Election Cycle: </label>
         <select onChange={handleDateRangeChange} value={selectedDateRange}>

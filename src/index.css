@@ -448,3 +448,14 @@ i {
 .city-item {
   list-style: none;
 }
+
+#table-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#contributions-chart-section, #timeline  {
+  margin: auto;
+  width: 45%;
+  height: 100%;
+}

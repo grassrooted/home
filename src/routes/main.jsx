@@ -1,14 +1,11 @@
 import "../main.css";
 import { useLoaderData, NavLink } from "react-router-dom";
 import CityCard from '../CityCard';
-import MainBanner from '../MainBanner';
-import Footer from '../Footer';
 
 export default function Main() {
   const { cities } = useLoaderData();
   return (
       <div className="main-container">
-        <MainBanner />
 
         <div id="city-stream">
         {cities.length ? (
@@ -44,7 +41,6 @@ export default function Main() {
                 </p>
             )}
         </div>
-        <Footer />
       </div>
   );
   }

@@ -1,6 +1,10 @@
 import { Outlet } from "react-router-dom";
 import { getProfiles } from "../Profiles";
 import { getCities } from "../Cities";
+import MainBanner from "../MainBanner";
+import Footer from "../Footer";
+import { useLoaderData } from "react-router-dom";
+
 
 export async function loader({request}) {
     const url = new URL(request.url);
@@ -11,10 +15,15 @@ export async function loader({request}) {
 }
 
 export default function Root() {
+  const { profiles } = useLoaderData();
+
     return (
       <>
         <div id="detail">
+
+            <MainBanner profiles={profiles} />
             <Outlet />
+            <Footer />
         </div>
       </>
     );

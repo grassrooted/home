@@ -9,12 +9,9 @@ import ContributionsMap from '../ContributionsMap';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
 import Header from '../Header';
-import MainBanner from '../MainBanner';
-import Footer from '../Footer';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
-    console.log(data)
     const id = params.profileId;
     const profiles = await getProfiles();
     const profile = profiles.find(p => p.id === id);
@@ -77,7 +74,6 @@ function Profile() {
 
     return (
         <div>
-            <MainBanner />
             <Header 
                 profile={profile}/>
 
@@ -91,25 +87,27 @@ function Profile() {
 
             {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
 
-            <TimelineChart 
-                profile={profile} 
-                contribution_data={contribution_data} />
 
-            <ContributionsBarChart 
-                profile={profile} 
-                dateRanges={dateRanges} 
-                contribution_data={contribution_data}/>
+            <div id="table-section">
+                <TimelineChart 
+                    profile={profile} 
+                    contribution_data={contribution_data} />
 
+                <ContributionsBarChart 
+                    profile={profile} 
+                    dateRanges={dateRanges} 
+                    contribution_data={contribution_data}/>
+            </div>
             <AggregatedDataTable 
-                profile={profile} 
-                dateRanges={dateRanges} 
-                contribution_data={contribution_data} />
+                    profile={profile} 
+                    dateRanges={dateRanges} 
+                    contribution_data={contribution_data} />
 
-            <IndividualContributionsTable 
-                profile={profile} 
-                dateRanges={dateRanges} 
-                contribution_data={contribution_data}/>
-            <Footer />
+                <IndividualContributionsTable 
+                    profile={profile} 
+                    dateRanges={dateRanges} 
+                    contribution_data={contribution_data}/>
+
         </div>
     );
 }

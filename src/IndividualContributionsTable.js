@@ -37,22 +37,33 @@ function IndividualContributionsTable({profile, dateRanges, contribution_data })
     useEffect(() => {
         const filteredData = filterDataByDate(contribution_data, selectedDateRange);
         const tableData = Object.values(filteredData);
-
+    
         const columns = [
-            { title: "Contributor", field: "Name", headerFilter: true  },
+            { title: "Contributor", field: "Name", headerFilter: true },
             { title: "Amount ($)", field: profile.contribution_fields.Amount },
             { title: "Candidate", field: profile.contribution_fields.Recipient },
-            { title: "Transaction Date", field: profile.contribution_fields.Transaction_Date, formatter: cell => new Date(cell.getValue()).toLocaleDateString() }
+            {
+                title: "Transaction Date",
+                field: profile.contribution_fields.Transaction_Date,
+                formatter: cell => new Date(cell.getValue()).toLocaleDateString()
+            }
         ];
-
+    
         const table = new Tabulator("#individual-contributions-table", {
             data: tableData,
             layout: "fitColumns",
             columns: columns,
         });
-
-    return () => table.destroy();
-  }, [contribution_data, selectedDateRange]);
+    
+        return () => table.destroy();
+    }, [
+        contribution_data, 
+        selectedDateRange, 
+        profile.contribution_fields.Amount, 
+        profile.contribution_fields.Recipient, 
+        profile.contribution_fields.Transaction_Date
+    ]);
+    
 
     return (
         <div className='section'>
