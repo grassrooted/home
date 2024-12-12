@@ -27,7 +27,7 @@ function MainBanner({ cities, profiles }) {
                     Home
                 </NavLink>
                 <div className="menu-item cities-dropdown" onMouseLeave={() => setDropdownOpen(false)}>
-                    <span onClick={toggleDropdown}>Cities</span>
+                    <span onMouseOver={toggleDropdown}>Cities</span>
                     {dropdownOpen && (
                         <ul className="dropdown-menu">
                             {cities.map((city) => (
