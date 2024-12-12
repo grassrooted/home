@@ -445,8 +445,10 @@ i {
   flex-direction: row;
 }
 
-#contributions-chart-section, #timeline, #donor-map {
-  margin: auto;
-  width: 45%;
-  height: 100%;
+@media (max-width: 480px) {
+  #table-section {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 4em;
+  }
 }
