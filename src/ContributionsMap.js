@@ -18,7 +18,7 @@ function ContributionsMap({profile}) {
   }, [profile.path_to_maps]);
 
     return (
-        <div className="section" id="donor-map">
+        <div id="donor-map">
         <h1>
             Contributions Across Dallas
         </h1>

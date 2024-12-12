@@ -27,27 +27,18 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
 
 function Highlights({profile, aggregated_data, contribution_data}) {
     const data = contribution_data
-    // Count the number of records with an amount less than $100
-    const grassroots_count = data ? data.filter(item => item[profile.contribution_fields.Amount] < 100).length : 0
-    // Calculate the percentage
-    const grassroots_percentage = Math.round((grassroots_count / data.length) * 100);
-
-    // Count records with an amount equal to or greater than individual limit
-    const count = data.filter(item => item[profile.contribution_fields.Amount] >= profile.individual_limit).length;
-    // Calculate the percentage
-    const big_donor_percentage = Math.round((count / data.length) * 100);
-
-    // Count the number of records with "Dallas" in the address
-    const in_city_count = data.filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false))).length
-    // Subtract count from the total in order to get the records that DO NOT originate from Dallas
-    const outside_city_count = data.length - in_city_count
-    // Calculate the percentage
-    const outside_city_percentage = Math.round((outside_city_count / data.length) * 100);
 
     let total_contributions = 0
     data.forEach(record => {
         total_contributions += record[profile.contribution_fields.Amount]
     });
+
+    const in_city_sum = data
+        .filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false)))
+        .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0);
+
+    const outside_city_sum = total_contributions - in_city_sum
+    const outside_city_percentage = Math.round((outside_city_sum / total_contributions) * 100);
 
     // Define election cycles and limits
     const electionCycles = [
@@ -74,16 +65,6 @@ function Highlights({profile, aggregated_data, contribution_data}) {
         <div className="section" id="highlights">
             <h1>Highlights</h1>
             <div className="box-container">
-                <div className="box-wrapper">
-                    <div>{grassroots_percentage}%</div>
-                    <div className="box-title">SMALL DONOR SUPPORT</div>
-                    <div className="box-subtitle">Contributions Less than $100</div>
-                </div>
-                <div className="box-wrapper">
-                    <div id="BigDonorSupport">{big_donor_percentage}%</div>
-                    <div className="box-title">BIG DONOR SUPPORT</div>
-                    <div className="box-subtitle">Contributions of ${profile.individual_limit} or More</div>
-                </div>
                 <div className="box-wrapper">
                     <div id="ExternalSupport">{outside_city_percentage}%</div>
                     <div className="box-title">EXTERNAL SUPPORT </div>

@@ -15,13 +15,15 @@ export async function loader({request}) {
 }
 
 export default function Root() {
-  const { profiles } = useLoaderData();
+  const { cities, profiles } = useLoaderData();
 
     return (
       <>
         <div id="detail">
 
-            <MainBanner profiles={profiles} />
+            <MainBanner 
+              cities={cities}
+              profiles={profiles} />
             <Outlet />
             <Footer />
         </div>

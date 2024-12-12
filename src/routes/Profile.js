@@ -9,6 +9,7 @@ import ContributionsMap from '../ContributionsMap';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
 import Header from '../Header';
+import ContributionPieChart from '../ContributionPieChart'
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
@@ -16,7 +17,7 @@ export async function loader({ params }) {
     const profiles = await getProfiles();
     const profile = profiles.find(p => p.id === id);
 
-    return { data, profile,  id};
+    return { data, profile,  id, profiles};
 }
 
 const aggregateDataByName = (data, profile) => {
@@ -49,6 +50,7 @@ function Profile() {
     const res = useLoaderData();
     let contribution_data = res.data;
     let profile = res.profile;
+    const profiles = res.profiles;
 
     let aggregated_data = aggregateDataByName(contribution_data, profile);
     const [month, day] = profile.election_date.split("-");
@@ -85,8 +87,14 @@ function Profile() {
                 aggregated_data={aggregated_data} 
                 contribution_data={contribution_data} />
 
-            {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
+            <div id="table-section">
+                {profile.path_to_maps ? <ContributionsMap profile={profile} /> : <br></br>}
 
+                <ContributionPieChart
+                    profile={profile}
+                    contribution_data={contribution_data}
+                    profiles={profiles} />
+            </div>
 
             <div id="table-section">
                 <TimelineChart 
@@ -103,10 +111,11 @@ function Profile() {
                     dateRanges={dateRanges} 
                     contribution_data={contribution_data} />
 
-                <IndividualContributionsTable 
-                    profile={profile} 
-                    dateRanges={dateRanges} 
-                    contribution_data={contribution_data}/>
+            <IndividualContributionsTable 
+                profile={profile} 
+                dateRanges={dateRanges} 
+                contribution_data={contribution_data}/>
+            
 
         </div>
     );

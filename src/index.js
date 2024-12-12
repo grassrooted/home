@@ -8,6 +8,7 @@ import Profile, { loader as profileLoader } from "./routes/Profile";
 import Main from "./routes/main";
 import City from "./routes/City";
 import CityLayout from './routes/CityLayout';
+import About from './routes/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
           },
         ],
       },
+      {
+        path: "about",
+        element: <About />
+      }
     ],
   },
 ]);

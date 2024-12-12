@@ -447,7 +447,7 @@ i {
   flex-direction: row;
 }
 
-#contributions-chart-section, #timeline  {
+#contributions-chart-section, #timeline, #donor-map {
   margin: auto;
   width: 45%;
   height: 100%;

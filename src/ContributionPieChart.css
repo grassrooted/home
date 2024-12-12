@@ -1,0 +1,61 @@
+/* Styles for the ContributionPieChart component */
+.contribution-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .pie-chart-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* Make the table responsive on smaller screens */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+    th, td {
+      padding: 8px 10px;
+    }
+  }
+  
