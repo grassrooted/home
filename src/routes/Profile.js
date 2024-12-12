@@ -94,16 +94,14 @@ function Profile() {
                 contribution_data={contribution_data}
                 profiles={profiles} />
 
-            <div id="table-section">
-                <TimelineChart 
-                    profile={profile} 
-                    contribution_data={contribution_data} />
+            <TimelineChart 
+                profile={profile} 
+                contribution_data={contribution_data} />
 
-                <ContributionsBarChart 
-                    profile={profile} 
-                    dateRanges={dateRanges} 
-                    contribution_data={contribution_data}/>
-            </div>
+            <ContributionsBarChart 
+                profile={profile} 
+                dateRanges={dateRanges} 
+                contribution_data={contribution_data}/>
             <AggregatedDataTable 
                     profile={profile} 
                     dateRanges={dateRanges} 

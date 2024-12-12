@@ -440,13 +440,19 @@ i {
   list-style: none;
 }
 
-#table-section {
+#row-section {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  transition: all 0.2s ease;
+  margin: 5px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 480px) {
-  #table-section {
+  #row-section {
       flex-direction: column;
       align-items: center;
       padding-top: 4em;

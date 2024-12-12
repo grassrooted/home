@@ -40,7 +40,7 @@ function IndividualContributionsTable({profile, dateRanges, contribution_data })
     
         const columns = [
             { title: "Contributor", field: "Name", headerFilter: true },
-            { title: "Amount ($)", field: profile.contribution_fields.Amount },
+            { title: "Amount ($)", field: profile.contribution_fields.Amount, formatter: "money"  },
             { title: "Candidate", field: profile.contribution_fields.Recipient },
             {
                 title: "Transaction Date",
@@ -67,7 +67,7 @@ function IndividualContributionsTable({profile, dateRanges, contribution_data })
 
     return (
         <div className='section'>
-            <h1>Individual Contributions Table</h1>
+            <h1>All Contributions</h1>
             <label>Filter by Election Cycle: </label>
             <select onChange={handleDateRangeChange} value={selectedDateRange}>
                 <option value="all">All Data</option>
