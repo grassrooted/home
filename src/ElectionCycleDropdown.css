@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 5px;
+    margin: 10px 5px;
     position: sticky; /* Makes it sticky */
     top: 81px; /* Matches the height of the MainBanner */
     z-index: 10; /* Ensures it layers above content but below the MainBanner */

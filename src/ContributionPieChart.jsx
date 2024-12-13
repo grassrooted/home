@@ -116,6 +116,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
     return (
         <div className="section">
             <h1>Contribution Breakdown</h1>
+            <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
             <div className="pie-chart-container">
                 <Pie data={data} options={options}/>
             </div>

@@ -112,6 +112,7 @@ function DonationsHeatMap({ city_config, profile, contribution_data }) {
     return (
         <div className="section">
             <h1>Donations Heatmap</h1>
+            <h4><i>Refers to all contribution data.</i></h4>
             <div ref={mapContainerRef} style={{ width: '100%', height: '500px' }} />
             {errorCount > 0 && (
                 <div className="error-popup" style={{ position: 'relative', top: 10, left: 10, backgroundColor: 'white', padding: '10px', borderRadius: '5px', boxShadow: '0 2px 5px rgba(0,0,0,0.3)' }}>

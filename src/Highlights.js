@@ -64,6 +64,7 @@ function Highlights({profile, aggregated_data, contribution_data}) {
     return (
         <div className="section" id="highlights">
             <h1>Highlights</h1>
+            <h4><i>Refers to all contribution data.</i></h4>
             <div className="box-container">
                 <div className="box-wrapper">
                     <div id="ExternalSupport">{outside_city_percentage}%</div>

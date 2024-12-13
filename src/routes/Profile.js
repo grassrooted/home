@@ -113,15 +113,15 @@ function Profile() {
                 contribution_data={contribution_data}
                 city_config={city_config}/>
 
+            <TimelineChart 
+                profile={profile} 
+                contribution_data={contribution_data} />
+
             <ContributionPieChart
                 profile={profile}
                 contribution_data={contribution_data}
                 profiles={profiles} 
                 selectedDateRange={selectedDateRange}/>
-
-            <TimelineChart 
-                profile={profile} 
-                contribution_data={contribution_data} />
 
             <ContributionsBarChart 
                 profile={profile} 

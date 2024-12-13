@@ -3,7 +3,7 @@ import { TabulatorFull as Tabulator } from "tabulator-tables"; // Import Tabulat
 import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
 import { CSVLink } from 'react-csv';
 
-function IndividualContributionsTable({ profile, selectedDateRange, electionCycles, contribution_data }) {
+function IndividualContributionsTable({ profile, selectedDateRange, contribution_data }) {
     const style = {
         height: "600px",
     };
@@ -49,6 +49,7 @@ function IndividualContributionsTable({ profile, selectedDateRange, electionCycl
     return (
         <div className='section'>
             <h1>All Contributions</h1>
+            <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
             <CSVLink data={contribution_data} filename="contribution_data.csv">
                 <button>Download Data</button>
             </CSVLink>    
