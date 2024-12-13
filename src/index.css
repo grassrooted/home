@@ -369,6 +369,8 @@ i {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  background: #F7F4E9;
+  border-radius: 8px;
 }
 
 .box-container {

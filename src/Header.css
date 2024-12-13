@@ -8,6 +8,7 @@
     background-color: #0437F2;
     line-height: 1.5;
     margin: 2px;
+    min-width: 138px;
 }
 
 #district-locator-btn:hover, #data-source-btn:hover{
@@ -21,7 +22,7 @@ a {
 #header {
     font-size: 2rem;
     transition: all 0.2s ease;
-    margin: 2px;
+    margin: 8px;
     padding: 2px;
     align-items: center;
     text-align: center;

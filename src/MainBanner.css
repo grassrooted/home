@@ -78,13 +78,13 @@
     .main-banner {
         flex-direction: column; /* Stack traits vertically */
         align-items: center;
-        height: 100px;
+        height: 200px;
     }
     .home-button {
         height: 50px;
         margin-top: 20px;
     }
     .search-bar {
-        margin-top: 2px;
+        margin-bottom: 4px;
     }
 }

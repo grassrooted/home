@@ -1,8 +1,10 @@
 /* Styles for the ContributionPieChart component */
-.contribution-container {
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
+  #contribution-pie-chart{
+    display: flex;
+    flex-direction: column;
+    background: #F7F4E9;
+    border-radius: 8px;
+    justify-content: center;
   }
   
   .pie-chart-container {
@@ -13,13 +15,13 @@
   }
   
   table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
-    margin-top: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    margin: 10px;
   }
   
   thead {
