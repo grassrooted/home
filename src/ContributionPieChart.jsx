@@ -108,7 +108,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
             return {
                 category: data.labels[index],
                 amount: categoryAmount,
-                percentage: ((categoryAmount / totalAmount) * 100).toFixed(2) + '%',
+                percentage: categoryAmount > 0 ? ((categoryAmount / totalAmount) * 100).toFixed(2) + '%' : 'No Data',
             };
         })
         .sort((a, b) => b.amount - a.amount);
