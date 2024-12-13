@@ -60,8 +60,8 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
 
     const data = {
         labels: [
-            'Small Dollar (Individual Donations Under $100)',
-            `Big Donor (Individual Donations of $${profile.individual_limit} or more)`,
+            'Small Dollar (Individual Donations  <$100)',
+            `Large Dollar (Individual Donations of $${profile.individual_limit}+)`,
             'PAC',
             'Self-Funding',
             'Other Candidates',
@@ -89,7 +89,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
     const options = {
         responsive: true,
         plugins: {
-            legend: { position: 'right' },
+            legend: { position: 'top' },
             tooltip: {
                 callbacks: {
                     label: function (context) {
@@ -117,7 +117,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
         <div className="section">
             <h1>Contribution Breakdown</h1>
             <div className="pie-chart-container">
-                <Pie data={data} options={options} />
+                <Pie data={data} options={options}/>
             </div>
             <table>
                 <tbody>

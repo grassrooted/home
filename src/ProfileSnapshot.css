@@ -3,7 +3,6 @@
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
-    height: auto;
     border-radius: 50%;
     height: 240px;
   }
@@ -13,7 +12,6 @@
       transition: all 0.2s ease;
       border-radius: 5px;
       margin: 5px;
-      padding: 15px;
       align-items: center;
       text-align: center;
       background-color: #0056a1;
@@ -39,3 +37,8 @@
     margin-top: 2px;
   }
 
+  @media(max-width: 480px) {
+    .profile-headshot {
+        height: 180px;
+      }
+  }

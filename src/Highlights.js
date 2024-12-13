@@ -70,15 +70,18 @@ function Highlights({profile, aggregated_data, contribution_data}) {
                     <div className="box-title">EXTERNAL SUPPORT </div>
                     <div className="box-subtitle">Non-{profile.city} Contributions</div>
                 </div>
+
+                <div className="box-wrapper">
+                    <div id="TotalContributions">${total_contributions.toLocaleString()}</div>
+                    <div className="box-title">TOTAL CONTRIBUTIONS</div>
+                </div>
+
                 <div className="box-wrapper">
                     <div id="AboveLimitSupport">${totalExcessContributions.toLocaleString()}</div>
                     <div className="box-title">ABOVE-LIMIT SUPPORT</div>
                     <div className="box-subtitle">${profile.individual_limit} Limit for Individuals <br></br> ${profile.pac_limit} Limit for PACs</div>
                 </div>
-                <div className="box-wrapper">
-                    <div id="TotalContributions">${total_contributions.toLocaleString()}</div>
-                    <div className="box-title">TOTAL CONTRIBUTIONS</div>
-                </div>
+
             </div>
         </div>
     );

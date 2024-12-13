@@ -24,7 +24,9 @@ export default function Root() {
             <MainBanner 
               cities={cities}
               profiles={profiles} />
-            <Outlet />
+            <div id="content">
+              <Outlet />
+            </div>
             <Footer />
         </div>
       </>

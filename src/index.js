@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: "/",
+    id: "root", // Explicitly set ID
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
