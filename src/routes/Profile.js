@@ -1,7 +1,7 @@
 import ProfileSnapshot from '../ProfileSnapshot';
-import { getProfile, getProfiles } from '../Profiles'
+import { getProfile, getProfiles } from '../Profiles';
 import TimelineChart from '../TimelineChart';
-import ContributionsBarChart  from '../ContributionsBarChart';
+import ContributionsBarChart from '../ContributionsBarChart';
 import { useLoaderData } from "react-router-dom";
 import '../index.css';
 import Highlights from '../Highlights';
@@ -9,7 +9,8 @@ import ContributionsMap from '../ContributionsMap';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
 import Header from '../Header';
-import ContributionPieChart from '../ContributionPieChart'
+import ContributionPieChart from '../ContributionPieChart';
+import { useState } from 'react';
 
 export async function loader({ params }) {
     const data = await getProfile(params.profileId);
@@ -17,7 +18,7 @@ export async function loader({ params }) {
     const profiles = await getProfiles();
     const profile = profiles.find(p => p.id === id);
 
-    return { data, profile,  id, profiles};
+    return { data, profile, id, profiles };
 }
 
 const aggregateDataByName = (data, profile) => {
@@ -46,41 +47,72 @@ const aggregateDataByName = (data, profile) => {
     }, {});
 };
 
+const generateElectionCycles = (profile) => {
+    const { first_election, next_election, election_date, election_cycle_years } = profile;
+
+    const electionCycles = [];
+    let year = parseInt(first_election, 10);
+    const nextElectionYear = parseInt(next_election, 10);
+    const [month, day] = election_date.split('-').map(Number);
+
+    while (year <= nextElectionYear) {
+        const startDate = new Date(year, month - 1, day);
+        const endDate = new Date(year + election_cycle_years, month - 1, day - 1);
+        electionCycles.push({
+            start: startDate,
+            end: endDate,
+        });
+        year += election_cycle_years;
+    }
+
+    return electionCycles;
+};
+
 function Profile() {
     const res = useLoaderData();
-    let contribution_data = res.data;
-    let profile = res.profile;
+    const contribution_data = res.data;
+    const profile = res.profile;
     const profiles = res.profiles;
 
-    let aggregated_data = aggregateDataByName(contribution_data, profile);
-    const [month, day] = profile.election_date.split("-");
+    const aggregated_data = aggregateDataByName(contribution_data, profile);
 
-    // Create date objects for the day after the election day for each relevant year
-    const getDateRanges = (year_start, year_end) => {
-        let electionDate = new Date(`${year_end}-${month}-${day}`);
-        const end_date = new Date(electionDate)
-        end_date.setDate(electionDate.getDate() + 1);
+    const electionCycles = generateElectionCycles(profile);
 
-        electionDate = new Date(`${year_start}-${month}-${day}`);
-        const start_date = new Date(electionDate);
-        start_date.setDate(electionDate.getDate() + 2);
-        return [start_date, end_date]
-    };
+    // Default to the full range of election cycles
+    const [selectedDateRange, setSelectedDateRange] = useState({
+        start: electionCycles[0].start,
+        end: electionCycles[electionCycles.length - 1].end,
+    });
 
-    const dateRanges = {
-      '2017-2019': getDateRanges(2017, 2019),
-      '2019-2021': getDateRanges(2019, 2021),
-      '2021-2023': getDateRanges(2021, 2023),
-      '2023-2025': getDateRanges(2023, 2025),
+    const handleDateRangeChange = (event) => {
+        const cycleIndex = parseInt(event.target.value, 10);
+        if (cycleIndex === -1) {
+            // "All Data" selected
+            setSelectedDateRange({
+                start: electionCycles[0].start,
+                end: electionCycles[electionCycles.length - 1].end,
+            });
+        } else {
+            const selectedCycle = electionCycles[cycleIndex];
+            setSelectedDateRange(selectedCycle);
+        }
     };
 
     return (
         <div>
-            <Header 
-                profile={profile}/>
+            <Header city={profile.city} profile={profile} />
 
-            <ProfileSnapshot 
-                profile={profile} />
+            <label>Filter by Election Cycle: </label>
+            <select onChange={handleDateRangeChange} value={electionCycles.indexOf(selectedDateRange)}>
+                <option value={-1}>All Data</option>
+                {electionCycles.map((cycle, index) => (
+                    <option key={index} value={index}>
+                        {cycle.start.toDateString()} thru {cycle.end.toDateString()}
+                    </option>
+                ))}
+            </select>
+
+            <ProfileSnapshot profile={profile} />
 
             <Highlights 
                 profile={profile} 
@@ -92,7 +124,8 @@ function Profile() {
             <ContributionPieChart
                 profile={profile}
                 contribution_data={contribution_data}
-                profiles={profiles} />
+                profiles={profiles} 
+                selectedDateRange={selectedDateRange}/>
 
             <TimelineChart 
                 profile={profile} 
@@ -100,24 +133,20 @@ function Profile() {
 
             <ContributionsBarChart 
                 profile={profile} 
-                dateRanges={dateRanges} 
-                contribution_data={contribution_data}/>
+                contribution_data={contribution_data}
+                selectedDateRange={selectedDateRange} />
+
             <AggregatedDataTable 
-                    profile={profile} 
-                    dateRanges={dateRanges} 
-                    contribution_data={contribution_data} />
+                profile={profile} 
+                contribution_data={contribution_data}
+                selectedDateRange={selectedDateRange} />
 
             <IndividualContributionsTable 
                 profile={profile} 
-                dateRanges={dateRanges} 
-                contribution_data={contribution_data}/>
-            
-
+                contribution_data={contribution_data}
+                selectedDateRange={selectedDateRange} />
         </div>
     );
 }
-  
-  export default Profile;
-  
-  
-  
+
+export default Profile;

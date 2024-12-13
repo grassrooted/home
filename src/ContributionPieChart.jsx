@@ -5,7 +5,18 @@ import './ContributionPieChart.css'; // Import the CSS file
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-function ContributionPieChart({ profile, contribution_data, profiles }) {
+function ContributionPieChart({ profile, contribution_data, profiles, selectedDateRange }) {
+    const filteredData = useMemo(() => {
+        if (selectedDateRange === 'all') {
+            return contribution_data;
+        }
+        const { start, end } = selectedDateRange;
+        return contribution_data.filter(record => {
+            const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
+            return transactionDate >= start && transactionDate <= end;
+        });
+    }, [contribution_data, profile, selectedDateRange]);
+
     const categories = useMemo(() => {
         const smallDollarLimit = 100;
         const bigDonorLimit = profile.individual_limit;
@@ -21,14 +32,14 @@ function ContributionPieChart({ profile, contribution_data, profiles }) {
             other: 0,
         };
 
-        contribution_data.forEach((contribution) => {
+        filteredData.forEach((contribution) => {
             const amount = contribution[profile.contribution_fields.Amount];
             const donorName = contribution[profile.contribution_fields.Donor].toLowerCase();
             const donorNameParts = donorName.split(",");
             const donorLastName = donorNameParts[0]?.trim();
             const donorFirstName = donorNameParts[1]?.trim();
-        
             const formattedDonorName = `${donorFirstName} ${donorLastName}`.toLowerCase();
+
             if (donorName === candidateName || formattedDonorName === candidateName) {
                 categoryTotals.selfFunding += amount;
             } else if (otherCandidateNames.includes(donorName) || otherCandidateNames.includes(formattedDonorName)) {
@@ -45,7 +56,7 @@ function ContributionPieChart({ profile, contribution_data, profiles }) {
         });
 
         return categoryTotals;
-    }, [contribution_data, profile, profiles]);
+    }, [filteredData, profile, profiles]);
 
     const data = {
         labels: [
@@ -54,7 +65,8 @@ function ContributionPieChart({ profile, contribution_data, profiles }) {
             'PAC',
             'Self-Funding',
             'Other Candidates',
-            'Other'],
+            'Other'
+        ],
         datasets: [
             {
                 label: 'Contribution Amounts',
@@ -100,7 +112,6 @@ function ContributionPieChart({ profile, contribution_data, profiles }) {
             };
         })
         .sort((a, b) => b.amount - a.amount);
-
 
     return (
         <div className="section">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { TabulatorFull as Tabulator } from "tabulator-tables"; // Import Tabulator library
 import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
 
@@ -9,8 +9,8 @@ const aggregateDataByName = (profile, data) => {
             acc[normalizedName] = {
                 Amount: 0,
                 Campaign: contribution[profile.contribution_fields.Recipient],
-                Name: contribution.Name, // Keep the original name for display
-                Address: contribution.Address,
+                Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+                Address: contribution[profile.contribution_fields.Address],
                 children: [] // Initialize the children array for transactions
             };
         }
@@ -29,19 +29,16 @@ const aggregateDataByName = (profile, data) => {
     }, {});
 };
 
-function AggregatedDataTable({ profile, dateRanges, contribution_data }) {
+function AggregatedDataTable({ profile, selectedDateRange, contribution_data }) {
     const style = { height: "auto" };
-    const [selectedDateRange, setSelectedDateRange] = useState('all');
 
     useEffect(() => {
         const filterDataByDate = (data, dateRange) => {
-            if (dateRange === 'all') {
-                return data;
-            }
-            const [startDate, endDate] = dateRanges[dateRange];
+            const { start, end } = dateRange;
+
             return data.filter(record => {
-                const transactionDate = new Date(record["Transaction Date:"]);
-                return transactionDate >= startDate && transactionDate <= endDate;
+                const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
+                return transactionDate >= start && transactionDate <= end;
             });
         };
 
@@ -77,27 +74,12 @@ function AggregatedDataTable({ profile, dateRanges, contribution_data }) {
         });
 
         return () => table.destroy();
-    }, [contribution_data, selectedDateRange, dateRanges, profile]);
-
-    const handleDateRangeChange = (event) => {
-        setSelectedDateRange(event.target.value);
-    };
+    }, [contribution_data, selectedDateRange, profile]);
 
     return (
         <div className='section'>
             <h1>Top Contributors</h1>
             <h4><i>Contributions made by the same person have been grouped together.</i></h4>
-            <label>Filter by Election Cycle: </label>
-            <select onChange={handleDateRangeChange} value={selectedDateRange}>
-                <option value="all">All</option>
-                {
-                    Object.keys(dateRanges).map((k) => (
-                        <option key={k} value={k}>
-                            {dateRanges[k][0].toDateString()} thru {dateRanges[k][1].toDateString()}
-                        </option>
-                    ))
-                }
-            </select>
             <div id="aggregated-contributions-table" style={style}></div>
         </div>
     );

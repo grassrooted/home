@@ -2,6 +2,7 @@ import '../index.css';
 import { useParams } from "react-router"
 import { useLoaderData } from "react-router-dom";
 import ProfileStream from '../ProfileStream';
+import Header from '../Header';
 
 function City() {
     const { cityId } = useParams()
@@ -13,7 +14,7 @@ function City() {
 
     return (
         <div>
-            <h1 className="city-title">{city_config.name}</h1>
+            <Header city={city_config.name} profile={city_config} />
 
             <ProfileStream cityId={cityId} city_profiles={city_profiles}/>
 
