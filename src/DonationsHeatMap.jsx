@@ -4,7 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
-function DonationsHeatMap({ city_config, profile, contribution_data }) {
+function DonationsHeatMap({ city_config, contribution_data }) {
     const mapContainerRef = useRef(null);
     const mapRef = useRef(null);
     const [errorCount, setErrorCount] = useState(0);
@@ -14,16 +14,6 @@ function DonationsHeatMap({ city_config, profile, contribution_data }) {
         [city_config.city_bounds.west, city_config.city_bounds.south],
         [city_config.city_bounds.east, city_config.city_bounds.north]
     ], [city_config]);
-
-    // Check if a geocode is within bounds
-    const isInBounds = (geocode, bounds) => {
-        return (
-            geocode.lat <= bounds[1][1] &&
-            geocode.lat >= bounds[0][1] &&
-            geocode.lng <= bounds[1][0] &&
-            geocode.lng >= bounds[0][0]
-        );
-    };
 
     // Process contribution data into Mapbox heatmap format
     const heatmapData = useMemo(() => {
@@ -43,8 +33,7 @@ function DonationsHeatMap({ city_config, profile, contribution_data }) {
 
                 if (
                     !isNaN(latitude) &&
-                    !isNaN(longitude) &&
-                    isInBounds({ lat: latitude, lng: longitude }, cityBounds)
+                    !isNaN(longitude)
                 ) {
                     let normalized_weight = ((amount - minAmount) / (maxAmount - minAmount)) * 0.9 + 0.1;
                     features.push({
@@ -70,7 +59,7 @@ function DonationsHeatMap({ city_config, profile, contribution_data }) {
             type: 'FeatureCollection',
             features,
         };
-    }, [contribution_data, cityBounds]);
+    }, [contribution_data]);
 
     useEffect(() => {
         if (!mapContainerRef.current) return;
@@ -116,7 +105,7 @@ function DonationsHeatMap({ city_config, profile, contribution_data }) {
             <div ref={mapContainerRef} style={{ width: '100%', height: '500px' }} />
             {errorCount > 0 && (
                 <div className="error-popup" style={{ position: 'relative', top: 10, left: 10, backgroundColor: 'white', padding: '10px', borderRadius: '5px', boxShadow: '0 2px 5px rgba(0,0,0,0.3)' }}>
-                    <p>{errorCount} records could not be geocoded or were outside the city bounds.</p>
+                    <p>{errorCount} records could not be geocoded.</p>
                 </div>
             )}
         </div>

@@ -27,3 +27,24 @@ a {
     align-items: center;
     text-align: center;
 }
+
+.row-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+}
+
+@media (max-width: 480px) {
+    #header h1{
+        font-size: 32px;
+    }
+    #header button a{
+        font-size: 14px;
+    }
+}
+  

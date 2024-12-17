@@ -109,13 +109,8 @@ function Profile() {
                 contribution_data={contribution_data} />
 
             <DonationsHeatMap 
-                profile={profile}
                 contribution_data={contribution_data}
                 city_config={city_config}/>
-
-            <TimelineChart 
-                profile={profile} 
-                contribution_data={contribution_data} />
 
             <ContributionPieChart
                 profile={profile}
@@ -123,15 +118,21 @@ function Profile() {
                 profiles={profiles} 
                 selectedDateRange={selectedDateRange}/>
 
-            <ContributionsBarChart 
-                profile={profile} 
-                contribution_data={contribution_data}
-                selectedDateRange={selectedDateRange} />
+            <span className='side-by-side'>
+                <AggregatedDataTable 
+                    profile={profile} 
+                    contribution_data={contribution_data}
+                    selectedDateRange={selectedDateRange} />
 
-            <AggregatedDataTable 
-                profile={profile} 
-                contribution_data={contribution_data}
-                selectedDateRange={selectedDateRange} />
+                <ContributionsBarChart 
+                    profile={profile} 
+                    contribution_data={contribution_data}
+                    selectedDateRange={selectedDateRange} />
+            </span>
+
+            <TimelineChart 
+                    profile={profile} 
+                    contribution_data={contribution_data} />
 
             <IndividualContributionsTable 
                 profile={profile} 

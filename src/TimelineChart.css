@@ -1,0 +1,15 @@
+#timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeline-chart-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+}
+
+

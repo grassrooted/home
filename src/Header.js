@@ -7,8 +7,11 @@ function Header({ city, profile }) {
         <h1>
             {city} Election Financials
         </h1>
-        <button id="data-source-btn"><a href={profile.data_source}>Data Source</a></button>
-        <button id="district-locator-btn"><a href={profile.find_my_district}> Find My District  </a></button>
+        <span className='row-span'>
+          <button id="data-source-btn"><a href={profile.data_source}>Data Source</a></button>
+          <button id="district-locator-btn"><a href={profile.find_my_district}> Find My District  </a></button>
+        </span>
+
     </div>
   );
 }

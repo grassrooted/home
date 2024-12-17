@@ -1,0 +1,15 @@
+#contributions-chart-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chart-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+}
+
+

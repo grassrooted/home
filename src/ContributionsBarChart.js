@@ -1,6 +1,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import './ContributionBarChart.css'
 
 // Register necessary components with Chart.js
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -51,6 +52,8 @@ function ContributionsBarChart({ profile, selectedDateRange, contribution_data }
     };
 
     const options = {
+        responsive: true,
+        maintainAspectRatio: false,
         scales: {
             y: {
                 beginAtZero: true,
@@ -70,9 +73,11 @@ function ContributionsBarChart({ profile, selectedDateRange, contribution_data }
 
     return (
         <div className='section' id="contributions-chart-section">
-            <h1>Individual Contributions Breakdown</h1>
+            <h1>Funding Breakdown</h1>
             <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
-            <Bar data={data} options={options} width="400" height="200" />
+            <div className="chart-container">
+                <Bar data={data} options={options} />
+            </div>
         </div>
     );
 }

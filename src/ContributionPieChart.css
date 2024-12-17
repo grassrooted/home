@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     height: 350px;
+    width: 350px;
   }
   
   table {
@@ -52,7 +53,7 @@
   }
   
   /* Make the table responsive on smaller screens */
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     table {
       font-size: 14px;
     }

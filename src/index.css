@@ -243,6 +243,8 @@ i {
 
 #detail {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #detail.loading {
@@ -396,7 +398,7 @@ i {
   margin: 10px;
   border-radius: 8px; /* Add rounded corners */
   color: black;
-  font-size: 1.5rem; /* Make font size responsive */
+  font-size: 1.5rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -458,6 +460,12 @@ i {
   margin-top: 80px;
 }
 
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 480px) {
   #row-section {
       flex-direction: column;
@@ -465,6 +473,16 @@ i {
       padding-top: 4em;
   }
   #content {
-      margin-top: 150px;
+      margin-top: 200px;
+  }
+  .box-wrapper {
+    font-size: 3rem;
+  }
+  .section h1{
+      font-size: 24px;
+  }
+  .side-by-side {
+    flex-direction: column;
   }
 }
+
