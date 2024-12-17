@@ -2,13 +2,19 @@
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 20px;
     background-color: #f9f9f9;
     height: 80px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 11;
     width: 100%;
+}
+
+#pages-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .home-button {
@@ -22,13 +28,20 @@
     object-fit: contain;
 }
 
+.hamburger-icon {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    color: #333;
+}
+
 .main-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 250px;
-    margin-bottom: 10px;
 }
 
 .menu-item {
@@ -53,11 +66,7 @@
     top: 100%;
     left: 0;
     background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0;
-    margin: 0;
     list-style: none;
     z-index: 10;
     width: 150px;
@@ -74,18 +83,49 @@
     background-color: #f1f1f1;
 }
 
-@media (max-width: 480px) {
-    .main-banner {
-        flex-direction: column; /* Stack traits vertically */
-        align-items: center;
-        height: 200px;
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: block; /* Show hamburger icon */
     }
-    .home-button {
-        height: 50px;
-        margin-top: 20px;
+
+    #pages-bar {
+        display: flex;
+        flex-direction: row;
     }
-    .search-bar {
-        margin-bottom: 12px;
-        margin-top: 0px;
+
+    .main-menu {
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+
+    .main-menu.open {
+        display: flex; /* Show menu when 'open' class is added */
+        top: 80px;
+        border-bottom: 1px solid rgba(54, 69, 79, 0.2);
+    }
+
+    .menu-item {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        border: none;
+        background-color: transparent;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+    .main-banner{
+        top: 44px;
+    }
+  }
