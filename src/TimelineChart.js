@@ -3,14 +3,12 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 import 'chartjs-adapter-date-fns';
 import './TimelineChart.css';
 
-// Register components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
-// Function to aggregate data by date
 function aggregateDataByDate(profile, data) {
     const aggregatedData = {};
     data.forEach(record => {
-        const date = record[profile.contribution_fields.Transaction_Date].split(' ')[0]; // Extract the date part only
+        const date = record[profile.contribution_fields.Transaction_Date].split(' ')[0];
         const amount = record[profile.contribution_fields.Amount];
 
         if (!aggregatedData[date]) {
@@ -19,7 +17,6 @@ function aggregateDataByDate(profile, data) {
         aggregatedData[date] += amount;
     });
 
-    // Convert the aggregated data object into an array and sort it by date
     return Object.keys(aggregatedData).map(date => ({
         x: new Date(date),
         y: aggregatedData[date]
@@ -27,7 +24,6 @@ function aggregateDataByDate(profile, data) {
 }
 
 function TimelineChart({ profile, contribution_data }) {
-    // Aggregate the data by date
     const aggregatedData = aggregateDataByDate(profile, contribution_data);
 
     const data = {
@@ -74,7 +70,6 @@ function TimelineChart({ profile, contribution_data }) {
         <div className='section' id="timeline">
             <h1>Individual Contributions Timeline</h1>
             <h4><i>Refers to all contribution data.</i></h4>
-            {/* Container for responsive sizing */}
             <div className="timeline-chart-container">
                 <Line data={data} options={options} />
             </div>

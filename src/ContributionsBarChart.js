@@ -3,7 +3,6 @@ import { Bar } from 'react-chartjs-2';
 import { Chart, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import './ContributionBarChart.css'
 
-// Register necessary components with Chart.js
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 function ContributionsBarChart({ profile, selectedDateRange, contribution_data }) {
@@ -18,27 +17,24 @@ function ContributionsBarChart({ profile, selectedDateRange, contribution_data }
 
     const filteredData = filterDataByDate(contribution_data, selectedDateRange);
 
-    // Initialize the buckets for amount ranges
     const step = 100;
     const num_buckets = Math.ceil(profile.individual_limit / step);
     const buckets = Array(num_buckets + 1).fill(0);
 
-    // Process the filtered contribution data to fill the buckets
     filteredData.forEach(record => {
         const amount = record[profile.contribution_fields.Amount];
         if (amount >= profile.individual_limit) {
-            buckets[num_buckets]++; // Final bucket for 1000+
+            buckets[num_buckets]++;
         } else {
             const index = Math.floor(amount / step);
             buckets[index]++;
         }
     });
 
-    // Prepare data for the bar chart
     const data = {
         labels: [
             ...Array.from({ length: num_buckets }, (_, i) => `$${i * step} - $${(i + 1) * step - 1}`),
-            `${profile.individual_limit}+` // Final bucket label
+            `${profile.individual_limit}+`
         ],
         datasets: [
             {

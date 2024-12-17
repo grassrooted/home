@@ -68,6 +68,7 @@
     left: 0;
     background-color: #fff;
     padding: 0;
+    margin: 0;
     list-style: none;
     z-index: 10;
     width: 150px;
@@ -89,7 +90,7 @@
 
 @media (max-width: 768px) {
     .hamburger-icon {
-        display: block; /* Show hamburger icon */
+        display: block;
     }
 
     #pages-bar {
@@ -98,7 +99,7 @@
     }
 
     .main-menu {
-        display: none; /* Hide menu by default */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 120px;
@@ -108,7 +109,7 @@
     }
 
     .main-menu.open {
-        display: flex; /* Show menu when 'open' class is added */
+        display: flex;
         top: 80px;
         border-bottom: 1px solid rgba(54, 69, 79, 0.2);
     }
@@ -128,7 +129,6 @@
 }
 
 @supports (-webkit-touch-callout: none) {
-    /* CSS specific to iOS devices */ 
     .main-banner{
         top: 44px;
     }

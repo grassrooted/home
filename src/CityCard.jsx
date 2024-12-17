@@ -1,4 +1,3 @@
-// src/components/CityCard.js
 import React from 'react';
 import './CityCard.css';
 

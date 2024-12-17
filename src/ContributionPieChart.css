@@ -1,4 +1,3 @@
-/* Styles for the ContributionPieChart component */
   #contribution-pie-chart{
     display: flex;
     flex-direction: column;
@@ -53,7 +52,6 @@
     border-bottom: none;
   }
   
-  /* Make the table responsive on smaller screens */
   @media (max-width: 480px) {
     table {
       font-size: 14px;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './SearchBar.css'; // Optional: Add custom styles for the search bar
+import './SearchBar.css';
 
 function SearchBar({ profiles }) {
     const [query, setQuery] = useState('');

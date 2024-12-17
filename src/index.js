@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: "/",
-    id: "root", // Explicitly set ID
+    id: "root",
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
@@ -36,8 +36,8 @@ const router = createBrowserRouter([
           },
           {
             path: "profiles/:profileId",
-            element: <Profile />, // Use your Profile component here
-            loader: profileLoader, // If data is needed for the profile, define a loader
+            element: <Profile />,
+            loader: profileLoader,
           },
         ],
       },

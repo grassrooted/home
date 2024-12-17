@@ -1,4 +1,3 @@
-/* src/components/CityCard.css */
 .city-card {
     position: relative;
     height: 300px;
@@ -12,7 +11,7 @@
 }
 
 .city-card:hover {
-    transform: scale(1.05); /* Scale effect on hover */
+    transform: scale(1.05);
 }
 
 .city-overlay {

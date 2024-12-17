@@ -1,4 +1,3 @@
-// Function to calculate the total sum of contributions that exceed the respective limits
 function calculateExcessContributions(data, startDate, endDate, limitNonPAC, limitPAC) {
     let excessSum = 0;
     Object.keys(data).forEach(true_name => {
@@ -16,7 +15,6 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
             }
         });
 
-        // Calculate the excess amount
         if (total_contributed > limit) {
             excessSum += (total_contributed - limit);
         }
@@ -40,7 +38,6 @@ function Highlights({profile, aggregated_data, contribution_data}) {
     const outside_city_sum = total_contributions - in_city_sum
     const outside_city_percentage = Math.round((outside_city_sum / total_contributions) * 100);
 
-    // Define election cycles and limits
     const electionCycles = [
         { startDate: new Date('2017-05-05'), endDate: new Date('2019-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
         { startDate: new Date('2019-05-05'), endDate: new Date('2021-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
@@ -48,7 +45,6 @@ function Highlights({profile, aggregated_data, contribution_data}) {
         { startDate: new Date('2023-05-05'), endDate: new Date('2025-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit }
     ];
 
-    // Calculate the excess contributions for each election cycle
     let totalExcessContributions = 0;
     electionCycles.forEach(cycle => {
         totalExcessContributions += calculateExcessContributions(

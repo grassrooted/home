@@ -9,18 +9,15 @@ function DonationsHeatMap({ city_config, contribution_data }) {
     const mapRef = useRef(null);
     const [errorCount, setErrorCount] = useState(0);
 
-    // Compute bounds for the candidate's city
     const cityBounds = useMemo(() => [
         [city_config.city_bounds.west, city_config.city_bounds.south],
         [city_config.city_bounds.east, city_config.city_bounds.north]
     ], [city_config]);
 
-    // Process contribution data into Mapbox heatmap format
     const heatmapData = useMemo(() => {
         const features = [];
         let errors = 0;
 
-        // Extract min and max amounts for normalization
         const amounts = contribution_data.map(record => parseFloat(record["Amount:"]) || 0).filter(amount => !isNaN(amount));
         const minAmount = Math.min(...amounts);
         const maxAmount = Math.max(...amounts);
@@ -64,7 +61,6 @@ function DonationsHeatMap({ city_config, contribution_data }) {
     useEffect(() => {
         if (!mapContainerRef.current) return;
 
-        // Initialize the map
         const map = new mapboxgl.Map({
             container: mapContainerRef.current,
             style: 'mapbox://styles/mapbox/streets-v11',
@@ -74,7 +70,6 @@ function DonationsHeatMap({ city_config, contribution_data }) {
 
         mapRef.current = map;
 
-        // Add heatmap layer when the map is loaded
         map.on('load', () => {
             map.addSource('heatmap', {
                 type: 'geojson',
@@ -86,7 +81,6 @@ function DonationsHeatMap({ city_config, contribution_data }) {
                 type: 'heatmap',
                 source: 'heatmap',
                 paint: {
-                    // Customize heatmap appearance
                     'heatmap-weight': ['get', 'weight'],
                     'heatmap-intensity': 1,
                     'heatmap-radius': 20,
@@ -95,7 +89,7 @@ function DonationsHeatMap({ city_config, contribution_data }) {
             });
         });
 
-        return () => map.remove(); // Cleanup on component unmount
+        return () => map.remove();
     }, [cityBounds, heatmapData]);
 
     return (

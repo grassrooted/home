@@ -19,19 +19,13 @@ export async function getProfiles(query) {
 }
 
 export async function getProfile(id) {
-    //read all yaml docs until we find the given ID
-        // Figure out how to handle what an 'ID' is
-    //return the singluar contact
-    //then follwo this process here >> https://reactrouter.com/en/main/start/tutorial#url-params-in-loaders
     const profiles = await getProfiles()
     let profile = profiles.find(profile => profile.id === id);
     let data = null
     let res = null
     try {
-        // Extract the path to the JSON file
         const jsonFilePath = profile.path_to_contributions_data;
 
-        // Fetch the JSON file
         const jsonResponse = await axios.get(jsonFilePath);
         data = jsonResponse.data;
         res = Array.from(new Set(data.map(JSON.stringify)))

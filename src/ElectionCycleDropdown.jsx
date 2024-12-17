@@ -5,7 +5,6 @@ function ElectionCycleDropdown({ electionCycles, selectedDateRange, setSelectedD
     const handleDateRangeChange = (event) => {
         const cycleIndex = parseInt(event.target.value, 10);
         if (cycleIndex === -1) {
-            // "All Data" selected
             setSelectedDateRange({
                 start: electionCycles[0].start,
                 end: electionCycles[electionCycles.length - 1].end,
@@ -16,7 +15,6 @@ function ElectionCycleDropdown({ electionCycles, selectedDateRange, setSelectedD
         }
     };
 
-    // Find the index of the currently selected date range
     const selectedIndex = electionCycles.findIndex(
         (cycle) =>
             cycle.start.getTime() === selectedDateRange.start.getTime() &&

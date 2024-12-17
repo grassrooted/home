@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-
 function ContributionsMap({profile}) {
-    // State to keep track of the selected profile
     const [selectedMap, setSelectedMap] = useState(profile.path_to_maps[0]);
 
-    // Handler for when the select value changes
     const handleMapChange = (event) => {
         setSelectedMap(event.target.value);
     };

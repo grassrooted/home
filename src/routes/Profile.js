@@ -31,9 +31,9 @@ const aggregateDataByName = (data, profile) => {
             acc[normalizedName] = {
                 Amount: 0,
                 Campaign: contribution[profile.contribution_fields.Recipient],
-                Name: contribution[normalizedName], // Keep the original name for display
+                Name: contribution[normalizedName],
                 Address: contribution[profile.contribution_fields.Address],
-                children: [] // Initialize the children array for transactions
+                children: []
             };
         }
         acc[normalizedName].Amount += contribution[profile.contribution_fields.Amount];
@@ -43,7 +43,7 @@ const aggregateDataByName = (data, profile) => {
             TransactionDate: contribution[profile.contribution_fields.Transaction_Date],
             Latitude: contribution[profile.contribution_fields.Latitude],
             Longitude: contribution[[profile.contribution_fields.Longitude]],
-            Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+            Name: contribution[profile.contribution_fields.Donor],
             Address: contribution[profile.contribution_fields.Address]
         });
         return acc;

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { TabulatorFull as Tabulator } from "tabulator-tables"; // Import Tabulator library
-import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
+import { TabulatorFull as Tabulator } from "tabulator-tables";
+import 'tabulator-tables/dist/css/tabulator.min.css';
 
 const aggregateDataByName = (profile, data) => {
     return data.reduce((acc, contribution) => {
@@ -9,9 +9,9 @@ const aggregateDataByName = (profile, data) => {
             acc[normalizedName] = {
                 Amount: 0,
                 Campaign: contribution[profile.contribution_fields.Recipient],
-                Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+                Name: contribution[profile.contribution_fields.Donor],
                 Address: contribution[profile.contribution_fields.Address],
-                children: [] // Initialize the children array for transactions
+                children: []
             };
         }
         acc[normalizedName].Amount += contribution[profile.contribution_fields.Amount];
@@ -22,7 +22,7 @@ const aggregateDataByName = (profile, data) => {
             TransactionDate: contribution[profile.contribution_fields.Transaction_Date],
             Latitude: contribution.Latitude,
             Longitude: contribution.Longitude,
-            Name: contribution[profile.contribution_fields.Donor], // Keep the original name for display
+            Name: contribution[profile.contribution_fields.Donor],
             Address: contribution.Address
         });
         return acc;
@@ -48,14 +48,14 @@ function AggregatedDataTable({ profile, selectedDateRange, contribution_data }) 
 
         // Sort by "Amount" in descending order and take the top 10 rows
         tableData = tableData
-            .sort((a, b) => b.Amount - a.Amount) // Sort descending
-            .slice(0, 10); // Get top 10 rows
+            .sort((a, b) => b.Amount - a.Amount)
+            .slice(0, 10);
 
         const table = new Tabulator("#aggregated-contributions-table", {
             data: tableData,
             layout: "fitColumns",
             initialSort: [
-                { column: "Amount", dir: "desc" }, // Sort by "Amount" descending
+                { column: "Amount", dir: "desc" },
             ],
             columns: [
                 { title: "Contributor", field: "Name" },

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { TabulatorFull as Tabulator } from "tabulator-tables"; // Import Tabulator library
-import 'tabulator-tables/dist/css/tabulator.min.css'; // Import Tabulator CSS
+import { TabulatorFull as Tabulator } from "tabulator-tables";
+import 'tabulator-tables/dist/css/tabulator.min.css';
 import { CSVLink } from 'react-csv';
 
 function IndividualContributionsTable({ profile, selectedDateRange, contribution_data }) {

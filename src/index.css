@@ -219,8 +219,8 @@ i {
   justify-content: space-between;
   overflow: hidden;
 
-  word-wrap: break-word; /* Ensures words are broken to fit within the container */
-  white-space: normal; /* Ensures text will wrap to the next line */
+  word-wrap: break-word;
+  white-space: normal;
   padding: 0.5rem;
   border-radius: 8px;
   color: inherit;
@@ -364,7 +364,6 @@ i {
   width: 100%;
 }
 
-/* Ensure the section takes the full viewport height */
 #highlights {
   display: flex;
   flex-direction: column;
@@ -380,23 +379,23 @@ i {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Add spacing between boxes */
+  gap: 20px; 
 }
 
 .box-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center; /* Ensure titles align properly */
-  width: auto; /* Allow the wrapper to adjust to the content */
+  text-align: center;
+  width: auto; 
   font-size: 4rem;
   margin: 0.5em;
 }
 
 .box {
-  padding: 15px 20px; /* Add consistent padding for content */
+  padding: 15px 20px; 
   margin: 10px;
-  border-radius: 8px; /* Add rounded corners */
+  border-radius: 8px; 
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
@@ -404,18 +403,18 @@ i {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-width: 150px; /* Prevent boxes from becoming too narrow */
-  white-space: nowrap; /* Prevent content from wrapping */
+  min-width: 150px;
+  white-space: nowrap;
 }
 
 .box-title {
-  margin-top: 10px; /* Space between the box and its title */
+  margin-top: 10px;
   font-size: 1.2rem;
   text-align: center;
-  max-width: 200px; /* Keep titles within a reasonable width */
-  word-wrap: break-word; /* Handle long words or phrases */
+  max-width: 200px;
+  word-wrap: break-word;
   color: #BF2A2A;
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 10px;
 }
 
 .box-subtitle {
