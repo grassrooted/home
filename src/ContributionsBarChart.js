@@ -37,7 +37,7 @@ function ContributionsBarChart({ profile, selectedDateRange, contribution_data }
     // Prepare data for the bar chart
     const data = {
         labels: [
-            ...Array.from({ length: num_buckets }, (_, i) => `${i * step} - ${(i + 1) * step - 1}`),
+            ...Array.from({ length: num_buckets }, (_, i) => `$${i * step} - $${(i + 1) * step - 1}`),
             `${profile.individual_limit}+` // Final bucket label
         ],
         datasets: [

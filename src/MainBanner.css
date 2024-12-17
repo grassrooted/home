@@ -63,6 +63,7 @@
 
 .dropdown-menu {
     position: absolute;
+    display: flex;
     top: 100%;
     left: 0;
     background-color: #fff;
@@ -70,6 +71,9 @@
     list-style: none;
     z-index: 10;
     width: 150px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .dropdown-item {

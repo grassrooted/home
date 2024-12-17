@@ -103,11 +103,11 @@ function DonationsHeatMap({ city_config, contribution_data }) {
             <h1>Donations Heatmap</h1>
             <h4><i>Refers to all contribution data.</i></h4>
             <div ref={mapContainerRef} style={{ width: '100%', height: '500px' }} />
-            {errorCount > 0 && (
-                <div className="error-popup" style={{ position: 'relative', top: 10, left: 10, backgroundColor: 'white', padding: '10px', borderRadius: '5px', boxShadow: '0 2px 5px rgba(0,0,0,0.3)' }}>
-                    <p>{errorCount} records could not be geocoded.</p>
-                </div>
-            )}
+                {errorCount > 0 && (
+                    <div className="error-popup" style={{backgroundColor: 'white', margin: '8px', padding: '2px', borderRadius: '5px', boxShadow: '0 2px 5px rgba(0,0,0,0.3)' }}>
+                        <p>{errorCount} records could not be geocoded.</p>
+                    </div>
+                )}
         </div>
     );
 }
