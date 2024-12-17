@@ -68,7 +68,7 @@ function TimelineChart({ profile, contribution_data }) {
 
     return (
         <div className='section' id="timeline">
-            <h1>Individual Contributions Timeline</h1>
+            <h1>Individual Donation Timeline</h1>
             <h4><i>Refers to all contribution data.</i></h4>
             <div className="timeline-chart-container">
                 <Line data={data} options={options} />
