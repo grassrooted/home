@@ -21,6 +21,7 @@
     max-width: 300px;
     margin: auto;
     height: 100px;
+    padding-top: 10px;
   }
 
   .profileSnapshot:hover {
@@ -28,6 +29,9 @@
     background-color: #003F87;
     }
 
+  .profileSnapshot p{
+    margin: 20px;
+  }
 
   .profile-district-header{
     color: #D7816A;
@@ -40,4 +44,22 @@
     .profile-headshot {
         height: 180px;
       }
+  }
+
+  #first-election-wrapper{
+    background-color: #D7816A;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  #next-election-wrapper{
+    background-color: #D7816A;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  #first-election-wrapper h3, #next-election-wrapper h3 {
+    margin: auto;
   }
