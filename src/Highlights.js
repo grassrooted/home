@@ -1,3 +1,5 @@
+import React, { useMemo } from 'react';
+
 function calculateExcessContributions(data, startDate, endDate, limitNonPAC, limitPAC) {
     let excessSum = 0;
     Object.keys(data).forEach(true_name => {
@@ -23,8 +25,17 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
     return excessSum;
 }
 
-function Highlights({profile, aggregated_data, contribution_data}) {
-    const data = contribution_data
+function Highlights({profile, aggregated_data, contribution_data, selectedDateRange}) {
+    const data = useMemo(() => {
+        if (selectedDateRange === 'all') {
+            return contribution_data;
+        }
+        const { start, end } = selectedDateRange;
+        return contribution_data.filter(record => {
+            const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
+            return transactionDate >= start && transactionDate <= end;
+        });
+    }, [contribution_data, profile, selectedDateRange]);
 
     let total_contributions = 0
     data.forEach(record => {
@@ -35,32 +46,25 @@ function Highlights({profile, aggregated_data, contribution_data}) {
         .filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false)))
         .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0);
 
-    const outside_city_sum = total_contributions - in_city_sum
-    const outside_city_percentage = Math.round((outside_city_sum / total_contributions) * 100);
+    let outside_city_sum = Math.round((total_contributions || 0) - (in_city_sum || 0));
 
-    const electionCycles = [
-        { startDate: new Date('2017-05-05'), endDate: new Date('2019-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
-        { startDate: new Date('2019-05-05'), endDate: new Date('2021-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
-        { startDate: new Date('2021-05-05'), endDate: new Date('2023-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit },
-        { startDate: new Date('2023-05-05'), endDate: new Date('2025-05-04'), limitNonPAC: profile.individual_limit, limitPAC: profile.pac_limit }
-    ];
+    let outside_city_percentage = total_contributions 
+        ? Math.round((outside_city_sum / total_contributions) * 100) 
+        : 0;
 
-    let totalExcessContributions = 0;
-    electionCycles.forEach(cycle => {
-        totalExcessContributions += calculateExcessContributions(
+    let totalExcessContributions = calculateExcessContributions(
             aggregated_data,
-            cycle.startDate,
-            cycle.endDate,
-            cycle.limitNonPAC,
-            cycle.limitPAC
-        );
-    });
+            selectedDateRange.start,
+            selectedDateRange.end,
+            profile.individual_limit,
+            profile.pac_limit
+        )
 
     totalExcessContributions = Math.round(totalExcessContributions)
     return (
         <div className="section" id="highlights">
             <h1>Highlights</h1>
-            <h4><i>Refers to all contribution data.</i></h4>
+            <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
             <div className="box-container">
                 <div className="box-wrapper">
                     <div id="ExternalSupport">{outside_city_percentage}%</div>

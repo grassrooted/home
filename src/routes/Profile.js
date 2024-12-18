@@ -58,7 +58,7 @@ const generateElectionCycles = (profile) => {
     const nextElectionYear = parseInt(next_election, 10);
     const [month, day] = election_date.split('-').map(Number);
 
-    while (year <= nextElectionYear) {
+    while (year < nextElectionYear) {
         const startDate = new Date(year, month - 1, day);
         const endDate = new Date(year + election_cycle_years, month - 1, day - 1);
         electionCycles.push({
@@ -106,7 +106,9 @@ function Profile() {
             <Highlights 
                 profile={profile} 
                 aggregated_data={aggregated_data} 
-                contribution_data={contribution_data} />
+                contribution_data={contribution_data} 
+                selectedDateRange={selectedDateRange}
+                electionCycles={electionCycles}/>
 
             <DonationsHeatMap 
                 contribution_data={contribution_data}
