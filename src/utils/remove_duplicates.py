@@ -1,32 +1,29 @@
 import json
 
-def remove_duplicates_by_fields(json_data, compare_fields):
-    """
-    Remove duplicates from a list of JSON objects by comparing specific fields,
-    prioritizing records with "Correction": "X" when duplicates are found.
-    
-    :param json_data: List of JSON objects
-    :param compare_fields: List of fields to compare for duplicates
-    :return: List of JSON objects with duplicates removed
-    """
-    seen = {}
-    
-    for entry in json_data:
-        # Create a composite key from the fields to compare
-        composite_key = tuple(entry.get(field) for field in compare_fields)
-        
-        if composite_key in seen:
-            # If duplicate exists, prioritize the one with "Correction": "X"
-            if entry.get("Correction") == "X":
-                seen[composite_key] = entry
-        else:
-            seen[composite_key] = entry
-    
-    # Return the unique records as a list
-    return list(seen.values())
+def remove_duplicates(data):
+    # Create a dictionary to track records by a composite key (Name, Contribution_Amount, Contribution_Date, Donor_Address)
+    seen_records = {}
 
-# Example JSON input
-json_input = [
+    # Iterate through each record in the data
+    for record in data[:]:
+        # Create a unique key based on the key fields (Name, Contribution_Amount, Contribution_Date, Donor_Address)
+        key = (record['Name'], record['Contribution_Amount'], record['Contribution_Date'], record['Donor_Address'])
+
+        # Check if the record is already in the seen_records dictionary
+        if key in seen_records:
+            # Compare the 'Correction' field to decide which record to keep
+            if record['Correction'] == 'X' and seen_records[key]['Correction'] == 'NaN':
+                # Remove the previous entry with the 'NaN' Correction (duplicate with corrected data)
+                data.remove(seen_records[key])
+                seen_records[key] = record  # Update the record to the corrected one
+        else:
+            # If the key is not yet in seen_records, add it
+            seen_records[key] = record
+
+    return data
+
+# Example usage
+json_data = [
     {
         "Name": "Alam, Paige",
         "Recipient": "Harper-Madison, Natasha N.",
@@ -28389,12 +28386,11 @@ json_input = [
     }
 ]
 
-# Define the fields to compare
-fields_to_compare = ["Name", "Contribution_Amount", "Contribution_Date", "Donor_Address"]
-
 # Remove duplicates
-cleaned_data = remove_duplicates_by_fields(json_input, fields_to_compare)
+cleaned_data = remove_duplicates(json_data)
 
-# Print the cleaned JSON
-with open('no_duplicates.json', 'w') as f:
-    json.dump(cleaned_data, f)
+# Print the cleaned data
+print(json.dumps(cleaned_data, indent=4))
+
+with open("no-duplicates.json", "w") as f:
+    json.dump(cleaned_data, f, ensure_ascii=False, indent=4)

@@ -13,6 +13,7 @@ import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import { useParams } from "react-router"
 import DonationsHeatMap from '../DonationsHeatMap';
 import React, { useState } from 'react';
+import DonorOccupationPieChart from '../DonorOccupationPieChart';
 
 
 export async function loader({ params }) {
@@ -109,6 +110,9 @@ function Profile() {
                 contribution_data={contribution_data} 
                 selectedDateRange={selectedDateRange}
                 electionCycles={electionCycles}/>
+
+            <DonorOccupationPieChart
+                contribution_data={contribution_data}/>
 
             <DonationsHeatMap 
                 contribution_data={contribution_data}

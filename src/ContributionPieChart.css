@@ -1,4 +1,4 @@
-  #contribution-pie-chart{
+  #contribution-pie-chart-wrapper{
     display: flex;
     flex-direction: column;
     background: #F7F4E9;
@@ -7,7 +7,7 @@
     margin-top: 20px;
   }
   
-  .pie-chart-container {
+  #funding-summary-pie-chart {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;

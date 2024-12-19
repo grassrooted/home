@@ -114,10 +114,10 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
         .sort((a, b) => b.amount - a.amount);
 
     return (
-        <div className="section" id="contribution-pie-chart">
+        <div className="section" id="contribution-pie-chart-wrapper">
             <h1>Donor Summary</h1>
             <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
-            <div className="pie-chart-container">
+            <div id="funding-summary-pie-chart">
                 <Pie data={data} options={options}/>
             </div>
             <table id="contribution-pie-chart-table">

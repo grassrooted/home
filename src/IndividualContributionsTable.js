@@ -9,15 +9,26 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
     };
 
     useEffect(() => {
+        // Preprocess data to convert Transaction Date to a JavaScript Date object
+        const preprocessData = (data) => {
+            return data.map(record => ({
+                ...record,
+                [profile.contribution_fields.Transaction_Date]: new Date(record[profile.contribution_fields.Transaction_Date])
+            }));
+        };
+
         const filterDataByDate = (data, dateRange) => {
             const { start, end } = dateRange;
             return data.filter(record => {
-                const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
+                const transactionDate = record[profile.contribution_fields.Transaction_Date];
                 return transactionDate >= start && transactionDate <= end;
             });
         };
 
-        const filteredData = selectedDateRange === 'all' ? contribution_data : filterDataByDate(contribution_data, selectedDateRange);
+        const processedData = preprocessData(contribution_data);
+        const filteredData = selectedDateRange === 'all' 
+            ? processedData 
+            : filterDataByDate(processedData, selectedDateRange);
         const tableData = Object.values(filteredData);
 
         const columns = [
@@ -27,7 +38,15 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
             {
                 title: "Transaction Date",
                 field: profile.contribution_fields.Transaction_Date,
-                formatter: cell => new Date(cell.getValue()).toLocaleDateString()
+                sorter: (a, b) => new Date(a) - new Date(b), // Custom date sorter
+                formatter: (cell) => {
+                    const dateValue = cell.getValue();
+                    if (isNaN(dateValue)) {
+                        return "(Invalid Date)";
+                    }
+                    return dateValue.toLocaleDateString("en-US"); // Format as MM/DD/YYYY
+                },
+                headerFilter: "input" // Optional: Add date search/filter
             }
         ];
 
@@ -49,7 +68,9 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
     return (
         <div className='section'>
             <h1>All Donations</h1>
-            <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
+            <h4>
+                <i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i>
+            </h4>
             <CSVLink data={contribution_data} filename="contribution_data.csv">
                 <button>Download Data</button>
             </CSVLink>    

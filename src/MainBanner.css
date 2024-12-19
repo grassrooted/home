@@ -25,6 +25,7 @@
 
 .home-button-icon {
     width: 250px;
+    height: 80px;
     object-fit: contain;
 }
 
@@ -66,7 +67,7 @@
     display: flex;
     top: 100%;
     left: 0;
-    background-color: #0013de;
+    background-color: #f9f9f9;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -75,7 +76,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .dropdown-item {
@@ -86,7 +87,7 @@
 }
 
 .dropdown-item:hover {
-    background-color: #00008B;
+    background-color: #d3d3d3;
 }
 
 @media (max-width: 768px) {

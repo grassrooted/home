@@ -1,0 +1,16 @@
+#occupation-pie-chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #F7F4E9;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+#occupation-pie-chart{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+}
