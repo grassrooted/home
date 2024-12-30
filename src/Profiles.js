@@ -35,3 +35,17 @@ export async function getProfile(id) {
       }
     return res
 }
+
+export async function getProfilesForComparison() {
+  const profiles = await getProfiles()
+  let data = null
+  try {
+    profiles.forEach((profile) => {
+      const profileData = getProfile(profile.id)
+      data.push(...profileData)
+    });
+  } catch (error) {
+    console.error('Error fetching data: ', error)
+  }
+  return data
+}
