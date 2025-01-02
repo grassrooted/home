@@ -9,7 +9,7 @@ import Main from "./routes/main";
 import City from "./routes/City";
 import CityLayout from './routes/CityLayout';
 import About from './routes/About';
-import Compare, {loader as profileComparisonLoader} from './routes/Compare';
+import {loader as cityLoader } from "./routes/City";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
           {
             index: true,
             element: <City />,
-            loader: rootLoader
+            loader: cityLoader,
           },
           {
             path: "profiles/:profileId",
@@ -42,11 +42,6 @@ const router = createBrowserRouter([
             loader: profileLoader,
           },
         ],
-      },
-      {
-        path: "compare",
-        element: <Compare />,
-        loader: profileComparisonLoader,
       },
       {
         path: "about",

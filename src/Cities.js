@@ -1,6 +1,8 @@
 import yaml from 'js-yaml';
 import { matchSorter } from "match-sorter";
 import sortBy from "sort-by";
+import { getProfile, getProfiles } from './Profiles';
+
 
 export async function getCities(query) {
   try {
@@ -15,5 +17,24 @@ export async function getCities(query) {
   } catch (error) {
     console.error('Error fetching or parsing YAML file:', error);
   }  
+}
+
+// ERROR BC WE AREN'T LOADING PROFILE DATA CORRECTLY ****NEED TO AWAIT THE GETPROFILE COMPLETION****
+
+export async function getCityData(cityId) {
+  const profiles = await getProfiles()
+  const city_profiles = profiles.filter(profile => profile.city.replace(/\s+/g, '') === cityId)
+  const bulk_data = await Promise.all(
+    city_profiles.map(async (profile) => {
+      try {
+        return await getProfile(profile.id)
+      } catch (error) {
+        console.error(`Failed to load data for ${profile.name}`)
+        return null
+      }
+    })
+  ).then(results => results.filter(result => result !== null));
+
+  return bulk_data
 }
 

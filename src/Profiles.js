@@ -35,21 +35,3 @@ export async function getProfile(id) {
       }
     return res
 }
-
-// ERROR BC WE AREN'T LOADING PROFILE DATA CORRECTLY ****NEED TO AWAIT THE GETPROFILE COMPLETION****
-
-export async function getProfilesForComparison() {
-  const profiles = await getProfiles()
-  const bulk_data = await Promise.all(
-    profiles.map(async (profile) => {
-      try {
-        return await getProfile(profile.id)
-      } catch (error) {
-        console.error(`Failed to load data for ${profile.name}`)
-        return null
-      }
-    })
-  ).then(results => results.filter(result => result !== null));
-
-  return bulk_data
-}
