@@ -23,7 +23,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Jesus Moreno"
@@ -49,7 +49,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Zarin Gracey"
@@ -74,7 +74,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Carolyn Arnold"
@@ -101,7 +101,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Jaime Resendez"
@@ -128,7 +128,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Omar Narvaez"
@@ -155,7 +155,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Adam Bazaldua"
@@ -182,7 +182,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Tennell Atkins"
@@ -209,7 +209,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Paula Blackmon"
@@ -236,7 +236,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Kathy Stewart"
@@ -261,7 +261,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Jaynie Schultz"
@@ -287,7 +287,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Cara Mendelsohn"
@@ -314,7 +314,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Gay Willis"
@@ -340,7 +340,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Paul Ridley"
@@ -366,7 +366,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Sukh Kaur"
@@ -391,7 +391,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Jalen McKee-Rodriguez"
@@ -417,7 +417,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Phyllis Viagran"
@@ -443,7 +443,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Adriana Garcia"
@@ -470,7 +470,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Teri Castillo"
@@ -496,7 +496,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Melissa Cabello Havrda"
@@ -523,7 +523,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Marina Gavito"
@@ -548,7 +548,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Manny Pelaez"
@@ -575,7 +575,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "John Courage"
@@ -602,7 +602,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Marc Whyte"
@@ -627,7 +627,7 @@ contribution_fields:
   Donor: "Name"
   Recipient: "Cand/Committee:"
   Transaction_Date: "Transaction Date:"
-  Amount: "Amount:"
+  Amount: "Contribution_Amount"
   Address: "Address"
 ---
 name: "Natasha Harper-Madison"
