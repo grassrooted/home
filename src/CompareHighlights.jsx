@@ -26,7 +26,7 @@ const CompareHighlights = ({ profiles, data }) => {
                   labels: profiles.map((profile) => profile.name),
                   datasets: [
                     {
-                      label: 'Total Contribution',
+                      label: 'Total Contributions',
                       data: profiles.map((profile) => all_profiles_total_contributions[profile.name]?.total_contributions || 0),
                       backgroundColor: 'rgba(75, 192, 192, 0.6)',
                       borderColor: 'rgba(75, 192, 192, 1)',
@@ -46,7 +46,7 @@ const CompareHighlights = ({ profiles, data }) => {
                     y: {
                       title: {
                         display: true,
-                        text: 'Total Contributions',
+                        text: 'Total Contributions ($)',
                       },
                       beginAtZero: true,
                     },
