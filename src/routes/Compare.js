@@ -1,7 +1,7 @@
 import '../index.css';
-import { Outlet } from "react-router-dom";
 import { getProfilesForComparison, getProfiles } from '../Profiles';
 import { useLoaderData } from "react-router-dom";
+import CompareHighlights from '../CompareHighlights';
 
 
 export async function loader() {
@@ -14,10 +14,11 @@ function Compare() {
     const res = useLoaderData();
     const all_data = res.data;
     const profiles = res.profiles;
-    console.log(profiles)
     return (
         <div>
-            <Outlet />
+            <CompareHighlights 
+                data = {all_data}
+                profiles={profiles} />
         </div>
     );
 }
