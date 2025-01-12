@@ -19,9 +19,8 @@ export async function getCities(query) {
   }  
 }
 
-// ERROR BC WE AREN'T LOADING PROFILE DATA CORRECTLY ****NEED TO AWAIT THE GETPROFILE COMPLETION****
 
-export async function getCityData(cityId) {
+export async function getCityProfiles(cityId) {
   const profiles = await getProfiles()
   const city_profiles = profiles.filter(profile => profile.city.replace(/\s+/g, '') === cityId)
   const bulk_data = await Promise.all(

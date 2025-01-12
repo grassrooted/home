@@ -30,8 +30,9 @@ export async function getProfile(id) {
         data = jsonResponse.data;
         res = Array.from(new Set(data.map(JSON.stringify)))
                .map(JSON.parse);
+        profile.contributions = res;
       } catch (error) {
         console.error('Error fetching data:', error);
       }
-    return res
+    return profile
 }

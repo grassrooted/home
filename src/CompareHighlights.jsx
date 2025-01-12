@@ -1,33 +1,41 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
-const CompareHighlights = ({ profiles, data }) => {
+const CompareHighlights = ({ city_profile_data }) => {
     let all_profiles_total_contributions = {}
-
-    profiles.forEach(profile => {
-        all_profiles_total_contributions[profile.name] = {total_contributions: 0}
-    })
     
-    data.forEach(dataset => {
-        dataset.forEach(record => {
-            if (!all_profiles_total_contributions[record.Recipient]) {
-                all_profiles_total_contributions[record.Recipient] = { total_contributions: record.Contribution_Amount };
-            }
-            all_profiles_total_contributions[record.Recipient].total_contributions += record.Contribution_Amount;
-    })});
+    city_profile_data.forEach(profile => {
+        all_profiles_total_contributions[profile.name] = {total_contributions: 0, in_city_sum: 0}
 
-    console.log(all_profiles_total_contributions)
-    console.log(profiles)
+        profile.contributions.forEach(record => {
+            all_profiles_total_contributions[record.Recipient].total_contributions += record.Contribution_Amount;
+        })
+        
+        const in_city_sum = profile.contributions
+                .filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false)))
+                .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0);
+
+        const outside_city_sum = Math.round((all_profiles_total_contributions[profile.name].total_contributions || 0) - (in_city_sum || 0));
+
+        all_profiles_total_contributions[profile.name].in_city_sum = in_city_sum
+        all_profiles_total_contributions[profile.name].outside_city_sum = outside_city_sum
+    });
+
+
+   
+
+    
+
     return (
         <div>
             <div style={{ marginBottom: '40px' }}>
               <Bar
                 data={{
-                  labels: profiles.map((profile) => profile.name),
+                  labels: city_profile_data.map((profile) => profile.name),
                   datasets: [
                     {
                       label: 'Total Contributions',
-                      data: profiles.map((profile) => all_profiles_total_contributions[profile.name]?.total_contributions || 0),
+                      data: city_profile_data.map((profile) => all_profiles_total_contributions[profile.name]?.total_contributions || 0),
                       backgroundColor: 'rgba(75, 192, 192, 0.6)',
                       borderColor: 'rgba(75, 192, 192, 1)',
                       borderWidth: 1,
@@ -47,6 +55,40 @@ const CompareHighlights = ({ profiles, data }) => {
                       title: {
                         display: true,
                         text: 'Total Contributions ($)',
+                      },
+                      beginAtZero: true,
+                    },
+                  },
+                }}
+              />
+
+
+            <Bar
+                data={{
+                  labels: city_profile_data.map((profile) => profile.name),
+                  datasets: [
+                    {
+                      label: 'Contributions from outside of the city ($)',
+                      data: city_profile_data.map((profile) => all_profiles_total_contributions[profile.name]?.outside_city_sum || 0),
+                      backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                      borderColor: 'rgba(75, 192, 192, 1)',
+                      borderWidth: 1,
+                    },
+                  ],
+                }}
+                options={{
+                  responsive: true,
+                  scales: {
+                    x: {
+                      title: {
+                        display: true,
+                        text: 'Name',
+                      },
+                    },
+                    y: {
+                      title: {
+                        display: true,
+                        text: 'Contributions from outside of the city ($)',
                       },
                       beginAtZero: true,
                     },
