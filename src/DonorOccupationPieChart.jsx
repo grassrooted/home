@@ -50,8 +50,7 @@ const DonorOccupationPieChart = ({ contribution_data }) => {
     datasets: [
       {
         data: dataPoints,
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF"],
-        hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0", "#9966FF"],
+        backgroundColor: ['#4caf50', '#ff5722', '#3f51b5', '#9c27b0', '#ffc107', '#9e9e9e'],
       },
     ],
   };

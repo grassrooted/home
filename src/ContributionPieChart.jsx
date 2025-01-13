@@ -78,9 +78,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
                     categories.otherCandidates,
                     categories.other,
                 ],
-                backgroundColor: [
-                    '#4caf50', '#ff5722', '#3f51b5', '#9c27b0', '#ffc107', '#9e9e9e',
-                ],
+                backgroundColor: ['#4caf50', '#ff5722', '#3f51b5', '#9c27b0', '#ffc107', '#9e9e9e'],
                 hoverOffset: 4,
             },
         ],
