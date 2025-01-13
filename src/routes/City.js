@@ -75,7 +75,9 @@ function City() {
                 selectedDateRange={selectedDateRange} 
                 setSelectedDateRange={setSelectedDateRange}/>
 
-            <CompareHighlights city_profile_data={city_profile_data}/>
+            <CompareHighlights 
+                city_profile_data={city_profile_data}
+                selectedDateRange={selectedDateRange} />
 
             <StackedBarChartDonorSummary 
                 cityProfileData={city_profile_data} 

@@ -1,17 +1,24 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
-const CompareHighlights = ({ city_profile_data }) => {
+const CompareHighlights = ({ city_profile_data, selectedDateRange }) => {
     let all_profiles_total_contributions = {}
     
     city_profile_data.forEach(profile => {
+        const filteredData = selectedDateRange === 'all'
+            ? profile.contributions
+            : profile.contributions.filter(record => {
+                const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
+                return transactionDate >= selectedDateRange.start && transactionDate <= selectedDateRange.end;
+            });
+        
         all_profiles_total_contributions[profile.name] = {total_contributions: 0, in_city_sum: 0}
 
-        profile.contributions.forEach(record => {
+        filteredData.forEach(record => {
             all_profiles_total_contributions[record.Recipient].total_contributions += record.Contribution_Amount;
         })
         
-        const in_city_sum = profile.contributions
+        const in_city_sum = filteredData
                 .filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false)))
                 .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0);
 
