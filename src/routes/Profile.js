@@ -2,7 +2,7 @@ import ProfileSnapshot from '../ProfileSnapshot';
 import { getProfile, getProfiles } from '../Profiles';
 import TimelineChart from '../TimelineChart';
 import ContributionsBarChart from '../ContributionsBarChart';
-import { useLoaderData, useRouteLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import '../index.css';
 import Highlights from '../Highlights';
 import IndividualContributionsTable from '../IndividualContributionsTable';
@@ -10,8 +10,6 @@ import AggregatedDataTable from '../AggregatedDataTable';
 import Header from '../Header';
 import ContributionPieChart from '../ContributionPieChart';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
-import { useParams } from "react-router"
-import DonationsHeatMap from '../DonationsHeatMap';
 import React, { useState } from 'react';
 
 
@@ -76,9 +74,6 @@ function Profile() {
     const profile = res.profile;
     const profiles = res.profiles;
 
-    const { cityId } = useParams()
-    const { cities } = useRouteLoaderData("root");
-    const city_config = cities.find(city => city.id === cityId);
     const aggregated_data = aggregateDataByName(contribution_data, profile);
 
     const electionCycles = generateElectionCycles(profile);
@@ -108,10 +103,6 @@ function Profile() {
                 contribution_data={contribution_data} 
                 selectedDateRange={selectedDateRange}
                 electionCycles={electionCycles}/>
-
-            <DonationsHeatMap 
-                contribution_data={contribution_data}
-                city_config={city_config}/>
 
             <ContributionPieChart
                 profile={profile}
