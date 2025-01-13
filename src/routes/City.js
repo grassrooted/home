@@ -6,7 +6,9 @@ import Header from '../Header';
 import CompareHighlights from '../CompareHighlights';
 import { getCities, getCityProfiles } from "../Cities";
 import { getProfiles } from '../Profiles';
-
+import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
+import React, { useState } from 'react';
+import ElectionCycleDropdown from '../ElectionCycleDropdown';
 
 export async function loader({params}) {
     const city_profile_data = await getCityProfiles(params.cityId);
@@ -16,11 +18,49 @@ export async function loader({params}) {
     return { city_profile_data, profiles, cities };
 }
 
+const generateElectionCycles = (profiles) => {
+    const earliestFirstElection = Math.min(
+        ...profiles.map(profile => parseInt(profile.first_election, 10))
+    );
+    const latestNextElection = Math.max(
+        ...profiles.map(profile => parseInt(profile.next_election, 10))
+    );
+
+    const smallestCycleYears = Math.min(
+        ...profiles.map(profile => profile.election_cycle_years)
+    );
+
+    const electionCycles = [];
+    let year = earliestFirstElection - smallestCycleYears;
+    const [month, day] = profiles[0].election_date.split('-').map(Number);
+    const election_cycle_years = profiles[0].election_cycle_years
+
+    while (year < latestNextElection) {
+        const startDate = new Date(year, month - 1, day);
+        const endDate = new Date(year + election_cycle_years, month - 1, day - 1);
+        electionCycles.push({
+            start: startDate,
+            end: endDate,
+        });
+        year += election_cycle_years;
+    }
+
+    return electionCycles;
+};
+
 function City() {
     const { cityId } = useParams()
     const { profiles, cities, city_profile_data } = useLoaderData();
 
     console.log(city_profile_data)
+
+    const electionCycles = generateElectionCycles(city_profile_data);
+    const [selectedDateRange, setSelectedDateRange] = useState({
+        start: electionCycles[0].start,
+        end: electionCycles[electionCycles.length - 1].end,
+    });
+
+    console.log(electionCycles)
 
     const city_config = cities.find(city => city.id === cityId);
 
@@ -30,7 +70,16 @@ function City() {
         <div>
             <Header city={city_config.name} profile={city_config} />
 
+            <ElectionCycleDropdown 
+                electionCycles={electionCycles} 
+                selectedDateRange={selectedDateRange} 
+                setSelectedDateRange={setSelectedDateRange}/>
+
             <CompareHighlights city_profile_data={city_profile_data}/>
+
+            <StackedBarChartDonorSummary 
+                cityProfileData={city_profile_data} 
+                selectedDateRange={selectedDateRange} />
 
             <ProfileStream cityId={cityId} city_profiles={city_profiles}/>
 
