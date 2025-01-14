@@ -36,46 +36,13 @@ const CompareHighlights = ({ city_profile_data, selectedDateRange }) => {
     return (
         <div>
             <div style={{ marginBottom: '40px' }}>
-              <Bar
-                data={{
-                  labels: city_profile_data.map((profile) => profile.name),
-                  datasets: [
-                    {
-                      label: 'Total Contributions',
-                      data: city_profile_data.map((profile) => all_profiles_total_contributions[profile.name]?.total_contributions || 0),
-                      backgroundColor: 'rgba(75, 192, 192, 0.6)',
-                      borderColor: 'rgba(75, 192, 192, 1)',
-                      borderWidth: 1,
-                    },
-                  ],
-                }}
-                options={{
-                  responsive: true,
-                  scales: {
-                    x: {
-                      title: {
-                        display: true,
-                        text: 'Name',
-                      },
-                    },
-                    y: {
-                      title: {
-                        display: true,
-                        text: 'Total Contributions ($)',
-                      },
-                      beginAtZero: true,
-                    },
-                  },
-                }}
-              />
-
 
             <Bar
                 data={{
                   labels: city_profile_data.map((profile) => profile.name),
                   datasets: [
                     {
-                      label: 'Contributions from outside of the city ($)',
+                      label: `Contributions from outside of ${city_profile_data[0].city}  ($)`,
                       data: city_profile_data.map((profile) => all_profiles_total_contributions[profile.name]?.outside_city_sum || 0),
                       backgroundColor: 'rgba(75, 192, 192, 0.6)',
                       borderColor: 'rgba(75, 192, 192, 1)',
@@ -95,7 +62,7 @@ const CompareHighlights = ({ city_profile_data, selectedDateRange }) => {
                     y: {
                       title: {
                         display: true,
-                        text: 'Contributions from outside of the city ($)',
+                        text: `Contributions from outside of ${city_profile_data[0].city}  ($)`,
                       },
                       beginAtZero: true,
                     },

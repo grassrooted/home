@@ -9,6 +9,7 @@ import { getProfiles } from '../Profiles';
 import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
 import React, { useState } from 'react';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
+import IndividualContributionsTable from '../IndividualContributionsTable';
 
 export async function loader({params}) {
     const city_profile_data = await getCityProfiles(params.cityId);
@@ -66,9 +67,18 @@ function City() {
 
     let city_profiles = profiles.filter(p => p.city === city_config.name);
 
+    const allContributions = city_profile_data.flatMap((profile) => {
+        return profile.contributions.map((contribution) => ({
+            profileName: profile.name,
+            ...contribution,
+        }));
+    });
+
     return (
         <div>
-            <Header city={city_config.name} profile={city_config} />
+            <Header 
+                city={city_config.name} 
+                profile={city_config} />
 
             <ElectionCycleDropdown 
                 electionCycles={electionCycles} 
@@ -83,7 +93,15 @@ function City() {
                 cityProfileData={city_profile_data} 
                 selectedDateRange={selectedDateRange} />
 
-            <ProfileStream cityId={cityId} city_profiles={city_profiles}/>
+            <IndividualContributionsTable
+                profile={city_profile_data[0]} 
+                contribution_data={allContributions}
+                selectedDateRange={selectedDateRange} />
+
+
+            <ProfileStream 
+                cityId={cityId} 
+                city_profiles={city_profiles}/>
 
         </div>
     );

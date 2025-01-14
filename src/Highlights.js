@@ -10,8 +10,8 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
         data[true_name].children.forEach(child => {
             const isodatestring = child.TransactionDate.replace(" ","T")
             const transactionDate = new Date(isodatestring);
-
-            if (transactionDate >= startDate && transactionDate <= endDate) {
+            const donorName = child.Name;
+            if (transactionDate >= startDate && transactionDate <= endDate && !donorName.includes("City of Austin")) {
                 const amount = child.Amount;
                 total_contributed += amount
             }
