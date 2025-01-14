@@ -40,8 +40,8 @@ function MainBanner({ cities, profiles }) {
 
     return (
         <div className={`main-banner ${menuOpen ? 'responsive' : ''}`}>
-            <NavLink to="/" className="home-button">
-                <img alt="home icon" className="home-button-icon" src="/logo.png" />
+            <NavLink to="/home/" className="home-button">
+                <img alt="home icon" className="home-button-icon" src="/home/logo.png" />
             </NavLink>
 
             <div className="hamburger-icon" onClick={toggleMenu}>

@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         loader: rootLoader
       },
       {
-        path: "cities/:cityId",
+        path: "home/cities/:cityId",
         element: <CityLayout />,
         loader: rootLoader,
         children: [
@@ -54,6 +54,6 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} basename="/home"/>
+    <RouterProvider router={router} basename="/home" />
   </React.StrictMode>
 );
