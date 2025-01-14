@@ -1,7 +1,8 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
+import './index.css';
 
-const CompareHighlights = ({ city_profile_data, selectedDateRange }) => {
+const OutOfCityBarChart = ({ city_profile_data, selectedDateRange }) => {
     let all_profiles_total_contributions = {}
     
     city_profile_data.forEach(profile => {
@@ -34,8 +35,15 @@ const CompareHighlights = ({ city_profile_data, selectedDateRange }) => {
     
 
     return (
-        <div>
-            <div style={{ marginBottom: '40px' }}>
+        <div className="section" id="out-of-city-wrapper-agg">
+            <h2>
+              External Support (Non-{city_profile_data[0].city} Contributions)
+            </h2>
+            <h4>
+                <i>
+                    Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}
+                </i>
+            </h4>
 
             <Bar
                 data={{
@@ -69,9 +77,8 @@ const CompareHighlights = ({ city_profile_data, selectedDateRange }) => {
                   },
                 }}
               />
-            </div>
-        </div>
+          </div>
       );
     };
 
-export default CompareHighlights;
+export default OutOfCityBarChart;

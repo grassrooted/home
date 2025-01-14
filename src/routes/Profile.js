@@ -85,6 +85,11 @@ function Profile() {
 
     return (
         <div>
+            <ElectionCycleDropdown 
+                electionCycles={electionCycles} 
+                selectedDateRange={selectedDateRange} 
+                setSelectedDateRange={setSelectedDateRange}/>
+
             <Header 
                 city={profile.city} 
                 profile={profile} />
@@ -92,23 +97,12 @@ function Profile() {
             <ProfileSnapshot 
                 profile={profile} />
 
-            <ElectionCycleDropdown 
-                electionCycles={electionCycles} 
-                selectedDateRange={selectedDateRange} 
-                setSelectedDateRange={setSelectedDateRange}/>
-
             <Highlights 
                 profile={profile} 
                 aggregated_data={aggregated_data} 
                 contribution_data={contribution_data} 
                 selectedDateRange={selectedDateRange}
                 electionCycles={electionCycles}/>
-
-            <ContributionPieChart
-                profile={profile}
-                contribution_data={contribution_data}
-                profiles={profiles} 
-                selectedDateRange={selectedDateRange}/>
 
             <span className='side-by-side'>
                 <AggregatedDataTable 
@@ -121,6 +115,12 @@ function Profile() {
                     contribution_data={contribution_data}
                     selectedDateRange={selectedDateRange} />
             </span>
+
+            <ContributionPieChart
+                profile={profile}
+                contribution_data={contribution_data}
+                profiles={profiles} 
+                selectedDateRange={selectedDateRange}/>
 
             <TimelineChart 
                     profile={profile} 

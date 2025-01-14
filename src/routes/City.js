@@ -3,7 +3,7 @@ import { useParams } from "react-router"
 import { useLoaderData } from "react-router-dom";
 import ProfileStream from '../ProfileStream';
 import Header from '../Header';
-import CompareHighlights from '../CompareHighlights';
+import OutOfCityBarChart from '../OutOfCityBarChart';
 import { getCities, getCityProfiles } from "../Cities";
 import { getProfiles } from '../Profiles';
 import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
@@ -77,35 +77,36 @@ function City() {
 
     return (
         <div>
-            <Header 
-                city={city_config.name} 
-                profile={city_config} />
-
             <ElectionCycleDropdown 
                 electionCycles={electionCycles} 
                 selectedDateRange={selectedDateRange} 
                 setSelectedDateRange={setSelectedDateRange}/>
 
-            <CompareHighlights 
-                city_profile_data={city_profile_data}
-                selectedDateRange={selectedDateRange} />
+            <Header 
+                city={city_config.name} 
+                profile={city_config} />
 
             <StackedBarChartDonorSummary 
                 cityProfileData={city_profile_data} 
                 selectedDateRange={selectedDateRange} />
+
+            <CumulativeContributionsTimeline 
+                city_profile_data={city_profile_data} 
+                selectedDateRange={selectedDateRange}/> 
+
+            <OutOfCityBarChart 
+                city_profile_data={city_profile_data}
+                selectedDateRange={selectedDateRange} />
+
+            <ProfileStream 
+                cityId={cityId} 
+                city_profiles={city_profiles}/>
 
             <IndividualContributionsTable
                 profile={city_profile_data[0]} 
                 contribution_data={allContributions}
                 selectedDateRange={selectedDateRange} />
 
-            <CumulativeContributionsTimeline 
-                city_profile_data={city_profile_data} 
-                selectedDateRange={selectedDateRange}/>
-
-            <ProfileStream 
-                cityId={cityId} 
-                city_profiles={city_profiles}/>
 
         </div>
     );
