@@ -1,0 +1,65 @@
+#timeline-graph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#timeline-graph-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+#timeline-graph-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+#timeline-graph-canvas {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+.chartjs-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.chartjs-legend ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.chartjs-legend li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.chartjs-legend li span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    border-radius: 50%;
+}

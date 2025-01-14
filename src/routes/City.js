@@ -10,6 +10,7 @@ import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
 import React, { useState } from 'react';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import IndividualContributionsTable from '../IndividualContributionsTable';
+import CumulativeContributionsTimeline from '../CumulativeContributionsTimeline';
 
 export async function loader({params}) {
     const city_profile_data = await getCityProfiles(params.cityId);
@@ -98,6 +99,9 @@ function City() {
                 contribution_data={allContributions}
                 selectedDateRange={selectedDateRange} />
 
+            <CumulativeContributionsTimeline 
+                city_profile_data={city_profile_data} 
+                selectedDateRange={selectedDateRange}/>
 
             <ProfileStream 
                 cityId={cityId} 
