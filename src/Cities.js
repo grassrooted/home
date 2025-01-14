@@ -6,7 +6,7 @@ import { getProfile, getProfiles } from './Profiles';
 
 export async function getCities(query) {
   try {
-    const response = await fetch('/cities.yml');
+    const response = await fetch('/home/cities.yml');
     const yamlText = await response.text();
     let cities = yaml.loadAll(yamlText);
     if (!cities) cities = [];
