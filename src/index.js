@@ -13,51 +13,47 @@ import {loader as cityLoader } from "./routes/City";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/home/",
-      id: "root",
-      element: <Root />,
-      errorElement: <ErrorPage />,
-      loader: rootLoader,
-      children: [
-        { 
-          index: true, 
-          element: <Main />,
-          loader: rootLoader,
-        },
-        {
-          path: "cities/:cityId",
-          element: <CityLayout />,
-          loader: rootLoader,
-          children: [
-            {
-              index: true,
-              element: <City />,
-              loader: cityLoader,
-            },
-            {
-              path: "profiles/:profileId",
-              element: <Profile />,
-              loader: profileLoader,
-            },
-          ],
-        },
-        {
-          path: "about",
-          element: <About />,
-        },
-      ],
-    },
-  ],
-  { basename: "/home" } // Correct placement of basename
-);
-
+const router = createBrowserRouter([
+  {
+    path: "/home/",
+    id: "root",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    loader: rootLoader,
+    children: [
+      { 
+        index: true, 
+        element: <Main />,
+        loader: rootLoader
+      },
+      {
+        path: "cities/:cityId",
+        element: <CityLayout />,
+        loader: rootLoader,
+        children: [
+          {
+            index: true,
+            element: <City />,
+            loader: cityLoader,
+          },
+          {
+            path: "profiles/:profileId",
+            element: <Profile />,
+            loader: profileLoader,
+          },
+        ],
+      },
+      {
+        path: "about",
+        element: <About />
+      }
+    ],
+  },
+]);
 
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} basename="/home" />
   </React.StrictMode>
 );
