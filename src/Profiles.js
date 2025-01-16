@@ -5,7 +5,7 @@ import sortBy from "sort-by";
 
 export async function getProfiles(query) {
   try {
-    const response = await fetch('/profiles.yml');
+    const response = await fetch(`${process.env.PUBLIC_URL}/profiles.yml`);
     const yamlText = await response.text();
     let profiles = yaml.loadAll(yamlText);
     if (!profiles) profiles = [];
