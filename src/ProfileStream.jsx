@@ -2,10 +2,10 @@ import React from 'react';
 import ProfileSnapshot from "./ProfileSnapshot";
 import { NavLink } from "react-router-dom";
 
-const ProfileStream = ({ cityId, city_profiles }) => {
+const ProfileStream = ({ cityId, cityProfileData }) => {
     return (
         <div id="profile-stream">
-            {city_profiles.map((profile) => (
+            {cityProfileData.map((profile) => (
                 <NavLink
                     key={profile.id} 
                     to={`/cities/${cityId}/profiles/${profile.id}`}

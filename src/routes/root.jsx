@@ -13,9 +13,7 @@ export default function Root() {
     async function rootLoader() {
       try {
         const profiles = await getProfiles();
-        console.log("Profiles:", profiles);
         const cities = await getCities();
-        console.log("Cities:", cities);
 
         setProfiles(profiles);
         setCities(cities);

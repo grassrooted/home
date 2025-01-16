@@ -1,24 +1,14 @@
+import React, { useEffect, useState, useMemo } from 'react';
 import '../index.css';
-import { useParams } from "react-router"
-import { useLoaderData } from "react-router-dom";
+import { useOutletContext, useParams } from "react-router-dom";
 import ProfileStream from '../ProfileStream';
 import Header from '../Header';
 import OutOfCityBarChart from '../OutOfCityBarChart';
-import { getCities, getCityProfiles } from "../Cities";
-import { getProfiles } from '../Profiles';
+import { getCityProfiles } from "../Cities";
 import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
-import React, { useState } from 'react';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import CumulativeContributionsTimeline from '../CumulativeContributionsTimeline';
-
-export async function loader({params}) {
-    const city_profile_data = await getCityProfiles(params.cityId);
-    const profiles = await getProfiles();
-    const cities = await getCities();
-
-    return { city_profile_data, profiles, cities };
-}
 
 const generateElectionCycles = (profiles) => {
     const earliestFirstElection = Math.min(
@@ -35,7 +25,7 @@ const generateElectionCycles = (profiles) => {
     const electionCycles = [];
     let year = earliestFirstElection - smallestCycleYears;
     const [month, day] = profiles[0].election_date.split('-').map(Number);
-    const election_cycle_years = profiles[0].election_cycle_years
+    const election_cycle_years = profiles[0].election_cycle_years;
 
     while (year < latestNextElection) {
         const startDate = new Date(year, month - 1, day);
@@ -51,68 +41,82 @@ const generateElectionCycles = (profiles) => {
 };
 
 function City() {
-    const { cityId } = useParams()
-    const { profiles, cities, city_profile_data } = useLoaderData();
+    const { cityId } = useParams();
+    const { city_config } = useOutletContext();
 
-    console.log(city_profile_data)
+    const [cityProfileData, setCityProfileData] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const [selectedDateRange, setSelectedDateRange] = useState(null);
 
-    const electionCycles = generateElectionCycles(city_profile_data);
-    const [selectedDateRange, setSelectedDateRange] = useState({
-        start: electionCycles[0].start,
-        end: electionCycles[electionCycles.length - 1].end,
-    });
+    // Fetch city profile data
+    useEffect(() => {
+        const fetchCityData = async () => {
+            try {
+                const data = await getCityProfiles(cityId);
+                setCityProfileData(data);
+            } catch (err) {
+                setError("Failed to load city profile data.");
+            } finally {
+                setLoading(false);
+            }
+        };
 
-    console.log(electionCycles)
+        fetchCityData();
+    }, [cityId]);
 
-    const city_config = cities.find(city => city.id === cityId);
+    // Generate election cycles using useMemo
+    const electionCycles = useMemo(() => {
+        return cityProfileData ? generateElectionCycles(cityProfileData) : [];
+    }, [cityProfileData]);
 
-    let city_profiles = profiles.filter(p => p.city === city_config.name);
+    // Set selected date range once election cycles are available
+    useEffect(() => {
+        if (electionCycles.length > 0) {
+            setSelectedDateRange({
+                start: electionCycles[0].start,
+                end: electionCycles[electionCycles.length - 1].end,
+            });
+        }
+    }, [electionCycles]);
 
-    const allContributions = city_profile_data.flatMap((profile) => {
-        return profile.contributions.map((contribution) => ({
-            profileName: profile.name,
-            ...contribution,
-        }));
-    });
+    // Flatten contributions
+    const allContributions = useMemo(() => {
+        return cityProfileData
+            ? cityProfileData.flatMap(profile =>
+                  profile.contributions.map(contribution => ({
+                      profileName: profile.name,
+                      ...contribution,
+                  }))
+              )
+            : [];
+    }, [cityProfileData]);
 
+    // Handle loading and error states
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>{error}</div>;
+    if (!electionCycles.length || !selectedDateRange) {
+        return <div>Preparing data...</div>;
+    }
     return (
         <div>
-            <ElectionCycleDropdown 
-                electionCycles={electionCycles} 
-                selectedDateRange={selectedDateRange} 
-                setSelectedDateRange={setSelectedDateRange}/>
-
-            <Header 
-                city={city_config.name} 
-                profile={city_config} />
-
-            <StackedBarChartDonorSummary 
-                cityProfileData={city_profile_data} 
-                selectedDateRange={selectedDateRange} />
-
-            <CumulativeContributionsTimeline 
-                city_profile_data={city_profile_data} 
-                selectedDateRange={selectedDateRange}/> 
-
-            <OutOfCityBarChart 
-                city_profile_data={city_profile_data}
-                selectedDateRange={selectedDateRange} />
-
-            <ProfileStream 
-                cityId={cityId} 
-                city_profiles={city_profiles}/>
-
+            <ElectionCycleDropdown
+                electionCycles={electionCycles}
+                selectedDateRange={selectedDateRange}
+                setSelectedDateRange={setSelectedDateRange}
+            />
+            <Header city={city_config.name} profile={city_config} />
+            <StackedBarChartDonorSummary cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
+            <CumulativeContributionsTimeline cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
+            <OutOfCityBarChart cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
+            <ProfileStream cityId={cityId} cityProfileData={cityProfileData} />
             <IndividualContributionsTable
-                profile={city_profile_data[0]} 
+                profile={cityProfileData?.[0]}
                 contribution_data={allContributions}
-                selectedDateRange={selectedDateRange} />
-
-
+                selectedDateRange={selectedDateRange}
+            />
         </div>
     );
 }
-  
-  export default City;
-  
-  
-  
+
+export default City;

@@ -3,9 +3,9 @@ import { Line } from 'react-chartjs-2';
 import 'chart.js/auto';
 import './CumulativeContributionsTimeline.css';
 
-function CumulativeContributionsTimeline({ city_profile_data, selectedDateRange }) {
+function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange }) {
     const chartData = useMemo(() => {
-        const datasets = city_profile_data.map((profile, index) => {
+        const datasets = cityProfileData.map((profile, index) => {
             const contributions = profile.contributions || [];
             const filteredContributions = selectedDateRange === 'all'
                 ? contributions
@@ -40,7 +40,7 @@ function CumulativeContributionsTimeline({ city_profile_data, selectedDateRange 
         return {
             datasets,
         };
-    }, [city_profile_data, selectedDateRange]);
+    }, [cityProfileData, selectedDateRange]);
 
     const options = {
         responsive: true,

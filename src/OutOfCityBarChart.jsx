@@ -2,10 +2,10 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import './index.css';
 
-const OutOfCityBarChart = ({ city_profile_data, selectedDateRange }) => {
+const OutOfCityBarChart = ({ cityProfileData, selectedDateRange }) => {
     let all_profiles_total_contributions = {}
     
-    city_profile_data.forEach(profile => {
+    cityProfileData.forEach(profile => {
         const filteredData = selectedDateRange === 'all'
             ? profile.contributions
             : profile.contributions.filter(record => {
@@ -37,7 +37,7 @@ const OutOfCityBarChart = ({ city_profile_data, selectedDateRange }) => {
     return (
         <div className="section" id="out-of-city-wrapper-agg">
             <h2>
-              External Support (Non-{city_profile_data[0].city} Contributions)
+              External Support (Non-{cityProfileData[0].city} Contributions)
             </h2>
             <h4>
                 <i>
@@ -47,11 +47,11 @@ const OutOfCityBarChart = ({ city_profile_data, selectedDateRange }) => {
 
             <Bar
                 data={{
-                  labels: city_profile_data.map((profile) => profile.name),
+                  labels: cityProfileData.map((profile) => profile.name),
                   datasets: [
                     {
-                      label: `Contributions from outside of ${city_profile_data[0].city}  ($)`,
-                      data: city_profile_data.map((profile) => all_profiles_total_contributions[profile.name]?.outside_city_sum || 0),
+                      label: `Contributions from outside of ${cityProfileData[0].city}  ($)`,
+                      data: cityProfileData.map((profile) => all_profiles_total_contributions[profile.name]?.outside_city_sum || 0),
                       backgroundColor: 'rgba(75, 192, 192, 0.6)',
                       borderColor: 'rgba(75, 192, 192, 1)',
                       borderWidth: 1,
@@ -70,7 +70,7 @@ const OutOfCityBarChart = ({ city_profile_data, selectedDateRange }) => {
                     y: {
                       title: {
                         display: true,
-                        text: `Contributions from outside of ${city_profile_data[0].city}  ($)`,
+                        text: `Contributions from outside of ${cityProfileData[0].city}  ($)`,
                       },
                       beginAtZero: true,
                     },
