@@ -1,7 +1,8 @@
 {
   "name": "dew",
   "version": "0.1.0",
-  "private": true,
+  "private": true,  
+  "homepage": "https://grassrooted.github.io/home",
   "dependencies": {
     "@react-google-maps/api": "^2.20.3",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,7 +25,6 @@
     "tabulator-tables": "^6.2.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://grassrooted.github.io/home",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

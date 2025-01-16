@@ -1,46 +1,44 @@
 import "../main.css";
-import { useLoaderData, NavLink } from "react-router-dom";
+import { useOutletContext, NavLink } from "react-router-dom";
 import CityCard from '../CityCard';
 
 export default function Main() {
-  const { cities } = useLoaderData();
-  return (
-      <div className="main-container">
+  const { cities } = useOutletContext();
 
-        <div id="city-stream">
-        {cities.length ? (
-                <ul>
-                {cities.map((city) => (
-                    <li className="city-item" key={city.id}>
-                      <NavLink 
-                        to={`cities/${city.id}`}
-                        className={({ isActive, isPending }) =>
-                          isActive
-                            ? "active"
-                            : isPending
-                            ? "pending"
-                            : ""
-                        } 
-                      >
-                          {city.name ? (
-                          <>
-                              <div>
-                                <CityCard name={city.name}  coverPhoto={city.cover_photo}/>
-                              </div>
-                          </>
-                          ) : (
-                          <i>Incorrectly Configured City</i>
-                          )}
-                      </NavLink>
-                    </li>
-                ))}
-                </ul>
-            ) : (
-                <p>
-                <i>No cities</i>
-                </p>
-            )}
-        </div>
+  return (
+    <div className="main-container">
+      <div id="city-stream">
+        {cities && cities.length ? (
+          <ul>
+            {cities.map((city) => (
+              <li className="city-item" key={city.id}>
+                <NavLink
+                  to={`cities/${city.id}`}
+                  className={({ isActive, isPending }) =>
+                    isActive
+                      ? "active"
+                      : isPending
+                      ? "pending"
+                      : ""
+                  }
+                >
+                  {city.name ? (
+                    <div>
+                      <CityCard name={city.name} coverPhoto={city.cover_photo} />
+                    </div>
+                  ) : (
+                    <i>Incorrectly Configured City</i>
+                  )}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>
+            <i>No cities</i>
+          </p>
+        )}
       </div>
+    </div>
   );
-  }
+}
