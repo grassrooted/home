@@ -1,25 +1,16 @@
+import React, { useState, useEffect, useMemo } from 'react';
+import { useParams } from "react-router-dom";
 import ProfileSnapshot from '../ProfileSnapshot';
 import { getProfile, getProfiles } from '../Profiles';
 import TimelineChart from '../TimelineChart';
 import ContributionsBarChart from '../ContributionsBarChart';
-import { useLoaderData } from "react-router-dom";
-import '../index.css';
 import Highlights from '../Highlights';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
 import Header from '../Header';
 import ContributionPieChart from '../ContributionPieChart';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
-import React, { useState } from 'react';
-
-
-export async function loader({ params }) {
-    const profile = await getProfile(params.profileId);
-    const id = params.profileId;
-    const profiles = await getProfiles();
-
-    return { profile, id, profiles };
-}
+import '../index.css';
 
 const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {
@@ -51,7 +42,7 @@ const generateElectionCycles = (profile) => {
     const { first_election, next_election, election_date, election_cycle_years } = profile;
 
     const electionCycles = [];
-    let year = parseInt(first_election, 10)-election_cycle_years;
+    let year = parseInt(first_election, 10) - election_cycle_years;
     const nextElectionYear = parseInt(next_election, 10);
     const [month, day] = election_date.split('-').map(Number);
 
@@ -69,26 +60,58 @@ const generateElectionCycles = (profile) => {
 };
 
 function Profile() {
-    const res = useLoaderData();
-    const contribution_data = res.profile.contributions;
-    const profile = res.profile;
-    const profiles = res.profiles;
+    const { profileId } = useParams();
+    const [profile, setProfile] = useState(null);
+    const [profiles, setProfiles] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
-    const aggregated_data = aggregateDataByName(contribution_data, profile);
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const fetchedProfile = await getProfile(profileId);
+                const fetchedProfiles = await getProfiles();
+                setProfile(fetchedProfile);
+                setProfiles(fetchedProfiles);
+            } catch (err) {
+                setError("Failed to load profile data.");
+            } finally {
+                setLoading(false);
+            }
+        };
 
-    const electionCycles = generateElectionCycles(profile);
+        fetchData();
+    }, [profileId]);
 
-    const [selectedDateRange, setSelectedDateRange] = useState({
-        start: electionCycles[0].start,
-        end: electionCycles[electionCycles.length - 1].end,
-    });
+    const aggregatedData = useMemo(() => {
+        return profile ? aggregateDataByName(profile.contributions, profile) : {};
+    }, [profile]);
+
+    const electionCycles = useMemo(() => {
+        return profile ? generateElectionCycles(profile) : [];
+    }, [profile]);
+
+    const [selectedDateRange, setSelectedDateRange] = useState(null);
+
+    useEffect(() => {
+        if (electionCycles.length > 0) {
+            setSelectedDateRange({
+                start: electionCycles[0].start,
+                end: electionCycles[electionCycles.length - 1].end,
+            });
+        }
+    }, [electionCycles]);
+
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>{error}</div>;
+    if (!profile || !electionCycles.length || !selectedDateRange) return <div>Preparing data...</div>;
 
     return (
         <div>
             <ElectionCycleDropdown 
                 electionCycles={electionCycles} 
                 selectedDateRange={selectedDateRange} 
-                setSelectedDateRange={setSelectedDateRange}/>
+                setSelectedDateRange={setSelectedDateRange} />
 
             <Header 
                 city={profile.city} 
@@ -99,36 +122,36 @@ function Profile() {
 
             <Highlights 
                 profile={profile} 
-                aggregated_data={aggregated_data} 
-                contribution_data={contribution_data} 
+                aggregated_data={aggregatedData} 
+                contribution_data={profile.contributions} 
                 selectedDateRange={selectedDateRange}
-                electionCycles={electionCycles}/>
+                electionCycles={electionCycles} />
 
             <span className='side-by-side'>
                 <AggregatedDataTable 
                     profile={profile} 
-                    contribution_data={contribution_data}
+                    contribution_data={profile.contributions}
                     selectedDateRange={selectedDateRange} />
 
                 <ContributionsBarChart 
                     profile={profile} 
-                    contribution_data={contribution_data}
+                    contribution_data={profile.contributions}
                     selectedDateRange={selectedDateRange} />
             </span>
 
             <ContributionPieChart
                 profile={profile}
-                contribution_data={contribution_data}
+                contribution_data={profile.contributions}
                 profiles={profiles} 
-                selectedDateRange={selectedDateRange}/>
+                selectedDateRange={selectedDateRange} />
 
             <TimelineChart 
-                    profile={profile} 
-                    contribution_data={contribution_data} />
+                profile={profile} 
+                contribution_data={profile.contributions} />
 
             <IndividualContributionsTable 
                 profile={profile} 
-                contribution_data={contribution_data}
+                contribution_data={profile.contributions}
                 selectedDateRange={selectedDateRange} />
         </div>
     );
