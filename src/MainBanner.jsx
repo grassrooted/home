@@ -40,7 +40,7 @@ function MainBanner({ cities, profiles }) {
 
     return (
         <div className={`main-banner ${menuOpen ? 'responsive' : ''}`}>
-            <NavLink to="/home/" className="home-button">
+            <NavLink to="/" className="home-button">
                 <img alt="home icon" className="home-button-icon" src={`${process.env.PUBLIC_URL}/logo.png`} />
             </NavLink>
 
@@ -50,7 +50,7 @@ function MainBanner({ cities, profiles }) {
 
             <nav className={`main-menu ${menuOpen ? 'open' : ''}`} ref={menuRef}>
                 <span id="pages-bar">
-                    <NavLink to="/home/" className="menu-item" onClick={() => setMenuOpen(false)}>
+                    <NavLink to="/" className="menu-item" onClick={() => setMenuOpen(false)}>
                         Home
                     </NavLink>
 

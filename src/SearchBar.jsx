@@ -34,7 +34,7 @@ function SearchBar({ profiles }) {
                 <ul className="search-results">
                     {filteredProfiles.map((profile) => (
                         <li key={profile.id} className="search-result-item">
-                            <a href={`${process.env.PUBLIC_URL}/cities/${profile.city}/profiles/${profile.id}`}>
+                            <a href={`${process.env.PUBLIC_URL}/#/cities/${profile.city}/profiles/${profile.id}`}>
                                 <img
                                     src={profile.path_to_headshot_photo}
                                     alt={`${profile.name} headshot`}
