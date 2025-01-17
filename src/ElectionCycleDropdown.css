@@ -1,47 +1,73 @@
+/* Dropdown Container */
 .dropdown-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 5px;
-    position: sticky;
-    top: 81px;
-    z-index: 10; 
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px;
+  position: sticky;
+  top: 81px;
+  z-index: 10; 
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensures it's full width on mobile */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Dropdown */
+.dropdown {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 210px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus Effect for Dropdown */
+.dropdown:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Label for Dropdown */
+.dropdown-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+  .dropdown-container {
+      top: 70px; /* Adjust top position to avoid overlap on small screens */
+      margin-top: 10px;
+      justify-content: flex-start; /* Align to the left for better readability */
   }
-  
+
   .dropdown {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    padding: 10px 15px;
-    width: 210px;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-    appearance: none;
-    outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
+      width: 100%; /* Make dropdown take up full width */
+      font-size: 14px; /* Slightly smaller font */
+      padding: 8px 12px; /* Reduced padding */
   }
-  
-  .dropdown:focus {
-    border-color: #0056b3;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 480px) {
+  .dropdown-container {
+      padding: 8px; /* Reduced padding */
+      margin: 5px; /* Less margin for smaller devices */
   }
-  
-  .dropdown-container label {
-    font-weight: bold;
-    margin-right: 10px;
+
+  .dropdown {
+      width: 100%; /* Full width on mobile devices */
+      font-size: 14px; /* Slightly smaller text for better fit */
+      padding: 8px 12px; /* Reduced padding */
   }
-  
-  @media (max-width: 480px) {
-    .dropdown-container {
-        top: 81px;
-        margin-top: 10px;
-    }
-  }
-  
+}

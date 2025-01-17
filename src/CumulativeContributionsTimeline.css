@@ -1,3 +1,4 @@
+/* General Container Styling */
 #timeline-graph-container {
     display: flex;
     flex-direction: column;
@@ -7,11 +8,13 @@
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
+    width: 100%; /* Ensure it takes full width */
     margin: 20px auto;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
+/* Title Styling */
 #timeline-graph-title {
     font-size: 24px;
     font-weight: 600;
@@ -20,6 +23,7 @@
     text-align: center;
 }
 
+/* Description Styling */
 #timeline-graph-description {
     font-size: 16px;
     font-weight: 400;
@@ -30,12 +34,14 @@
     line-height: 1.5;
 }
 
+/* Chart Canvas */
 #timeline-graph-canvas {
     width: 100%;
+    height: 400px; /* Default height for larger screens */
     max-width: 900px;
-    height: auto;
 }
 
+/* Styling for the Chart Legend */
 .chartjs-legend {
     display: flex;
     justify-content: center;
@@ -62,4 +68,70 @@
     height: 14px;
     margin-right: 5px;
     border-radius: 50%;
+}
+
+/* Media Queries for Mobile Responsiveness */
+
+/* Tablets and smaller screens */
+@media (max-width: 1024px) {
+    #timeline-graph-title {
+        font-size: 20px; /* Slightly smaller title */
+    }
+
+    #timeline-graph-description {
+        font-size: 14px; /* Smaller description for tablets */
+    }
+
+    #timeline-graph-canvas {
+        height: 350px; /* Adjust chart height for tablets */
+    }
+}
+
+/* Small Tablets and Large Phones */
+@media (max-width: 768px) {
+    #timeline-graph-title {
+        font-size: 18px; /* Smaller title */
+    }
+
+    #timeline-graph-description {
+        font-size: 14px; /* Smaller description */
+        max-width: 90%; /* Expand description container on smaller screens */
+    }
+
+    #timeline-graph-canvas {
+        height: 300px; /* Adjust chart height for smaller screens */
+    }
+
+    .chartjs-legend ul {
+        flex-direction: column; /* Stack legend items vertically */
+    }
+
+    .chartjs-legend li {
+        font-size: 12px; /* Smaller font size for the legend */
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+    #timeline-graph-title {
+        font-size: 16px; /* Smaller title for mobile */
+    }
+
+    #timeline-graph-description {
+        font-size: 12px; /* Smaller description */
+        max-width: 95%; /* Expand description container further */
+    }
+
+    #timeline-graph-canvas {
+        height: 250px; /* Smaller chart for mobile devices */
+    }
+
+    .chartjs-legend ul {
+        flex-direction: column; /* Stack legend items vertically */
+        gap: 10px; /* Reduce gap for mobile */
+    }
+
+    .chartjs-legend li {
+        font-size: 12px; /* Smaller font size for the legend */
+    }
 }

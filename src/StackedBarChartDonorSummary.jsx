@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, BarElement, Tooltip, Legend, CategoryScale, LinearScale } from 'chart.js';
-import './ContributionBarChart.css';
+import './StackedBarChartDonorSummary.css';
 
 ChartJS.register(BarElement, Tooltip, Legend, CategoryScale, LinearScale);
 

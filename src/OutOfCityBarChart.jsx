@@ -1,6 +1,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import './index.css';
+import './OutOfCityBarChart.css';
 
 const OutOfCityBarChart = ({ cityProfileData, selectedDateRange }) => {
     let all_profiles_total_contributions = {}
