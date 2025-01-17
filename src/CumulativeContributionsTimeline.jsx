@@ -47,7 +47,7 @@ function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange })
         plugins: {
             legend: {
                 display: true,
-                position: 'bottom',
+                position: 'right',  // Move the legend to the right
                 labels: {
                     usePointStyle: true,
                 },
@@ -103,6 +103,11 @@ function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange })
             </p>
             <div id="timeline-graph-canvas">
                 <Line data={chartData} options={options} />
+            </div>
+            <div className="scrollable-legend">
+                <div className="chartjs-legend">
+                    {/* Legend will be rendered outside of the chart */}
+                </div>
             </div>
         </div>
     );

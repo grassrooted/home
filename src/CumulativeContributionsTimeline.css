@@ -42,10 +42,18 @@
 }
 
 /* Styling for the Chart Legend */
+.scrollable-legend {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
 .chartjs-legend {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 15px;
 }
 
 .chartjs-legend ul {
