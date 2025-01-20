@@ -91,7 +91,7 @@
     }
 
     #timeline-graph-canvas {
-        height: 350px; /* Adjust chart height for tablets */
+        height: 500px; /* Adjust chart height for tablets */
     }
 }
 
@@ -107,7 +107,7 @@
     }
 
     #timeline-graph-canvas {
-        height: 300px; /* Adjust chart height for smaller screens */
+        height: 500px; /* Adjust chart height for smaller screens */
     }
 
     .chartjs-legend ul {

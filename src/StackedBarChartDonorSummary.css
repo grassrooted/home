@@ -1,7 +1,16 @@
 /* General Styling for the Chart Container */
 #contribution-bar-chart-wrapper {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure it takes full width */
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -12,31 +21,10 @@
     margin: 10px 0;
 }
 
-/* Chart Container */
-.funding-summary-bar-chart {
-    width: 100%;
-    height: 400px; /* Set a default height for larger screens */
-}
-
-/* Ensure the chart scales properly */
-@media (max-width: 1024px) {
-    /* For tablets, reduce the height of the chart */
-    .funding-summary-bar-chart {
-        height: 300px;
-    }
-}
-
-@media (max-width: 768px) {
-    /* For small tablets or large phones, further reduce the chart height */
-    .funding-summary-bar-chart {
-        height: 250px;
-    }
-}
 
 @media (max-width: 480px) {
-    /* For mobile screens, reduce the chart height and ensure it fits properly */
-    .funding-summary-bar-chart {
-        height: 200px;
+    #contribution-bar-chart-wrapper {
+        padding: 0;
     }
 
     /* Adjust the title and subtitle font sizes for mobile screens */
@@ -47,10 +35,6 @@
     #contribution-bar-chart-wrapper h4 {
         font-size: 14px;
     }
-}
-
-/* Optional: Adjust the chart's inner padding and margins for mobile */
-@media (max-width: 480px) {
     .chartjs-size-monitor,
     .chartjs-size-monitor-expand,
     .chartjs-size-monitor-shrink {

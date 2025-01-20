@@ -101,9 +101,7 @@ function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange })
             <p id="timeline-graph-description">
                 This graph shows the cumulative contributions received by each candidate over time.
             </p>
-            <div id="timeline-graph-canvas">
-                <Line data={chartData} options={options} width="100%"/>
-            </div>
+            <Line data={chartData} options={options} width="100%"/>
             <div className="scrollable-legend">
                 <div className="chartjs-legend">
                 </div>

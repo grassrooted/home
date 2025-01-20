@@ -113,7 +113,7 @@ function StackedBarChartDonorSummary({ cityProfileData, selectedDateRange }) {
     const options = {
         responsive: true,
         plugins: {
-            legend: { position: 'top' },
+            legend: { position: 'bottom' },
             tooltip: {
                 callbacks: {
                     label: function (context) {
@@ -130,17 +130,15 @@ function StackedBarChartDonorSummary({ cityProfileData, selectedDateRange }) {
     };
 
     return (
-        <div className="section" id="contribution-bar-chart-wrapper">
+        <div id="contribution-bar-chart-wrapper">
             <h2>Donor Summary</h2>
             <h4>
                 <i>
                     Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}
                 </i>
             </h4>
-            <div className="funding-summary-bar-chart">
-                <Bar data={chartData} options={options} />
-            </div>
-        </div>
+            <Bar data={chartData} options={options} width="100%"/>
+\        </div>
     );
 }
 

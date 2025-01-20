@@ -36,7 +36,7 @@ const OutOfCityBarChart = ({ cityProfileData, selectedDateRange }) => {
     
 
     return (
-        <div className="section" id="out-of-city-wrapper-agg">
+        <div id="out-of-city-wrapper-agg">
             <h2>
               External Support (Non-{cityProfileData[0].city} Contributions)
             </h2>
@@ -61,6 +61,9 @@ const OutOfCityBarChart = ({ cityProfileData, selectedDateRange }) => {
                 }}
                 options={{
                   responsive: true,
+                  plugins: {
+                    legend: { position: 'bottom' },
+                  },
                   scales: {
                     x: {
                       title: {
@@ -77,6 +80,7 @@ const OutOfCityBarChart = ({ cityProfileData, selectedDateRange }) => {
                     },
                   },
                 }}
+                width="100%"
               />
           </div>
       );

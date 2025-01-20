@@ -70,4 +70,8 @@
       font-size: 14px; /* Slightly smaller text for better fit */
       padding: 8px 12px; /* Reduced padding */
   }
+
+  .dropdown-container label {
+    font-size: 12px;
+  }
 }
