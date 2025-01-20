@@ -1,14 +1,13 @@
 ---
----
 name: "Chad West"
 id: "ChadWest"
-path_to_contributions_data: "/home/candidates/West/Data/west_contributions.json"
-path_to_headshot_photo: "/home/candidates/West/Visuals/West_headshot.jpg"
+path_to_contributions_data: "/candidates/West/Data/west_contributions.json"
+path_to_headshot_photo: "/candidates/West/Visuals/West_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/West/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/West/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/West/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/West/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/West/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/West/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/West/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/West/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2019"
 next_election: "2025"
 district: 1
@@ -29,12 +28,12 @@ contribution_fields:
 ---
 name: "Jesus Moreno"
 id: "JesusMoreno"
-path_to_contributions_data: "/home/candidates/Moreno/Data/moreno_contributions.json"
-path_to_headshot_photo: "/home/candidates/Moreno/Visuals/Moreno_headshot.jpg"
+path_to_contributions_data: "/candidates/Moreno/Data/moreno_contributions.json"
+path_to_headshot_photo: "/candidates/Moreno/Visuals/Moreno_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Moreno/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Moreno/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Moreno/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Moreno/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Moreno/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Moreno/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
 district: 2
@@ -55,11 +54,11 @@ contribution_fields:
 ---
 name: "Zarin Gracey"
 id: "ZarinGracey"
-path_to_contributions_data: "/home/candidates/Gracey/Data/gracey_contributions.json"
-path_to_headshot_photo: "/home/candidates/Gracey/Visuals/zarin-gracey-headshot.jpg"
+path_to_contributions_data: "/candidates/Gracey/Data/gracey_contributions.json"
+path_to_headshot_photo: "/candidates/Gracey/Visuals/zarin-gracey-headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Gracey/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Gracey/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Gracey/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Gracey/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2023"
 next_election: "2025"
 district: 3
@@ -80,13 +79,13 @@ contribution_fields:
 ---
 name: "Carolyn Arnold"
 id: "CarolynArnold"
-path_to_contributions_data: "/home/candidates/Arnold/Data/arnold_contributions.json"
-path_to_headshot_photo: "/home/candidates/Arnold/Visuals/carolyn-king-headshot.jpg"
+path_to_contributions_data: "/candidates/Arnold/Data/arnold_contributions.json"
+path_to_headshot_photo: "/candidates/Arnold/Visuals/carolyn-king-headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Arnold/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Arnold/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Arnold/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Arnold/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Arnold/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Arnold/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Arnold/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Arnold/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2019"
 next_election: "2025"
 district: 4
@@ -107,13 +106,13 @@ contribution_fields:
 ---
 name: "Jaime Resendez"
 id: "JaimeResendez"
-path_to_contributions_data: "/home/candidates/Resendez/Data/resendez_contributions.json"
-path_to_headshot_photo: "/home/candidates/Resendez/Visuals/Resendez_headshot.jpeg"
+path_to_contributions_data: "/candidates/Resendez/Data/resendez_contributions.json"
+path_to_headshot_photo: "/candidates/Resendez/Visuals/Resendez_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/Resendez/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Resendez/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Resendez/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Resendez/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Resendez/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Resendez/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Resendez/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Resendez/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
 district: 5
@@ -134,13 +133,13 @@ contribution_fields:
 ---
 name: "Omar Narvaez"
 id: "OmarNarvaez"
-path_to_contributions_data: "/home/candidates/Narvaez/Data/narvaez_contributions.json"
-path_to_headshot_photo: "/home/candidates/Narvaez/Visuals/Narvaez_headshot.jpeg"
+path_to_contributions_data: "/candidates/Narvaez/Data/narvaez_contributions.json"
+path_to_headshot_photo: "/candidates/Narvaez/Visuals/Narvaez_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/Narvaez/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Narvaez/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Narvaez/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Narvaez/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Narvaez/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Narvaez/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Narvaez/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Narvaez/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2017"
 next_election: "2025"
 district: 6
@@ -161,13 +160,13 @@ contribution_fields:
 ---
 name: "Adam Bazaldua"
 id: "AdamBazaldua"
-path_to_contributions_data: "/home/candidates/Bazaldua/Data/bazaldua_contributions.json"
-path_to_headshot_photo: "/home/candidates/Bazaldua/Visuals/Bazaldua_headshot.jpg"
+path_to_contributions_data: "/candidates/Bazaldua/Data/bazaldua_contributions.json"
+path_to_headshot_photo: "/candidates/Bazaldua/Visuals/Bazaldua_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Bazaldua/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Bazaldua/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Bazaldua/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Bazaldua/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Bazaldua/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Bazaldua/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Bazaldua/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Bazaldua/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2019"
 next_election: "2025"
 district: 7
@@ -188,13 +187,13 @@ contribution_fields:
 ---
 name: "Tennell Atkins"
 id: "TennellAtkins"
-path_to_contributions_data: "/home/candidates/Atkins/Data/atkins_contributions.json"
-path_to_headshot_photo: "/home/candidates/Atkins/Visuals/Atkins_headshot.jpg"
+path_to_contributions_data: "/candidates/Atkins/Data/atkins_contributions.json"
+path_to_headshot_photo: "/candidates/Atkins/Visuals/Atkins_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Atkins/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Atkins/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Atkins/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Atkins/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Atkins/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Atkins/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2017"
 next_election: "2025"
 district: 8
@@ -215,13 +214,13 @@ contribution_fields:
 ---
 name: "Paula Blackmon"
 id: "PaulaBlackmon"
-path_to_contributions_data: "/home/candidates/Blackmon/Data/blackmon_contributions.json"
-path_to_headshot_photo: "/home/candidates/Blackmon/Visuals/Blackmon_headshot.jpg"
+path_to_contributions_data: "/candidates/Blackmon/Data/blackmon_contributions.json"
+path_to_headshot_photo: "/candidates/Blackmon/Visuals/Blackmon_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Blackmon/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Blackmon/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Blackmon/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Blackmon/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Blackmon/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Blackmon/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Blackmon/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Blackmon/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
 district: 9
@@ -242,11 +241,11 @@ contribution_fields:
 ---
 name: "Kathy Stewart"
 id: "KathyStewart"
-path_to_contributions_data: "/home/candidates/Stewart/Data/stewart_contributions.json"
-path_to_headshot_photo: "/home/candidates/Stewart/Visuals/Stewart_headshot.jpg"
+path_to_contributions_data: "/candidates/Stewart/Data/stewart_contributions.json"
+path_to_headshot_photo: "/candidates/Stewart/Visuals/Stewart_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Stewart/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Stewart/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Stewart/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Stewart/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2023"
 next_election: "2025"
 district: 10
@@ -267,12 +266,12 @@ contribution_fields:
 ---
 name: "Jaynie Schultz"
 id: "JaynieSchultz"
-path_to_contributions_data: "/home/candidates/Schultz/Data/schultz_contributions.json"
-path_to_headshot_photo: "/home/candidates/Schultz/Visuals/Schultz_headshot.jpeg"
+path_to_contributions_data: "/candidates/Schultz/Data/schultz_contributions.json"
+path_to_headshot_photo: "/candidates/Schultz/Visuals/Schultz_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/Schultz/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Schultz/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Schultz/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Schultz/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Schultz/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Schultz/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
 district: 11
@@ -293,13 +292,13 @@ contribution_fields:
 ---
 name: "Cara Mendelsohn"
 id: "CaraMendelsohn"
-path_to_contributions_data: "/home/candidates/Mendelsohn/Data/mendelsohn_contributions.json"
-path_to_headshot_photo: "/home/candidates/Mendelsohn/Visuals/Mendelsohn_headshot.jpg"
+path_to_contributions_data: "/candidates/Mendelsohn/Data/mendelsohn_contributions.json"
+path_to_headshot_photo: "/candidates/Mendelsohn/Visuals/Mendelsohn_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Mendelsohn/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/home/candidates/Mendelsohn/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Mendelsohn/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Mendelsohn/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Mendelsohn/Visuals/May 5, 2017 - May 4, 2019.jpg"
+  - "/candidates/Mendelsohn/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Mendelsohn/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Mendelsohn/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2017"
 next_election: "2025"
 district: 12
@@ -320,12 +319,12 @@ contribution_fields:
 ---
 name: "Gay Willis"
 id: "GayWillis"
-path_to_contributions_data: "/home/candidates/Willis/Data/willis_contributions.json"
-path_to_headshot_photo: "/home/candidates/Willis/Visuals/Willis_headshot.jpg"
+path_to_contributions_data: "/candidates/Willis/Data/willis_contributions.json"
+path_to_headshot_photo: "/candidates/Willis/Visuals/Willis_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Willis/Visuals/May 5, 2019 - May 4, 2021.jpeg"
-  - "/home/candidates/Willis/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Willis/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Willis/Visuals/May 5, 2019 - May 4, 2021.jpeg"
+  - "/candidates/Willis/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Willis/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
 district: 13
@@ -346,12 +345,12 @@ contribution_fields:
 ---
 name: "Paul Ridley"
 id: "PaulRidley"
-path_to_contributions_data: "/home/candidates/Ridley/Data/ridley_contributions.json"
-path_to_headshot_photo: "/home/candidates/Ridley/Visuals/Ridley_headshot.jpg"
+path_to_contributions_data: "/candidates/Ridley/Data/ridley_contributions.json"
+path_to_headshot_photo: "/candidates/Ridley/Visuals/Ridley_headshot.jpg"
 path_to_maps:
-  - "/home/candidates/Ridley/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/home/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/home/candidates/Ridley/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  - "/candidates/Ridley/Visuals/May 5, 2019 - May 4, 2021.jpg"
+  - "/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
+  - "/candidates/Ridley/Visuals/May 5, 2023 - May 4, 2025.jpg"
 first_election: "2021"
 next_election: "2025"
 district: 14
@@ -372,11 +371,11 @@ contribution_fields:
 ---
 name: "Sukh Kaur"
 id: "SukhKaur"
-path_to_contributions_data: "/home/candidates/SukhKaur/sukhkaur_contributions.json"
-path_to_headshot_photo: "/home/candidates/SukhKaur/kaur_headshot.jpeg"
+path_to_contributions_data: "/candidates/SukhKaur/sukhkaur_contributions.json"
+path_to_headshot_photo: "/candidates/SukhKaur/kaur_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/SukhKaur/maps/SukhKaur_donors_map_2021-2023.png"
-  - "/home/candidates/SukhKaur/maps/SukhKaur_donors_map_2023-2025.png"
+  - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2021-2023.png"
+  - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2023-2025.png"
 first_election: "2023"
 next_election: "2025"
 district: 1
@@ -397,12 +396,12 @@ contribution_fields:
 ---
 name: "Jalen McKee-Rodriguez"
 id: "JalenMcKee-Rodriguez"
-path_to_contributions_data: "/home/candidates/JalenMcKee-Rodriguez/JalenMcKeeRodriguez_contributions.json"
-path_to_headshot_photo: "/home/candidates/JalenMcKee-Rodriguez/rodriguez_headshot.png"
+path_to_contributions_data: "/candidates/JalenMcKee-Rodriguez/JalenMcKeeRodriguez_contributions.json"
+path_to_headshot_photo: "/candidates/JalenMcKee-Rodriguez/rodriguez_headshot.png"
 path_to_maps:
-  - "/home/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2019-2021.png"
-  - "/home/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2021-2023.png"
-  - "/home/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2023-2025.png"
+  - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2019-2021.png"
+  - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2021-2023.png"
+  - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2023-2025.png"
 first_election: "2021"
 next_election: "2025"
 district: 2
@@ -423,12 +422,12 @@ contribution_fields:
 ---
 name: "Phyllis Viagran"
 id: "PhyllisViagran"
-path_to_contributions_data: "/home/candidates/PhyllisViagran/PhyllisViagran_contributions.json"
-path_to_headshot_photo: "/home/candidates/PhyllisViagran/viagran_headshot.jpeg"
+path_to_contributions_data: "/candidates/PhyllisViagran/PhyllisViagran_contributions.json"
+path_to_headshot_photo: "/candidates/PhyllisViagran/viagran_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2019-2021.png"
-  - "/home/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2021-2023.png"
-  - "/home/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2023-2025.png"
+  - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2019-2021.png"
+  - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2021-2023.png"
+  - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2023-2025.png"
 first_election: "2021"
 next_election: "2025"
 district: 3
@@ -449,13 +448,13 @@ contribution_fields:
 ---
 name: "Adriana Garcia"
 id: "AdrianaGarcia"
-path_to_contributions_data: "/home/candidates/AdrianaGarcia/AdrianaGarcia_contributions.json"
-path_to_headshot_photo: "/home/candidates/AdrianaGarcia/garcia_headshot.jpeg"
+path_to_contributions_data: "/candidates/AdrianaGarcia/AdrianaGarcia_contributions.json"
+path_to_headshot_photo: "/candidates/AdrianaGarcia/garcia_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2017-2019.png"
-  - "/home/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2019-2021.png"
-  - "/home/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2021-2023.png"
-  - "/home/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2023-2025.png"
+  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2017-2019.png"
+  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2019-2021.png"
+  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2021-2023.png"
+  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2023-2025.png"
 first_election: "2019"
 next_election: "2025"
 district: 4
@@ -476,12 +475,12 @@ contribution_fields:
 ---
 name: "Teri Castillo"
 id: "TeriCastillo"
-path_to_contributions_data: "/home/candidates/TeriCastillo/TeriCastillo_contributions.json"
-path_to_headshot_photo: "/home/candidates/TeriCastillo/castillo_headshot.jpeg"
+path_to_contributions_data: "/candidates/TeriCastillo/TeriCastillo_contributions.json"
+path_to_headshot_photo: "/candidates/TeriCastillo/castillo_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2019-2021.png"
-  - "/home/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2021-2023.png"
-  - "/home/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2023-2025.png"
+  - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2019-2021.png"
+  - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2021-2023.png"
+  - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2023-2025.png"
 first_election: "2021"
 next_election: "2025"
 district: "5"
@@ -502,13 +501,13 @@ contribution_fields:
 ---
 name: "Melissa Cabello Havrda"
 id: "MelissaCabelloHavrda"
-path_to_contributions_data: "/home/candidates/MelissaCabelloHavrda/MelissaCabelloHavrda_contributions.json"
-path_to_headshot_photo: "/home/candidates/MelissaCabelloHavrda/havrda_headshot.jpeg"
+path_to_contributions_data: "/candidates/MelissaCabelloHavrda/MelissaCabelloHavrda_contributions.json"
+path_to_headshot_photo: "/candidates/MelissaCabelloHavrda/havrda_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2017-2019.png"
-  - "/home/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2019-2021.png"
-  - "/home/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2021-2023.png"
-  - "/home/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2023-2025.png"
+  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2017-2019.png"
+  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2019-2021.png"
+  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2021-2023.png"
+  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2023-2025.png"
 first_election: "2019"
 next_election: "2025"
 district: 6
@@ -529,11 +528,11 @@ contribution_fields:
 ---
 name: "Marina Gavito"
 id: "MarinaGavito"
-path_to_contributions_data: "/home/candidates/MarinaGavito/MarinaGavito_contributions.json"
-path_to_headshot_photo: "/home/candidates/MarinaGavito/gavito_headshot.jpeg"
+path_to_contributions_data: "/candidates/MarinaGavito/MarinaGavito_contributions.json"
+path_to_headshot_photo: "/candidates/MarinaGavito/gavito_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2021-2023.png"
-  - "/home/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2023-2025.png"
+  - "/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2021-2023.png"
+  - "/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2023-2025.png"
 first_election: "2023"
 next_election: "2025"
 district: 7
@@ -554,13 +553,13 @@ contribution_fields:
 ---
 name: "Manny Pelaez"
 id: "MannyPelaez"
-path_to_contributions_data: "/home/candidates/MannyPelaez/MannyPelaez_contributions.json"
-path_to_headshot_photo: "/home/candidates/MannyPelaez/pelaez_headshot.jpeg"
+path_to_contributions_data: "/candidates/MannyPelaez/MannyPelaez_contributions.json"
+path_to_headshot_photo: "/candidates/MannyPelaez/pelaez_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2017-2019.png"
-  - "/home/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2019-2021.png"
-  - "/home/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2021-2023.png"
-  - "/home/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2023-2025.png"
+  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2017-2019.png"
+  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2019-2021.png"
+  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2021-2023.png"
+  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2023-2025.png"
 first_election: "2017"
 next_election: "2025"
 district: 8
@@ -581,13 +580,13 @@ contribution_fields:
 ---
 name: "John Courage"
 id: "JohnCourage"
-path_to_contributions_data: "/home/candidates/JohnCourage/JohnCourage_contributions.json"
-path_to_headshot_photo: "/home/candidates/JohnCourage/courage_headshot.jpeg"
+path_to_contributions_data: "/candidates/JohnCourage/JohnCourage_contributions.json"
+path_to_headshot_photo: "/candidates/JohnCourage/courage_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/JohnCourage/maps/JohnCourage_donors_map_2017-2019.png"
-  - "/home/candidates/JohnCourage/maps/JohnCourage_donors_map_2019-2021.png"
-  - "/home/candidates/JohnCourage/maps/JohnCourage_donors_map_2021-2023.png"
-  - "/home/candidates/JohnCourage/maps/JohnCourage_donors_map_2023-2025.png"
+  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2017-2019.png"
+  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2019-2021.png"
+  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2021-2023.png"
+  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2023-2025.png"
 first_election: "2017"
 next_election: "2025"
 district: 9
@@ -608,11 +607,11 @@ contribution_fields:
 ---
 name: "Marc Whyte"
 id: "MarcWhyte"
-path_to_contributions_data: "/home/candidates/MarcWhyte/MarcWhyte_contributions.json"
-path_to_headshot_photo: "/home/candidates/MarcWhyte/whyte_headshot.jpeg"
+path_to_contributions_data: "/candidates/MarcWhyte/MarcWhyte_contributions.json"
+path_to_headshot_photo: "/candidates/MarcWhyte/whyte_headshot.jpeg"
 path_to_maps:
-  - "/home/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2021-2023.png"
-  - "/home/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2023-2025.png"
+  - "/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2021-2023.png"
+  - "/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2023-2025.png"
 first_election: "2023"
 next_election: "2025"
 district: 10
@@ -633,8 +632,8 @@ contribution_fields:
 ---
 name: "Natasha Harper-Madison"
 id: "NatashaHarperMadison"
-path_to_contributions_data: "/home/candidates/NatashaHarperMadison/NatashaHarperMadison_contributions.json"
-path_to_headshot_photo: "/home/candidates/NatashaHarperMadison/nharpermadison.jpg"
+path_to_contributions_data: "/candidates/NatashaHarperMadison/NatashaHarperMadison_contributions.json"
+path_to_headshot_photo: "/candidates/NatashaHarperMadison/nharpermadison.jpg"
 first_election: "2018"
 next_election: "2027"
 district: 1
@@ -659,8 +658,8 @@ contribution_fields:
 ---
 name: "Vanessa Fuentes"
 id: "VanessaFuentes"
-path_to_contributions_data: "/home/candidates/VanessaFuentes/VanessaFuentes.json"
-path_to_headshot_photo: "/home/candidates/VanessaFuentes/VanessaFuentes_headshot.jpeg"
+path_to_contributions_data: "/candidates/VanessaFuentes/VanessaFuentes.json"
+path_to_headshot_photo: "/candidates/VanessaFuentes/VanessaFuentes_headshot.jpeg"
 first_election: "2020"
 next_election: "2025"
 district: 2
@@ -685,8 +684,8 @@ contribution_fields:
 ---
 name: "Jose Velasquez"
 id: "JoseVelasquez"
-path_to_contributions_data: "/home/candidates/JoseVelasquez/JoseVelasquez.json"
-path_to_headshot_photo: "/home/candidates/JoseVelasquez/JoseVelasquez_headshot.jpeg"
+path_to_contributions_data: "/candidates/JoseVelasquez/JoseVelasquez.json"
+path_to_headshot_photo: "/candidates/JoseVelasquez/JoseVelasquez_headshot.jpeg"
 first_election: "2022"
 next_election: "2027"
 district: 3
@@ -711,8 +710,8 @@ contribution_fields:
 ---
 name: "Jose Vela"
 id: "JoseVela"
-path_to_contributions_data: "/home/candidates/JoseVela/JoseVela.json"
-path_to_headshot_photo: "/home/candidates/JoseVela/JoseVela.jpeg"
+path_to_contributions_data: "/candidates/JoseVela/JoseVela.json"
+path_to_headshot_photo: "/candidates/JoseVela/JoseVela.jpeg"
 first_election: "2022"
 next_election: "2025"
 district: 4
@@ -737,8 +736,8 @@ contribution_fields:
 ---
 name: "Ryan Alter"
 id: "RyanAlter"
-path_to_contributions_data: "/home/candidates/RyanAlter/RyanAlter.json"
-path_to_headshot_photo: "/home/candidates/RyanAlter/RyanAlter_headshot.jpeg"
+path_to_contributions_data: "/candidates/RyanAlter/RyanAlter.json"
+path_to_headshot_photo: "/candidates/RyanAlter/RyanAlter_headshot.jpeg"
 first_election: "2022"
 next_election: "2027"
 district: 5
@@ -763,8 +762,8 @@ contribution_fields:
 ---
 name: "Mackenzie Kelly"
 id: "MackenzieKelly"
-path_to_contributions_data: "/home/candidates/MackenzieKelly/MackenzieKelly.json"
-path_to_headshot_photo: "/home/candidates/MackenzieKelly/MackenzieKelly_headshot.jpeg"
+path_to_contributions_data: "/candidates/MackenzieKelly/MackenzieKelly.json"
+path_to_headshot_photo: "/candidates/MackenzieKelly/MackenzieKelly_headshot.jpeg"
 first_election: "2020"
 next_election: "2025"
 district: 6
@@ -789,8 +788,8 @@ contribution_fields:
 ---
 name: "Leslie Pool"
 id: "LesliePool"
-path_to_contributions_data: "/home/candidates/LesliePool/LesliePool_contributions.json"
-path_to_headshot_photo: "/home/candidates/LesliePool/LesliePool_headshot.jpeg"
+path_to_contributions_data: "/candidates/LesliePool/LesliePool_contributions.json"
+path_to_headshot_photo: "/candidates/LesliePool/LesliePool_headshot.jpeg"
 first_election: "2019"
 next_election: "2027"
 district: 7
@@ -815,8 +814,8 @@ contribution_fields:
 ---
 name: "Paige Ellis"
 id: "PaigeEllis"
-path_to_contributions_data: "/home/candidates/PaigeEllis/PaigeEllis_contributions.json"
-path_to_headshot_photo: "/home/candidates/PaigeEllis/PaigeEllis_headshot.jpeg"
+path_to_contributions_data: "/candidates/PaigeEllis/PaigeEllis_contributions.json"
+path_to_headshot_photo: "/candidates/PaigeEllis/PaigeEllis_headshot.jpeg"
 first_election: "2019"
 next_election: "2027"
 district: 8
@@ -841,8 +840,8 @@ contribution_fields:
 ---
 name: "Zohaib Qadri"
 id: "ZohaibQadri"
-path_to_contributions_data: "/home/candidates/ZohaibQadri/ZohaibQadri_contributions.json"
-path_to_headshot_photo: "/home/candidates/ZohaibQadri/ZohaibQadri_headshot.jpeg"
+path_to_contributions_data: "/candidates/ZohaibQadri/ZohaibQadri_contributions.json"
+path_to_headshot_photo: "/candidates/ZohaibQadri/ZohaibQadri_headshot.jpeg"
 first_election: "2019"
 next_election: "2027"
 district: 9
@@ -867,8 +866,8 @@ contribution_fields:
 ---
 name: "Alison Alter"
 id: "AlisonAlter"
-path_to_contributions_data: "/home/candidates/AlisonAlter/AlisonAlter_contributions.json"
-path_to_headshot_photo: "/home/candidates/AlisonAlter/AlisonAlter_headshot.jpeg"
+path_to_contributions_data: "/candidates/AlisonAlter/AlisonAlter_contributions.json"
+path_to_headshot_photo: "/candidates/AlisonAlter/AlisonAlter_headshot.jpeg"
 first_election: "2019"
 next_election: "2027"
 district: 10
