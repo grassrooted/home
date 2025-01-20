@@ -47,7 +47,7 @@ function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange })
         plugins: {
             legend: {
                 display: true,
-                position: 'right',  // Move the legend to the right
+                position: 'bottom',  
                 labels: {
                     usePointStyle: true,
                 },
@@ -102,11 +102,10 @@ function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange })
                 This graph shows the cumulative contributions received by each candidate over time.
             </p>
             <div id="timeline-graph-canvas">
-                <Line data={chartData} options={options} />
+                <Line data={chartData} options={options} width="100%"/>
             </div>
             <div className="scrollable-legend">
                 <div className="chartjs-legend">
-                    {/* Legend will be rendered outside of the chart */}
                 </div>
             </div>
         </div>

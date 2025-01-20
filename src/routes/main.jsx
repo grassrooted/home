@@ -24,7 +24,7 @@ export default function Main() {
                 >
                   {city.name ? (
                     <div>
-                      <CityCard name={city.name} coverPhoto={city.cover_photo} />
+                      <CityCard name={city.name} coverPhoto={`${process.env.PUBLIC_URL}${city.cover_photo}`} />
                     </div>
                   ) : (
                     <i>Incorrectly Configured City</i>

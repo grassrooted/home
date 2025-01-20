@@ -6,7 +6,7 @@ function ProfileSnapshot({ profile }) {
   return (
     <div className="profileSnapshot">
           <h1>{profile.name}</h1>
-          <img className="profile-headshot" src={profile.path_to_headshot_photo} alt={`${profile.name} headshot`} />
+          <img className="profile-headshot" src={`${process.env.PUBLIC_URL}${profile.path_to_headshot_photo}`} alt={`${profile.name} headshot`} />
           <h3 className='profile-district-header'>Council District {profile.district}</h3>
           <span className='row-span'>
             <p id="first-election-wrapper">First Election <strong>{profile.first_election}</strong> </p>

@@ -121,6 +121,9 @@
 
 /* Mobile Phones */
 @media (max-width: 480px) {
+    #timeline-graph-container {
+        padding: 0;
+    }
     #timeline-graph-title {
         font-size: 16px; /* Smaller title for mobile */
     }
@@ -131,7 +134,8 @@
     }
 
     #timeline-graph-canvas {
-        height: 250px; /* Smaller chart for mobile devices */
+        height: 500px; /* Smaller chart for mobile devices */
+
     }
 
     .chartjs-legend ul {

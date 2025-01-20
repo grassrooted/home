@@ -481,5 +481,9 @@ i {
   .side-by-side {
     flex-direction: column;
   }
-}
+  #content {
+    padding: 1.2rem 0;
+    margin: 80px 1.2rem 0;
+  }
 
+}

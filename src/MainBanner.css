@@ -1,24 +1,20 @@
-/* Main Banner */
 .main-banner {
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 20px;
     background-color: #f9f9f9;
     height: 80px;
     z-index: 11;
     width: 100%;
-    box-sizing: border-box;
-    top: 0; /* Default top value */
 }
 
-/* Pages Bar */
 #pages-bar {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     gap: 20px;
-    width: 100%;
 }
 
 .home-button {
@@ -28,27 +24,25 @@
 }
 
 .home-button-icon {
-    width: 200px;
-    height: 60px;
+    width: 250px;
+    height: 80px;
     object-fit: contain;
 }
 
-/* Hamburger Icon */
 .hamburger-icon {
     position: absolute;
-    right: 20px;
+    right: 0;
+    margin: 20px;
     display: none;
     cursor: pointer;
     color: #333;
 }
 
-/* Main Menu */
 .main-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 100%;
 }
 
 .menu-item {
@@ -64,13 +58,13 @@
     color: #007bff;
 }
 
-/* Dropdown */
 .cities-dropdown {
     position: relative;
 }
 
 .dropdown-menu {
     position: absolute;
+    display: flex;
     top: 100%;
     left: 0;
     background-color: #f9f9f9;
@@ -96,24 +90,14 @@
     background-color: #d3d3d3;
 }
 
-/* Media Queries */
-@media (max-width: 1024px) {
-    .home-button-icon {
-        width: 180px;
-        height: 60px;
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: block;
     }
 
     #pages-bar {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .hamburger-icon {
-        display: block;
+        flex-direction: row;
     }
 
     .main-menu {
@@ -124,7 +108,6 @@
         left: 0;
         width: 100%;
         background-color: #f9f9f9;
-        box-sizing: border-box;
     }
 
     .main-menu.open {
@@ -137,7 +120,6 @@
         padding: 10px;
         text-align: center;
         width: 100%;
-        font-size: 16px;
     }
 
     .dropdown-menu {
@@ -148,25 +130,8 @@
     }
 }
 
-@media (max-width: 480px) {
-    .menu-item {
-        font-size: 14px;
-    }
-
-    .home-button-icon {
-        width: 150px;
-        height: 50px;
-    }
-
-    .main-banner {
-        height: 70px; /* Smaller banner height on mobile */
-        top: 0; /* Ensure banner is at the top of the screen */
-    }
-}
-
-/* Touch Callout for iOS (if relevant) */
 @supports (-webkit-touch-callout: none) {
-    .main-banner {
-        top: 0; /* Keep it at the top for iOS devices */
+    .main-banner{
+        top: 44px;
     }
-}
+  }

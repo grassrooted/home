@@ -24,7 +24,7 @@ export async function getProfile(id) {
     let data = null
     let res = null
     try {
-        const jsonFilePath = profile.path_to_contributions_data;
+        const jsonFilePath = `${process.env.PUBLIC_URL}${profile.path_to_contributions_data}`;
 
         const jsonResponse = await axios.get(jsonFilePath);
         data = jsonResponse.data;
