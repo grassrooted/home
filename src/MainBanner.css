@@ -129,9 +129,3 @@
         background-color: transparent;
     }
 }
-
-@supports (-webkit-touch-callout: none) {
-    .main-banner{
-        top: 44px;
-    }
-  }
