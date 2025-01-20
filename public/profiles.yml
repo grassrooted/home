@@ -1,891 +1,857 @@
----
-name: "Chad West"
-id: "ChadWest"
-path_to_contributions_data: "/candidates/West/Data/west_contributions.json"
-path_to_headshot_photo: "/candidates/West/Visuals/West_headshot.jpg"
-path_to_maps:
-  - "/candidates/West/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/West/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/West/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/West/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2019"
-next_election: "2025"
-district: 1
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Jesus Moreno"
-id: "JesusMoreno"
-path_to_contributions_data: "/candidates/Moreno/Data/moreno_contributions.json"
-path_to_headshot_photo: "/candidates/Moreno/Visuals/Moreno_headshot.jpg"
-path_to_maps:
-  - "/candidates/Moreno/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Moreno/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Moreno/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2021"
-next_election: "2025"
-district: 2
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Zarin Gracey"
-id: "ZarinGracey"
-path_to_contributions_data: "/candidates/Gracey/Data/gracey_contributions.json"
-path_to_headshot_photo: "/candidates/Gracey/Visuals/zarin-gracey-headshot.jpg"
-path_to_maps:
-  - "/candidates/Gracey/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Gracey/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2023"
-next_election: "2025"
-district: 3
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Carolyn Arnold"
-id: "CarolynArnold"
-path_to_contributions_data: "/candidates/Arnold/Data/arnold_contributions.json"
-path_to_headshot_photo: "/candidates/Arnold/Visuals/carolyn-king-headshot.jpg"
-path_to_maps:
-  - "/candidates/Arnold/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Arnold/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Arnold/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Arnold/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2019"
-next_election: "2025"
-district: 4
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Jaime Resendez"
-id: "JaimeResendez"
-path_to_contributions_data: "/candidates/Resendez/Data/resendez_contributions.json"
-path_to_headshot_photo: "/candidates/Resendez/Visuals/Resendez_headshot.jpeg"
-path_to_maps:
-  - "/candidates/Resendez/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Resendez/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Resendez/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Resendez/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2021"
-next_election: "2025"
-district: 5
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Omar Narvaez"
-id: "OmarNarvaez"
-path_to_contributions_data: "/candidates/Narvaez/Data/narvaez_contributions.json"
-path_to_headshot_photo: "/candidates/Narvaez/Visuals/Narvaez_headshot.jpeg"
-path_to_maps:
-  - "/candidates/Narvaez/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Narvaez/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Narvaez/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Narvaez/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2017"
-next_election: "2025"
-district: 6
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Adam Bazaldua"
-id: "AdamBazaldua"
-path_to_contributions_data: "/candidates/Bazaldua/Data/bazaldua_contributions.json"
-path_to_headshot_photo: "/candidates/Bazaldua/Visuals/Bazaldua_headshot.jpg"
-path_to_maps:
-  - "/candidates/Bazaldua/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Bazaldua/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Bazaldua/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Bazaldua/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2019"
-next_election: "2025"
-district: 7
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Tennell Atkins"
-id: "TennellAtkins"
-path_to_contributions_data: "/candidates/Atkins/Data/atkins_contributions.json"
-path_to_headshot_photo: "/candidates/Atkins/Visuals/Atkins_headshot.jpg"
-path_to_maps:
-  - "/candidates/Atkins/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Atkins/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Atkins/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2017"
-next_election: "2025"
-district: 8
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Paula Blackmon"
-id: "PaulaBlackmon"
-path_to_contributions_data: "/candidates/Blackmon/Data/blackmon_contributions.json"
-path_to_headshot_photo: "/candidates/Blackmon/Visuals/Blackmon_headshot.jpg"
-path_to_maps:
-  - "/candidates/Blackmon/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Blackmon/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Blackmon/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Blackmon/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2021"
-next_election: "2025"
-district: 9
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Kathy Stewart"
-id: "KathyStewart"
-path_to_contributions_data: "/candidates/Stewart/Data/stewart_contributions.json"
-path_to_headshot_photo: "/candidates/Stewart/Visuals/Stewart_headshot.jpg"
-path_to_maps:
-  - "/candidates/Stewart/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Stewart/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2023"
-next_election: "2025"
-district: 10
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Jaynie Schultz"
-id: "JaynieSchultz"
-path_to_contributions_data: "/candidates/Schultz/Data/schultz_contributions.json"
-path_to_headshot_photo: "/candidates/Schultz/Visuals/Schultz_headshot.jpeg"
-path_to_maps:
-  - "/candidates/Schultz/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Schultz/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Schultz/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2021"
-next_election: "2025"
-district: 11
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Cara Mendelsohn"
-id: "CaraMendelsohn"
-path_to_contributions_data: "/candidates/Mendelsohn/Data/mendelsohn_contributions.json"
-path_to_headshot_photo: "/candidates/Mendelsohn/Visuals/Mendelsohn_headshot.jpg"
-path_to_maps:
-  - "/candidates/Mendelsohn/Visuals/May 5, 2017 - May 4, 2019.jpg"
-  - "/candidates/Mendelsohn/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Mendelsohn/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Mendelsohn/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2017"
-next_election: "2025"
-district: 12
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Gay Willis"
-id: "GayWillis"
-path_to_contributions_data: "/candidates/Willis/Data/willis_contributions.json"
-path_to_headshot_photo: "/candidates/Willis/Visuals/Willis_headshot.jpg"
-path_to_maps:
-  - "/candidates/Willis/Visuals/May 5, 2019 - May 4, 2021.jpeg"
-  - "/candidates/Willis/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Willis/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2021"
-next_election: "2025"
-district: 13
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Paul Ridley"
-id: "PaulRidley"
-path_to_contributions_data: "/candidates/Ridley/Data/ridley_contributions.json"
-path_to_headshot_photo: "/candidates/Ridley/Visuals/Ridley_headshot.jpg"
-path_to_maps:
-  - "/candidates/Ridley/Visuals/May 5, 2019 - May 4, 2021.jpg"
-  - "/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
-  - "/candidates/Ridley/Visuals/May 5, 2023 - May 4, 2025.jpg"
-first_election: "2021"
-next_election: "2025"
-district: 14
-city: "Dallas"
-election_status: "in-office"
-election_date: "05-04"
-election_cycle_years: 2
-individual_limit: 1000
-pac_limit: 2500
-data_source: "https://campfin.dallascityhall.com/"
-find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Sukh Kaur"
-id: "SukhKaur"
-path_to_contributions_data: "/candidates/SukhKaur/sukhkaur_contributions.json"
-path_to_headshot_photo: "/candidates/SukhKaur/kaur_headshot.jpeg"
-path_to_maps:
-  - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2021-2023.png"
-  - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2023-2025.png"
-first_election: "2023"
-next_election: "2025"
-district: 1
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Jalen McKee-Rodriguez"
-id: "JalenMcKee-Rodriguez"
-path_to_contributions_data: "/candidates/JalenMcKee-Rodriguez/JalenMcKeeRodriguez_contributions.json"
-path_to_headshot_photo: "/candidates/JalenMcKee-Rodriguez/rodriguez_headshot.png"
-path_to_maps:
-  - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2019-2021.png"
-  - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2021-2023.png"
-  - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2023-2025.png"
-first_election: "2021"
-next_election: "2025"
-district: 2
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Phyllis Viagran"
-id: "PhyllisViagran"
-path_to_contributions_data: "/candidates/PhyllisViagran/PhyllisViagran_contributions.json"
-path_to_headshot_photo: "/candidates/PhyllisViagran/viagran_headshot.jpeg"
-path_to_maps:
-  - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2019-2021.png"
-  - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2021-2023.png"
-  - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2023-2025.png"
-first_election: "2021"
-next_election: "2025"
-district: 3
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Adriana Garcia"
-id: "AdrianaGarcia"
-path_to_contributions_data: "/candidates/AdrianaGarcia/AdrianaGarcia_contributions.json"
-path_to_headshot_photo: "/candidates/AdrianaGarcia/garcia_headshot.jpeg"
-path_to_maps:
-  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2017-2019.png"
-  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2019-2021.png"
-  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2021-2023.png"
-  - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2023-2025.png"
-first_election: "2019"
-next_election: "2025"
-district: 4
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Teri Castillo"
-id: "TeriCastillo"
-path_to_contributions_data: "/candidates/TeriCastillo/TeriCastillo_contributions.json"
-path_to_headshot_photo: "/candidates/TeriCastillo/castillo_headshot.jpeg"
-path_to_maps:
-  - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2019-2021.png"
-  - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2021-2023.png"
-  - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2023-2025.png"
-first_election: "2021"
-next_election: "2025"
-district: "5"
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Melissa Cabello Havrda"
-id: "MelissaCabelloHavrda"
-path_to_contributions_data: "/candidates/MelissaCabelloHavrda/MelissaCabelloHavrda_contributions.json"
-path_to_headshot_photo: "/candidates/MelissaCabelloHavrda/havrda_headshot.jpeg"
-path_to_maps:
-  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2017-2019.png"
-  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2019-2021.png"
-  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2021-2023.png"
-  - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2023-2025.png"
-first_election: "2019"
-next_election: "2025"
-district: 6
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Marina Gavito"
-id: "MarinaGavito"
-path_to_contributions_data: "/candidates/MarinaGavito/MarinaGavito_contributions.json"
-path_to_headshot_photo: "/candidates/MarinaGavito/gavito_headshot.jpeg"
-path_to_maps:
-  - "/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2021-2023.png"
-  - "/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2023-2025.png"
-first_election: "2023"
-next_election: "2025"
-district: 7
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Manny Pelaez"
-id: "MannyPelaez"
-path_to_contributions_data: "/candidates/MannyPelaez/MannyPelaez_contributions.json"
-path_to_headshot_photo: "/candidates/MannyPelaez/pelaez_headshot.jpeg"
-path_to_maps:
-  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2017-2019.png"
-  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2019-2021.png"
-  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2021-2023.png"
-  - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2023-2025.png"
-first_election: "2017"
-next_election: "2025"
-district: 8
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "John Courage"
-id: "JohnCourage"
-path_to_contributions_data: "/candidates/JohnCourage/JohnCourage_contributions.json"
-path_to_headshot_photo: "/candidates/JohnCourage/courage_headshot.jpeg"
-path_to_maps:
-  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2017-2019.png"
-  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2019-2021.png"
-  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2021-2023.png"
-  - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2023-2025.png"
-first_election: "2017"
-next_election: "2025"
-district: 9
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Marc Whyte"
-id: "MarcWhyte"
-path_to_contributions_data: "/candidates/MarcWhyte/MarcWhyte_contributions.json"
-path_to_headshot_photo: "/candidates/MarcWhyte/whyte_headshot.jpeg"
-path_to_maps:
-  - "/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2021-2023.png"
-  - "/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2023-2025.png"
-first_election: "2023"
-next_election: "2025"
-district: 10
-city: "San Antonio"
-election_status: "in-office"
-election_date: "06-01"
-election_cycle_years: 2
-individual_limit: 500
-pac_limit: 500
-data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
-find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Transaction Date:"
-  Amount: "Contribution_Amount"
-  Address: "Address"
----
-name: "Natasha Harper-Madison"
-id: "NatashaHarperMadison"
-path_to_contributions_data: "/candidates/NatashaHarperMadison/NatashaHarperMadison_contributions.json"
-path_to_headshot_photo: "/candidates/NatashaHarperMadison/nharpermadison.jpg"
-first_election: "2018"
-next_election: "2027"
-district: 1
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Vanessa Fuentes"
-id: "VanessaFuentes"
-path_to_contributions_data: "/candidates/VanessaFuentes/VanessaFuentes.json"
-path_to_headshot_photo: "/candidates/VanessaFuentes/VanessaFuentes_headshot.jpeg"
-first_election: "2020"
-next_election: "2025"
-district: 2
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Jose Velasquez"
-id: "JoseVelasquez"
-path_to_contributions_data: "/candidates/JoseVelasquez/JoseVelasquez.json"
-path_to_headshot_photo: "/candidates/JoseVelasquez/JoseVelasquez_headshot.jpeg"
-first_election: "2022"
-next_election: "2027"
-district: 3
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Jose Vela"
-id: "JoseVela"
-path_to_contributions_data: "/candidates/JoseVela/JoseVela.json"
-path_to_headshot_photo: "/candidates/JoseVela/JoseVela.jpeg"
-first_election: "2022"
-next_election: "2025"
-district: 4
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Ryan Alter"
-id: "RyanAlter"
-path_to_contributions_data: "/candidates/RyanAlter/RyanAlter.json"
-path_to_headshot_photo: "/candidates/RyanAlter/RyanAlter_headshot.jpeg"
-first_election: "2022"
-next_election: "2027"
-district: 5
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Mackenzie Kelly"
-id: "MackenzieKelly"
-path_to_contributions_data: "/candidates/MackenzieKelly/MackenzieKelly.json"
-path_to_headshot_photo: "/candidates/MackenzieKelly/MackenzieKelly_headshot.jpeg"
-first_election: "2020"
-next_election: "2025"
-district: 6
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Leslie Pool"
-id: "LesliePool"
-path_to_contributions_data: "/candidates/LesliePool/LesliePool_contributions.json"
-path_to_headshot_photo: "/candidates/LesliePool/LesliePool_headshot.jpeg"
-first_election: "2019"
-next_election: "2027"
-district: 7
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Paige Ellis"
-id: "PaigeEllis"
-path_to_contributions_data: "/candidates/PaigeEllis/PaigeEllis_contributions.json"
-path_to_headshot_photo: "/candidates/PaigeEllis/PaigeEllis_headshot.jpeg"
-first_election: "2019"
-next_election: "2027"
-district: 8
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Zohaib Qadri"
-id: "ZohaibQadri"
-path_to_contributions_data: "/candidates/ZohaibQadri/ZohaibQadri_contributions.json"
-path_to_headshot_photo: "/candidates/ZohaibQadri/ZohaibQadri_headshot.jpeg"
-first_election: "2019"
-next_election: "2027"
-district: 9
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
----
-name: "Alison Alter"
-id: "AlisonAlter"
-path_to_contributions_data: "/candidates/AlisonAlter/AlisonAlter_contributions.json"
-path_to_headshot_photo: "/candidates/AlisonAlter/AlisonAlter_headshot.jpeg"
-first_election: "2019"
-next_election: "2027"
-district: 10
-city: "Austin"
-election_status: "in-office"
-election_date: "11-06"
-election_cycle_years: 4
-individual_limit: 300
-pac_limit: 1000
-out_of_city_aggregate_contribution_limit: 30000
-data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-contribution_fields:
-  Donor: "Name"
-  Recipient: "Recipient"
-  Transaction_Date: "Contribution_Date"
-  Amount: "Contribution_Amount"
-  Address: "Donor_Address"
-  City_State_Zip: "City_State_Zip"
-  Donor_Reported_Occupation: "Donor_Reported_Occupation"
-  Donor_Reported_Employer: "Donor_Reported_Employer"
+- name: "Chad West"
+  id: "ChadWest"
+  path_to_contributions_data: "/candidates/West/Data/west_contributions.json"
+  path_to_headshot_photo: "/candidates/West/Visuals/West_headshot.jpg"
+  path_to_maps:
+    - "/candidates/West/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/West/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/West/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/West/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2019"
+  next_election: "2025"
+  district: 1
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Jesus Moreno"
+  id: "JesusMoreno"
+  path_to_contributions_data: "/candidates/Moreno/Data/moreno_contributions.json"
+  path_to_headshot_photo: "/candidates/Moreno/Visuals/Moreno_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Moreno/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Moreno/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Moreno/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2021"
+  next_election: "2025"
+  district: 2
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Zarin Gracey"
+  id: "ZarinGracey"
+  path_to_contributions_data: "/candidates/Gracey/Data/gracey_contributions.json"
+  path_to_headshot_photo: "/candidates/Gracey/Visuals/zarin-gracey-headshot.jpg"
+  path_to_maps:
+    - "/candidates/Gracey/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Gracey/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2023"
+  next_election: "2025"
+  district: 3
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Carolyn Arnold"
+  id: "CarolynArnold"
+  path_to_contributions_data: "/candidates/Arnold/Data/arnold_contributions.json"
+  path_to_headshot_photo: "/candidates/Arnold/Visuals/carolyn-king-headshot.jpg"
+  path_to_maps:
+    - "/candidates/Arnold/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Arnold/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Arnold/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Arnold/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2019"
+  next_election: "2025"
+  district: 4
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Jaime Resendez"
+  id: "JaimeResendez"
+  path_to_contributions_data: "/candidates/Resendez/Data/resendez_contributions.json"
+  path_to_headshot_photo: "/candidates/Resendez/Visuals/Resendez_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/Resendez/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Resendez/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Resendez/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Resendez/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2021"
+  next_election: "2025"
+  district: 5
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Omar Narvaez"
+  id: "OmarNarvaez"
+  path_to_contributions_data: "/candidates/Narvaez/Data/narvaez_contributions.json"
+  path_to_headshot_photo: "/candidates/Narvaez/Visuals/Narvaez_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/Narvaez/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Narvaez/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Narvaez/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Narvaez/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2017"
+  next_election: "2025"
+  district: 6
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Adam Bazaldua"
+  id: "AdamBazaldua"
+  path_to_contributions_data: "/candidates/Bazaldua/Data/bazaldua_contributions.json"
+  path_to_headshot_photo: "/candidates/Bazaldua/Visuals/Bazaldua_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Bazaldua/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Bazaldua/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Bazaldua/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Bazaldua/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2019"
+  next_election: "2025"
+  district: 7
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Tennell Atkins"
+  id: "TennellAtkins"
+  path_to_contributions_data: "/candidates/Atkins/Data/atkins_contributions.json"
+  path_to_headshot_photo: "/candidates/Atkins/Visuals/Atkins_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Atkins/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Atkins/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Atkins/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2017"
+  next_election: "2025"
+  district: 8
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Paula Blackmon"
+  id: "PaulaBlackmon"
+  path_to_contributions_data: "/candidates/Blackmon/Data/blackmon_contributions.json"
+  path_to_headshot_photo: "/candidates/Blackmon/Visuals/Blackmon_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Blackmon/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Blackmon/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Blackmon/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Blackmon/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2021"
+  next_election: "2025"
+  district: 9
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Kathy Stewart"
+  id: "KathyStewart"
+  path_to_contributions_data: "/candidates/Stewart/Data/stewart_contributions.json"
+  path_to_headshot_photo: "/candidates/Stewart/Visuals/Stewart_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Stewart/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Stewart/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2023"
+  next_election: "2025"
+  district: 10
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Jaynie Schultz"
+  id: "JaynieSchultz"
+  path_to_contributions_data: "/candidates/Schultz/Data/schultz_contributions.json"
+  path_to_headshot_photo: "/candidates/Schultz/Visuals/Schultz_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/Schultz/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Schultz/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Schultz/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2021"
+  next_election: "2025"
+  district: 11
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Cara Mendelsohn"
+  id: "CaraMendelsohn"
+  path_to_contributions_data: "/candidates/Mendelsohn/Data/mendelsohn_contributions.json"
+  path_to_headshot_photo: "/candidates/Mendelsohn/Visuals/Mendelsohn_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Mendelsohn/Visuals/May 5, 2017 - May 4, 2019.jpg"
+    - "/candidates/Mendelsohn/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Mendelsohn/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Mendelsohn/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2017"
+  next_election: "2025"
+  district: 12
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Gay Willis"
+  id: "GayWillis"
+  path_to_contributions_data: "/candidates/Willis/Data/willis_contributions.json"
+  path_to_headshot_photo: "/candidates/Willis/Visuals/Willis_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Willis/Visuals/May 5, 2019 - May 4, 2021.jpeg"
+    - "/candidates/Willis/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Willis/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2021"
+  next_election: "2025"
+  district: 13
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Paul Ridley"
+  id: "PaulRidley"
+  path_to_contributions_data: "/candidates/Ridley/Data/ridley_contributions.json"
+  path_to_headshot_photo: "/candidates/Ridley/Visuals/Ridley_headshot.jpg"
+  path_to_maps:
+    - "/candidates/Ridley/Visuals/May 5, 2019 - May 4, 2021.jpg"
+    - "/candidates/Ridley/Visuals/May 5, 2021 - May 4, 2023.jpg"
+    - "/candidates/Ridley/Visuals/May 5, 2023 - May 4, 2025.jpg"
+  first_election: "2021"
+  next_election: "2025"
+  district: 14
+  city: "Dallas"
+  election_status: "in-office"
+  election_date: "05-04"
+  election_cycle_years: 2
+  individual_limit: 1000
+  pac_limit: 2500
+  data_source: "https://campfin.dallascityhall.com/"
+  find_my_district: "https://www.arcgis.com/apps/View/index.html?appid=060ca78d086f4b5e91cc8ec866fdbe55"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Sukh Kaur"
+  id: "SukhKaur"
+  path_to_contributions_data: "/candidates/SukhKaur/sukhkaur_contributions.json"
+  path_to_headshot_photo: "/candidates/SukhKaur/kaur_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2021-2023.png"
+    - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2023-2025.png"
+  first_election: "2023"
+  next_election: "2025"
+  district: 1
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Jalen McKee-Rodriguez"
+  id: "JalenMcKee-Rodriguez"
+  path_to_contributions_data: "/candidates/JalenMcKee-Rodriguez/JalenMcKeeRodriguez_contributions.json"
+  path_to_headshot_photo: "/candidates/JalenMcKee-Rodriguez/rodriguez_headshot.png"
+  path_to_maps:
+    - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2019-2021.png"
+    - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2021-2023.png"
+    - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2023-2025.png"
+  first_election: "2021"
+  next_election: "2025"
+  district: 2
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Phyllis Viagran"
+  id: "PhyllisViagran"
+  path_to_contributions_data: "/candidates/PhyllisViagran/PhyllisViagran_contributions.json"
+  path_to_headshot_photo: "/candidates/PhyllisViagran/viagran_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2019-2021.png"
+    - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2021-2023.png"
+    - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2023-2025.png"
+  first_election: "2021"
+  next_election: "2025"
+  district: 3
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Adriana Garcia"
+  id: "AdrianaGarcia"
+  path_to_contributions_data: "/candidates/AdrianaGarcia/AdrianaGarcia_contributions.json"
+  path_to_headshot_photo: "/candidates/AdrianaGarcia/garcia_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2017-2019.png"
+    - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2019-2021.png"
+    - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2021-2023.png"
+    - "/candidates/AdrianaGarcia/maps/AdrianaGarcia_donors_map_2023-2025.png"
+  first_election: "2019"
+  next_election: "2025"
+  district: 4
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Teri Castillo"
+  id: "TeriCastillo"
+  path_to_contributions_data: "/candidates/TeriCastillo/TeriCastillo_contributions.json"
+  path_to_headshot_photo: "/candidates/TeriCastillo/castillo_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2019-2021.png"
+    - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2021-2023.png"
+    - "/candidates/TeriCastillo/maps/TeriCastillo_donors_map_2023-2025.png"
+  first_election: "2021"
+  next_election: "2025"
+  district: "5"
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Melissa Cabello Havrda"
+  id: "MelissaCabelloHavrda"
+  path_to_contributions_data: "/candidates/MelissaCabelloHavrda/MelissaCabelloHavrda_contributions.json"
+  path_to_headshot_photo: "/candidates/MelissaCabelloHavrda/havrda_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2017-2019.png"
+    - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2019-2021.png"
+    - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2021-2023.png"
+    - "/candidates/MelissaCabelloHavrda/maps/MelissaCabelloHavrda_donors_map_2023-2025.png"
+  first_election: "2019"
+  next_election: "2025"
+  district: 6
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Marina Gavito"
+  id: "MarinaGavito"
+  path_to_contributions_data: "/candidates/MarinaGavito/MarinaGavito_contributions.json"
+  path_to_headshot_photo: "/candidates/MarinaGavito/gavito_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2021-2023.png"
+    - "/candidates/MarinaGavito/maps/MarinaGavito_donors_map_2023-2025.png"
+  first_election: "2023"
+  next_election: "2025"
+  district: 7
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Manny Pelaez"
+  id: "MannyPelaez"
+  path_to_contributions_data: "/candidates/MannyPelaez/MannyPelaez_contributions.json"
+  path_to_headshot_photo: "/candidates/MannyPelaez/pelaez_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2017-2019.png"
+    - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2019-2021.png"
+    - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2021-2023.png"
+    - "/candidates/MannyPelaez/maps/MannyPelaez_donors_map_2023-2025.png"
+  first_election: "2017"
+  next_election: "2025"
+  district: 8
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "John Courage"
+  id: "JohnCourage"
+  path_to_contributions_data: "/candidates/JohnCourage/JohnCourage_contributions.json"
+  path_to_headshot_photo: "/candidates/JohnCourage/courage_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2017-2019.png"
+    - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2019-2021.png"
+    - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2021-2023.png"
+    - "/candidates/JohnCourage/maps/JohnCourage_donors_map_2023-2025.png"
+  first_election: "2017"
+  next_election: "2025"
+  district: 9
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Marc Whyte"
+  id: "MarcWhyte"
+  path_to_contributions_data: "/candidates/MarcWhyte/MarcWhyte_contributions.json"
+  path_to_headshot_photo: "/candidates/MarcWhyte/whyte_headshot.jpeg"
+  path_to_maps:
+    - "/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2021-2023.png"
+    - "/candidates/MarcWhyte/maps/MarcWhyte_donors_map_2023-2025.png"
+  first_election: "2023"
+  next_election: "2025"
+  district: 10
+  city: "San Antonio"
+  election_status: "in-office"
+  election_date: "06-01"
+  election_cycle_years: 2
+  individual_limit: 500
+  pac_limit: 500
+  data_source: "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
+  find_my_district: "https://www.sanantonio.gov/Council/Find-My-Council-Member"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Transaction Date:"
+    Amount: "Contribution_Amount"
+    Address: "Address"
+- name:  "Natasha Harper-Madison"
+  id: "NatashaHarperMadison"
+  path_to_contributions_data: "/candidates/NatashaHarperMadison/NatashaHarperMadison_contributions.json"
+  path_to_headshot_photo: "/candidates/NatashaHarperMadison/nharpermadison.jpg"
+  first_election: "2018"
+  next_election: "2027"
+  district: 1
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Vanessa Fuentes"
+  id: "VanessaFuentes"
+  path_to_contributions_data: "/candidates/VanessaFuentes/VanessaFuentes.json"
+  path_to_headshot_photo: "/candidates/VanessaFuentes/VanessaFuentes_headshot.jpeg"
+  first_election: "2020"
+  next_election: "2025"
+  district: 2
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Jose Velasquez"
+  id: "JoseVelasquez"
+  path_to_contributions_data: "/candidates/JoseVelasquez/JoseVelasquez.json"
+  path_to_headshot_photo: "/candidates/JoseVelasquez/JoseVelasquez_headshot.jpeg"
+  first_election: "2022"
+  next_election: "2027"
+  district: 3
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Jose Vela"
+  id: "JoseVela"
+  path_to_contributions_data: "/candidates/JoseVela/JoseVela.json"
+  path_to_headshot_photo: "/candidates/JoseVela/JoseVela.jpeg"
+  first_election: "2022"
+  next_election: "2025"
+  district: 4
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Ryan Alter"
+  id: "RyanAlter"
+  path_to_contributions_data: "/candidates/RyanAlter/RyanAlter.json"
+  path_to_headshot_photo: "/candidates/RyanAlter/RyanAlter_headshot.jpeg"
+  first_election: "2022"
+  next_election: "2027"
+  district: 5
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Mackenzie Kelly"
+  id: "MackenzieKelly"
+  path_to_contributions_data: "/candidates/MackenzieKelly/MackenzieKelly.json"
+  path_to_headshot_photo: "/candidates/MackenzieKelly/MackenzieKelly_headshot.jpeg"
+  first_election: "2020"
+  next_election: "2025"
+  district: 6
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Leslie Pool"
+  id: "LesliePool"
+  path_to_contributions_data: "/candidates/LesliePool/LesliePool_contributions.json"
+  path_to_headshot_photo: "/candidates/LesliePool/LesliePool_headshot.jpeg"
+  first_election: "2019"
+  next_election: "2027"
+  district: 7
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Paige Ellis"
+  id: "PaigeEllis"
+  path_to_contributions_data: "/candidates/PaigeEllis/PaigeEllis_contributions.json"
+  path_to_headshot_photo: "/candidates/PaigeEllis/PaigeEllis_headshot.jpeg"
+  first_election: "2019"
+  next_election: "2027"
+  district: 8
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Zohaib Qadri"
+  id: "ZohaibQadri"
+  path_to_contributions_data: "/candidates/ZohaibQadri/ZohaibQadri_contributions.json"
+  path_to_headshot_photo: "/candidates/ZohaibQadri/ZohaibQadri_headshot.jpeg"
+  first_election: "2019"
+  next_election: "2027"
+  district: 9
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"
+- name:  "Alison Alter"
+  id: "AlisonAlter"
+  path_to_contributions_data: "/candidates/AlisonAlter/AlisonAlter_contributions.json"
+  path_to_headshot_photo: "/candidates/AlisonAlter/AlisonAlter_headshot.jpeg"
+  first_election: "2019"
+  next_election: "2027"
+  district: 10
+  city: "Austin"
+  election_status: "in-office"
+  election_date: "11-06"
+  election_cycle_years: 4
+  individual_limit: 300
+  pac_limit: 1000
+  out_of_city_aggregate_contribution_limit: 30000
+  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
+  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
+  contribution_fields:
+    Donor: "Name"
+    Recipient: "Recipient"
+    Transaction_Date: "Contribution_Date"
+    Amount: "Contribution_Amount"
+    Address: "Donor_Address"
+    City_State_Zip: "City_State_Zip"
+    Donor_Reported_Occupation: "Donor_Reported_Occupation"
+    Donor_Reported_Employer: "Donor_Reported_Employer"

@@ -8,7 +8,8 @@ export async function getCities(query) {
   try {
     const response = await fetch(`${process.env.PUBLIC_URL}/cities.yml`);
     const yamlText = await response.text();
-    let cities = yaml.loadAll(yamlText);
+    let cities = yaml.load(yamlText);
+    console.log(cities)
     if (!cities) cities = [];
     if (query) {
       cities = matchSorter(cities, query, { keys: ["name"] });
