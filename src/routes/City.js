@@ -108,7 +108,6 @@ function City() {
             <Header city={city_config.name} profile={city_config} />
             <StackedBarChartDonorSummary cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
             <CumulativeContributionsTimeline cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
-            <OutOfCityBarChart cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
             <ProfileStream cityId={cityId} cityProfileData={cityProfileData} />
             <IndividualContributionsTable
                 profile={cityProfileData?.[0]}

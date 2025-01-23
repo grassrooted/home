@@ -33,7 +33,7 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
 
         const columns = [
             { title: "Contributor", field: "Name", headerFilter: true },
-            { title: "Amount ($)", field: profile.contribution_fields.Amount, formatter: "money" },
+            { title: "Amount ($)", field: profile.contribution_fields.Amount, formatter: "money", headerFilter: true },
             { title: "Candidate", field: profile.contribution_fields.Recipient },
             {
                 title: "Transaction Date",

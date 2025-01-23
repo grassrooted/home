@@ -120,12 +120,7 @@ function Profile() {
             <ProfileSnapshot 
                 profile={profile} />
 
-            <Highlights 
-                profile={profile} 
-                aggregated_data={aggregatedData} 
-                contribution_data={profile.contributions} 
-                selectedDateRange={selectedDateRange}
-                electionCycles={electionCycles} />
+
 
             <span className='side-by-side'>
                 <AggregatedDataTable 

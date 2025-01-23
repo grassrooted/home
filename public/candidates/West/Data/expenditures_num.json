@@ -1,24 +1,4 @@
-import json
-
-def remove_duplicates(data):
-    # Create a dictionary to track records by a composite key (Name, Contribution_Amount, Contribution_Date, Donor_Address)
-    seen_records = {}
-
-    # Iterate through each record in the data
-    for record in data[:]:
-        # Create a unique key based on the key fields (Name, Contribution_Amount, Contribution_Date, Donor_Address)
-        key = (record['Name'], record['Contribution_Amount'], record['Transaction Date:'])
-
-        # Check if the record is already in the seen_records dictionary
-        if key in seen_records:
-            data.remove(record)
-        else:
-            # If the key is not yet in seen_records, add it
-            seen_records[key] = record
-
-    return data
-
-json_data = [
+[
     {
         "Report:": "N/A",
         "S/R:": "View S/R",
@@ -66030,12 +66010,3 @@ json_data = [
         "Date/Time Submitted:": "7/14/2024 7:46:11 AM"
     }
 ]
-
-# Remove duplicates
-cleaned_data = remove_duplicates(json_data)
-
-# Print the cleaned data
-print(json.dumps(cleaned_data, indent=4))
-
-with open("no-duplicates.json", "w") as f:
-    json.dump(cleaned_data, f, ensure_ascii=False, indent=4)

@@ -17,7 +17,7 @@ const OutOfCityBarChart = ({ cityProfileData, selectedDateRange }) => {
         all_profiles_total_contributions[profile.name] = {total_contributions: 0, in_city_sum: 0}
 
         filteredData.forEach(record => {
-            all_profiles_total_contributions[record.Recipient].total_contributions += record.Contribution_Amount;
+            all_profiles_total_contributions[record.Recipient].total_contributions += record.Contribution_Amount ? record.Contribution_Amount : 0;
         })
         
         const in_city_sum = filteredData
