@@ -1,46 +1,72 @@
 import pdfplumber
 import re
 import json
+import os
+import requests
+import logging
 
+txt_file = "Atkins_Contributions_2019_2025.txt"
 
-# data source
-pdf_path = "supp_july_2020.pdf"
-root_name = pdf_path.split(".")[0]
-output_file = f"{root_name}.json"
+# Configure logging
+log_file = "supplemental_parser.log"
+logging.basicConfig(
+    filename=log_file,
+    filemode="a",  # Append mode
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    level=logging.INFO,  # Set the default logging level
+)
+
+def download_pdfs(file_path):
+    if not os.path.isfile(file_path):
+        raise FileNotFoundError(f"The file {file_path} does not exist.")
+    
+    logging.info(f"Extracting Campaign Finance Links from {file_path}")
+    with open(file_path, 'r') as file:
+        links = file.read().splitlines()
+    
+    output_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    downloaded_files = []
+    
+    for link in links:
+        try:
+            filename = os.path.join(output_dir, os.path.basename(link))
+            
+            response = requests.get(link, stream=True)
+            response.raise_for_status()
+            
+            with open(filename, 'wb') as pdf_file:
+                pdf_file.write(response.content)
+            
+            downloaded_files.append(filename)
+            logging.info(f"Downloaded: {filename}")
+        
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Failed to download {link}: {e}")
+    
+    downloaded_files.sort()
+    return downloaded_files
 
 def extract_finance_data_from_table(pdf_path):
     data = {
         "candidate_info": {},
-        "report_totals": {},
+        "form_data" : {
+            "data_source" : pdf_path,
+        },
         "contributions": [],
         "expenditures": [],
-        "in_kind_contributions": []
+        "in_kind_contributions": [],
     }
 
-    def extract_small_dollar(data):
-        flat_text = " ".join(filter(None, [str(item) for sublist in data for item in sublist]))
-        matches = re.findall(r'\$\d+(?:,\d{3})*(?:\.\d{2})?', flat_text)
-        if len(matches) > 1:
-            return float(matches[1].replace('$', '').replace(',', ''))
-        elif matches:
-            return float(matches[0].replace('$', '').replace(',', ''))
-        return None
+    def extract_office(flat_text):
+        pattern = r"OFFICE\s*SOUGHT\s*\(if known\)\s*([A-Za-z]+\s*District\s*\d+)"
+        match = re.search(pattern, flat_text)
 
-    def extract_amount(data):
-        flat_text = " ".join(filter(None, [str(item) for sublist in data for item in sublist]))
-        match = re.search(r'\$(\d+(?:,\d{3})*(?:\.\d{2})?)', flat_text)
         if match:
-            return float(match.group(1).replace(',', ''))
-        return None
-
-    def extract_office(data):
-        combined_text = " ".join(filter(None, data))
-        start_phrase = "3. Office Held"
-        if start_phrase in combined_text:
-            start_index = combined_text.index(start_phrase) + len(start_phrase)
-            extracted_text = combined_text[start_index:].strip()
-            return extracted_text
-        return None
+            office_sought = match.group(1).strip()
+            return office_sought
+        else:
+            return "Not Found"
     
     def extract_first_name(data):
         flat_text = " ".join(filter(None, [str(item) for sublist in data for item in sublist]))
@@ -89,18 +115,39 @@ def extract_finance_data_from_table(pdf_path):
 
         return results
 
+    def extract_period_covered(flattened_text):
+        try:
+            pattern_start = r"PERIOD/COVERED.*?(\d{1,2}/\d{1,2}/\d{4})"
+            pattern_end = r"\s*THROUGH\s*(\d{1,2}/\d{1,2}/\d{4})"
+
+            match_start = re.search(pattern_start, flattened_text, re.IGNORECASE).group(1)
+            match_end = re.search(pattern_end, flattened_text, re.IGNORECASE).group(1)
+
+            if match_start and match_end:
+                start_date = match_start
+                end_date = match_end
+                return f"{start_date}_{end_date}"
+            else:
+                return None  # Return None if no match is found
+        except Exception as e:
+            logging.warning(f"Error extracting period covered: {e}")
+            return None
+
+
     def parse_header_page(table):
         header = {}
         flat_text = " ".join(filter(None, [str(item) for sublist in table for item in sublist])).replace("None", "").replace(" ", "").replace("\n","")
+        period_covered = extract_period_covered(flat_text)
+        data["form_data"]["period"] = period_covered
         header["candidate_info"] = {
             "first_name": extract_first_name(table),
             "last_name": extract_last_name(table),
-            "office_sought": extract_office(table[10]),
+            "office_sought": extract_office(flat_text),
             "report_totals" : extract_financial_data(flat_text)
         }
         
         json_str = json.dumps(header, indent=4)
-        print(json_str)
+        logging.info(json_str)
         return header
 
     def parse_contribution_record(row):
@@ -144,7 +191,7 @@ def extract_finance_data_from_table(pdf_path):
 
             return amount, description
         except Exception as e:
-            print(f"Error in extract_amount_and_description: {e}")
+            logging.warning(f"Error in extract_amount_and_description: {e}")
             return None, None
 
 
@@ -183,7 +230,7 @@ def extract_finance_data_from_table(pdf_path):
             return results
 
         except Exception as e:
-            print(f"Error parsing table: {e}")
+            #logging.warning(f"Error parsing table: {e}")
             return results
 
 
@@ -226,7 +273,7 @@ def extract_finance_data_from_table(pdf_path):
             return None
         except Exception as e:
             # For debugging purposes
-            print(f"Error parsing record: {e}")
+            #logging.warning(f"Error parsing record: {e}")
             return None
 
 
@@ -235,12 +282,12 @@ def extract_finance_data_from_table(pdf_path):
             page_title = "".join(page.extract_tables()[0][0][0])
             tables = page.extract_tables()
             if page_num == 0:
+                logging.info(f"Page Title: {page_title}")
                 header = parse_header_page(tables[0])
                 if header:
                     data["candidate_info"] = header["candidate_info"]
                     
             for table in tables:
-
                 if "A1" in page_title:
                     for row in table:
                         record = parse_contribution_record(row)
@@ -267,20 +314,89 @@ def extract_finance_data_from_table(pdf_path):
                 if "A2" in page_title:
                     in_kind_contribution = parse_in_kind_contribution(table)
                     if in_kind_contribution:
-                        print(f"\n\n+++{in_kind_contribution}")
                         data["in_kind_contributions"].extend(in_kind_contribution)
 
     return data
 
-finance_data = extract_finance_data_from_table(pdf_path)
+def is_supplemental_form(pdf_path):
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            # Check the first page for a supplemental form identifier
+            first_page_text = pdf.pages[0].extract_text()
+            # Define criteria to identify supplemental forms
+            if "SUPPLEMENTAL" in first_page_text.upper():  # Adjust based on actual identifier
+                return True
+            return False
+    except Exception as e:
+        logging.warning(f"Error checking if form is supplemental: {e}")
+        return False
 
-with open(output_file, "w") as file:
-    json.dump(finance_data, file, indent=4)
 
-total_political_contributions = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
-total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]), 2)
-total_in_kind_contributions = round(sum(record["Amount"] for record in finance_data["in_kind_contributions"]), 2)
-total_contributions = total_in_kind_contributions + total_political_contributions
+def process_pdfs(pdf_files):
+    failed_files = []
+    for pdf_path in pdf_files:
+        try:
+            if not is_supplemental_form(pdf_path):
+                continue
+            logging.info(f"\n\nParsing: {pdf_path}")
+            print(f"Parsing: {pdf_path}")
+            # set up default output filename
+            root_name = os.path.splitext(pdf_path)[0]
+            output_file = f"{root_name}_supplemental.json"
 
-print(f"Total Contributions: {total_contributions}")
-print(f"Total Expenditures: {total_expenditures}")
+            finance_data = extract_finance_data_from_table(pdf_path)
+            period_covered = finance_data["form_data"]["period"].replace("/", "-")
+            last_name = finance_data["candidate_info"]["last_name"]
+            if period_covered and last_name:
+                output_file = f"{last_name}_{period_covered}_supplemental.json"
+
+            logging.info(f"Writing Records to {output_file}")
+            with open(output_file, "w") as file:
+                json.dump(finance_data, file, indent=4)
+
+            total_political_contributions = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
+            total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]), 2)
+            total_in_kind_contributions = round(sum(record["Amount"] for record in finance_data["in_kind_contributions"]), 2)
+            total_contributions = total_in_kind_contributions + total_political_contributions
+
+            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]
+            
+            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]\
+
+            logging.info(f"\nReported Contributions: {reported_total_contributions}")
+            logging.info(f"Parsed Contributions: {total_contributions}")
+            if (reported_total_contributions != total_contributions):
+                logging.info("\n\n***MISMATCHING CONTRIBUTION TOTAL***\n\n")
+
+            logging.info(f"\nReported Expenditures: {reported_total_expenditures}")
+            logging.info(f"Parsed Expenditures: {total_expenditures}")
+            if (reported_total_expenditures != total_expenditures):
+                logging.info("\n\n***MISMATCHING EXPENDITURE TOTAL***\n\n")
+
+        except Exception as e:
+            logging.error(f"Error processing {pdf_path}: {e}")
+            failed_files.append(pdf_path)
+    # Write failed filenames to a text file
+    if failed_files:
+        with open("failed_documents.txt", "w") as failed_file:
+            for file_name in failed_files:
+                failed_file.write(f"{file_name}\n")
+        logging.info(f"Failed files written to failed_documents.txt")
+
+
+try:
+    downloaded_files = download_pdfs(txt_file)
+    logging.info("\nDownloaded files (sorted):")
+    for file in downloaded_files:
+        logging.info(file)
+
+    process_pdfs(downloaded_files)
+
+except Exception as e:
+    logging.error(f"Error: {e}")

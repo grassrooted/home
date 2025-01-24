@@ -1,0 +1,891 @@
+{
+    "candidate_info": {
+        "first_name": "Philip",
+        "last_name": "Kingston",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 3450.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 58830.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 2710.89,
+            "TOTAL POLITICAL EXPENDITURES": 51762.43
+        }
+    },
+    "form_data": {
+        "data_source": "/Users/imercado/Documents/home_react/dew/src/utils/srp0000001866_20190531_161851.pdf",
+        "period": "4/25/2019_5/29/2019"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "05/14/2019",
+            "Name": "Laurel Gilmour-Smith",
+            "Address": "6315 Prospect Dallas, TX 75214",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Jerry Alexander",
+            "Address": "2500 Renaissance Tower Dallas, TX 75270",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/22/2019",
+            "Name": "Don McNamara",
+            "Address": "3899 Maple Suite 300 Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Chris Luna",
+            "Address": "P.O. Box 131523 Dallas, TX 75313",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Sara Wick",
+            "Address": "5834 Palo Pinto Dallas, TX 75206",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Neal Sleeper",
+            "Address": "3324 Blackburn Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Don Kingston",
+            "Address": "6466 Lake Circle Dallas, TX 75214",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Lydia Bean",
+            "Address": "2710 Meadow Ln Arlington, TX 76006",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/19/2019",
+            "Name": "Richard Latin",
+            "Address": "6701 Lake Circle Dallas, TX 75214",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/19/2019",
+            "Name": "Keith Pomykal",
+            "Address": "P.O. Box 192723 Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Bradley Montano",
+            "Address": "3525 Turtle Creek Suite 4E Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/18/2019",
+            "Name": "Jill Warren",
+            "Address": "5348 Goodwin Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Bill Ohland",
+            "Address": "P.O. Box 595789 Dallas, TX 75357",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/14/2019",
+            "Name": "United Food and Commercial Workers Union PAC",
+            "Address": "1775 K St. NW Washington, DC 20006",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/19/2019",
+            "Name": "Teresa Tolle",
+            "Address": "6564 Chicory Ct Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Carol Donovan",
+            "Address": "6509 Malcolm Dallas, TX 75214",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Linebarger Goggan LLP",
+            "Address": "P.O. Box 17428 Austin, TX 78760",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Patricia Almarez",
+            "Address": "1809 Arkansas Gainesville, TX 76240",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/14/2019",
+            "Name": "Laura Faulkner",
+            "Address": "3109 Knox Dallas, TX 75205",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Jack Parker",
+            "Address": "12824 Midway Suite 1139 Dallas, TX 75244",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/14/2019",
+            "Name": "Kasmarine Klein",
+            "Address": "8 Lucy Ln Wylie, TX 75098",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/16/2019",
+            "Name": "Candace Freeman",
+            "Address": "4313 Founders Dr Rowlett, TX 75089",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Mark Winnubst",
+            "Address": "4 Doral Pl Richardson, TX 75080",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/14/2019",
+            "Name": "Roger Albright",
+            "Address": "6446 Patrick Dallas, TX 75214",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Craig Shiels",
+            "Address": "5715 Brookstown Dallas, TX 75230",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Mary Fairchild",
+            "Address": "1600 Bent Creek Southlake, TX 76092",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Roberto Bonilla",
+            "Address": "2502 Oak Hill Missouri City, TX 77459",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/16/2019",
+            "Name": "MICHAEL E WILLIAMSON",
+            "Address": "3507 BRYAN ST Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "MARTHA HEIMBERG",
+            "Address": "1523 ABRAMS DALLAS, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/10/2019",
+            "Name": "Dallas Retired Firefighters Assn PAC Fund",
+            "Address": "P.O. Box 117540 Carrollton, TX 75011",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/07/2019",
+            "Name": "Susybelle Gosslee",
+            "Address": "9511 Faircrest Dr Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/11/2019",
+            "Name": "Dallas Firefighters association PAC",
+            "Address": "10956 Audelia Dallas, TX 75243",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Joanne Cassullo",
+            "Address": "5656 N. Central Suite 304 Dallas, TX 75206",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Pat Parker",
+            "Address": "5808 Lupton Dallas, TX 75225",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Ellen Williams",
+            "Address": "2801 Turtle Creek Suite 9E Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "McDonald Williams",
+            "Address": "P.O. Box 796368 Dallas, TX 75379",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Sabrina Harrison",
+            "Address": "5656 N. Central Suite 703 Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Larry Walton",
+            "Address": "5656 N. Central Suite 601 Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Michelle Hille",
+            "Address": "5927 Palo Pinto Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Paul Hille",
+            "Address": "5927 Palo Pinto Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/04/2019",
+            "Name": "Omar Narvaez Campaign",
+            "Address": "305 W. Commerce Suite 446 Dallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Field Harrison",
+            "Address": "5656 N. Central Suite 703 Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/05/2019",
+            "Name": "Alex Andrade",
+            "Address": "3433 Purdue Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Norma Minnis",
+            "Address": "P.O. Box 140997 Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "The Real estate Council PAC",
+            "Address": "3100 McKinnon Suite 1150 Dallas, TX 75219",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Sara Yamini",
+            "Address": "5656 N. Central Suite 504 Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "04/30/2019",
+            "Name": "Joseph Pitchford",
+            "Address": "7422 Midbury Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/02/2019",
+            "Name": "Terry Syler",
+            "Address": "6661 Lakewood Dallas, TX 75214",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/02/2019",
+            "Name": "Dallas Green Alliance PAC",
+            "Address": "P.O. Box 4785 Dallas, TX 75208",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/03/2019",
+            "Name": "Bill Weinberg",
+            "Address": "2349 Allen Dallas, TX 75204",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/05/2019",
+            "Name": "Mary Warren",
+            "Address": "5348 Goodwin Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Bradley Thomas",
+            "Address": "2406 Custer Richardson, TX 75080",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/05/2019",
+            "Name": "Mike Northrup",
+            "Address": "5703 Goliad Dallas, TX 75206",
+            "Amount": 600.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/05/2019",
+            "Name": "Beth Bradley",
+            "Address": "4918 Junius Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/05/2019",
+            "Name": "Robert Book",
+            "Address": "7191 Kendallwood Dallas, TX 75240",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Mike Birrer",
+            "Address": "5735 Mercedes Dallas, TX 75206",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Chris Hamilton",
+            "Address": "5521 Swiss Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Eric Hines",
+            "Address": "5146 Willow Ln Dallas, TX 75244",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Andrew Morris",
+            "Address": "831 Shady ln Dallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "Bri Nicoletti",
+            "Address": "5901 Velasco Dallas, TX 75206",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/07/2019",
+            "Name": "James Parker",
+            "Address": "816 Congress Suite 1900 Austin, TX 78701",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/07/2019",
+            "Name": "Chad West",
+            "Address": "3806 S. Tyler Dallas, TX 75224",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/07/2019",
+            "Name": "Christopher Kelsey",
+            "Address": "5804 Swiss Dallas, TX 75214",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/08/2019",
+            "Name": "Rick Bentley",
+            "Address": "5551 Vickery Dallas, TX 75206",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/08/2019",
+            "Name": "Bill Weinberg",
+            "Address": "2349 Allen Dallas, TX 75204",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/07/2019",
+            "Name": "Jay Narey",
+            "Address": "4188 Wilada Dallas, TX 75220",
+            "Amount": 125.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/09/2019",
+            "Name": "David Shinn",
+            "Address": "6157 Richmond Dallas, TX 75214",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/11/2019",
+            "Name": "Ana-Maria Ramos",
+            "Address": "P.O. Box 852227 Richardson, TX 75085",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/11/2019",
+            "Name": "Scott Jordan",
+            "Address": "3411 Homer Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Eric Johnson",
+            "Address": "3525 Turtle Creek Suite 11A Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/14/2019",
+            "Name": "Barry Hancock",
+            "Address": "3843 Maplewood Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Hector Flores",
+            "Address": "1030 Tracy Duncanville, TX 75137",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Karen Jacobs",
+            "Address": "3210 Carlisle Suite 35E Dallas, TX 75204",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Olive Talley",
+            "Address": "6133 Prospect Dallas, TX 74214",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/15/2019",
+            "Name": "Paul Ridley",
+            "Address": "5100 Victor Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/16/2019",
+            "Name": "Jacob Clifton",
+            "Address": "5726 Winton Dallas, TX 75206",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/16/2019",
+            "Name": "Gary Collins",
+            "Address": "3203 Lakenheath Dallas, TX 75204",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/17/2019",
+            "Name": "Gloria Eisenstadt",
+            "Address": "1999 McKinney Dallas, TX 75201",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/17/2019",
+            "Name": "Dean Jordan",
+            "Address": "6526 Saratoga Cir Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/18/2019",
+            "Name": "Bob Perrillo",
+            "Address": "5912 Belmont Dallas, TX 75206",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/18/2019",
+            "Name": "Joe Greco",
+            "Address": "207 E. Lamar McKinney, TX 75069",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/19/2019",
+            "Name": "David Sparrow",
+            "Address": "5958 Lewis Dallas, TX 75206",
+            "Amount": 105.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Steve Atkinson",
+            "Address": "5926 Tree Shadow Tr Dallas, TX 75252",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Guillermo Marmol",
+            "Address": "6123 Deloach Dallas, TX 75225",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Kirk Wilson",
+            "Address": "4418 Brookview Dallas, TX 75220",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Tom Adair",
+            "Address": "4600 Brookmeadow ln Plan0, TX 75093",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Gary Tinsley",
+            "Address": "1200 Main Suite 1911 Dallas, TX 75201",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "Eric Bing",
+            "Address": "4116 Stonebridge Dallas, TX 75204",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/21/2019",
+            "Name": "Brian Garner",
+            "Address": "P.O. Box 180188 Dallas, TX 75218",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/22/2019",
+            "Name": "Karen Lancaster",
+            "Address": "3419 Westminster Suite 25 Dallas, TX 75205",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/22/2019",
+            "Name": "Wayne Dry",
+            "Address": "4382 Co Road 2546 Quinlan, TX 75474",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/22/2019",
+            "Name": "David Parsons",
+            "Address": "5317 McCommas Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Ted Thompson",
+            "Address": "5250 Ridgedale Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Greg Johnson",
+            "Address": "4007 Prescott Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Mike Veale",
+            "Address": "1717 ARTS PLAZA Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75214",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/24/2019",
+            "Name": "Dallas Green Alliance PAC",
+            "Address": "P.O. Box 4785 Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "05/27/2019",
+            "Name": "Ron Shipp",
+            "Address": "1200 Main Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "04/26/2019",
+            "Name": "In Focus Campaigns",
+            "Address": "P.O. Box 10726 Ft. Worth, TX 76114",
+            "Amount": 1573.62,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "data and phones"
+        },
+        {
+            "Transaction_Date": "04/26/2019",
+            "Name": "Metro Mailer",
+            "Address": "5719 E. Rosedale Ft Worth, TX 76112",
+            "Amount": 4232.49,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "mail"
+        },
+        {
+            "Transaction_Date": "04/26/2019",
+            "Name": "Karrol Rimal",
+            "Address": "300 Republic Ln Euless, TX 76040",
+            "Amount": 1535.45,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "wages"
+        },
+        {
+            "Transaction_Date": "05/03/2019",
+            "Name": "Texas Democratic Party",
+            "Address": "1106 Lavaca Suite 100 Austin, TX 78701",
+            "Amount": 865.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "donation"
+        },
+        {
+            "Transaction_Date": "05/06/2019",
+            "Name": "In Focus Campaigns",
+            "Address": "P.O. Box 10726 Ft. Worth, TX 76114",
+            "Amount": 341.92,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "data and phones"
+        },
+        {
+            "Transaction_Date": "05/07/2019",
+            "Name": "Karrol Rimal",
+            "Address": "300 Republic Ln Euless, TX 76040",
+            "Amount": 1358.52,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "wages"
+        },
+        {
+            "Transaction_Date": "05/09/2019",
+            "Name": "Stanford Campaigns",
+            "Address": "3800 N Lamar Dallas, TX 78756",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "data"
+        },
+        {
+            "Transaction_Date": "05/10/2019",
+            "Name": "Advocate Publishing",
+            "Address": "6301 Gaston Suite 820 Dallas, TX 75214",
+            "Amount": 1319.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "ad"
+        },
+        {
+            "Transaction_Date": "05/10/2019",
+            "Name": "K&R Screen Graphics",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 1363.95,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "signs"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Karrol Rimal",
+            "Address": "300 Republic Ln Euless, TX 76040",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "wages"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "K&R Screen Graphics",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 913.36,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "signs"
+        },
+        {
+            "Transaction_Date": "05/13/2019",
+            "Name": "Robert Rojas",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 487.12,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "t-shirts"
+        },
+        {
+            "Transaction_Date": "04/29/2019",
+            "Name": "Metro Mailer",
+            "Address": "5719 E. Rosedale Ft Worth, TX 76112",
+            "Amount": 4232.49,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "mail"
+        },
+        {
+            "Transaction_Date": "05/20/2019",
+            "Name": "In Focus Campaigns",
+            "Address": "P.O. Box 10726 Ft. Worth, TX 76114",
+            "Amount": 4138.35,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "data and phones"
+        },
+        {
+            "Transaction_Date": "05/17/2019",
+            "Name": "Karrol Rimal",
+            "Address": "300 Republic Ln Euless, TX 76040",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "consulting"
+        },
+        {
+            "Transaction_Date": "05/21/2019",
+            "Name": "Mail Today",
+            "Address": "9171 King Arthur Dr Dallas, TX 75247",
+            "Amount": 9008.04,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "mail"
+        },
+        {
+            "Transaction_Date": "05/21/2019",
+            "Name": "Mail Today",
+            "Address": "9171 King Arthur Dr Dallas, TX 75247",
+            "Amount": 4513.23,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "mail"
+        },
+        {
+            "Transaction_Date": "05/28/2019",
+            "Name": "Karrol Rimal",
+            "Address": "300 Republic Ln Euless, TX 76040",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "consulting"
+        },
+        {
+            "Transaction_Date": "05/29/2019",
+            "Name": "Walls Printing Co.",
+            "Address": "9171 King Arthur Dr Dallas, TX 75247",
+            "Amount": 8169.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "mail"
+        }
+    ],
+    "in_kind_contributions": [
+        {
+            "Date": "05/20/2019",
+            "Name": "Bruce Richardson",
+            "Address": "5607 Richmond Dallas, TX 75206",
+            "Amount": 500.0,
+            "Description": "photography"
+        }
+    ]
+}

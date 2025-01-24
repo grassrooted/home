@@ -1,0 +1,971 @@
+{
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 28741.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 493.5,
+            "TOTAL POLITICAL EXPENDITURES": 10293.41
+        }
+    },
+    "form_data": {
+        "data_source": "/Users/imercado/Documents/home_react/dew/src/utils/srp0000001760_20190404_153924.pdf",
+        "period": "1/1/2019_3/25/2019"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "01/04/2019",
+            "Name": "Anthony Page",
+            "Address": "3210 Carlisle St. Unit 1 Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/06/2019",
+            "Name": "James White",
+            "Address": "12330 Creekspan Drive Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/07/2019",
+            "Name": "Andrew Kochie",
+            "Address": "1551 Oak Lawn Ave Dallas, TX 75207",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/07/2019",
+            "Name": "Joanna St. Angelo",
+            "Address": "3221 Red Bird Ln Grapevine, TX 76051",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/09/2019",
+            "Name": "Chris heinbaugh",
+            "Address": "1801 annex ave Dallas, TX 75204",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/09/2019",
+            "Name": "Lee Daugherty",
+            "Address": "4123 Cedar Springs Rd Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/09/2019",
+            "Name": "Robiin Emery",
+            "Address": "6211 W NW Hwy Dallas, TX 75225",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/09/2019",
+            "Name": "Keith Pomykal",
+            "Address": "P.O. Box 192723 Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/12/2019",
+            "Name": "John Maline",
+            "Address": "5331 E Mockingbird Ln Dallas, TX 75206",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Kim Noltemy",
+            "Address": "222 Browder St Dallas, TX 75201",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Sara Cardona",
+            "Address": "304 South Montclair Avenue Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Keith Pomykal",
+            "Address": "P.O. Box 192723 Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/15/2019",
+            "Name": "Cannon Flowers",
+            "Address": "3809 Parry Ave Dallas, TX 75226",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/15/2019",
+            "Name": "Joanna Hampton",
+            "Address": "5408 Swiss Ave Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/18/2019",
+            "Name": "Lee Daugherty",
+            "Address": "4123 Cedar Springs Rd. Dallas, TX 75219",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/18/2019",
+            "Name": "Johnny Aguinaga",
+            "Address": "3608 Granada Avenue Dallas, TX 75205",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/22/2019",
+            "Name": "Michael Amonett",
+            "Address": "2210 West 10th Street Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/22/2019",
+            "Name": "david jensen",
+            "Address": "8055 FM 779 Alba, TX 75410",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/22/2019",
+            "Name": "Sean Hubbard",
+            "Address": "149 Bon Aire Drive Dallas, TX 75218",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/28/2019",
+            "Name": "Jay Narey",
+            "Address": "4188 Wilada Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/28/2019",
+            "Name": "Lauren Berman",
+            "Address": "3890 Dunhaven Rd DALLAS, TX 75220",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/29/2019",
+            "Name": "John Turner-McClelland",
+            "Address": "2417 Stone Creek Dr Plano, TX 75075",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/29/2019",
+            "Name": "Staci Reznik",
+            "Address": "4007 Lively Dallas, TX 75220",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/29/2019",
+            "Name": "Scott Reznik",
+            "Address": "4007 Lively Lane Dallas, TX 75220",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/01/2019",
+            "Name": "Ruth Klein",
+            "Address": "4023 Glenridge Road Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/02/2019",
+            "Name": "Allen Almodovar",
+            "Address": "3747 Manana Drive Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/04/2019",
+            "Name": "Susan Magee",
+            "Address": "9935 Coppedge Ln Dallas, TX 75220",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/05/2019",
+            "Name": "Josi Umo",
+            "Address": "4145 Beltline Rd Addison, TX 75001",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Steve Atkinson",
+            "Address": "5926 Tree Shadow Trl Dallas, TX 75252",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Wick Allison",
+            "Address": "750 North St. Paul St. Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Monica Bravo",
+            "Address": "1155 Timplemore Drive Dallas, TX 75218",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Sandi Pruitt",
+            "Address": "9921 Elmada Lane Dallas, TX 75220",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/07/2019",
+            "Name": "Lucy Billingsley",
+            "Address": "1722 Routh Street Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/08/2019",
+            "Name": "Elizabeth Post",
+            "Address": "4064 Clover Lane Dallas, TX 75220",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/09/2019",
+            "Name": "Donna Bando",
+            "Address": "9807 Larga Drive Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/09/2019",
+            "Name": "Steven Frazee",
+            "Address": "3803 Clover Lane Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/09/2019",
+            "Name": "Elisa Hernandez",
+            "Address": "3225 Turtle Creek Blvd. Dallas, TX 75219",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/10/2019",
+            "Name": "Donna Rauch",
+            "Address": "2140 21st. Street Astoria, NY 11105",
+            "Amount": 10.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/12/2019",
+            "Name": "Geneva Burnap",
+            "Address": "9704 Windy Hollow Drive Irving, TX 75063",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/13/2019",
+            "Name": "Erica Solis",
+            "Address": "2322 Kenesaw Drive Dallas, TX 75212",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/15/2019",
+            "Name": "Heather Gorham",
+            "Address": "3753 Matador Dr Dallas, TX 75220",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/15/2019",
+            "Name": "Susan Gandy",
+            "Address": "5217 Shadywood Lane Dallas, TX 75209",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/18/2019",
+            "Name": "Lee Daugherty",
+            "Address": "4123 Cedar Springs Rd Dallas, TX 75219",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/18/2019",
+            "Name": "Ingrid Burgan",
+            "Address": "9740 Mixon Drive Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/18/2019",
+            "Name": "Timothy Dickey",
+            "Address": "3134 Lockmoor Ln. Dallas, TX 75220",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/19/2019",
+            "Name": "Robert Salcido",
+            "Address": "P.O. Box 120115 San Antonio, TX 78212",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/19/2019",
+            "Name": "Terri StClair",
+            "Address": "2361 Water Way Rockwall, TX 75087",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/19/2019",
+            "Name": "Nicholas DiCarlo",
+            "Address": "6904 Bob O Link Drive Dallas, TX 75214",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/20/2019",
+            "Name": "Nancy Gruber",
+            "Address": "3271 Kinkaid Drive Dallas, TX 75220",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/20/2019",
+            "Name": "Clinton Haley",
+            "Address": "6787 Inverness Ln Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/26/2019",
+            "Name": "Deborah Carpenter",
+            "Address": "2009 Neal Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/27/2019",
+            "Name": "Julian and Sonia Almaguer",
+            "Address": "3611 Harlingen St Dallas, TX 75212",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "Mayur Patel",
+            "Address": "2380 w Nw hwy Dallas, TX 75220",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/09/2019",
+            "Name": "James Reynolds",
+            "Address": "4601 charles pl plano, TX 75093",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/14/2019",
+            "Name": "Libby Hamer",
+            "Address": "3950 HAWICK LN DALLAS, TX 75220",
+            "Amount": 20.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/15/2019",
+            "Name": "Cyndi Long",
+            "Address": "1303 Chemical St. Dallas, TX 75207",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/16/2019",
+            "Name": "Sandra De La Cruz",
+            "Address": "3917 Van Ness Lane Dallas, TX 75220",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/18/2019",
+            "Name": "Lee Daugherty",
+            "Address": "4123 Cedar Springs Rd Dallas, TX 75219",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/21/2019",
+            "Name": "Victor Toledo",
+            "Address": "3100 Singleton Boulevard Dallas, TX 75212",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/21/2019",
+            "Name": "Christopher Walter",
+            "Address": "2310 N. Henderson Ave Dallas, TX 75206",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/23/2019",
+            "Name": "Chad Benedict",
+            "Address": "P.O. Box 190653 Dallas, TX 75219",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/24/2019",
+            "Name": "Erica Almendarez",
+            "Address": "3222 Bataan Dallas, TX 75212",
+            "Amount": 20.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "VIVIENNE ARMSTRONG",
+            "Address": "6156 BERWYN LN DALLAS, TX 75214",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Jeff Strater",
+            "Address": "3025 Bryan Street Dallas, TX 75204",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Susan Magee",
+            "Address": "9935 Coppedge Ln Dallas, TX 75220",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Eric Johnson",
+            "Address": "3525 Turtle Creek Blvd Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Cherie Batsel",
+            "Address": "3722 Seguin Dr Dallas, TX 75220",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Chad Dugger",
+            "Address": "3208 Newcastle Drive Dallas, TX 75220",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Sharon Howard",
+            "Address": "4116 Plum leaf Court Dallas, TX 75212",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Jeannette Salazar",
+            "Address": "3330 Bataan st Dallas, TX 75212",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Ed & Kathy Zahra",
+            "Address": "2404 Farrington Dallas, TX 75207",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Giles Davidson",
+            "Address": "1111 N Montclair Ave Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Mack Campbell",
+            "Address": "2929 Wycliff Ave Dallas, TX 75219",
+            "Amount": 27.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Alfredo Pedroza",
+            "Address": "1043 Hampshire Street San Francisco, CA 94110",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Gaurav Patel",
+            "Address": "2287 West Northwest Highway Dallas, TX 75220",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Jesuorobo Enobakhare Jr",
+            "Address": "305 W Commerce St Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Gilbert Aranza",
+            "Address": "7929 Brookriver Suite 200 Dallas, TX 75247",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Rosalinde Aranza",
+            "Address": "7929 Brookriver Suite 200 Dallas, TX 75247",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Ariana Cook",
+            "Address": "4400 W University Blvd Suite 4304 Dallas, TX 75209",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/18/2019",
+            "Name": "Suzanne Smith",
+            "Address": "3921 Hawthorne Dallas, TX 75219",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/19/2019",
+            "Name": "Juan Cadena",
+            "Address": "6815 American way Dallas, TX 75237",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/19/2019",
+            "Name": "Elsa Cadena",
+            "Address": "6815 American Way Dallas, TX 75237",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Shanali Bhagat",
+            "Address": "652 Timbercrest Cir Dallas, TX 75077",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Susanna Brown",
+            "Address": "4175 Wilda Dallas, TX 75220",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/04/2019",
+            "Name": "Carl Seeger",
+            "Address": "3747 Manana Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/02/2019",
+            "Name": "Belinda Thomas",
+            "Address": "1803 S Ervay Dallas, TX 75215",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Marty Loring",
+            "Address": "9917 Lenel Pl Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Rebecca Greenan",
+            "Address": "511 N Akard St Suite 1501 Dallas, TX 75201",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Theresa M Daniel",
+            "Address": "2228 Springhill Dallas, TX 75228",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/27/2019",
+            "Name": "Charter Investments LLC",
+            "Address": "6611 Hillcrest Ave Suite 442 Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/04/2019",
+            "Name": "Pauline Medrano",
+            "Address": "2346 Douglas Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/20/2019",
+            "Name": "National Latino Law Enforcement Organization Greater Dallas Chapt",
+            "Address": "P.O. Box 226411 Dallas, TX 75222",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/05/2019",
+            "Name": "D. Karen Wilkerson",
+            "Address": "P.O. Box 6236 Tyler, TX 75711",
+            "Amount": 125.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/27/2019",
+            "Name": "Belinda Thomas",
+            "Address": "1803 S Ervay Dallas, TX 75215",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/27/2019",
+            "Name": "Rebecca Greenan",
+            "Address": "511 N Akard Dallas, TX 75201",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "Joshua Quinn",
+            "Address": "6330 Turner Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/19/2019",
+            "Name": "Samuel Herskovitz",
+            "Address": "6214 Presoncrest Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "01/18/2019",
+            "Name": "Eric Berlin",
+            "Address": "4129 Southwestern Dallas, TX 75225",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Jean Dean",
+            "Address": "P.O. Box 140039 Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "dallas police officer pac",
+            "Address": "1412 griffin st Dallas, TX 75215",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/14/2019",
+            "Name": "Brandon Harsten",
+            "Address": "5701 Coral Cove Plano, TX 75093",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/18/2019",
+            "Name": "Ron Barnhill",
+            "Address": "2313 Amhearst Flower Mound, TX 75026",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/12/2019",
+            "Name": "Vincent Tricomi",
+            "Address": "1005 Shady Rest Corinth, TX 76208",
+            "Amount": 750.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/15/2019",
+            "Name": "Edgar Solis",
+            "Address": "1007 Wake Dr Richardson, TX 75081",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/19/2019",
+            "Name": "Mary Fairchild",
+            "Address": "1600 Bent Creek South lake, TX 76092",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/15/2019",
+            "Name": "Christopher Luna",
+            "Address": "P.O. Box 131523 Dallas, TX 75313",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "02/14/2019",
+            "Name": "Jack Parker",
+            "Address": "12824 Midway Rd Suite 1139 Dallas, TX 75244",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        },
+        {
+            "Transaction_Date": "03/19/2019",
+            "Name": "Roger Albright",
+            "Address": "3301 Elm St Dallas, TX 75226",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/01/2019",
+            "Name": "Huey Fischer",
+            "Address": "4321 Hazard Houston, TX 77098",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting"
+        },
+        {
+            "Transaction_Date": "02/01/2019",
+            "Name": "Huey Fischer",
+            "Address": "4321 Hazard Houston, TX 77098",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting"
+        },
+        {
+            "Transaction_Date": "03/01/2019",
+            "Name": "Huey Fischer",
+            "Address": "4321 Hazard Houston, TX 77098",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting"
+        },
+        {
+            "Transaction_Date": "03/06/2019",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1384.05,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "Printing"
+        },
+        {
+            "Transaction_Date": "02/10/2019",
+            "Name": "Westmoreland Heights Community",
+            "Address": "3739 Homeland Dallas, TX 75212",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation"
+        },
+        {
+            "Transaction_Date": "02/08/2019",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1160.15,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Polling Expense",
+            "Description": "Printing"
+        },
+        {
+            "Transaction_Date": "02/14/2019",
+            "Name": "K & R Screen Graphics",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 2707.09,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "Printing"
+        },
+        {
+            "Transaction_Date": "01/23/2019",
+            "Name": "K & R Screen Graphics",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "Printing"
+        },
+        {
+            "Transaction_Date": "01/03/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441446 Somerville, MA 02144",
+            "Amount": 43.45,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "01/16/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 41.49,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "01/23/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 28.73,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "01/30/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 15.81,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 72.09,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "02/13/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 132.75,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "02/20/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 54.4,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "02/27/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 27.79,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "03/13/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 79.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "03/20/2019",
+            "Name": "Act Blue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 66.61,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees"
+        },
+        {
+            "Transaction_Date": "02/18/2019",
+            "Name": "Home Depot",
+            "Address": "2610 Fort Worth Ave Dallas, TX 75211",
+            "Amount": 415.37,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Supplies"
+        },
+        {
+            "Transaction_Date": "02/25/2019",
+            "Name": "Robert Rojas",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 685.35,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "T-shirts"
+        },
+        {
+            "Transaction_Date": "03/12/2019",
+            "Name": "Robert Rojas",
+            "Address": "3915 Main Dallas, TX 75226",
+            "Amount": 185.78,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "T-shirts"
+        }
+    ],
+    "in_kind_contributions": []
+}
