@@ -4,7 +4,7 @@ import json
 
 
 # data source
-pdf_path = "supp_jan_2021.pdf"
+pdf_path = "supp_july_2020.pdf"
 root_name = pdf_path.split(".")[0]
 output_file = f"{root_name}.json"
 
@@ -13,12 +13,12 @@ def extract_finance_data_from_table(pdf_path):
         "candidate_info": {},
         "report_totals": {},
         "contributions": [],
-        "expenditures": []
+        "expenditures": [],
+        "in_kind_contributions": []
     }
 
     def extract_small_dollar(data):
         flat_text = " ".join(filter(None, [str(item) for sublist in data for item in sublist]))
-        print(flat_text + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         matches = re.findall(r'\$\d+(?:,\d{3})*(?:\.\d{2})?', flat_text)
         if len(matches) > 1:
             return float(matches[1].replace('$', '').replace(',', ''))
@@ -92,8 +92,6 @@ def extract_finance_data_from_table(pdf_path):
     def parse_header_page(table):
         header = {}
         flat_text = " ".join(filter(None, [str(item) for sublist in table for item in sublist])).replace("None", "").replace(" ", "").replace("\n","")
-
-        print(flat_text)
         header["candidate_info"] = {
             "first_name": extract_first_name(table),
             "last_name": extract_last_name(table),
@@ -128,6 +126,68 @@ def extract_finance_data_from_table(pdf_path):
             return None
         except Exception:
             return None
+
+    def extract_amount_and_description(text):
+        try:
+            # Pattern to extract the first number after "description"
+            amount_pattern = r"description\s*([\d,]+\.\d{2})"
+            amount_match = re.search(amount_pattern, text)
+            amount = float(amount_match.group(1)) if amount_match else None
+
+            # Pattern to extract the text following the number until "Check if travel outside of Texas"
+            if amount_match:
+                description_pattern = rf"{re.escape(amount_match.group(1))}\s+(.*?)\s+Check if travel outside of Texas"
+                description_match = re.search(description_pattern, text)
+                description = description_match.group(1).strip() if description_match else None
+            else:
+                description = None
+
+            return amount, description
+        except Exception as e:
+            print(f"Error in extract_amount_and_description: {e}")
+            return None, None
+
+
+    def parse_in_kind_contribution(table):
+        try:
+            results = []  # Initialize as a list to store the parsed records
+            for row in table:
+                # Initialize fields as None
+                date, name, address, amount, description_line = None, None, None, None, None
+
+                # Extract Date
+                if row[0] and "Date" in row[0]:
+                    date = row[0].split("\n")[1].strip()
+
+                # Extract Contributor Name and Address
+                if row[1] and "Full name of contributor" in row[1]:
+                    lines = row[1].split("\n")
+                    name = lines[1].strip()  # Extract Name
+                    address = lines[-1].strip()  # Extract Address
+
+                # Extract Amount and In-kind Contribution Description
+                if row[-1] and "Amount of" in row[-1]:
+                    lines = " ".join(row[-1].split("\n")).replace("○", "")  # Clean up text
+                    amount, description_line = extract_amount_and_description(lines)
+
+                # Append to results if all fields are non-None
+                if date and name and address and amount and description_line:
+                    results.append({
+                        "Date": date,
+                        "Name": name,
+                        "Address": address,
+                        "Amount": amount,
+                        "Description": description_line
+                    })
+
+            return results
+
+        except Exception as e:
+            print(f"Error parsing table: {e}")
+            return results
+
+
+
 
     def parse_expenditure_record(record):
         try:
@@ -172,32 +232,43 @@ def extract_finance_data_from_table(pdf_path):
 
     with pdfplumber.open(pdf_path) as pdf:
         for page_num, page in enumerate(pdf.pages):
+            page_title = "".join(page.extract_tables()[0][0][0])
             tables = page.extract_tables()
             if page_num == 0:
                 header = parse_header_page(tables[0])
                 if header:
                     data["candidate_info"] = header["candidate_info"]
+                    
             for table in tables:
-                for row in table:
-                    record = parse_contribution_record(row)
-                    if record:
-                        data["contributions"].append(record)
 
-                # Extract expenditure records
-                for i in range(len(table) - 4):
-                    if (
-                        table[i] 
-                        and len(table[i]) > 1
-                        and table[i][0] 
-                        and isinstance(table[i][0], str) 
-                        and "Date" in table[i][0]
-                        and table[i][1] 
-                        and isinstance(table[i][1], str)
-                        and "Payee name" in table[i][1]
-                    ):                        
-                        expenditure_record = parse_expenditure_record(table[i:i + 5])
-                        if expenditure_record:
-                            data["expenditures"].append(expenditure_record)
+                if "A1" in page_title:
+                    for row in table:
+                        record = parse_contribution_record(row)
+                        if record:
+                            data["contributions"].append(record)
+
+                if "F1" in page_title:
+                    # Extract expenditure records
+                    for i in range(len(table) - 4):
+                        if (
+                            table[i] 
+                            and len(table[i]) > 1
+                            and table[i][0] 
+                            and isinstance(table[i][0], str) 
+                            and "Date" in table[i][0]
+                            and table[i][1] 
+                            and isinstance(table[i][1], str)
+                            and "Payee name" in table[i][1]
+                        ):                        
+                            expenditure_record = parse_expenditure_record(table[i:i + 5])
+                            if expenditure_record:
+                                data["expenditures"].append(expenditure_record)
+                    
+                if "A2" in page_title:
+                    in_kind_contribution = parse_in_kind_contribution(table)
+                    if in_kind_contribution:
+                        print(f"\n\n+++{in_kind_contribution}")
+                        data["in_kind_contributions"].extend(in_kind_contribution)
 
     return data
 
@@ -206,8 +277,10 @@ finance_data = extract_finance_data_from_table(pdf_path)
 with open(output_file, "w") as file:
     json.dump(finance_data, file, indent=4)
 
-total_contributions = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
+total_political_contributions = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
 total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]), 2)
+total_in_kind_contributions = round(sum(record["Amount"] for record in finance_data["in_kind_contributions"]), 2)
+total_contributions = total_in_kind_contributions + total_political_contributions
 
 print(f"Total Contributions: {total_contributions}")
 print(f"Total Expenditures: {total_expenditures}")

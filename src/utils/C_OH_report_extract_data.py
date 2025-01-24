@@ -4,7 +4,7 @@ import json
 
 
 # data source
-pdf_path = "c_oh_july_2020.pdf"
+pdf_path = "c_oh_jan_2022.pdf"
 root_name = pdf_path.split(".")[0]
 output_file = f"{root_name}.json"
 
@@ -137,12 +137,16 @@ def extract_finance_data_from_table(pdf_path):
             amount = float(amount_match.group(1)) if amount_match else None
 
             # Pattern to extract the text following the number until "Check if travel outside of Texas"
-            description_pattern = rf"{amount_match.group(1)}\s+(.*?)\s+Check if travel outside of Texas"
-            description_match = re.search(description_pattern, text)
-            description = description_match.group(1).strip() if description_match else None
-            
+            if amount_match:
+                description_pattern = rf"{re.escape(amount_match.group(1))}\s+(.*?)\s+Check if travel outside of Texas"
+                description_match = re.search(description_pattern, text)
+                description = description_match.group(1).strip() if description_match else None
+            else:
+                description = None
+
             return amount, description
         except Exception as e:
+            print(f"Error in extract_amount_and_description: {e}")
             return None, None
 
 
@@ -154,7 +158,7 @@ def extract_finance_data_from_table(pdf_path):
                 date, name, address, amount, description_line = None, None, None, None, None
 
                 # Extract Date
-                if row[0] and row[0].startswith("5 Date"):
+                if row[0] and "Date" in row[0]:
                     date = row[0].split("\n")[1].strip()
 
                 # Extract Contributor Name and Address
@@ -181,7 +185,9 @@ def extract_finance_data_from_table(pdf_path):
             return results
 
         except Exception as e:
-            return None
+            print(f"Error parsing table: {e}")
+            return results
+
 
 
 
