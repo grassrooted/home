@@ -2,22 +2,19 @@
     "candidate_info": {
         "first_name": "Chad",
         "last_name": "West",
-        "office_sought": "Council Distr ict 1"
-    },
-    "totals": {
-        "office_holder_totals": {
-            "small_contributions": 0.0,
-            "total_contributions": 104829.2,
-            "small_expenditures": 0.0,
-            "total_expenditures": 0.0
-        },
-        "campaign_totals": {
-            "small_contributions": 0.0,
-            "total_contributions": 2500.0,
-            "small_expenditures": 0.0,
-            "total_expenditures": 17545.63
+        "office_sought": "Council Distr ict 1",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 104829.2,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 17545.63
         }
     },
+    "report_totals": {},
     "contributions": [
         {
             "Transaction_Date": "10/08/2020",

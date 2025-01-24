@@ -4,7 +4,7 @@ import json
 
 
 # data source
-pdf_path = "C_OH_July_2024.pdf"
+pdf_path = "c_oh_july_2020.pdf"
 root_name = pdf_path.split(".")[0]
 output_file = f"{root_name}.json"
 

@@ -1,0 +1,909 @@
+{
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Council Distr ict 1",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 21639.28,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 27761.08,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    },
+    "report_totals": {},
+    "contributions": [
+        {
+            "Transaction_Date": "03/08/2021",
+            "Name": "William Addy",
+            "Address": "3805 Lausanne Ave Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/21/2021",
+            "Name": "John Angle",
+            "Address": "2420 S. Adams St. Ft. Worth, TX 76110",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/12/2021",
+            "Name": "Marcus Baker",
+            "Address": "1326 Hollywood Ave. Dallas, TX 75208",
+            "Amount": 23.44,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/27/2021",
+            "Name": "Chris / Brent Bolding",
+            "Address": "302 Rosemont Ave. Dallas, TX 75208",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/13/2021",
+            "Name": "Jacob Brown",
+            "Address": "1805 W. 29th St. Austin, TX 78703",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/14/2021",
+            "Name": "Sally Cain",
+            "Address": "6307 Club Lake Ct. Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/06/2021",
+            "Name": "Lauren Clayton",
+            "Address": "918 Thomasson Dr. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/01/2021",
+            "Name": "Richard Collins",
+            "Address": "8150 N Central Expwy. Dallas, TX 75206",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/09/2021",
+            "Name": "Casey Conner",
+            "Address": "1811 Green Tree Ln. Duincanville, TX 75137",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/23/2021",
+            "Name": "John Crowley",
+            "Address": "1109 Lausanne Ave Dallas, TX 75208",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "David Dunnigan 2",
+            "Address": "2157 Kessler Ct. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/12/2021",
+            "Name": "Christopher Edgemon",
+            "Address": "5540 Farquhar Dallas, TX 75209",
+            "Amount": 94.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/18/2021",
+            "Name": "Anne Foster",
+            "Address": "221 N. Windomere Ave Dallas, TX 75208",
+            "Amount": 94.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/13/2021",
+            "Name": "Aimee Furness 2",
+            "Address": "1950 W. Colorado Blvd. Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/22/2021",
+            "Name": "Jane Gaines",
+            "Address": "2136 Kessler Ct. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/20/2021",
+            "Name": "Carl Ginsberg",
+            "Address": "2905 Wellborn St. Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/05/2021",
+            "Name": "John Gomez",
+            "Address": "314 S. Winnetka Ave. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/25/2021",
+            "Name": "Peter Granoff",
+            "Address": "2207 Kessler Woods Ct. Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "Anne Hamilton",
+            "Address": "5521 Swiss Ave. Dallas, TX 75214",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/22/2021",
+            "Name": "Rhonda Harris",
+            "Address": "2322 Kessler Pkwy Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "Genifer Harrison",
+            "Address": "617 S. Ravinia Dr. Dallas, TX 75211",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/11/2021",
+            "Name": "Daniel Huerta",
+            "Address": "1414 Cedar Hill Ave. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/05/2021",
+            "Name": "Charles Jones",
+            "Address": "1029 Lausanne Ave Dallas, TX 75208",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/26/2021",
+            "Name": "Eileen Josey",
+            "Address": "P.O. Box 223567 Dallas, TX 75222",
+            "Amount": 150.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/20/2021",
+            "Name": "Michael Kaufman",
+            "Address": "3731 Gilbert Ave. Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/22/2021",
+            "Name": "Scott Larsen",
+            "Address": "665 Kessler Reserve Ct. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "Don Livingston",
+            "Address": "6628 Bryant Irvin Rd. Ft. Worth, TX 76132",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/03/2021",
+            "Name": "Stephen Long",
+            "Address": "902 Thomasson Dr. Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/01/2021",
+            "Name": "David Luther",
+            "Address": "619 Kessler Spgs. Ave. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/08/2021",
+            "Name": "Beda Mast 2",
+            "Address": "1224 Lausanne Ave. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/05/2021",
+            "Name": "James Mathis",
+            "Address": "2029 W. Colorado Blvd. Dallas, TX 75208",
+            "Amount": 118.44,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "Von McClure",
+            "Address": "1603 Oak Knoll St. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/03/2021",
+            "Name": "Samuel McDonald",
+            "Address": "2630 Shelby Ave. Dallas, TX 75219",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/08/2021",
+            "Name": "Mark McPherson",
+            "Address": "246 Waverly Dr. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "David Micek",
+            "Address": "426 Monte Vista Dr. Dallas, TX 75223",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "J. Pierce Monkres",
+            "Address": "1210 N. Clinton Ave Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "Michele Morgan",
+            "Address": "631 S. Manus Dr. Dallas, TX 75224",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/02/2021",
+            "Name": "DAVE NEUMANN",
+            "Address": "6318 TURNER WAY DALLAS, TX 75230",
+            "Amount": 94.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/04/2021",
+            "Name": "Marilee OConnell",
+            "Address": "634 Kessler Reserve Ct. Dallas, TX 75208",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "Steven Pounders",
+            "Address": "3525 Turtle Creek Blvd. Dallas, TX 75219",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/01/2021",
+            "Name": "Dorotha Ocker",
+            "Address": "1609 Marsh Ln. Carrollton, TX 75006",
+            "Amount": 237.2,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/23/2021",
+            "Name": "Chris Peirson",
+            "Address": "4400 Alpha Rd. Dallas, TX 75244",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/01/2021",
+            "Name": "Joel Perez",
+            "Address": "1303 Lansford Ave. Dallas, TX 75224",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/17/2021",
+            "Name": "Audrey Pinkerton",
+            "Address": "434 W. Greenbriar Ln. Dallas, TX 75208",
+            "Amount": 474.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/10/2021",
+            "Name": "Anjulie Ponce",
+            "Address": "415 Allison Dr. Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/22/2021",
+            "Name": "John Wiley Price - Campaign",
+            "Address": "510 E. 5th St. Dallas, TX 75203",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/22/2021",
+            "Name": "Michael Rawlings",
+            "Address": "3879 Maple Ave. Dallas, TX 75219",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/02/2021",
+            "Name": "Susan Reese",
+            "Address": "8626 Douglas Ave. Dallas, TX 75225",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/10/2021",
+            "Name": "Judith Reid",
+            "Address": "612 Spruce Ave. Lake Forest, IL 60045",
+            "Amount": 949.7,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "02/02/2021",
+            "Name": "Denise Requardt",
+            "Address": "708 Woolsey Dr. Dallas, TX 75224",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/20/2021",
+            "Name": "Amy Schaffner",
+            "Address": "1622 Oak Knoll St. Dallas, TX 75208",
+            "Amount": 30.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/26/2021",
+            "Name": "Pat Schenkel",
+            "Address": "614 N. Bishop Ave. Dallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "Jon Bernard Schwartz",
+            "Address": "308 N. Montclair Ave. Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/08/2021",
+            "Name": "Joanna St. Angelo",
+            "Address": "3221 Red Bird Ln. Grapevine, TX 76051",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/01/2021",
+            "Name": "Lisa Taylor",
+            "Address": "923 Salmon Dr. Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/02/2021",
+            "Name": "Rhonda Turner",
+            "Address": "2830 W. Jefferson Blvd. Dallas, TX 75211",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/13/2021",
+            "Name": "Jesus Valadez",
+            "Address": "717 W. Page Ave. Dallas, TX 75208",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "Brent Van Loggerenberg",
+            "Address": "516 Monte Vista Dr. Dallas, TX 75223",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "Thea Van Loggerenberg",
+            "Address": "516 Monte Vista Dr. Dallas, TX 75223",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/09/2021",
+            "Name": "Daniel Waldmann",
+            "Address": "1111 N. Montclair Ave. Dallas, TX 75208",
+            "Amount": 237.2,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/19/2021",
+            "Name": "Alan Walne",
+            "Address": "10020 Caribou Trail Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "01/04/2021",
+            "Name": "Teresa Wash 2",
+            "Address": "420 Kearsarge St. Desoto, TX 75115",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/16/2021",
+            "Name": "Lawrence Worden",
+            "Address": "2019 Old Orchard Dr. Dallas, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/06/2021",
+            "Name": "Shannon Wyatt",
+            "Address": "103 N. Winnetka Ave. Dallas, TX 75208",
+            "Amount": 237.2,
+            "Transaction_Type": "Officeholder Contribution"
+        },
+        {
+            "Transaction_Date": "03/10/2021",
+            "Name": "AAGD",
+            "Address": "5728 LBJ Freeway Suite 100 Dallas, TX 75240",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Contribution"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/04/2021",
+            "Name": "Katy Seitzler",
+            "Address": "217 Sycamore Creek RoaAdllen, TX 75002",
+            "Amount": 480.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Social Media"
+        },
+        {
+            "Transaction_Date": "01/06/2021",
+            "Name": "Oak Cliff Lions Club",
+            "Address": "P.O. Box 4445 Dallas, TX 75208",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Sponsorship"
+        },
+        {
+            "Transaction_Date": "01/06/2021",
+            "Name": "Jesse Perez",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 30.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "Chad West PLLC",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 30.2,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Mailchimp Reimbursement"
+        },
+        {
+            "Transaction_Date": "01/12/2021",
+            "Name": "HOMEPAC of Greater Dallas",
+            "Address": "5816 West Plano ParkwaPylano, TX 75093",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Reimbursement",
+            "Description": "Reimbursement for donation overage"
+        },
+        {
+            "Transaction_Date": "01/12/2021",
+            "Name": "Dash for the Beads",
+            "Address": "934 Stevens Woods CourDtallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Sponsorship"
+        },
+        {
+            "Transaction_Date": "01/14/2021",
+            "Name": "Farrokh Nazerian",
+            "Address": "1978 Mission Ridge RoadSanta Barbara, CA 93103",
+            "Amount": 3000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Reimbursement",
+            "Description": "Reimbursement for donation overage"
+        },
+        {
+            "Transaction_Date": "01/22/2021",
+            "Name": "Chad West",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 250.33,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Volunteer Meal Reimbursement"
+        },
+        {
+            "Transaction_Date": "01/25/2021",
+            "Name": "Chad West PLLC",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 31.27,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Mailchimp Reimbursement"
+        },
+        {
+            "Transaction_Date": "01/29/2021",
+            "Name": "Liz Miller",
+            "Address": "1201 Bittern Drive Little Elm, TX 75068",
+            "Amount": 5000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/03/2021",
+            "Name": "Qualigraphics, Inc",
+            "Address": "934 Stevens Woods CourDtallas, TX 75208",
+            "Amount": 1633.92,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Re-Elect T-Shirts, Decals and Yard Stakes"
+        },
+        {
+            "Transaction_Date": "02/04/2021",
+            "Name": "Benny Guzman",
+            "Address": "306 South Montreal Dallas, TX 75208",
+            "Amount": 177.03,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Volunteer Meal Reimbursement"
+        },
+        {
+            "Transaction_Date": "02/09/2021",
+            "Name": "Benny Guzman",
+            "Address": "306 South Montreal Dallas, TX 75208",
+            "Amount": 150.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Mileage Reimbursement"
+        },
+        {
+            "Transaction_Date": "02/11/2021",
+            "Name": "Chad West PLLC",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 31.27,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Mailchimp Reimbursement"
+        },
+        {
+            "Transaction_Date": "02/12/2021",
+            "Name": "Edgar Johnson",
+            "Address": "Dallas, TX 75237",
+            "Amount": 371.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/18/2021",
+            "Name": "Oak Cliff Lions Club",
+            "Address": "P.O. Box 4445 Dallas, TX 75208",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Membership Dues"
+        },
+        {
+            "Transaction_Date": "02/20/2021",
+            "Name": "Roxanne Powell",
+            "Address": "808 Rutherford Road Waxahachie, TX 75165",
+            "Amount": 65.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/20/2021",
+            "Name": "Jocelyn Powell",
+            "Address": "808 Rutherford Road Waxahachie, TX 75165",
+            "Amount": 65.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "Anthony Jaramillo",
+            "Address": "Melissa, TX 75454",
+            "Amount": 168.75,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "Roxanne Powell",
+            "Address": "808 Rutherford Road Waxahachie, TX 75165",
+            "Amount": 10.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "Jocelyn Powell",
+            "Address": "808 Rutherford Road Waxahachie, TX 75165",
+            "Amount": 10.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "Edgar Johnson",
+            "Address": "Dallas, TX 75237",
+            "Amount": 67.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/01/2021",
+            "Name": "Chad West PLLC",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 31.26,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Mailchimp Reimbursement"
+        },
+        {
+            "Transaction_Date": "03/02/2021",
+            "Name": "Oak Cliff Lions Club",
+            "Address": "P.O. Box 4445 Dallas, TX 75208",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Membership Dues"
+        },
+        {
+            "Transaction_Date": "03/02/2021",
+            "Name": "Full Moon Design",
+            "Address": "P.O. Box 152020 Austin, TX 78715",
+            "Amount": 216.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Custom Campaign Door Hangers"
+        },
+        {
+            "Transaction_Date": "03/02/2021",
+            "Name": "Qualigraphics",
+            "Address": "934 Stevens Woods CourDtallas, TX 75208",
+            "Amount": 494.15,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Yard Sign Stakes"
+        },
+        {
+            "Transaction_Date": "03/05/2021",
+            "Name": "Pasos for Oak Cliff",
+            "Address": "3606 South Tyler Street Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Donation"
+        },
+        {
+            "Transaction_Date": "03/05/2021",
+            "Name": "Katy Seitzler",
+            "Address": "217 Sycamore Creek RoaAdllen, TX 75002",
+            "Amount": 1393.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Social Media"
+        },
+        {
+            "Transaction_Date": "03/05/2021",
+            "Name": "Edgar Johnson",
+            "Address": "Dallas, TX 75237",
+            "Amount": 188.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/05/2021",
+            "Name": "Anthony Jaramillo",
+            "Address": "2650 East Melissa RoadMelissa, TX 75454",
+            "Amount": 210.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/09/2021",
+            "Name": "EcoLatino",
+            "Address": "2320 West Davis Street Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Marketing"
+        },
+        {
+            "Transaction_Date": "03/09/2021",
+            "Name": "The Well Community",
+            "Address": "125 Sunset Avenue Dallas, TX 75208",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Sponsorship"
+        },
+        {
+            "Transaction_Date": "03/09/2021",
+            "Name": "Benny Guzman",
+            "Address": "306 South Montreal Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Table and Gas Reimbursement"
+        },
+        {
+            "Transaction_Date": "03/10/2021",
+            "Name": "Chad West PLLC",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 31.26,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Mailchimp Reimbursement"
+        },
+        {
+            "Transaction_Date": "03/10/2021",
+            "Name": "Liz Miller",
+            "Address": "1201 Bittern Drive Little Elm, TX 75068",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/10/2021",
+            "Name": "Anthony Jaramillo",
+            "Address": "Melissa, TX 75454",
+            "Amount": 190.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/10/2021",
+            "Name": "AAGD",
+            "Address": "Dallas, TX 75240",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Reimbursement",
+            "Description": "Reimbursement for donation overage"
+        },
+        {
+            "Transaction_Date": "03/11/2021",
+            "Name": "Chad West",
+            "Address": "3606 South Tyler Street Dallas, TX 75224",
+            "Amount": 1108.79,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Reimbursement",
+            "Description": "Reimbursement for marketing materials"
+        },
+        {
+            "Transaction_Date": "03/11/2021",
+            "Name": "Qualigraphics, Inc",
+            "Address": "934 Stevens Woods CourDtallas, TX 75208",
+            "Amount": 1980.73,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Door Hangers"
+        },
+        {
+            "Transaction_Date": "03/11/2021",
+            "Name": "Qualigraphics, Inc",
+            "Address": "934 Stevens Woods CourDtallas, TX 75208",
+            "Amount": 265.12,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Envelopes for Campaign"
+        },
+        {
+            "Transaction_Date": "03/15/2021",
+            "Name": "Taylor Adams",
+            "Address": "Dallas, TX 75208",
+            "Amount": 2000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Consulting Work"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "Liz Miller",
+            "Address": "1201 Bittern Drive Little Elm, TX 75068",
+            "Amount": 43.3,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Meals",
+            "Description": "Volunteer Meal Reimbursement"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "Benjamin Calhoun",
+            "Address": "Melissa, TX 75454",
+            "Amount": 190.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "Darnella Wilson",
+            "Address": "Dallas, TX 75243",
+            "Amount": 137.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "Liz Miller",
+            "Address": "1201 Bittern Drive Little Elm, TX 75068",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/19/2021",
+            "Name": "Nyx Mendoza",
+            "Address": "9633 County Road 800 Royce City, TX 75189",
+            "Amount": 108.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        },
+        {
+            "Transaction_Date": "03/19/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1776.7,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Postcard - mailers"
+        },
+        {
+            "Transaction_Date": "03/19/2021",
+            "Name": "Benny Guzman",
+            "Address": "306 South Montreal Dallas, TX 75208",
+            "Amount": 400.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Campaign Help"
+        }
+    ]
+}

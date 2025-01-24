@@ -2,22 +2,19 @@
     "candidate_info": {
         "first_name": "Chad",
         "last_name": "West",
-        "office_sought": "Dallas City C ouncil District 1"
-    },
-    "totals": {
-        "office_holder_totals": {
-            "small_contributions": 0.0,
-            "total_contributions": 19000.0,
-            "small_expenditures": 0.0,
-            "total_expenditures": 28899.11
-        },
-        "campaign_totals": {
-            "small_contributions": 0.0,
-            "total_contributions": 64265.0,
-            "small_expenditures": 0.0,
-            "total_expenditures": 26328.8
+        "office_sought": "Dallas City C ouncil District 1",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 19000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 28899.11,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 64265.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 26328.8
         }
     },
+    "report_totals": {},
     "contributions": [
         {
             "Transaction_Date": "08/18/2023",
