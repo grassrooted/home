@@ -168,7 +168,8 @@ def extract_finance_data_from_table(pdf_path):
                     "Name": donor_name,
                     "Address": address,
                     "Amount": float(amount),
-                    "Transaction_Type": transaction_type
+                    "Transaction_Type": transaction_type,
+                    "Source" : pdf_path
                 }
             return None
         except Exception:
@@ -224,7 +225,8 @@ def extract_finance_data_from_table(pdf_path):
                         "Name": name,
                         "Address": address,
                         "Amount": amount,
-                        "Description": description_line
+                        "Description": description_line,
+                        "Source" : pdf_path
                     })
 
             return results
@@ -268,7 +270,8 @@ def extract_finance_data_from_table(pdf_path):
                     "Amount": amount,
                     "Transaction_Type": transaction_type,
                     "Category": category,
-                    "Description": description
+                    "Description": description,
+                    "Source": pdf_path
                 }
             return None
         except Exception as e:
@@ -359,25 +362,32 @@ def process_pdfs(pdf_files):
             total_in_kind_contributions = round(sum(record["Amount"] for record in finance_data["in_kind_contributions"]), 2)
             total_contributions = total_in_kind_contributions + total_political_contributions
 
-            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
+            finance_data["candidate_info"]["report_totals"]["Total Parsed Contributions"] = total_contributions
+            finance_data["candidate_info"]["report_totals"]["Total Parsed Expenditures"] = total_expenditures
+
+            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
                 + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]
-            
-            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]\
+                #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
+                #+finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
+            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]
+                #+ finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]\
+                #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]\
+
+            finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Contributions"] = reported_total_contributions
+            finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Expenditures"] = reported_total_expenditures
 
             logging.info(f"\nReported Contributions: {reported_total_contributions}")
             logging.info(f"Parsed Contributions: {total_contributions}")
-            if (reported_total_contributions != total_contributions):
-                logging.info("\n\n***MISMATCHING CONTRIBUTION TOTAL***\n\n")
 
             logging.info(f"\nReported Expenditures: {reported_total_expenditures}")
             logging.info(f"Parsed Expenditures: {total_expenditures}")
-            if (reported_total_expenditures != total_expenditures):
-                logging.info("\n\n***MISMATCHING EXPENDITURE TOTAL***\n\n")
+            if (reported_total_contributions != total_contributions):
+                logging.info("***MISMATCHING CONTRIBUTION TOTAL***\n\n")
+                finance_data["candidate_info"]["report_totals"]["Contribution Mismatch"] = True
+            elif (reported_total_expenditures != total_expenditures):
+                logging.info("***MISMATCHING EXPENDITURE TOTAL***\n\n")
+                finance_data["candidate_info"]["report_totals"]["Expenditure Mismatch"] = True
 
         except Exception as e:
             logging.error(f"Error processing {pdf_path}: {e}")
