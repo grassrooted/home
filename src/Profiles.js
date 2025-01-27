@@ -28,12 +28,13 @@ export async function getProfile(id) {
         const jsonFilePath = `${process.env.PUBLIC_URL}${profile.path_to_contributions_data}`;
 
         const jsonResponse = await axios.get(jsonFilePath);
-        data = jsonResponse.data;
+        data = jsonResponse.data.contributions;
         res = Array.from(new Set(data.map(JSON.stringify)))
                .map(JSON.parse);
         profile.contributions = res;
       } catch (error) {
         console.error('Error fetching data:', error);
       }
+    console.log(profile)
     return profile
 }

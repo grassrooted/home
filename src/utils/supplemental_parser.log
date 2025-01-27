@@ -9070,3 +9070,2000 @@ Reported Contributions: 4600.0
 Reported Expenditures: 13391.86
 2025-01-26 19:47:58,633 - INFO - Parsed Expenditures: 13391.86
 2025-01-26 19:47:58,633 - INFO - Writing Records to Atkins_7-1-2024_12-31-2024_supplemental.json
+2025-01-26 22:07:58,611 - INFO - Extracting Campaign Finance Links from Chad West/West_Contributions_2019_2025.txt
+2025-01-26 22:08:01,071 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001769_20190404_170130.pdf
+2025-01-26 22:08:01,608 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002206_20210406_102831.pdf
+2025-01-26 22:08:02,225 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001824_20190426_141732.pdf
+2025-01-26 22:08:02,544 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001712_20190404_145525.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001712_20190404_145525.pdf
+2025-01-26 22:08:03,017 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002339_20210715_140318.pdf
+2025-01-26 22:08:03,699 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001838_20190426_132218.pdf
+2025-01-26 22:08:04,385 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002252_20210423_140741.pdf
+2025-01-26 22:08:04,701 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001838_20190426_132233.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001838_20190426_132233.pdf
+2025-01-26 22:08:05,314 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001866_20190531_161851.pdf
+2025-01-26 22:08:05,996 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002070_20210115_084543.pdf
+2025-01-26 22:08:06,552 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142637.pdf
+2025-01-26 22:08:07,121 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002227_20210423_135604.pdf
+2025-01-26 22:08:07,997 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001783_20190404_163525.pdf
+2025-01-26 22:08:08,658 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_175039.pdf
+2025-01-26 22:08:09,601 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002718_20240116_162315.pdf
+2025-01-26 22:08:10,188 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142335.pdf
+2025-01-26 22:08:11,314 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_143829.pdf
+2025-01-26 22:08:11,675 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002652_20230428_202605.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002652_20230428_202605.pdf
+2025-01-26 22:08:12,195 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002091_20210115_114839.pdf
+2025-01-26 22:08:12,760 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002070_20210115_084505.pdf
+2025-01-26 22:08:13,101 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001769_20190404_170115.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001769_20190404_170115.pdf
+2025-01-26 22:08:13,677 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002441_20220714_110815.pdf
+2025-01-26 22:08:14,193 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001980_20200115_134202.pdf
+2025-01-26 22:08:14,666 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174801.pdf
+2025-01-26 22:08:15,274 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001866_20190531_161851.pdf
+2025-01-26 22:08:16,076 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002155_20210401_151328.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002155_20210401_151328.pdf
+2025-01-26 22:08:17,298 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001868_20190531_161140.pdf
+2025-01-26 22:08:17,943 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tcc0000001859_20190531_174109.pdf
+2025-01-26 22:08:19,021 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002284_20210528_164231.pdf
+2025-01-26 22:08:19,368 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001779_20190404_145509.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001779_20190404_145509.pdf
+2025-01-26 22:08:21,411 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_154141.pdf
+2025-01-26 22:08:23,511 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002501_20230117_150858.pdf
+2025-01-26 22:08:23,999 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002087_20210114_215415.pdf
+2025-01-26 22:08:25,104 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001740_20190403_161936.pdf
+2025-01-26 22:08:25,768 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002155_20210401_151328.pdf
+2025-01-26 22:08:26,571 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002154_20210331_125757.pdf
+2025-01-26 22:08:28,345 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001712_20190404_145525.pdf
+2025-01-26 22:08:28,924 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001733_20190404_180835.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001733_20190404_180835.pdf
+2025-01-26 22:08:29,301 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001980_20200115_134128.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001980_20200115_134128.pdf
+2025-01-26 22:08:29,912 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001888_20190715_081430.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001888_20190715_081430.pdf
+2025-01-26 22:08:30,846 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002368_20220116_130531.pdf
+2025-01-26 22:08:31,632 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142444.pdf
+2025-01-26 22:08:32,242 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001756_20190403_123735.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001756_20190403_123735.pdf
+2025-01-26 22:08:34,729 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_155442.pdf
+2025-01-26 22:08:35,507 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002635_20230428_164032.pdf
+2025-01-26 22:08:36,388 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002024_20200630_152237.pdf
+2025-01-26 22:08:37,513 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002550_20230406_145405.pdf
+2025-01-26 22:08:38,924 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002692_20230717_153931.pdf
+2025-01-26 22:08:39,205 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001977_20200112_102648.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001977_20200112_102648.pdf
+2025-01-26 22:08:39,814 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001888_20190715_081504.pdf
+2025-01-26 22:08:40,701 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001865_20190531_163625.pdf
+2025-01-26 22:08:41,806 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002692_20230717_154003.pdf
+2025-01-26 22:08:43,203 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_143730.pdf
+2025-01-26 22:08:43,697 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002441_20220714_110725.pdf
+2025-01-26 22:08:44,177 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002284_20210528_164231.pdf
+2025-01-26 22:08:44,606 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tcc0000001769_20190404_182533.pdf
+2025-01-26 22:08:45,356 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002549_20230406_083833.pdf
+2025-01-26 22:08:45,866 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002368_20220116_130531.pdf
+2025-01-26 22:08:46,409 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001752_20190404_160037.pdf
+2025-01-26 22:08:46,996 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002441_20220714_110815.pdf
+2025-01-26 22:08:47,842 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002070_20210115_084505.pdf
+2025-01-26 22:08:48,892 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002024_20200713_142450.pdf
+2025-01-26 22:08:50,478 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002215_20210423_192557.pdf
+2025-01-26 22:08:51,565 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_143730.pdf
+2025-01-26 22:08:52,428 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001733_20190404_180835.pdf
+2025-01-26 22:08:52,921 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002281_20210528_145318.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002281_20210528_145318.pdf
+2025-01-26 22:08:53,638 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_155510.pdf
+2025-01-26 22:08:53,937 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001752_20190404_160033.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001752_20190404_160033.pdf
+2025-01-26 22:08:54,338 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002154_20210331_125757.pdf
+2025-01-26 22:08:55,209 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142540.pdf
+2025-01-26 22:08:56,238 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001756_20190403_123710.pdf
+2025-01-26 22:08:56,953 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_154141.pdf
+2025-01-26 22:08:57,272 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002181_20210401_154525.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002181_20210401_154525.pdf
+2025-01-26 22:08:59,116 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002652_20230428_202605.pdf
+2025-01-26 22:08:59,943 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001769_20190404_170130.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001769_20190404_170130.pdf
+2025-01-26 22:09:01,051 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002281_20210528_145340.pdf
+2025-01-26 22:09:01,662 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001878_20190715_141200.pdf
+2025-01-26 22:09:02,623 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002368_20220116_130913.pdf
+2025-01-26 22:09:03,082 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002215_20210423_192451.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002215_20210423_192451.pdf
+2025-01-26 22:09:04,133 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001783_20190404_163525.pdf
+2025-01-26 22:09:05,251 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002635_20230428_163951.pdf
+2025-01-26 22:09:05,859 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002252_20210423_141818.pdf
+2025-01-26 22:09:06,467 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142444.pdf
+2025-01-26 22:09:07,196 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001977_20200112_102648.pdf
+2025-01-26 22:09:07,676 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001878_20190715_141234.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001878_20190715_141234.pdf
+2025-01-26 22:09:08,546 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002070_20210115_084543.pdf
+2025-01-26 22:09:08,889 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002206_20210406_102753.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002206_20210406_102753.pdf
+2025-01-26 22:09:11,224 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_160048.pdf
+2025-01-26 22:09:12,017 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174501.pdf
+2025-01-26 22:09:12,632 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001738_20190327_085946.pdf
+2025-01-26 22:09:13,274 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142540.pdf
+2025-01-26 22:09:14,325 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002482_20230112_132419.pdf
+2025-01-26 22:09:14,922 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002182_20210401_165520.pdf
+2025-01-26 22:09:15,512 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002252_20210423_141710.pdf
+2025-01-26 22:09:16,011 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002227_20210423_135536.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002227_20210423_135536.pdf
+2025-01-26 22:09:18,525 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002549_20230406_083833.pdf
+2025-01-26 22:09:21,218 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002635_20230428_164032.pdf
+2025-01-26 22:09:22,324 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001811_20190426_165631.pdf
+2025-01-26 22:09:23,194 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001888_20190715_081430.pdf
+2025-01-26 22:09:23,917 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174352.pdf
+2025-01-26 22:09:24,906 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002635_20230428_163951.pdf
+2025-01-26 22:09:25,535 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002154_20210331_125724.pdf
+2025-01-26 22:09:25,918 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001739_20190404_164804.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001739_20190404_164804.pdf
+2025-01-26 22:09:26,506 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001738_20190327_085946.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001738_20190327_085946.pdf
+2025-01-26 22:09:27,259 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174352.pdf
+2025-01-26 22:09:28,078 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002024_20200630_152237.pdf
+2025-01-26 22:09:28,629 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001977_20200112_102718.pdf
+2025-01-26 22:09:29,800 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002482_20230112_132419.pdf
+2025-01-26 22:09:30,784 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002575_20230406_154948.pdf
+2025-01-26 22:09:31,238 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174908.pdf
+2025-01-26 22:09:31,820 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001756_20190403_123710.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001756_20190403_123710.pdf
+2025-01-26 22:09:33,148 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001868_20190531_161053.pdf
+2025-01-26 22:09:33,925 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002441_20220714_110725.pdf
+2025-01-26 22:09:34,945 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001859_20190531_134844.pdf
+2025-01-26 22:09:36,036 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002794_20250115_165442.pdf
+2025-01-26 22:09:36,743 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002252_20210423_141710.pdf
+2025-01-26 22:09:37,813 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001868_20190531_161053.pdf
+2025-01-26 22:09:38,668 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002583_20230406_164249.pdf
+2025-01-26 22:09:39,140 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002652_20230428_202642.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002652_20230428_202642.pdf
+2025-01-26 22:09:39,825 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002583_20230406_164249.pdf
+2025-01-26 22:09:40,717 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002692_20230717_153931.pdf
+2025-01-26 22:09:41,071 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001765_20190404_165640.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001765_20190404_165640.pdf
+2025-01-26 22:09:42,008 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001769_20190404_170115.pdf
+2025-01-26 22:09:42,542 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142335.pdf
+2025-01-26 22:09:43,032 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002281_20210528_145340.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002281_20210528_145340.pdf
+2025-01-26 22:09:43,948 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174955.pdf
+2025-01-26 22:09:45,399 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_160235.pdf
+2025-01-26 22:09:46,429 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002549_20230406_083911.pdf
+2025-01-26 22:09:46,820 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001859_20190531_134844.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001859_20190531_134844.pdf
+2025-01-26 22:09:47,401 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001811_20190426_165650.pdf
+2025-01-26 22:09:48,261 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002182_20210401_165551.pdf
+2025-01-26 22:09:48,864 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002182_20210401_165520.pdf
+2025-01-26 22:09:49,564 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002182_20210401_165551.pdf
+2025-01-26 22:09:50,256 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142637.pdf
+2025-01-26 22:09:51,041 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_175039.pdf
+2025-01-26 22:09:51,787 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002252_20210423_140741.pdf
+2025-01-26 22:09:52,287 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174908.pdf
+2025-01-26 22:09:52,907 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001739_20190404_164728.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001739_20190404_164728.pdf
+2025-01-26 22:09:53,375 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002252_20210423_140618.pdf
+2025-01-26 22:09:54,024 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002206_20210406_102831.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002206_20210406_102831.pdf
+2025-01-26 22:09:55,162 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_155510.pdf
+2025-01-26 22:09:55,574 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001865_20190531_163657.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001865_20190531_163657.pdf
+2025-01-26 22:09:56,035 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001752_20190404_160019.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001752_20190404_160019.pdf
+2025-01-26 22:09:57,019 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002741_20240714_074611.pdf
+2025-01-26 22:09:57,672 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_155442.pdf
+2025-01-26 22:09:58,239 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001838_20190426_132218.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001838_20190426_132218.pdf
+2025-01-26 22:09:59,112 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001838_20190426_132233.pdf
+2025-01-26 22:09:59,722 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_160021.pdf
+2025-01-26 22:10:00,271 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001980_20200115_134202.pdf
+2025-01-26 22:10:00,958 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002652_20230428_202642.pdf
+2025-01-26 22:10:02,744 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002549_20230406_083911.pdf
+2025-01-26 22:10:03,361 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001977_20200112_102718.pdf
+2025-01-26 22:10:03,913 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_143829.pdf
+2025-01-26 22:10:04,753 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_160048.pdf
+2025-01-26 22:10:05,025 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002215_20210423_192557.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002215_20210423_192557.pdf
+2025-01-26 22:10:05,550 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002368_20220116_130913.pdf
+2025-01-26 22:10:05,869 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001740_20190403_161936.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001740_20190403_161936.pdf
+2025-01-26 22:10:06,848 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002024_20200713_142450.pdf
+2025-01-26 22:10:07,775 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002091_20210115_114839.pdf
+2025-01-26 22:10:08,686 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001878_20190715_141234.pdf
+2025-01-26 22:10:09,401 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001965_20200115_162845.pdf
+2025-01-26 22:10:10,248 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001779_20190404_145509.pdf
+2025-01-26 22:10:10,937 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002252_20210423_141818.pdf
+2025-01-26 22:10:11,604 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_160235.pdf
+2025-01-26 22:10:12,477 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002575_20230406_154900.pdf
+2025-01-26 22:10:14,143 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002215_20210423_192451.pdf
+2025-01-26 22:10:16,685 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001739_20190404_164728.pdf
+2025-01-26 22:10:17,755 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002252_20210423_140618.pdf
+2025-01-26 22:10:18,514 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000001865_20200715_173044.pdf
+2025-01-26 22:10:19,467 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001865_20190531_163657.pdf
+2025-01-26 22:10:20,480 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002575_20230406_154900.pdf
+2025-01-26 22:10:21,113 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002227_20210423_135604.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002227_20210423_135604.pdf
+2025-01-26 22:10:21,860 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002024_20200630_152200.pdf
+2025-01-26 22:10:22,839 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002501_20230117_150858.pdf
+2025-01-26 22:10:23,437 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001752_20190404_160037.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001752_20190404_160037.pdf
+2025-01-26 22:10:24,109 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002281_20210528_145318.pdf
+2025-01-26 22:10:24,651 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001811_20190426_165631.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001811_20190426_165631.pdf
+2025-01-26 22:10:25,803 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002437_20220712_195837.pdf
+2025-01-26 22:10:27,102 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002718_20240116_162315.pdf
+2025-01-26 22:10:27,566 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174801.pdf
+2025-01-26 22:10:28,368 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002692_20230717_154003.pdf
+2025-01-26 22:10:29,178 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000002368_20220116_130722.pdf
+2025-01-26 22:10:29,901 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001980_20200115_134128.pdf
+2025-01-26 22:10:30,524 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002339_20210715_140318.pdf
+2025-01-26 22:10:32,946 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002575_20230406_154948.pdf
+2025-01-26 22:10:33,545 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001865_20190531_163625.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001865_20190531_163625.pdf
+2025-01-26 22:10:33,959 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000002652_20230428_202634.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000002652_20230428_202634.pdf
+2025-01-26 22:10:34,423 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174501.pdf
+2025-01-26 22:10:34,941 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tcc0000001838_20190520_142350.pdf
+2025-01-26 22:10:35,468 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002154_20210331_125724.pdf
+2025-01-26 22:10:36,279 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tcc0000002652_20230605_165807.pdf
+2025-01-26 22:10:37,466 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001868_20190531_161140.pdf
+2025-01-26 22:10:38,244 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002639_20230428_142319.pdf
+2025-01-26 22:10:39,854 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001752_20190404_160033.pdf
+2025-01-26 22:10:40,673 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002550_20230406_145405.pdf
+2025-01-26 22:10:41,050 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001811_20190426_165650.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001811_20190426_165650.pdf
+2025-01-26 22:10:41,824 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002583_20230406_164323.pdf
+2025-01-26 22:10:42,980 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002794_20250115_165442.pdf
+2025-01-26 22:10:43,828 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002024_20200630_152200.pdf
+2025-01-26 22:10:44,723 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/src0000001865_20200715_173044.pdf
+2025-01-26 22:10:45,280 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001965_20200115_162845.pdf
+2025-01-26 22:10:45,778 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001824_20190426_141732.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001824_20190426_141732.pdf
+2025-01-26 22:10:46,287 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001878_20190715_141200.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001878_20190715_141200.pdf
+2025-01-26 22:10:47,196 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002583_20230406_164323.pdf
+2025-01-26 22:10:47,902 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002181_20210401_154525.pdf
+2025-01-26 22:10:48,933 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001756_20190403_123735.pdf
+2025-01-26 22:10:50,003 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002087_20210114_215415.pdf
+2025-01-26 22:10:50,670 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002639_20230428_142319.pdf
+2025-01-26 22:10:51,469 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/caf0000002368_20220116_130722.pdf
+2025-01-26 22:10:52,793 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_160021.pdf
+2025-01-26 22:10:53,245 - ERROR - Failed to download https://campfin.dallascityhall.com/FinalReports/srp0000001888_20190715_081504.pdf: 404 Client Error: Not Found for url: https://campfin.dallascityhall.com/FinalReports/srp0000001888_20190715_081504.pdf
+2025-01-26 22:10:55,763 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002741_20240714_074611.pdf
+2025-01-26 22:10:58,533 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002794_20250115_165529.pdf
+2025-01-26 22:10:59,240 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174955.pdf
+2025-01-26 22:11:02,216 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001765_20190404_165640.pdf
+2025-01-26 22:11:03,335 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002206_20210406_102753.pdf
+2025-01-26 22:11:05,129 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002437_20220712_195837.pdf
+2025-01-26 22:11:07,308 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002652_20230428_202634.pdf
+2025-01-26 22:11:08,006 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001752_20190404_160019.pdf
+2025-01-26 22:11:08,849 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000001739_20190404_164804.pdf
+2025-01-26 22:11:09,501 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tec0000002227_20210423_135536.pdf
+2025-01-26 22:11:10,642 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002794_20250115_165529.pdf
+2025-01-26 22:11:11,193 - INFO - Downloaded: /Users/imercado/Documents/home_react/dew/src/utils/tcc0000002155_20210401_160636.pdf
+2025-01-26 22:11:11,194 - INFO - 
+Downloaded files (sorted):
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000001865_20200715_173044.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002024_20200713_142450.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002252_20210423_141710.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002252_20210423_141818.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002368_20220116_130531.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002368_20220116_130722.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002368_20220116_130913.pdf
+2025-01-26 22:11:11,194 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_143730.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_143829.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_154141.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/caf0000002794_20250116_160235.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000001865_20200715_173044.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002024_20200713_142450.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002252_20210423_141710.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002252_20210423_141818.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002368_20220116_130531.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002368_20220116_130722.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002368_20220116_130913.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_143730.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_143829.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_154141.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/src0000002794_20250116_160235.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001783_20190404_163525.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001866_20190531_161851.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001868_20190531_161053.pdf
+2025-01-26 22:11:11,195 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001868_20190531_161140.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001965_20200115_162845.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001977_20200112_102718.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000001980_20200115_134202.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002024_20200630_152200.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002024_20200630_152237.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002070_20210115_084505.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002070_20210115_084543.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002087_20210114_215415.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002091_20210115_114839.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002154_20210331_125724.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002154_20210331_125757.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002182_20210401_165520.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002182_20210401_165551.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002252_20210423_140618.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002252_20210423_140741.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002284_20210528_164231.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002339_20210715_140318.pdf
+2025-01-26 22:11:11,196 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142335.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142444.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142540.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142637.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174352.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174501.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174801.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174908.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174955.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_175039.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002437_20220712_195837.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002441_20220714_110725.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002441_20220714_110815.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002482_20230112_132419.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002501_20230117_150858.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002549_20230406_083833.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002549_20230406_083911.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002550_20230406_145405.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002575_20230406_154900.pdf
+2025-01-26 22:11:11,197 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002575_20230406_154948.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002583_20230406_164249.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002583_20230406_164323.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002635_20230428_163951.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002635_20230428_164032.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002639_20230428_142319.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_155442.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_155510.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_160021.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_160048.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002692_20230717_153931.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002692_20230717_154003.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002718_20240116_162315.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002741_20240714_074611.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002794_20250115_165442.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/srp0000002794_20250115_165529.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tcc0000001769_20190404_182533.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tcc0000001838_20190520_142350.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tcc0000001859_20190531_174109.pdf
+2025-01-26 22:11:11,198 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tcc0000002155_20210401_160636.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tcc0000002652_20230605_165807.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001712_20190404_145525.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001733_20190404_180835.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001738_20190327_085946.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001739_20190404_164728.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001739_20190404_164804.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001740_20190403_161936.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001752_20190404_160019.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001752_20190404_160033.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001752_20190404_160037.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001756_20190403_123710.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001756_20190403_123735.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001765_20190404_165640.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001769_20190404_170115.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001769_20190404_170130.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001779_20190404_145509.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001783_20190404_163525.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001811_20190426_165631.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001811_20190426_165650.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001824_20190426_141732.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001838_20190426_132218.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001838_20190426_132233.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001859_20190531_134844.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001865_20190531_163625.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001865_20190531_163657.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001866_20190531_161851.pdf
+2025-01-26 22:11:11,199 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001868_20190531_161053.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001868_20190531_161140.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001878_20190715_141200.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001878_20190715_141234.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001888_20190715_081430.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001888_20190715_081504.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001965_20200115_162845.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001977_20200112_102648.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001977_20200112_102718.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001980_20200115_134128.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000001980_20200115_134202.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002024_20200630_152200.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002024_20200630_152237.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002070_20210115_084505.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002070_20210115_084543.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002087_20210114_215415.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002091_20210115_114839.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002154_20210331_125724.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002154_20210331_125757.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002155_20210401_151328.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002181_20210401_154525.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002182_20210401_165520.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002182_20210401_165551.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002206_20210406_102753.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002206_20210406_102831.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002215_20210423_192451.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002215_20210423_192557.pdf
+2025-01-26 22:11:11,200 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002227_20210423_135536.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002227_20210423_135604.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002252_20210423_140618.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002252_20210423_140741.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002281_20210528_145318.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002281_20210528_145340.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002284_20210528_164231.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002339_20210715_140318.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142335.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142444.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142540.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002368_20220114_142637.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174352.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174501.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174801.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174908.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_174955.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002407_20220114_175039.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002437_20220712_195837.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002441_20220714_110725.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002441_20220714_110815.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002482_20230112_132419.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002501_20230117_150858.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002549_20230406_083833.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002549_20230406_083911.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002550_20230406_145405.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002575_20230406_154900.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002575_20230406_154948.pdf
+2025-01-26 22:11:11,201 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002583_20230406_164249.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002583_20230406_164323.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002635_20230428_163951.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002635_20230428_164032.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002639_20230428_142319.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002652_20230428_202605.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002652_20230428_202634.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002652_20230428_202642.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_155442.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_155510.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_160021.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002669_20230703_160048.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002692_20230717_153931.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002692_20230717_154003.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002718_20240116_162315.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002741_20240714_074611.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002794_20250115_165442.pdf
+2025-01-26 22:11:11,202 - INFO - /Users/imercado/Documents/home_react/dew/src/utils/tec0000002794_20250115_165529.pdf
+2025-01-26 22:11:13,930 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001783_20190404_163525.pdf
+2025-01-26 22:11:14,262 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:11:14,264 - INFO - {
+    "candidate_info": {
+        "first_name": "Scott",
+        "last_name": "Griggs",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 250.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 224854.9,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 97353.79
+        }
+    }
+}
+2025-01-26 22:11:28,037 - INFO - 
+Reported Contributions: 224854.9
+2025-01-26 22:11:28,038 - INFO - Parsed Contributions: 224604.9
+2025-01-26 22:11:28,038 - INFO - 
+Reported Expenditures: 97353.79
+2025-01-26 22:11:28,038 - INFO - Parsed Expenditures: 97353.79
+2025-01-26 22:11:28,038 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:11:28,038 - INFO - Writing Records to Griggs_1-1-2019_3-25-2019_supplemental.json
+2025-01-26 22:11:28,153 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001866_20190531_161851.pdf
+2025-01-26 22:11:28,401 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:11:28,402 - INFO - {
+    "candidate_info": {
+        "first_name": "Philip",
+        "last_name": "Kingston",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 3450.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 58830.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 2710.89,
+            "TOTAL POLITICAL EXPENDITURES": 51762.43
+        }
+    }
+}
+2025-01-26 22:11:31,627 - INFO - 
+Reported Contributions: 58830.0
+2025-01-26 22:11:31,627 - INFO - Parsed Contributions: 55380.0
+2025-01-26 22:11:31,627 - INFO - 
+Reported Expenditures: 51762.43
+2025-01-26 22:11:31,627 - INFO - Parsed Expenditures: 49051.54
+2025-01-26 22:11:31,627 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:11:31,627 - INFO - Writing Records to Kingston_4-25-2019_5-29-2019_supplemental.json
+2025-01-26 22:11:31,916 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001868_20190531_161053.pdf
+2025-01-26 22:11:32,267 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:11:32,268 - INFO - {
+    "candidate_info": {
+        "first_name": "Scott",
+        "last_name": "Griggs",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 345.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 310794.6,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 302955.1
+        }
+    }
+}
+2025-01-26 22:11:52,206 - INFO - 
+Reported Contributions: 310794.6
+2025-01-26 22:11:52,206 - INFO - Parsed Contributions: 310449.63
+2025-01-26 22:11:52,206 - INFO - 
+Reported Expenditures: 302955.1
+2025-01-26 22:11:52,206 - INFO - Parsed Expenditures: 302955.1
+2025-01-26 22:11:52,206 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:11:52,206 - INFO - Writing Records to Griggs_4-26-2019_5-29-2019_supplemental.json
+2025-01-26 22:11:52,459 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001868_20190531_161140.pdf
+2025-01-26 22:11:52,822 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:11:52,823 - INFO - {
+    "candidate_info": {
+        "first_name": "Scott",
+        "last_name": "Griggs",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 345.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 310794.6,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 302955.1
+        }
+    }
+}
+2025-01-26 22:12:14,099 - INFO - 
+Reported Contributions: 310794.6
+2025-01-26 22:12:14,100 - INFO - Parsed Contributions: 310449.63
+2025-01-26 22:12:14,100 - INFO - 
+Reported Expenditures: 302955.1
+2025-01-26 22:12:14,100 - INFO - Parsed Expenditures: 302955.1
+2025-01-26 22:12:14,100 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:12:14,101 - INFO - Writing Records to Griggs_4-26-2019_5-29-2019_supplemental.json
+2025-01-26 22:12:14,253 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000001965_20200115_162845.pdf
+2025-01-26 22:12:14,536 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:14,537 - INFO - {
+    "candidate_info": {
+        "first_name": "Tennell",
+        "last_name": "Atkins",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 24785.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 35945.13
+        }
+    }
+}
+2025-01-26 22:12:24,053 - INFO - 
+Reported Contributions: 24785.0
+2025-01-26 22:12:24,054 - INFO - Parsed Contributions: 24785.0
+2025-01-26 22:12:24,054 - INFO - 
+Reported Expenditures: 35945.13
+2025-01-26 22:12:24,054 - INFO - Parsed Expenditures: 36113.03
+2025-01-26 22:12:24,054 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:12:24,054 - INFO - Writing Records to Atkins_7-1-2019_12-31-2019_supplemental.json
+2025-01-26 22:12:24,311 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002024_20200630_152200.pdf
+2025-01-26 22:12:24,546 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:24,547 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 46150.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 23811.51
+        }
+    }
+}
+2025-01-26 22:12:28,098 - INFO - 
+Reported Contributions: 46150.0
+2025-01-26 22:12:28,098 - INFO - Parsed Contributions: 46150.0
+2025-01-26 22:12:28,098 - INFO - 
+Reported Expenditures: 23811.51
+2025-01-26 22:12:28,098 - INFO - Parsed Expenditures: 23811.51
+2025-01-26 22:12:28,098 - INFO - Writing Records to West_1-1-2020_6-30-2020_supplemental.json
+2025-01-26 22:12:28,206 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002024_20200630_152237.pdf
+2025-01-26 22:12:28,517 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:28,518 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 46150.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 23811.51
+        }
+    }
+}
+2025-01-26 22:12:31,863 - INFO - 
+Reported Contributions: 46150.0
+2025-01-26 22:12:31,863 - INFO - Parsed Contributions: 46150.0
+2025-01-26 22:12:31,863 - INFO - 
+Reported Expenditures: 23811.51
+2025-01-26 22:12:31,863 - INFO - Parsed Expenditures: 23811.51
+2025-01-26 22:12:31,863 - INFO - Writing Records to West_1-1-2020_6-30-2020_supplemental.json
+2025-01-26 22:12:32,071 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002070_20210115_084505.pdf
+2025-01-26 22:12:32,329 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:32,330 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 104829.2,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 17545.63
+        }
+    }
+}
+2025-01-26 22:12:39,336 - INFO - 
+Reported Contributions: 107329.2
+2025-01-26 22:12:39,336 - INFO - Parsed Contributions: 107329.17
+2025-01-26 22:12:39,336 - INFO - 
+Reported Expenditures: 17545.63
+2025-01-26 22:12:39,336 - INFO - Parsed Expenditures: 17545.63
+2025-01-26 22:12:39,336 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:12:39,336 - INFO - Writing Records to West_7-1-2020_12-31-2020_supplemental.json
+2025-01-26 22:12:39,495 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002070_20210115_084543.pdf
+2025-01-26 22:12:39,827 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:39,828 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 104829.2,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 17545.63
+        }
+    }
+}
+2025-01-26 22:12:47,212 - INFO - 
+Reported Contributions: 107329.2
+2025-01-26 22:12:47,213 - INFO - Parsed Contributions: 107329.17
+2025-01-26 22:12:47,213 - INFO - 
+Reported Expenditures: 17545.63
+2025-01-26 22:12:47,213 - INFO - Parsed Expenditures: 17545.63
+2025-01-26 22:12:47,213 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:12:47,213 - INFO - Writing Records to West_7-1-2020_12-31-2020_supplemental.json
+2025-01-26 22:12:47,318 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002087_20210114_215415.pdf
+2025-01-26 22:12:47,546 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:47,546 - INFO - {
+    "candidate_info": {
+        "first_name": "Adam",
+        "last_name": "Bazaldua",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 294.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 25989.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 5577.86,
+            "TOTAL POLITICAL EXPENDITURES": 9081.58
+        }
+    }
+}
+2025-01-26 22:12:49,610 - INFO - 
+Reported Contributions: 25989.0
+2025-01-26 22:12:49,610 - INFO - Parsed Contributions: 25695.0
+2025-01-26 22:12:49,610 - INFO - 
+Reported Expenditures: 9081.58
+2025-01-26 22:12:49,610 - INFO - Parsed Expenditures: 3503.72
+2025-01-26 22:12:49,610 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:12:49,610 - INFO - Writing Records to Bazaldua_7-1-2020_12-31-2020_supplemental.json
+2025-01-26 22:12:49,702 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002091_20210115_114839.pdf
+2025-01-26 22:12:49,915 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:49,916 - INFO - {
+    "candidate_info": {
+        "first_name": "Casey",
+        "last_name": "ThomasII",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 6550.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:12:50,268 - INFO - 
+Reported Contributions: 6550.0
+2025-01-26 22:12:50,269 - INFO - Parsed Contributions: 6550.0
+2025-01-26 22:12:50,269 - INFO - 
+Reported Expenditures: 0.0
+2025-01-26 22:12:50,269 - INFO - Parsed Expenditures: 0
+2025-01-26 22:12:50,269 - INFO - Writing Records to ThomasII_7-1-2020_12-31-2020_supplemental.json
+2025-01-26 22:12:50,376 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002154_20210331_125724.pdf
+2025-01-26 22:12:50,622 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:50,623 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 21639.28,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 27761.08,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:12:53,633 - INFO - 
+Reported Contributions: 23139.28
+2025-01-26 22:12:53,634 - INFO - Parsed Contributions: 23139.28
+2025-01-26 22:12:53,634 - INFO - 
+Reported Expenditures: 27761.08
+2025-01-26 22:12:53,634 - INFO - Parsed Expenditures: 27761.08
+2025-01-26 22:12:53,634 - INFO - Writing Records to West_1-1-2021_3-22-2021_supplemental.json
+2025-01-26 22:12:53,741 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002154_20210331_125757.pdf
+2025-01-26 22:12:54,050 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:54,050 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 21639.28,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 27761.08,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:12:57,083 - INFO - 
+Reported Contributions: 23139.28
+2025-01-26 22:12:57,084 - INFO - Parsed Contributions: 23139.28
+2025-01-26 22:12:57,084 - INFO - 
+Reported Expenditures: 27761.08
+2025-01-26 22:12:57,084 - INFO - Parsed Expenditures: 27761.08
+2025-01-26 22:12:57,084 - INFO - Writing Records to West_1-1-2021_3-22-2021_supplemental.json
+2025-01-26 22:12:57,254 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002182_20210401_165520.pdf
+2025-01-26 22:12:57,477 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:57,478 - INFO - {
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 53100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 85.0,
+            "TOTAL POLITICAL EXPENDITURES": 16409.27
+        }
+    }
+}
+2025-01-26 22:12:59,233 - INFO - 
+Reported Contributions: 53100.0
+2025-01-26 22:12:59,234 - INFO - Parsed Contributions: 53100.0
+2025-01-26 22:12:59,234 - INFO - 
+Reported Expenditures: 16409.27
+2025-01-26 22:12:59,234 - INFO - Parsed Expenditures: 16324.27
+2025-01-26 22:12:59,234 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:12:59,234 - INFO - Writing Records to Narvaez_1-1-2021_3-22-2021_supplemental.json
+2025-01-26 22:12:59,333 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002182_20210401_165551.pdf
+2025-01-26 22:12:59,681 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:12:59,682 - INFO - {
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 53100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 85.0,
+            "TOTAL POLITICAL EXPENDITURES": 16409.27
+        }
+    }
+}
+2025-01-26 22:13:01,460 - INFO - 
+Reported Contributions: 53100.0
+2025-01-26 22:13:01,461 - INFO - Parsed Contributions: 53100.0
+2025-01-26 22:13:01,461 - INFO - 
+Reported Expenditures: 16409.27
+2025-01-26 22:13:01,461 - INFO - Parsed Expenditures: 16324.27
+2025-01-26 22:13:01,461 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:13:01,461 - INFO - Writing Records to Narvaez_1-1-2021_3-22-2021_supplemental.json
+2025-01-26 22:13:01,576 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002252_20210423_140618.pdf
+2025-01-26 22:13:01,858 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:01,859 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 16232.56,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 69779.04,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:05,804 - INFO - 
+Reported Contributions: 69779.04
+2025-01-26 22:13:05,804 - INFO - Parsed Contributions: 69779.04
+2025-01-26 22:13:05,804 - INFO - 
+Reported Expenditures: 16232.56
+2025-01-26 22:13:05,804 - INFO - Parsed Expenditures: 16232.56
+2025-01-26 22:13:05,804 - INFO - Writing Records to West_3-23-2021_4-21-2021_supplemental.json
+2025-01-26 22:13:06,010 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002252_20210423_140741.pdf
+2025-01-26 22:13:06,251 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:06,252 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 16232.56,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 69779.04,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:10,259 - INFO - 
+Reported Contributions: 69779.04
+2025-01-26 22:13:10,259 - INFO - Parsed Contributions: 69779.04
+2025-01-26 22:13:10,259 - INFO - 
+Reported Expenditures: 16232.56
+2025-01-26 22:13:10,259 - INFO - Parsed Expenditures: 16232.56
+2025-01-26 22:13:10,259 - INFO - Writing Records to West_3-23-2021_4-21-2021_supplemental.json
+2025-01-26 22:13:10,386 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002284_20210528_164231.pdf
+2025-01-26 22:13:10,731 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:10,732 - INFO - {
+    "candidate_info": {
+        "first_name": "David",
+        "last_name": "Blewett",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 161085.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 184837.6
+        }
+    }
+}
+2025-01-26 22:13:15,689 - INFO - 
+Reported Contributions: 161085.0
+2025-01-26 22:13:15,689 - INFO - Parsed Contributions: 161085.0
+2025-01-26 22:13:15,689 - INFO - 
+Reported Expenditures: 184837.6
+2025-01-26 22:13:15,689 - INFO - Parsed Expenditures: 184837.63
+2025-01-26 22:13:15,689 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:13:15,689 - INFO - Writing Records to Blewett_4-22-2021_5-26-2021_supplemental.json
+2025-01-26 22:13:15,795 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002339_20210715_140318.pdf
+2025-01-26 22:13:16,028 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:16,029 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 7744.4,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 62903.8
+        }
+    }
+}
+2025-01-26 22:13:19,093 - INFO - 
+Reported Contributions: 7744.4
+2025-01-26 22:13:19,093 - INFO - Parsed Contributions: 7744.4
+2025-01-26 22:13:19,093 - INFO - 
+Reported Expenditures: 62903.8
+2025-01-26 22:13:19,093 - INFO - Parsed Expenditures: 62903.8
+2025-01-26 22:13:19,093 - INFO - Writing Records to West_4-22-2021_6-30-2021_supplemental.json
+2025-01-26 22:13:19,204 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142335.pdf
+2025-01-26 22:13:19,528 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:19,529 - INFO - {
+    "candidate_info": {
+        "first_name": "Eric",
+        "last_name": "Johnson",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 120879.4,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 3116.38,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 119591.2,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 655.0
+        }
+    }
+}
+2025-01-26 22:13:22,333 - INFO - 
+Reported Contributions: 120879.4
+2025-01-26 22:13:22,333 - INFO - Parsed Contributions: 120876.0
+2025-01-26 22:13:22,333 - INFO - 
+Reported Expenditures: 120246.2
+2025-01-26 22:13:22,333 - INFO - Parsed Expenditures: 117129.83
+2025-01-26 22:13:22,333 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:13:22,333 - INFO - Writing Records to Johnson_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:22,439 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142444.pdf
+2025-01-26 22:13:22,668 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:22,669 - INFO - {
+    "candidate_info": {
+        "first_name": "Eric",
+        "last_name": "Johnson",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 120879.4,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 3116.38,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 119591.2,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 655.0
+        }
+    }
+}
+2025-01-26 22:13:25,571 - INFO - 
+Reported Contributions: 120879.4
+2025-01-26 22:13:25,572 - INFO - Parsed Contributions: 120876.0
+2025-01-26 22:13:25,572 - INFO - 
+Reported Expenditures: 120246.2
+2025-01-26 22:13:25,572 - INFO - Parsed Expenditures: 117129.83
+2025-01-26 22:13:25,572 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:13:25,572 - INFO - Writing Records to Johnson_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:25,678 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142540.pdf
+2025-01-26 22:13:25,910 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:25,911 - INFO - {
+    "candidate_info": {
+        "first_name": "Eric",
+        "last_name": "Johnson",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 120879.4,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 3116.38,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 119591.2,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 655.0
+        }
+    }
+}
+2025-01-26 22:13:28,770 - INFO - 
+Reported Contributions: 120879.4
+2025-01-26 22:13:28,770 - INFO - Parsed Contributions: 120876.0
+2025-01-26 22:13:28,770 - INFO - 
+Reported Expenditures: 120246.2
+2025-01-26 22:13:28,770 - INFO - Parsed Expenditures: 117129.83
+2025-01-26 22:13:28,770 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:13:28,770 - INFO - Writing Records to Johnson_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:28,982 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002368_20220114_142637.pdf
+2025-01-26 22:13:29,274 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:29,275 - INFO - {
+    "candidate_info": {
+        "first_name": "Eric",
+        "last_name": "Johnson",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 120879.4,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 3116.38,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 119591.2,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 655.0
+        }
+    }
+}
+2025-01-26 22:13:32,091 - INFO - 
+Reported Contributions: 120879.4
+2025-01-26 22:13:32,092 - INFO - Parsed Contributions: 120876.0
+2025-01-26 22:13:32,092 - INFO - 
+Reported Expenditures: 120246.2
+2025-01-26 22:13:32,092 - INFO - Parsed Expenditures: 117129.83
+2025-01-26 22:13:32,092 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:13:32,092 - INFO - Writing Records to Johnson_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:32,182 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174352.pdf
+2025-01-26 22:13:32,398 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:32,398 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:32,399 - INFO - 
+Reported Contributions: 0.0
+2025-01-26 22:13:32,399 - INFO - Parsed Contributions: 0
+2025-01-26 22:13:32,399 - INFO - 
+Reported Expenditures: 0.0
+2025-01-26 22:13:32,399 - INFO - Parsed Expenditures: 0
+2025-01-26 22:13:32,399 - INFO - Writing Records to West_8-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:32,598 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174501.pdf
+2025-01-26 22:13:32,847 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:32,848 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 31466.92,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26103.3,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:38,039 - INFO - 
+Reported Contributions: 26103.3
+2025-01-26 22:13:38,040 - INFO - Parsed Contributions: 26103.3
+2025-01-26 22:13:38,040 - INFO - 
+Reported Expenditures: 31466.92
+2025-01-26 22:13:38,040 - INFO - Parsed Expenditures: 31466.92
+2025-01-26 22:13:38,040 - INFO - Writing Records to West_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:38,131 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174801.pdf
+2025-01-26 22:13:38,359 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:38,360 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:38,360 - INFO - 
+Reported Contributions: 0.0
+2025-01-26 22:13:38,360 - INFO - Parsed Contributions: 0
+2025-01-26 22:13:38,360 - INFO - 
+Reported Expenditures: 0.0
+2025-01-26 22:13:38,360 - INFO - Parsed Expenditures: 0
+2025-01-26 22:13:38,360 - INFO - Writing Records to West_8-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:38,451 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174908.pdf
+2025-01-26 22:13:38,823 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:38,824 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:38,824 - INFO - 
+Reported Contributions: 0.0
+2025-01-26 22:13:38,824 - INFO - Parsed Contributions: 0
+2025-01-26 22:13:38,824 - INFO - 
+Reported Expenditures: 0.0
+2025-01-26 22:13:38,824 - INFO - Parsed Expenditures: 0
+2025-01-26 22:13:38,824 - INFO - Writing Records to West_8-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:38,911 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_174955.pdf
+2025-01-26 22:13:39,121 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:39,122 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:39,122 - INFO - 
+Reported Contributions: 0.0
+2025-01-26 22:13:39,122 - INFO - Parsed Contributions: 0
+2025-01-26 22:13:39,122 - INFO - 
+Reported Expenditures: 0.0
+2025-01-26 22:13:39,122 - INFO - Parsed Expenditures: 0
+2025-01-26 22:13:39,122 - INFO - Writing Records to West_8-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:39,264 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002407_20220114_175039.pdf
+2025-01-26 22:13:39,511 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:39,512 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 31466.92,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26103.3,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:44,652 - INFO - 
+Reported Contributions: 26103.3
+2025-01-26 22:13:44,652 - INFO - Parsed Contributions: 26103.3
+2025-01-26 22:13:44,652 - INFO - 
+Reported Expenditures: 31466.92
+2025-01-26 22:13:44,652 - INFO - Parsed Expenditures: 31466.92
+2025-01-26 22:13:44,652 - INFO - Writing Records to West_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:13:44,778 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002437_20220712_195837.pdf
+2025-01-26 22:13:45,026 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:45,027 - INFO - {
+    "candidate_info": {
+        "first_name": "Eric",
+        "last_name": "Johnson",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 331070.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 2463.39,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 27299.13,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:13:50,778 - INFO - 
+Reported Contributions: 331070.0
+2025-01-26 22:13:50,779 - INFO - Parsed Contributions: 331070.0
+2025-01-26 22:13:50,779 - INFO - 
+Reported Expenditures: 27299.13
+2025-01-26 22:13:50,779 - INFO - Parsed Expenditures: 24835.74
+2025-01-26 22:13:50,779 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:13:50,779 - INFO - Writing Records to Johnson_1-1-2022_6-30-2022_supplemental.json
+2025-01-26 22:13:50,915 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002441_20220714_110725.pdf
+2025-01-26 22:13:51,177 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:51,178 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 11000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 109197.9,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 24476.83
+        }
+    }
+}
+2025-01-26 22:13:58,560 - INFO - 
+Reported Contributions: 120197.9
+2025-01-26 22:13:58,561 - INFO - Parsed Contributions: 120197.86
+2025-01-26 22:13:58,561 - INFO - 
+Reported Expenditures: 24476.83
+2025-01-26 22:13:58,561 - INFO - Parsed Expenditures: 24476.83
+2025-01-26 22:13:58,561 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:13:58,561 - INFO - Writing Records to West_1-1-2022_6-30-2022_supplemental.json
+2025-01-26 22:13:58,692 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002441_20220714_110815.pdf
+2025-01-26 22:13:58,967 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:13:58,968 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 31466.92,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26103.3,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0
+        }
+    }
+}
+2025-01-26 22:14:04,403 - INFO - 
+Reported Contributions: 26103.3
+2025-01-26 22:14:04,403 - INFO - Parsed Contributions: 26103.3
+2025-01-26 22:14:04,403 - INFO - 
+Reported Expenditures: 31466.92
+2025-01-26 22:14:04,403 - INFO - Parsed Expenditures: 31466.92
+2025-01-26 22:14:04,403 - INFO - Writing Records to West_7-1-2021_12-31-2021_supplemental.json
+2025-01-26 22:14:04,541 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002482_20230112_132419.pdf
+2025-01-26 22:14:04,852 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:04,853 - INFO - {
+    "candidate_info": {
+        "first_name": "Jaynie",
+        "last_name": "Schultz",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 56784.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 17032.69
+        }
+    }
+}
+2025-01-26 22:14:10,546 - INFO - 
+Reported Contributions: 56784.0
+2025-01-26 22:14:10,547 - INFO - Parsed Contributions: 49784.0
+2025-01-26 22:14:10,547 - INFO - 
+Reported Expenditures: 17032.69
+2025-01-26 22:14:10,547 - INFO - Parsed Expenditures: 17032.69
+2025-01-26 22:14:10,547 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:14:10,547 - INFO - Writing Records to Schultz_7-1-2022_12-31-2022_supplemental.json
+2025-01-26 22:14:10,729 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002501_20230117_150858.pdf
+2025-01-26 22:14:11,028 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:11,029 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 15024.4,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 18623.96,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 51851.7,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 38693.83
+        }
+    }
+}
+2025-01-26 22:14:22,175 - INFO - 
+Reported Contributions: 66876.09999999999
+2025-01-26 22:14:22,176 - INFO - Parsed Contributions: 66876.1
+2025-01-26 22:14:22,176 - INFO - 
+Reported Expenditures: 57317.79
+2025-01-26 22:14:22,176 - INFO - Parsed Expenditures: 57317.79
+2025-01-26 22:14:22,176 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:14:22,176 - INFO - Writing Records to West_7-1-2022_12-31-2022_supplemental.json
+2025-01-26 22:14:22,308 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002549_20230406_083833.pdf
+2025-01-26 22:14:22,585 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:22,586 - INFO - {
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 130.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 45261.41,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 7223.82
+        }
+    }
+}
+2025-01-26 22:14:27,727 - INFO - 
+Reported Contributions: 45261.41
+2025-01-26 22:14:27,728 - INFO - Parsed Contributions: 45131.41
+2025-01-26 22:14:27,728 - INFO - 
+Reported Expenditures: 7223.82
+2025-01-26 22:14:27,728 - INFO - Parsed Expenditures: 7223.82
+2025-01-26 22:14:27,728 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:14:27,728 - INFO - Writing Records to Ridley_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:14:27,858 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002549_20230406_083911.pdf
+2025-01-26 22:14:28,224 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:28,226 - INFO - {
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 130.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 45261.41,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 7223.82
+        }
+    }
+}
+2025-01-26 22:14:32,918 - INFO - 
+Reported Contributions: 45261.41
+2025-01-26 22:14:32,918 - INFO - Parsed Contributions: 45131.41
+2025-01-26 22:14:32,918 - INFO - 
+Reported Expenditures: 7223.82
+2025-01-26 22:14:32,918 - INFO - Parsed Expenditures: 7223.82
+2025-01-26 22:14:32,918 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:14:32,918 - INFO - Writing Records to Ridley_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:14:33,141 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002550_20230406_145405.pdf
+2025-01-26 22:14:33,381 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:33,382 - INFO - {
+    "candidate_info": {
+        "first_name": "Jesus",
+        "last_name": "Moreno",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 14140.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 8747.81
+        }
+    }
+}
+2025-01-26 22:14:36,864 - INFO - 
+Reported Contributions: 14140.0
+2025-01-26 22:14:36,865 - INFO - Parsed Contributions: 14140.0
+2025-01-26 22:14:36,865 - INFO - 
+Reported Expenditures: 8747.81
+2025-01-26 22:14:36,865 - INFO - Parsed Expenditures: 8747.81
+2025-01-26 22:14:36,865 - INFO - Writing Records to Moreno_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:14:37,026 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002575_20230406_154900.pdf
+2025-01-26 22:14:37,386 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:37,387 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 11610.85,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 18309.49,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 46055.74,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 54939.59
+        }
+    }
+}
+2025-01-26 22:14:46,491 - INFO - 
+Reported Contributions: 57666.59
+2025-01-26 22:14:46,492 - INFO - Parsed Contributions: 57666.59
+2025-01-26 22:14:46,492 - INFO - 
+Reported Expenditures: 73249.08
+2025-01-26 22:14:46,492 - INFO - Parsed Expenditures: 73249.08
+2025-01-26 22:14:46,492 - INFO - Writing Records to West_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:14:46,929 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002575_20230406_154948.pdf
+2025-01-26 22:14:47,242 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:47,243 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 11610.85,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 18309.49,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 46055.74,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 54939.59
+        }
+    }
+}
+2025-01-26 22:14:56,327 - INFO - 
+Reported Contributions: 57666.59
+2025-01-26 22:14:56,328 - INFO - Parsed Contributions: 57666.59
+2025-01-26 22:14:56,328 - INFO - 
+Reported Expenditures: 73249.08
+2025-01-26 22:14:56,328 - INFO - Parsed Expenditures: 73249.08
+2025-01-26 22:14:56,328 - INFO - Writing Records to West_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:14:56,486 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002583_20230406_164249.pdf
+2025-01-26 22:14:56,772 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:14:56,773 - INFO - {
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 467.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 71700.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 3456.89,
+            "TOTAL POLITICAL EXPENDITURES": 11541.18
+        }
+    }
+}
+2025-01-26 22:15:00,899 - INFO - 
+Reported Contributions: 71700.0
+2025-01-26 22:15:00,899 - INFO - Parsed Contributions: 71233.0
+2025-01-26 22:15:00,899 - INFO - 
+Reported Expenditures: 11541.18
+2025-01-26 22:15:00,899 - INFO - Parsed Expenditures: 8084.29
+2025-01-26 22:15:00,899 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:15:00,899 - INFO - Writing Records to Narvaez_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:15:01,022 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002583_20230406_164323.pdf
+2025-01-26 22:15:01,357 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:01,358 - INFO - {
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 467.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 71700.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 3456.89,
+            "TOTAL POLITICAL EXPENDITURES": 11541.18
+        }
+    }
+}
+2025-01-26 22:15:05,229 - INFO - 
+Reported Contributions: 71700.0
+2025-01-26 22:15:05,230 - INFO - Parsed Contributions: 71233.0
+2025-01-26 22:15:05,230 - INFO - 
+Reported Expenditures: 11541.18
+2025-01-26 22:15:05,230 - INFO - Parsed Expenditures: 8084.29
+2025-01-26 22:15:05,230 - INFO - ***MISMATCHING CONTRIBUTION TOTAL***
+
+
+2025-01-26 22:15:05,230 - INFO - Writing Records to Narvaez_1-1-2023_3-27-2023_supplemental.json
+2025-01-26 22:15:05,378 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002635_20230428_163951.pdf
+2025-01-26 22:15:05,759 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:05,760 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 3750.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 7476.4,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 34073.5,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 53283.72
+        }
+    }
+}
+2025-01-26 22:15:11,816 - INFO - 
+Reported Contributions: 37823.5
+2025-01-26 22:15:11,816 - INFO - Parsed Contributions: 37823.5
+2025-01-26 22:15:11,816 - INFO - 
+Reported Expenditures: 60760.12
+2025-01-26 22:15:11,816 - INFO - Parsed Expenditures: 60760.12
+2025-01-26 22:15:11,816 - INFO - Writing Records to West_3-28-2023_4-26-2023_supplemental.json
+2025-01-26 22:15:11,957 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002635_20230428_164032.pdf
+2025-01-26 22:15:12,221 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:12,222 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 3750.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 7476.4,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 34073.5,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 53283.72
+        }
+    }
+}
+2025-01-26 22:15:18,436 - INFO - 
+Reported Contributions: 37823.5
+2025-01-26 22:15:18,437 - INFO - Parsed Contributions: 37823.5
+2025-01-26 22:15:18,437 - INFO - 
+Reported Expenditures: 60760.12
+2025-01-26 22:15:18,437 - INFO - Parsed Expenditures: 60760.12
+2025-01-26 22:15:18,437 - INFO - Writing Records to West_3-28-2023_4-26-2023_supplemental.json
+2025-01-26 22:15:18,565 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002639_20230428_142319.pdf
+2025-01-26 22:15:18,975 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:18,976 - INFO - {
+    "candidate_info": {
+        "first_name": "Gay",
+        "last_name": "Willis",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 47320.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 34214.15
+        }
+    }
+}
+2025-01-26 22:15:23,239 - INFO - 
+Reported Contributions: 47320.0
+2025-01-26 22:15:23,239 - INFO - Parsed Contributions: 47320.0
+2025-01-26 22:15:23,239 - INFO - 
+Reported Expenditures: 34214.15
+2025-01-26 22:15:23,240 - INFO - Parsed Expenditures: 33685.34
+2025-01-26 22:15:23,240 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:15:23,240 - INFO - Writing Records to Willis_3-28-2023_4-26-2023_supplemental.json
+2025-01-26 22:15:23,353 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_155442.pdf
+2025-01-26 22:15:23,591 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:23,592 - INFO - {
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26189.23,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 66549.11
+        }
+    }
+}
+2025-01-26 22:15:26,699 - INFO - 
+Reported Contributions: 27189.23
+2025-01-26 22:15:26,700 - INFO - Parsed Contributions: 27189.23
+2025-01-26 22:15:26,700 - INFO - 
+Reported Expenditures: 66549.11
+2025-01-26 22:15:26,700 - INFO - Parsed Expenditures: 66549.11
+2025-01-26 22:15:26,700 - INFO - Writing Records to Ridley_4-27-2023_6-30-2023_supplemental.json
+2025-01-26 22:15:26,813 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_155510.pdf
+2025-01-26 22:15:27,069 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:27,069 - INFO - {
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26189.23,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 66549.11
+        }
+    }
+}
+2025-01-26 22:15:30,016 - INFO - 
+Reported Contributions: 27189.23
+2025-01-26 22:15:30,016 - INFO - Parsed Contributions: 27189.23
+2025-01-26 22:15:30,016 - INFO - 
+Reported Expenditures: 66549.11
+2025-01-26 22:15:30,016 - INFO - Parsed Expenditures: 66549.11
+2025-01-26 22:15:30,016 - INFO - Writing Records to Ridley_4-27-2023_6-30-2023_supplemental.json
+2025-01-26 22:15:30,133 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_160021.pdf
+2025-01-26 22:15:30,455 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:30,456 - INFO - {
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26189.23,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 66549.11
+        }
+    }
+}
+2025-01-26 22:15:33,290 - INFO - 
+Reported Contributions: 27189.23
+2025-01-26 22:15:33,291 - INFO - Parsed Contributions: 27189.23
+2025-01-26 22:15:33,291 - INFO - 
+Reported Expenditures: 66549.11
+2025-01-26 22:15:33,291 - INFO - Parsed Expenditures: 66549.11
+2025-01-26 22:15:33,291 - INFO - Writing Records to Ridley_4-27-2023_6-30-2023_supplemental.json
+2025-01-26 22:15:33,408 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002669_20230703_160048.pdf
+2025-01-26 22:15:33,645 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:33,646 - INFO - {
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 26189.23,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 66549.11
+        }
+    }
+}
+2025-01-26 22:15:36,610 - INFO - 
+Reported Contributions: 27189.23
+2025-01-26 22:15:36,610 - INFO - Parsed Contributions: 27189.23
+2025-01-26 22:15:36,610 - INFO - 
+Reported Expenditures: 66549.11
+2025-01-26 22:15:36,610 - INFO - Parsed Expenditures: 66549.11
+2025-01-26 22:15:36,610 - INFO - Writing Records to Ridley_4-27-2023_6-30-2023_supplemental.json
+2025-01-26 22:15:36,795 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002692_20230717_153931.pdf
+2025-01-26 22:15:37,040 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:37,041 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 17894.73,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 3960.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 42945.96
+        }
+    }
+}
+2025-01-26 22:15:41,236 - INFO - 
+Reported Contributions: 4960.0
+2025-01-26 22:15:41,237 - INFO - Parsed Contributions: 4960.0
+2025-01-26 22:15:41,237 - INFO - 
+Reported Expenditures: 60840.69
+2025-01-26 22:15:41,237 - INFO - Parsed Expenditures: 60840.69
+2025-01-26 22:15:41,237 - INFO - Writing Records to West_4-28-2023_6-30-2023_supplemental.json
+2025-01-26 22:15:41,359 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002692_20230717_154003.pdf
+2025-01-26 22:15:41,616 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:41,617 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 17894.73,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 3960.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 42945.96
+        }
+    }
+}
+2025-01-26 22:15:45,972 - INFO - 
+Reported Contributions: 4960.0
+2025-01-26 22:15:45,973 - INFO - Parsed Contributions: 4960.0
+2025-01-26 22:15:45,973 - INFO - 
+Reported Expenditures: 60840.69
+2025-01-26 22:15:45,973 - INFO - Parsed Expenditures: 60840.69
+2025-01-26 22:15:45,973 - INFO - Writing Records to West_4-28-2023_6-30-2023_supplemental.json
+2025-01-26 22:15:46,160 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002718_20240116_162315.pdf
+2025-01-26 22:15:46,653 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:15:46,654 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 19000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 28899.11,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 64265.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 26328.8
+        }
+    }
+}
+2025-01-26 22:15:59,244 - INFO - 
+Reported Contributions: 83265.0
+2025-01-26 22:15:59,245 - INFO - Parsed Contributions: 83265.0
+2025-01-26 22:15:59,245 - INFO - 
+Reported Expenditures: 55227.91
+2025-01-26 22:15:59,245 - INFO - Parsed Expenditures: 55227.91
+2025-01-26 22:15:59,245 - INFO - Writing Records to West_7-1-2023_12-31-2023_supplemental.json
+2025-01-26 22:15:59,400 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002741_20240714_074611.pdf
+2025-01-26 22:16:00,095 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:16:00,096 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4500.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 13601.39,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 19825.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 21871.58
+        }
+    }
+}
+2025-01-26 22:16:08,050 - INFO - 
+Reported Contributions: 24325.0
+2025-01-26 22:16:08,051 - INFO - Parsed Contributions: 24325.0
+2025-01-26 22:16:08,051 - INFO - 
+Reported Expenditures: 35472.97
+2025-01-26 22:16:08,051 - INFO - Parsed Expenditures: 35472.97
+2025-01-26 22:16:08,051 - INFO - Writing Records to West_1-1-2024_6-30-2024_supplemental.json
+2025-01-26 22:16:08,258 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002794_20250115_165442.pdf
+2025-01-26 22:16:08,582 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:16:08,583 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 36050.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 36277.62,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 92000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 14784.45
+        }
+    }
+}
+2025-01-26 22:16:22,242 - INFO - 
+Reported Contributions: 128050.0
+2025-01-26 22:16:22,242 - INFO - Parsed Contributions: 128050.0
+2025-01-26 22:16:22,242 - INFO - 
+Reported Expenditures: 51062.07000000001
+2025-01-26 22:16:22,242 - INFO - Parsed Expenditures: 51062.07
+2025-01-26 22:16:22,242 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:16:22,242 - INFO - Writing Records to West_7-1-2024_12-31-2024_supplemental.json
+2025-01-26 22:16:22,449 - INFO - 
+
+Parsing: /Users/imercado/Documents/home_react/dew/src/utils/srp0000002794_20250115_165529.pdf
+2025-01-26 22:16:22,801 - INFO - Page Title: City of Dallas City Secretary's Office 1500 Marilla Street, 5DS (214)670-3738
+2025-01-26 22:16:22,802 - INFO - {
+    "candidate_info": {
+        "first_name": "Chad",
+        "last_name": "West",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 36050.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 36277.62,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 92000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 14784.45
+        }
+    }
+}
+2025-01-26 22:16:36,751 - INFO - 
+Reported Contributions: 128050.0
+2025-01-26 22:16:36,752 - INFO - Parsed Contributions: 128050.0
+2025-01-26 22:16:36,752 - INFO - 
+Reported Expenditures: 51062.07000000001
+2025-01-26 22:16:36,752 - INFO - Parsed Expenditures: 51062.07
+2025-01-26 22:16:36,752 - INFO - ***MISMATCHING EXPENDITURE TOTAL***
+
+
+2025-01-26 22:16:36,752 - INFO - Writing Records to West_7-1-2024_12-31-2024_supplemental.json

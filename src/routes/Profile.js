@@ -121,7 +121,12 @@ function Profile() {
                 profile={profile} />
 
 
-
+            <Highlights 
+                profile={profile}
+                aggregated_data={aggregatedData}
+                contribution_data={profile.contributions}
+                selectedDateRange={selectedDateRange}/>
+                
             <span className='side-by-side'>
                 <AggregatedDataTable 
                     profile={profile} 
@@ -140,9 +145,7 @@ function Profile() {
                 profiles={profiles} 
                 selectedDateRange={selectedDateRange} />
 
-            <TimelineChart 
-                profile={profile} 
-                contribution_data={profile.contributions} />
+
 
             <IndividualContributionsTable 
                 profile={profile} 

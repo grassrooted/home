@@ -1,6 +1,6 @@
 - name: "Chad West"
   id: "ChadWest"
-  path_to_contributions_data: "/candidates/West/Data/no-duplicates.json"
+  path_to_contributions_data: "/candidates/West/Data/chad_west_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/West/Visuals/West_headshot.jpg"
   path_to_maps:
     - "/candidates/West/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -21,8 +21,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Jesus Moreno"
   id: "JesusMoreno"
@@ -179,7 +179,7 @@
     Address: "Address"
 - name:  "Tennell Atkins"
   id: "TennellAtkins"
-  path_to_contributions_data: "/candidates/Atkins/Data/atkins_contributions.json"
+  path_to_contributions_data: "/candidates/Atkins/Data/tennell_atkins_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Atkins/Visuals/Atkins_headshot.jpg"
   path_to_maps:
     - "/candidates/Atkins/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -200,8 +200,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Paula Blackmon"
   id: "PaulaBlackmon"
