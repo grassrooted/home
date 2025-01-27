@@ -1,0 +1,606 @@
+{
+    "candidate_info": {
+        "first_name": "Tennell",
+        "last_name": "Atkins",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 5100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 5468.84,
+            "Total Parsed Contributions": 5100.0,
+            "Total Parsed Expenditures": 5468.84,
+            "Total Itemized Reported Contributions": 5100.0,
+            "Total Itemized Reported Expenditures": 5468.84
+        }
+    },
+    "form_data": {
+        "data_source": "/Users/imercado/Documents/home_react/dew/src/utils/srp0000002032_20200715_112354.pdf",
+        "period": "1/1/2020_6/30/2020"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "06/30/2020",
+            "Name": "Betty J Culbreath",
+            "Address": "630 Villa Creek Dr Duncanville, TX 75137",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2020",
+            "Name": "Gail Terrell",
+            "Address": "P.O. Box 41561 Dallas, TX 75241",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2020",
+            "Name": "Bradley Spelljoy",
+            "Address": "7117 Wake Forrest Dr Dallas, TX 75214",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/23/2020",
+            "Name": "Jacob Johnson",
+            "Address": "1237 Frenchmans Dr Desot, TX 75115",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2020",
+            "Name": "Michael Rader",
+            "Address": "P.O. Box 249 Colleyville, TX 76034",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/21/2020",
+            "Name": "Ahmad Mustafa Shalabi",
+            "Address": "1114 Warwick Ct Rockwall, TX 75032",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2020",
+            "Name": "Ronald Steinhart",
+            "Address": "26 Robledo Dr Dallas, TX 75230",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2020",
+            "Name": "Caren Prothro",
+            "Address": "2501 N Hardwood Suite 2400 Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/16/2020",
+            "Name": "Sam P burford Jr",
+            "Address": "23 Lakeside Park Dallas, TX 75225",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2020",
+            "Name": "Helen Giddings",
+            "Address": "400 S Zang Blvd Suite 1018 Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/18/2020",
+            "Name": "Kwang S Chong",
+            "Address": "927 Condor Dr Coppell, TX 75019",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/17/2020",
+            "Name": "Brian Schwartz",
+            "Address": "8808 Briar Cove Dallas, TX 75240",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "02/01/2020",
+            "Name": "ATT",
+            "Address": "P.O. Box 6811 Dallas, TX 75225-5414",
+            "Amount": 485.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Phone",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2020",
+            "Name": "ATT",
+            "Address": "P.O. Box 6811 Dallas, TX 75225-5414",
+            "Amount": 445.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Phone",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2020",
+            "Name": "ATT",
+            "Address": "P.O. Box 6811 Dallas, TX 75225-5414",
+            "Amount": 532.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Phone",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2020",
+            "Name": "ATT",
+            "Address": "P.O. Box 6811 Dallas, TX 75225-5414",
+            "Amount": 502.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Phone",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2020",
+            "Name": "ATT",
+            "Address": "P.O. Box 6811 Dallas, TX 75225-5414",
+            "Amount": 425.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Phone",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/01/2020",
+            "Name": "Jefferson Monumon LLC",
+            "Address": "Dallas, TX 75207",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office rent",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2020",
+            "Name": "Jefferson Monumont LLC",
+            "Address": "Dallas, TX 75207",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office rent",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2020",
+            "Name": "Jefferson Monumont LLC",
+            "Address": "Dallas, TX 75207",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office rent",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2020",
+            "Name": "Jefferson Monumont LLC",
+            "Address": "Dallas, TX 75207",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "office rent",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2020",
+            "Name": "Jefferson Monument LLC",
+            "Address": "Dallas, TX 75207",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "office rent",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2020",
+            "Name": "Jefferson Monumont LLC",
+            "Address": "Dallas, TX 75207",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "office rent",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/10/2020",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 14.43,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "office supplies",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2020",
+            "Name": "7 Eleven",
+            "Address": "2935 Camp Wisdom Dallas, TX 75237",
+            "Amount": 31.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2020",
+            "Name": "Texaco",
+            "Address": "2104 E Ledbetter Dallas, TX 75216",
+            "Amount": 46.23,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/04/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Rd Dallas, TX 75237",
+            "Amount": 34.39,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/21/2020",
+            "Name": "Shell",
+            "Address": "7027 S R L Thronton FrwDyallas, TX 75232",
+            "Amount": 29.17,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/21/2020",
+            "Name": "Shell",
+            "Address": "7027 S R L Thornton Dallas, TX 75232",
+            "Amount": 39.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 56.49,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/06/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 36.52,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/14/2020",
+            "Name": "Shell",
+            "Address": "7027 S R L Thornton Dallas, TX 75232",
+            "Amount": 30.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/17/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 46.46,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/26/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Rd Dallas, TX 75237",
+            "Amount": 37.48,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "03/07/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 27.37,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "04/26/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 40.61,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/26/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 42.81,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/06/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 30.24,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/18/2020",
+            "Name": "Shell",
+            "Address": "8207 S Hampton Dallas, TX 75237",
+            "Amount": 46.16,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "03/16/2020",
+            "Name": "Murphy USA",
+            "Address": "3102 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 25.69,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2020",
+            "Name": "Murphy USA",
+            "Address": "3102 W Wheatland Dallas, TX 75237",
+            "Amount": 16.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/19/2020",
+            "Name": "Murphy USA",
+            "Address": "3102 W Wheatland Dallas, TX 75237",
+            "Amount": 17.04,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/19/2020",
+            "Name": "Murphy USA",
+            "Address": "3102 W Wheatland Dallas, TX 75237",
+            "Amount": 30.55,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/26/2020",
+            "Name": "Murphy USA",
+            "Address": "3102 W Wheatland Dallas, TX 75237",
+            "Amount": 59.1,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/29/2020",
+            "Name": "Murphy USA",
+            "Address": "3102 W Wheatland Dallas, TX 75237",
+            "Amount": 27.31,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "fuel",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2020",
+            "Name": "Omni Dallas",
+            "Address": "555 S Lamar Dallas, TX 75202",
+            "Amount": 16.24,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/24/2020",
+            "Name": "Sonic",
+            "Address": "2960 W Wheatland Dallas, TX 75237",
+            "Amount": 5.23,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/03/2020",
+            "Name": "Burger King",
+            "Address": "2403 W Wheatland Dallas, TX 75232",
+            "Amount": 12.97,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/24/2020",
+            "Name": "Records BBQ",
+            "Address": "2405 S Lancaster Rd Dallas, TX 75216",
+            "Amount": 10.83,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/05/2020",
+            "Name": "Krispy Kreme",
+            "Address": "222 E FM 1382 Cedar Hill, TX 75104",
+            "Amount": 12.35,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2020",
+            "Name": "Whataburger",
+            "Address": "3222 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 15.27,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2020",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75232",
+            "Amount": 4.33,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/11/2020",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75232",
+            "Amount": 13.86,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2020",
+            "Name": "Jack in the Box",
+            "Address": "110 E Cam Wisdom Dallas, TX 75241",
+            "Amount": 3.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "03/24/2020",
+            "Name": "Jack in the Box",
+            "Address": "110 E Camp Wisdom Dallas, TX 75240",
+            "Amount": 1.79,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2020",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Dallas, TX 75237",
+            "Amount": 12.75,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2020",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 4.71,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "04/28/2020",
+            "Name": "Colters BBQ",
+            "Address": "3904 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 7.09,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "01/04/2020",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 9.74,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        },
+        {
+            "Transaction_Date": "06/14/2020",
+            "Name": "Walmart",
+            "Address": "200 Short St Dallas, TX 75232",
+            "Amount": 82.37,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Food",
+            "Source": "srp0000002032_20200715_112354.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}
