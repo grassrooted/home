@@ -2,8 +2,10 @@ import os
 import json
 import shutil
 
-input_folder = "Tennell Atkins/"
-output_file = "tennell_atkins_contributions_expenditures.json"
+FIRST = "Cara"
+LAST = "Mendelsohn"
+folder = f"{FIRST} {LAST}/"
+output_file = f"{FIRST}_{LAST}_contributions_expenditures.json"
 unique_sources_file = "unique_sources.txt"
 
 def clean_string(value):
@@ -15,9 +17,9 @@ all_contributions = []
 all_expenditures = []
 unique_sources = set()
 
-for filename in os.listdir(input_folder):
+for filename in os.listdir(folder):
     if filename.endswith(".json"):
-        file_path = os.path.join(input_folder, filename)
+        file_path = os.path.join(folder, filename)
         with open(file_path, 'r') as file:
             try:
                 data = json.load(file)
@@ -25,18 +27,18 @@ for filename in os.listdir(input_folder):
                 contributions = data.get("contributions", [])
                 for contribution in contributions:
                     contribution = {key: clean_string(value) for key, value in contribution.items()}
-                    contribution["Recipient"] = "Tennell Atkins"
+                    contribution["Recipient"] = f"{FIRST} {LAST}"
                     if "Source" in contribution:
                         unique_sources.add(contribution["Source"])
-                all_contributions.extend(contributions)
-                
+                    all_contributions.append(contribution)
                 expenditures = data.get("expenditures", [])
                 for expenditure in expenditures:
                     expenditure = {key: clean_string(value) for key, value in expenditure.items()}
-                    expenditure["Recipient"] = "Tennell Atkins"
+                    expenditure["Recipient"] = f"{FIRST} {LAST}"
                     if "Source" in expenditure:
                         unique_sources.add(expenditure["Source"])
-                all_expenditures.extend(expenditures)
+                    all_expenditures.append(expenditure)
+
             except json.JSONDecodeError:
                 print(f"Error decoding JSON in file: {filename}")
 
@@ -57,7 +59,7 @@ print(f"Unique sources have been written to {unique_sources_file}")
 
 for source in unique_sources:
     if os.path.exists(source):
-        destination_path = os.path.join(input_folder, os.path.basename(source))
+        destination_path = os.path.join(folder, os.path.basename(source))
         shutil.move(source, destination_path)
         print(f"Moved file: {source} to {destination_path}")
     else:

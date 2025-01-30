@@ -1,10 +1,11 @@
 import pdfplumber
 import re
 import json
-import os
 
-pdf_path = "srp0000002777_20250115_220358.pdf"
-
+# data source
+pdf_path = "srp0000002557_20230406_075716.pdf"
+root_name = pdf_path.split(".")[0]
+output_file = f"{root_name}.json"
 
 def extract_finance_data_from_table(pdf_path):
     data = {
@@ -14,11 +15,11 @@ def extract_finance_data_from_table(pdf_path):
         },
         "contributions": [],
         "expenditures": [],
-        "in_kind_contributions": [],
+        "in_kind_contributions": []
     }
 
     def extract_office(flat_text):
-        pattern = r"OFFICE\s*SOUGHT\s*\(if known\)\s*([A-Za-z]+\s*District\s*\d+)"
+        pattern = r"13\s*OFFICE\s*SOUGHT\s*\(if known\)\s*([A-Za-z]+\s*District\s*\d+)"
         match = re.search(pattern, flat_text)
 
         if match:
@@ -27,37 +28,41 @@ def extract_finance_data_from_table(pdf_path):
         else:
             return "Not Found"
     
-    def extract_first_name(data):
-        flat_text = " ".join(filter(None, [str(item) for sublist in data for item in sublist]))
-        flat_text.replace("MI", "")
-        first_name_pattern = r'FIRST\s+([\w]+)'
-        match = re.search(first_name_pattern, flat_text)
-        return match.group(1) if match else None
+    def extract_first_name(flat_text):
+        match = re.search(r"CANDIDATE /OFFICEHOLDERNAME.*?\bFIRST MI\s*Mr\s+(\w+)", flat_text, re.IGNORECASE)
 
-    def extract_last_name(data):
-        last_name = None
-        flattened_data = [str(item) for sublist in data for item in sublist if isinstance(item, str)]
-        last_name_pattern = re.compile(r"(NICKNAME LAST SUFFIX|LAST|NICKNAME LAST)\s*.*?\n([A-Za-z]+)")
+        if match:
+            first_name = match.group(1)
+            return first_name
+        else:
+            return "Not Found"
 
-        for line in flattened_data:
-            match = last_name_pattern.search(line)
-            if match:
-                last_name = match.group(2)
-                break
-        
-        return last_name
+    def extract_last_name(table):
+        last_name_row = table[3]
+        for row in table:
+            for cell in row:
+                if cell and "3 CANDIDATE /\nOFFICEHOLDER\nNAME" in cell:
+                    # Identify the row with the officeholder's name information
+                    last_name_row = row
+                    print(f"Last Name Row: {last_name_row}")
+        for cell in last_name_row:
+            if cell and "NICKNAME LAST SUFFIX" in cell:
+                # Flatten the text in the cell
+                flat_text = cell.replace("\n", " ")
+                print(f"Last Name Flat Text: {flat_text}")
+                last_name = flat_text.split(" ")[-1]
+                return last_name
+        return None
     
     # Function to extract financial data
-    def extract_financial_data(flat_text):
+    def parse_totals_page(table):
+        flat_text = " ".join(filter(None, [str(item) for sublist in table for item in sublist])).replace("None", "").replace("\n","")
         patterns = {
-            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"TOTALOFFICEHOLDERCONTRIBUTIONSOF\$50ORLESS.*?\$([\d,]+\.\d{2})",
-            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": r"ESOFLOANS\)\$([\d,]+\.\d{2})",
-            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": r"TOTALOFFICEHOLDEREXPENDITURESOF\$100ORLESS.*?\$([\d,]+\.\d{2})",
-            "TOTAL OFFICEHOLDER EXPENDITURES": r"TOTALOFFICEHOLDEREXPENDITURES\$([\d,]+\.\d{2})",
-            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"TOTALPOLITICALCONTRIBUTIONSOF\$50ORLESS.*?\$([\d,]+\.\d{2})",
-            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": r"TOTALPOLITICALCONTRIBUTIONS\(OTHERTHANPLEDGES,LOANS,ORGUARANTEESOFLOANS\)\$([\d,]+\.\d{2})",
-            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": r"TOTALPOLITICALEXPENDITURESOF\$100ORLESS.*?\$([\d,]+\.\d{2})",
-            "TOTAL POLITICAL EXPENDITURES": r"TOTALPOLITICALEXPENDITURES\$([\d,]+\.\d{2})"
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"LOANS, OR GUARANTEES OF LOANS\), UNLESS ITEMIZED\s+\$\s*([\d,]+\.\d{2})",
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": r"2\. TOTAL POLITICAL CONTRIBUTIONS\s*\(OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS\)\s+\$\s*([\d,]+\.\d{2})",
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": r"100 OR LESS,UNLESS ITEMIZED\s+\$\s*([\d,]+\.\d{2})",
+            "TOTAL POLITICAL EXPENDITURES": r"4\. TOTAL POLITICAL EXPENDITURES\s+\$\s*([\d,]+\.\d{2})",
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": r"REPORTING PERIOD\s+\$\s*([\d,]+\.\d{2})"
         }
 
         # Extract and store values in a dictionary
@@ -74,8 +79,9 @@ def extract_finance_data_from_table(pdf_path):
 
         return results
 
-    def extract_period_covered(flattened_text):
+    def extract_period_covered(table):
         try:
+            """
             pattern_start = r"PERIOD/COVERED.*?(\d{1,2}/\d{1,2}/\d{4})"
             pattern_end = r"\s*THROUGH\s*(\d{1,2}/\d{1,2}/\d{4})"
 
@@ -88,62 +94,77 @@ def extract_finance_data_from_table(pdf_path):
                 return f"{start_date}_{end_date}"
             else:
                 return None  # Return None if no match is found
+             
+            """
+            period_row = table[-5]
+            for row in table:
+                for cell in row:
+                    if cell and '10 PERIOD\nCOVERED' in cell:
+                        # Identify the row with the officeholder's name information
+                        period_row = row
+                        print(f"\nPeriod Row: {period_row}")
+            for cell in period_row:
+                if cell and "Month Day Year" in cell:
+                    # Flatten the text in the cell
+                    flat_text = cell.replace("\n", " ")
+                    print(f"flattened period text: {flat_text}")
+                    match = re.search(r"(\d{2}) (\d{2}) (\d{4})\s+(\d{2}) (\d{2}) (\d{4})", flat_text)
+                    if match:
+                        start_date = "-".join(match.groups()[:3])
+                        end_date = "-".join(match.groups()[3:])
+                        return f"{start_date}_{end_date}"
+                    return None
+            return None
         except Exception as e:
-            print(f"Error extracting period covered: {e}")
             return None
 
 
     def parse_header_page(table):
         header = {}
-        flat_text = " ".join(filter(None, [str(item) for sublist in table for item in sublist])).replace("None", "").replace(" ", "").replace("\n","")
-        period_covered = extract_period_covered(flat_text)
+        print(table)
+        print("\n\n\n")
+        flat_text = " ".join(filter(None, [str(item) for sublist in table for item in sublist])).replace("None", "").replace("\n","")
+        print(flat_text)
+
+        period_covered = extract_period_covered(table)
         data["form_data"]["period"] = period_covered
         header["candidate_info"] = {
-            "first_name": extract_first_name(table),
+            "first_name": extract_first_name(flat_text),
             "last_name": extract_last_name(table),
             "office_sought": extract_office(flat_text),
-            "report_totals" : extract_financial_data(flat_text)
         }
-        
         json_str = json.dumps(header, indent=4)
         print(json_str)
         return header
 
     def parse_contribution_record(row):
         try:
+            # Extract and parse the date and transaction type
             date_and_type = row[0].split("\n")
-            date = date_and_type[1]
-            transaction_type = " ".join(date_and_type[2:])
+            date = date_and_type[1].strip() if len(date_and_type) > 1 else None
 
-            donor_name_and_address = row[1].split("\n")
-            donor_name = donor_name_and_address[1]
-            address = donor_name_and_address[-1]
+            # Extract and parse the donor name and address
+            donor_info = row[1].split("\n")
+            donor_name = donor_info[1].strip() if len(donor_info) > 1 else None
+            address = donor_info[-1].strip() if len(donor_info) > 2 else None
 
-            amount = float(row[-1].split("\n")[-1])
+            # Extract and parse the contribution amount
+            amount_info = row[-1].split("\n")
+            amount = float(amount_info[-1].strip()) if len(amount_info) > 0 else None
 
 
-            if not transaction_type:
-                officeholder_contributions_total = round(data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"])
-                campaign_contributions_total = round(data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"])
-                print(f"Officeholder: {officeholder_contributions_total}\nCampaign: {campaign_contributions_total}\n")
-                if officeholder_contributions_total != 0 and campaign_contributions_total == 0:
-                    transaction_type = "Campaign Contribution"
-                elif officeholder_contributions_total == 0 and campaign_contributions_total != 0:
-                    transaction_type = "Officeholder Contribution"
-                
-
-            print(f"Date: {date}\nTransaction Type: {transaction_type}\nDonor: {donor_name}\nAddress: {address}\nAmount: {amount}\n\n")
-
+            # Return the parsed data as a dictionary if all fields are valid
             if date and donor_name and address and amount:
-
                 return {
                     "Transaction_Date": date,
                     "Name": donor_name,
                     "Address": address,
-                    "Amount": float(amount),
-                    "Transaction_Type": transaction_type,
-                    "Source" : source_filename
+                    "Amount": amount,
+                    "Transaction_Type": "Contribution",
+                    "Source" : pdf_path
                 }
+            else:
+                print(f"\nDate: {date}\nName: {donor_name}\nAddress: {address}\n")
             return None
         except Exception as e:
             print(e)
@@ -200,17 +221,14 @@ def extract_finance_data_from_table(pdf_path):
                         "Address": address,
                         "Amount": amount,
                         "Description": description_line,
-                        "Source" : source_filename
+                        "Source" : pdf_path
                     })
 
             return results
 
         except Exception as e:
-            #print(f"Error parsing table: {e}")
+            print(f"Error parsing table: {e}")
             return results
-
-
-
 
     def parse_expenditure_record(record):
         try:
@@ -245,26 +263,27 @@ def extract_finance_data_from_table(pdf_path):
                     "Transaction_Type": transaction_type,
                     "Category": category,
                     "Description": description,
-                    "Source": source_filename
+                    "Source" : pdf_path
                 }
             return None
         except Exception as e:
-            # For debugging purposes
-            #print(f"Error parsing record: {e}")
             return None
 
 
     with pdfplumber.open(pdf_path) as pdf:
-        source_filename = pdf_path.split("/")[-1]
         for page_num, page in enumerate(pdf.pages):
-            page_title = "".join(page.extract_tables()[0][0][0])
             tables = page.extract_tables()
             if page_num == 0:
-                print(f"Page Title: {page_title}")
                 header = parse_header_page(tables[0])
                 if header:
                     data["candidate_info"] = header["candidate_info"]
-                    
+            elif page_num == 1:
+                totals = parse_totals_page(tables[0])
+                if totals:
+                    data["candidate_info"]["report_totals"] = totals
+
+            page_title = "".join(page.extract_tables()[0][0][0])
+
             for table in tables:
                 if "A1" in page_title:
                     for row in table:
@@ -273,7 +292,6 @@ def extract_finance_data_from_table(pdf_path):
                             data["contributions"].append(record)
 
                 if "F1" in page_title:
-                    # Extract expenditure records
                     for i in range(len(table) - 4):
                         if (
                             table[i] 
@@ -288,51 +306,36 @@ def extract_finance_data_from_table(pdf_path):
                             expenditure_record = parse_expenditure_record(table[i:i + 5])
                             if expenditure_record:
                                 data["expenditures"].append(expenditure_record)
-                    
+
                 if "A2" in page_title:
                     in_kind_contribution = parse_in_kind_contribution(table)
                     if in_kind_contribution:
                         data["in_kind_contributions"].extend(in_kind_contribution)
-
     return data
 
-print(f"\n\nParsing: {pdf_path}")
-print(f"Parsing: {pdf_path}")
-# set up default output filename
-root_name = os.path.splitext(pdf_path)[0]
-output_file = f"{root_name}_supplemental.json"
-
 finance_data = extract_finance_data_from_table(pdf_path)
-period_covered = finance_data["form_data"]["period"].replace("/", "-")
+
+period_covered = finance_data["form_data"]["period"]
 last_name = finance_data["candidate_info"]["last_name"]
 if period_covered and last_name:
-    output_file = f"{last_name}_{period_covered}_supplemental.json"
+    pc = period_covered.replace("/", "-")
+    output_file = f"{last_name}_{pc}_c_oh.json"
 
-total_political_contributions = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
-total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]), 2)
+total_contributions_monetary = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
 total_in_kind_contributions = round(sum(record["Amount"] for record in finance_data["in_kind_contributions"]), 2)
-total_contributions = total_in_kind_contributions + total_political_contributions
+total_contributions = total_contributions_monetary + total_in_kind_contributions
+total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]) + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"], 2)
 
 finance_data["candidate_info"]["report_totals"]["Total Parsed Contributions"] = total_contributions
 finance_data["candidate_info"]["report_totals"]["Total Parsed Expenditures"] = total_expenditures
 
-reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
-    + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]
+reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]
     #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
     #+finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
-reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES"]\
-    + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]
+reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]
     #+ finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]\
     #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]\
 
-finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Contributions"] = reported_total_contributions
-finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Expenditures"] = reported_total_expenditures
-
-print(f"\nReported Contributions: {reported_total_contributions}")
-print(f"Parsed Contributions: {total_contributions}")
-
-print(f"\nReported Expenditures: {reported_total_expenditures}")
-print(f"Parsed Expenditures: {total_expenditures}")
 if (reported_total_contributions != total_contributions):
     print("***MISMATCHING CONTRIBUTION TOTAL***\n\n")
     finance_data["candidate_info"]["report_totals"]["Contribution Mismatch"] = True
@@ -340,6 +343,11 @@ elif (reported_total_expenditures != total_expenditures):
     print("***MISMATCHING EXPENDITURE TOTAL***\n\n")
     finance_data["candidate_info"]["report_totals"]["Expenditure Mismatch"] = True
 
-print(f"Writing Records to {output_file}")
+json_str = json.dumps(finance_data["candidate_info"], indent=4)
+print(json_str)
+
+json_str = json.dumps(finance_data["form_data"], indent=4)
+print(json_str)
+
 with open(output_file, "w") as file:
     json.dump(finance_data, file, indent=4)

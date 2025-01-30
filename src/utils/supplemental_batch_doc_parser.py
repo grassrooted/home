@@ -4,9 +4,13 @@ import json
 import os
 import requests
 import logging
+import subprocess
 
-txt_file = "Chad West/West_Contributions_2019_2025.txt"
-
+LAST_NAME_CONFIG = "Mendelsohn"
+input_all_campfin_docs = f"{LAST_NAME_CONFIG}_Contributions_2019_2025.txt"
+output_unmatched_tec_file = f"unmatched_c_oh_files_{LAST_NAME_CONFIG}.txt"
+output_related_sources_file = f"c_oh_related_sources_{LAST_NAME_CONFIG}.txt"
+output_failed_docs = f"failed_documents_{LAST_NAME_CONFIG}.txt"
 # Configure logging
 log_file = "supplemental_parser.log"
 logging.basicConfig(
@@ -17,6 +21,7 @@ logging.basicConfig(
 )
 
 def download_pdfs(file_path):
+    related_coh_files = []
     if not os.path.isfile(file_path):
         raise FileNotFoundError(f"The file {file_path} does not exist.")
     
@@ -43,7 +48,19 @@ def download_pdfs(file_path):
         
         except requests.exceptions.RequestException as e:
             logging.error(f"Failed to download {link}: {e}")
-    
+            filename = link.split("/")[-1]
+            #print(f"Couldn't download {filename}")
+            alternative_file = find_similar_file(filename, input_all_campfin_docs)
+            related_coh_files.append(alternative_file)
+            #print(f"*Try parsing: {alternative_file}\n")
+            #subprocess.run(["python", "C_OH_report_extract_data.py", alternative_file])
+
+    if related_coh_files:
+        with open(output_related_sources_file, "w") as failed_file:
+            for file_name in related_coh_files:
+                failed_file.write(f"{file_name}\n")
+        logging.info(f"Related C/OH files written to {output_related_sources_file}")
+
     downloaded_files.sort()
     return downloaded_files
 
@@ -92,7 +109,7 @@ def extract_finance_data_from_table(pdf_path):
     def extract_financial_data(flat_text):
         patterns = {
             "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"TOTALOFFICEHOLDERCONTRIBUTIONSOF\$50ORLESS.*?\$([\d,]+\.\d{2})",
-            "TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": r"ESOFLOANS\)\$([\d,]+\.\d{2})",
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": r"ESOFLOANS\)\$([\d,]+\.\d{2})",
             "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": r"TOTALOFFICEHOLDEREXPENDITURESOF\$100ORLESS.*?\$([\d,]+\.\d{2})",
             "TOTAL OFFICEHOLDER EXPENDITURES": r"TOTALOFFICEHOLDEREXPENDITURES\$([\d,]+\.\d{2})",
             "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"TOTALPOLITICALCONTRIBUTIONSOF\$50ORLESS.*?\$([\d,]+\.\d{2})",
@@ -335,6 +352,17 @@ def is_supplemental_form(pdf_path):
         logging.warning(f"Error checking if form is supplemental: {e}")
         return False
 
+def find_similar_file(input_pdf, input_all_campfin_docs):
+    filename = input_pdf.split("/")[-1]
+    input_suffix = input_pdf.split('_', 1)[-1]
+
+    # Open the text file and search for matching suffixes
+    with open(input_all_campfin_docs, 'r') as file:
+        for line in file:
+            line = line.strip()
+            if line.endswith(input_suffix) and filename not in line:
+                return line
+
 
 def process_pdfs(pdf_files):
     failed_files = []
@@ -343,16 +371,26 @@ def process_pdfs(pdf_files):
             if not is_supplemental_form(pdf_path):
                 continue
             logging.info(f"\n\nParsing: {pdf_path}")
-            print(f"Parsing: {pdf_path}")
+            print(f"\nParsing: {pdf_path}")
+
             # set up default output filename
             root_name = os.path.splitext(pdf_path)[0]
             output_file = f"{root_name}_supplemental.json"
 
             finance_data = extract_finance_data_from_table(pdf_path)
-            period_covered = finance_data["form_data"]["period"].replace("/", "-")
-            last_name = finance_data["candidate_info"]["last_name"]
-            if period_covered and last_name:
-                output_file = f"{last_name}_{period_covered}_supplemental.json"
+            parsed_last_name = finance_data["candidate_info"]["last_name"]
+
+            if parsed_last_name.lower() not in LAST_NAME_CONFIG.lower():
+                logging.warning(f"Skipping file {pdf_path} due to parsed name mismatch\nParsed: {parsed_last_name}\nConfigured: {LAST_NAME_CONFIG}")
+                print(f"Skipping file {pdf_path} due to parsed name mismatch\nParsed: {parsed_last_name}\nConfigured: {LAST_NAME_CONFIG}")
+                continue
+            
+            related_file = find_similar_file(pdf_path, input_all_campfin_docs)
+            finance_data["form_data"]["related files"] = related_file
+            period_covered = finance_data["form_data"]["period"]
+            if period_covered and parsed_last_name:
+                pc = period_covered.replace("/", "-")
+                output_file = f"{parsed_last_name}_{pc}_supplemental.json"
 
             total_political_contributions = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
             total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]), 2)
@@ -362,7 +400,7 @@ def process_pdfs(pdf_files):
             finance_data["candidate_info"]["report_totals"]["Total Parsed Contributions"] = total_contributions
             finance_data["candidate_info"]["report_totals"]["Total Parsed Expenditures"] = total_expenditures
 
-            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
+            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
                 + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]
                 #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
                 #+finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
@@ -394,17 +432,46 @@ def process_pdfs(pdf_files):
             failed_files.append(pdf_path)
     # Write failed filenames to a text file
     if failed_files:
-        with open("failed_documents.txt", "w") as failed_file:
+        with open(output_failed_docs, "w") as failed_file:
             for file_name in failed_files:
                 failed_file.write(f"{file_name}\n")
         logging.info(f"Failed files written to failed_documents.txt")
 
 
+def find_unmatched_tec_files(file_path):
+    srp_ids = set()
+    tec_files = {}
+
+    with open(file_path, 'r') as file:
+        for line in file:
+            line = line.strip()
+            
+            # Regex to extract type (srp/tec) and numeric identifier
+            match = re.search(r"/(srp|tec)(\d+)_", line)
+            if match:
+                file_type, file_id = match.groups()
+                if file_type == "srp":
+                    srp_ids.add(file_id)
+                elif file_type == "tec":
+                    tec_files[file_id] = line  # Store full URL
+
+    # Identify 'tec' files without matching 'srp' files
+    unmatched_tec_files = [url for file_id, url in tec_files.items() if file_id not in srp_ids]
+
+    return unmatched_tec_files
+
 try:
-    downloaded_files = download_pdfs(txt_file)
+    downloaded_files = download_pdfs(input_all_campfin_docs)
     logging.info("\nDownloaded files (sorted):")
     for file in downloaded_files:
         logging.info(file)
+
+    unmatched_tec_files = find_unmatched_tec_files(input_all_campfin_docs)
+    if unmatched_tec_files:
+        with open(output_unmatched_tec_file, "w") as file:
+            for file_name in unmatched_tec_files:
+                file.write(f"{file_name}\n")
+        logging.info(f"Additional TEC files for parsing written to {output_unmatched_tec_file}")
 
     process_pdfs(downloaded_files)
 

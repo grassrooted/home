@@ -13,7 +13,7 @@ driver = webdriver.Chrome()
 driver.get("https://campfin.dallascityhall.com/search.aspx")
 
 # Set search parameters
-search_last_name_query = "Atkins"
+search_last_name_query = "Mendelsohn"
 transaction_type_query = "Contributions"
 start_year = "2019"
 end_year = "2025"
