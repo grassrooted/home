@@ -26,7 +26,7 @@
     Address: "Address"
 - name:  "Jesus Moreno"
   id: "JesusMoreno"
-  path_to_contributions_data: "/candidates/Moreno/Data/moreno_contributions.json"
+  path_to_contributions_data: "/candidates/Moreno/Data/Jesus_Moreno_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Moreno/Visuals/Moreno_headshot.jpg"
   path_to_maps:
     - "/candidates/Moreno/Visuals/May 5, 2019 - May 4, 2021.jpg"
@@ -46,12 +46,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Zarin Gracey"
   id: "ZarinGracey"
-  path_to_contributions_data: "/candidates/Gracey/Data/gracey_contributions.json"
+  path_to_contributions_data: "/candidates/Gracey/Data/Zarin_Gracey_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Gracey/Visuals/zarin-gracey-headshot.jpg"
   path_to_maps:
     - "/candidates/Gracey/Visuals/May 5, 2021 - May 4, 2023.jpg"
@@ -70,8 +70,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Carolyn Arnold"
   id: "CarolynArnold"
@@ -255,7 +255,7 @@
     Address: "Address"
 - name:  "Jaynie Schultz"
   id: "JaynieSchultz"
-  path_to_contributions_data: "/candidates/Schultz/Data/schultz_contributions.json"
+  path_to_contributions_data: "/candidates/Schultz/Data/Jaynie_Schultz_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Schultz/Visuals/Schultz_headshot.jpeg"
   path_to_maps:
     - "/candidates/Schultz/Visuals/May 5, 2019 - May 4, 2021.jpg"
@@ -275,12 +275,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Cara Mendelsohn"
   id: "CaraMendelsohn"
-  path_to_contributions_data: "/candidates/Mendelsohn/Data/mendelsohn_contributions.json"
+  path_to_contributions_data: "/candidates/Mendelsohn/Data/Cara_Mendelsohn_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Mendelsohn/Visuals/Mendelsohn_headshot.jpg"
   path_to_maps:
     - "/candidates/Mendelsohn/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -301,8 +301,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Gay Willis"
   id: "GayWillis"
