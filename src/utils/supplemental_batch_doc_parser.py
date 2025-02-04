@@ -6,8 +6,9 @@ import requests
 import logging
 import subprocess
 
-LAST_NAME_CONFIG = "Mendelsohn"
-input_all_campfin_docs = f"{LAST_NAME_CONFIG}_Contributions_2019_2025.txt"
+FIRST_NAME_CONFIG = "Kathy"
+LAST_NAME_CONFIG = "Stewart"
+input_all_campfin_docs = f"{FIRST_NAME_CONFIG}_{LAST_NAME_CONFIG}_2019_2025.txt"
 output_unmatched_tec_file = f"unmatched_c_oh_files_{LAST_NAME_CONFIG}.txt"
 output_related_sources_file = f"c_oh_related_sources_{LAST_NAME_CONFIG}.txt"
 output_failed_docs = f"failed_documents_{LAST_NAME_CONFIG}.txt"
@@ -19,6 +20,23 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     level=logging.INFO,  # Set the default logging level
 )
+
+def find_all_similar_files(input_pdf, input_all_campfin_docs):
+    similar_files = []
+    input_file = input_pdf.split("/")[-1]
+    input_suffix = input_file.split('_', 1)[-1]
+    print(f"\n\nSearching Similar Files: {input_pdf}")
+    print(f"input suffix: {input_suffix}")
+
+    # Open the text file and search for matching suffixes
+    with open(input_all_campfin_docs, 'r') as file:
+        for line in file:
+            line = line.strip()
+            if line.endswith(input_suffix):
+                print(f"Found: {line}")
+                similar_files.append(line)
+    return similar_files
+
 
 def download_pdfs(file_path):
     related_coh_files = []
@@ -242,6 +260,7 @@ def extract_finance_data_from_table(pdf_path):
                         "Name": name,
                         "Address": address,
                         "Amount": amount,
+                        "Transaction_Type": "In-Kind Contribution",
                         "Description": description_line,
                         "Source" : source_filename
                     })
@@ -252,7 +271,58 @@ def extract_finance_data_from_table(pdf_path):
             #logging.warning(f"Error parsing table: {e}")
             return results
 
+    def parse_non_itemized_totals_into_records(data):
+        contributions = []
+        expenditures = []
 
+        officeholder_contributions = data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
+        political_contributions = data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
+        
+        officeholder_expenditures = data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]
+        political_expenditures = data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]
+
+        end_of_reporting_period = data["form_data"]["period"].split("_")[-1]
+        if officeholder_contributions > 0:
+            contributions.append({
+                "Transaction_Date": end_of_reporting_period,
+                "Name": "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS",
+                "Address": "N/A",
+                "Amount": officeholder_contributions,
+                "Transaction_Type": "Officeholder Contribution",
+                "Source": source_filename
+            })
+        if political_contributions > 0:
+            contributions.append({
+                "Transaction_Date": end_of_reporting_period,
+                "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+                "Address": "N/A",
+                "Amount": political_contributions,
+                "Transaction_Type": "Campaign Contribution",
+                "Source": source_filename
+            })
+        if officeholder_expenditures > 0:
+            expenditures.append({
+                "Transaction_Date": end_of_reporting_period,
+                "Name": "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS",
+                "Address": "N/A",
+                "Amount": officeholder_expenditures,
+                "Transaction_Type": "Officeholder Expenditure",
+                "Category": "N/A",
+                "Description": "N/A",
+                "Source": source_filename
+            })
+        if political_expenditures > 0:
+            expenditures.append({
+                "Transaction_Date": end_of_reporting_period,
+                "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+                "Address": "N/A",
+                "Amount": political_expenditures,
+                "Transaction_Type": "Campaign Expenditure",
+                "Category": "N/A",
+                "Description": "N/A",
+                "Source": source_filename
+            })
+        return contributions, expenditures
 
 
     def parse_expenditure_record(record):
@@ -307,6 +377,11 @@ def extract_finance_data_from_table(pdf_path):
                 header = parse_header_page(tables[0])
                 if header:
                     data["candidate_info"] = header["candidate_info"]
+                    end_of_reporting_period = data["form_data"]["period"].split("_")[-1].replace("-", "/")
+                    print(f"Period: {end_of_reporting_period}")
+                    non_itemized_contributions, non_itemized_expenditures = parse_non_itemized_totals_into_records(data)
+                    data["contributions"].extend(non_itemized_contributions)
+                    data["expenditures"].extend(non_itemized_expenditures)
                     
             for table in tables:
                 if "A1" in page_title:
@@ -424,6 +499,8 @@ def process_pdfs(pdf_files):
                 logging.info("***MISMATCHING EXPENDITURE TOTAL***\n\n")
                 finance_data["candidate_info"]["report_totals"]["Expenditure Mismatch"] = True
             
+            all_similar_links = find_all_similar_files(pdf_path, input_all_campfin_docs)
+            finance_data["form_data"]["data_source"] = all_similar_links
             logging.info(f"Writing Records to {output_file}")
             with open(output_file, "w") as file:
                 json.dump(finance_data, file, indent=4)

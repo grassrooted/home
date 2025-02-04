@@ -5,7 +5,7 @@ import os
 import requests
 
 # File containing the list of PDF links
-LAST_NAME_CONFIG = "Mendelsohn"
+LAST_NAME_CONFIG = "Stewart"
 related_tec_docs_filename = f"c_oh_related_sources_{LAST_NAME_CONFIG}.txt"
 unmatched_tec_docs_filename = f"unmatched_c_oh_files_{LAST_NAME_CONFIG}.txt"
 def extract_filename_from_url(url):
@@ -31,9 +31,7 @@ def download_pdf(url, output_dir):
 def extract_finance_data_from_table(pdf_path):
     data = {
         "candidate_info": {},
-        "form_data" : {
-            "data_source" : pdf_path,
-        },
+        "form_data" : {},
         "contributions": [],
         "expenditures": [],
         "in_kind_contributions": [],
@@ -217,6 +215,7 @@ def extract_finance_data_from_table(pdf_path):
                         "Name": name,
                         "Address": address,
                         "Amount": amount,
+                        "Transaction_Type": "In-Kind Contribution",
                         "Description": description_line,
                         "Source" : pdf_path
                     })
@@ -227,6 +226,35 @@ def extract_finance_data_from_table(pdf_path):
             print(f"Error parsing table: {e}")
             return results
 
+    def parse_non_itemized_totals_into_records(data, end_of_reporting_period):
+        contributions = []
+        expenditures = []
+
+        political_contributions = data["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
+        political_expenditures = data["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]
+
+        if political_contributions > 0:
+            contributions.append({
+                "Transaction_Date": end_of_reporting_period,
+                "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+                "Address": "N/A",
+                "Amount": political_contributions,
+                "Transaction_Type": "Contribution",
+                "Source": pdf_path
+            })
+        if political_expenditures > 0:
+            expenditures.append({
+                "Transaction_Date": end_of_reporting_period,
+                "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+                "Address": "N/A",
+                "Amount": political_expenditures,
+                "Transaction_Type": "Expenditure",
+                "Category": "N/A",
+                "Description": "N/A",
+                "Source": pdf_path
+            })
+        return contributions, expenditures
+
     def parse_expenditure_record(record):
         try:
             # Extract date and payee name
@@ -236,7 +264,7 @@ def extract_finance_data_from_table(pdf_path):
 
             # Extract amount and transaction type
             amount_data = record[1][0]
-            transaction_type = " ".join(amount_data.split("\n")[2:])
+            #transaction_type = " ".join(amount_data.split("\n")[2:])
             
             # Match the monetary value (handles both formats)
             match = re.search(r'\d+(?:,\d{3})*(?:\.\d{2})', amount_data)
@@ -257,7 +285,7 @@ def extract_finance_data_from_table(pdf_path):
                     "Name": payee_name,
                     "Address": payee_address,
                     "Amount": amount,
-                    "Transaction_Type": transaction_type,
+                    "Transaction_Type": "Expenditure",
                     "Category": category,
                     "Description": description,
                     "Source" : pdf_path
@@ -276,10 +304,18 @@ def extract_finance_data_from_table(pdf_path):
                     data["candidate_info"] = header["candidate_info"]
             elif page_num == 1:
                 totals = parse_totals_page(tables[0])
-                #json_str = json.dumps(totals, indent=4)
-                #print(json_str)
                 if totals:
+                    if data["form_data"]["period"]:   
+                        end_of_reporting_period = data["form_data"]["period"].split("_")[-1].replace("-", "/")
+                    else:
+                        end_of_reporting_period = "badly_formatted_period"
+                    print(f"Period: {end_of_reporting_period}")
                     data["candidate_info"]["report_totals"] = totals
+                    non_itemized_contributions, non_itemized_expenditures = parse_non_itemized_totals_into_records(totals, end_of_reporting_period)
+                    data["contributions"].extend(non_itemized_contributions)
+                    data["expenditures"].extend(non_itemized_expenditures)
+                    json_str = json.dumps(data["candidate_info"]["report_totals"], indent=4)
+                    print(json_str)
 
             page_title = "".join(page.extract_tables()[0][0][0])
 
@@ -335,6 +371,7 @@ def process_pdfs_from_links(related_tec_docs_filename, unmatched_tec_docs_filena
             print(f"Processing {pdf_path}...")
             finance_data = extract_finance_data_from_table(pdf_path)
             
+            finance_data["form_data"]["data_source"] = link
             parsed_last_name = finance_data["candidate_info"]["last_name"]
             if parsed_last_name.lower() not in LAST_NAME_CONFIG.lower():
                 print(f"Skipping file {pdf_path} due to parsed name mismatch\nParsed: {parsed_last_name}\nConfigured: {LAST_NAME_CONFIG}\n")
@@ -354,12 +391,10 @@ def process_pdfs_from_links(related_tec_docs_filename, unmatched_tec_docs_filena
             finance_data["candidate_info"]["report_totals"]["Total Parsed Contributions"] = total_contributions
             finance_data["candidate_info"]["report_totals"]["Total Parsed Expenditures"] = total_expenditures
 
-            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]
-                #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
-                #+finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]\
-            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]
-                #+ finance_data["candidate_info"]["report_totals"]["TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]\
-                #+ finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]\
+            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
+            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]\
+                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]
 
             finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Contributions"] = reported_total_contributions
             finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Expenditures"] = reported_total_expenditures

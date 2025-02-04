@@ -231,7 +231,7 @@
     Address: "Address"
 - name:  "Kathy Stewart"
   id: "KathyStewart"
-  path_to_contributions_data: "/candidates/Stewart/Data/stewart_contributions.json"
+  path_to_contributions_data: "/candidates/Stewart/Data/Kathy_Stewart_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Stewart/Visuals/Stewart_headshot.jpg"
   path_to_maps:
     - "/candidates/Stewart/Visuals/May 5, 2021 - May 4, 2023.jpg"
@@ -250,8 +250,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Jaynie Schultz"
   id: "JaynieSchultz"
@@ -306,7 +306,7 @@
     Address: "Address"
 - name:  "Gay Willis"
   id: "GayWillis"
-  path_to_contributions_data: "/candidates/Willis/Data/willis_contributions.json"
+  path_to_contributions_data: "/candidates/Willis/Data/Gay_Willis_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Willis/Visuals/Willis_headshot.jpg"
   path_to_maps:
     - "/candidates/Willis/Visuals/May 5, 2019 - May 4, 2021.jpeg"
@@ -326,12 +326,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Paul Ridley"
   id: "PaulRidley"
-  path_to_contributions_data: "/candidates/Ridley/Data/ridley_contributions.json"
+  path_to_contributions_data: "/candidates/Ridley/Data/Paul_Ridley_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Ridley/Visuals/Ridley_headshot.jpg"
   path_to_maps:
     - "/candidates/Ridley/Visuals/May 5, 2019 - May 4, 2021.jpg"
@@ -351,8 +351,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Sukh Kaur"
   id: "SukhKaur"
