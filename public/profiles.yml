@@ -75,7 +75,7 @@
     Address: "Address"
 - name:  "Carolyn Arnold"
   id: "CarolynArnold"
-  path_to_contributions_data: "/candidates/Arnold/Data/arnold_contributions.json"
+  path_to_contributions_data: "/candidates/Arnold/Data/Carolyn_Arnold_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Arnold/Visuals/carolyn-king-headshot.jpg"
   path_to_maps:
     - "/candidates/Arnold/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -96,12 +96,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Jaime Resendez"
   id: "JaimeResendez"
-  path_to_contributions_data: "/candidates/Resendez/Data/resendez_contributions.json"
+  path_to_contributions_data: "/candidates/Resendez/Data/jaime_resendez_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Resendez/Visuals/Resendez_headshot.jpeg"
   path_to_maps:
     - "/candidates/Resendez/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -122,12 +122,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Omar Narvaez"
   id: "OmarNarvaez"
-  path_to_contributions_data: "/candidates/Narvaez/Data/narvaez_contributions.json"
+  path_to_contributions_data: "/candidates/Narvaez/Data/Omar_Narvaez_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Narvaez/Visuals/Narvaez_headshot.jpeg"
   path_to_maps:
     - "/candidates/Narvaez/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -148,12 +148,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Adam Bazaldua"
   id: "AdamBazaldua"
-  path_to_contributions_data: "/candidates/Bazaldua/Data/bazaldua_contributions.json"
+  path_to_contributions_data: "/candidates/Bazaldua/Data/Adam_Bazaldua_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Bazaldua/Visuals/Bazaldua_headshot.jpg"
   path_to_maps:
     - "/candidates/Bazaldua/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -174,8 +174,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Tennell Atkins"
   id: "TennellAtkins"
@@ -205,7 +205,7 @@
     Address: "Address"
 - name:  "Paula Blackmon"
   id: "PaulaBlackmon"
-  path_to_contributions_data: "/candidates/Blackmon/Data/blackmon_contributions.json"
+  path_to_contributions_data: "/candidates/Blackmon/Data/Paula_Blackmon_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/Blackmon/Visuals/Blackmon_headshot.jpg"
   path_to_maps:
     - "/candidates/Blackmon/Visuals/May 5, 2017 - May 4, 2019.jpg"
@@ -226,8 +226,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Kathy Stewart"
   id: "KathyStewart"
