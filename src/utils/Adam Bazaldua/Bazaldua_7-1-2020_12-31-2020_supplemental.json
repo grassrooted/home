@@ -1,0 +1,728 @@
+{
+    "candidate_info": {
+        "first_name": "Adam",
+        "last_name": "Bazaldua",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 294.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 25989.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 5577.86,
+            "TOTAL POLITICAL EXPENDITURES": 9081.58,
+            "Total Parsed Contributions": 25989.0,
+            "Total Parsed Expenditures": 9081.58,
+            "Total Itemized Reported Contributions": 25989.0,
+            "Total Itemized Reported Expenditures": 9081.58
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002087_20210114_215415.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002087_20210114_215415.pdf"
+        ],
+        "period": "7/1/2020_12/31/2020",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 294.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Sandra Lozano",
+            "Address": "1452 Winding Brook Circle Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2020",
+            "Name": "April A Searcy",
+            "Address": "1517 Hillcrest Fort Worth, TX 76107",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Haman Patel",
+            "Address": "1717 Martin Luther King Jr Blvd Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "Sherry Mills",
+            "Address": "5343 Blaney Way Dallas, TX 75227",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/02/2020",
+            "Name": "Kurt Watkins",
+            "Address": "4030 North Central Exwy Suite 559 Dallas, TX 75204",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2020",
+            "Name": "Kurt Watkins",
+            "Address": "4030 North Central Exwy Suite 559 Dallas, TX 75204",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2020",
+            "Name": "Jason Brown",
+            "Address": "2534 South Blvd Dallas, TX 75215",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2020",
+            "Name": "Josh Smith",
+            "Address": "P.O. Box 181016 Dallas, TX 75218",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2020",
+            "Name": "Stacey Gonzalez",
+            "Address": "3730 Cement Valley Midlothian, TX 76065",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2020",
+            "Name": "Todd Hill",
+            "Address": "707 Vermont Ave Dallas, TX 75216",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2020",
+            "Name": "Shelley Swan",
+            "Address": "5708 Twin Brooks Dallas, TX 75252",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2020",
+            "Name": "Alan Cohen",
+            "Address": "3736 Glencoe Dallas, TX 75206",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2020",
+            "Name": "Teresa Gubbins",
+            "Address": "2502 Live Oak Suite 220 Dallas, TX 75228",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2020",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/04/2020",
+            "Name": "Ray Quintanilla",
+            "Address": "8726 Wingate Dallas, TX 75209",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Chad West",
+            "Address": "3606 S. Tyler Street Dallas, TX 75224",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2020",
+            "Name": "Adam Medrano",
+            "Address": "2338 Douglas Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Gianna Madrini",
+            "Address": "3004 Main Dallas, TX 75226",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Phillip Kingston",
+            "Address": "5901 Palo Pinto Dallas, TX 75206",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/25/2020",
+            "Name": "Eric Johnson",
+            "Address": "3525 Turtle Creek Suite 11A Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Lee Kleinman",
+            "Address": "7336 Hill Forest Dr Dallas, TX 75230",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Shane Grahn",
+            "Address": "6922 Belteau Ln Dallas, TX 75227",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Claire Dewar",
+            "Address": "5359 Montrose Dallas, TX 75209",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Jeremy Tezano",
+            "Address": "1280 Wispering Trail Dallas, TX 75241",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Dale Robinowitz",
+            "Address": "5959 Deloache Dallas, TX 75225",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Jaime Resendez",
+            "Address": "1458 Misson Hills Dallas, TX 75217",
+            "Amount": 75.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Barry Blackmon",
+            "Address": "6408 Patrick Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Alisa Tiona",
+            "Address": "11404 Bertram Austin, TX 78645",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Wills Johnson",
+            "Address": "1001 Belleview Dallas, TX 75215",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Miguel Solis",
+            "Address": "2215 Eriksson Ln Dallas, TX 75204",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Angela Hunt",
+            "Address": "5306 Mercedes Dallas, TX 75218",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Chad West",
+            "Address": "3606 S. Tyler Street Dallas, TX 75224",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Elayna Mitchell",
+            "Address": "5323 Tremont Street Dallas, TX 75214",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Jasmine Crockett",
+            "Address": "4605 Cedar Springs Suite 141 Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "McCall Johnson",
+            "Address": "5924 Junius Dallas, TX 75214",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "David Parsons",
+            "Address": "5711 Monticello Dallas, TX 75206",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "Ilona Malone",
+            "Address": "5524 La Barba Dallas, TX 75227",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2020",
+            "Name": "Michael Ruiz",
+            "Address": "411 E Hillcroft Duncanville, TX 75137",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Karen Bazaldua",
+            "Address": "1649 Plum Creek Midlothian, TX 76065",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/05/2020",
+            "Name": "Raquel Favela",
+            "Address": "2658 Forest Pebble San Antonio, TX 78232",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "Fabian Hernandez",
+            "Address": "3053 Larry Dallas, TX 75228",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "Constance Fleming",
+            "Address": "1200 Devonshire DeSoto, TX 75115",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Patrick Washington",
+            "Address": "3101 Martin Luther King Jr Blvd Dallas, TX 75215",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Celisse Rideaux",
+            "Address": "2625 Villa di Lago Suite 6 Grand Prarie, TX 75054",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2020",
+            "Name": "Scottie Smith",
+            "Address": "2500 Peabody Dallas, TX 75215",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/09/2020",
+            "Name": "Chris Aslam",
+            "Address": "P.O. Box 496539 Garland, TX 75049",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "10/30/2020",
+            "Name": "Buckner Terrace HOA",
+            "Address": "P.O. Box 270131 Dallas, TX 75227",
+            "Amount": 170.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2020",
+            "Name": "Thomas White",
+            "Address": "5819 Winding Woods Trail Dallas, TX 75227",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Jacob Brown",
+            "Address": "3101 Forestwood Bryan, TX 77801",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2020",
+            "Name": "Vicky Martin",
+            "Address": "8230 Claremont Dr Dallas, TX 75228",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2020",
+            "Name": "Stephanie Timko",
+            "Address": "2421 Dorrington Dallas, TX 75228",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Pamela Bradford",
+            "Address": "1333 Windingbrook DeSoto, TX 75115",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2020",
+            "Name": "Pete Schenkel",
+            "Address": "4231 Belclaire Dallas, TX 75205",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Keith Booth",
+            "Address": "2828 Martin Luther King Jr Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Antonio Cherry",
+            "Address": "2828 Martin Luther King Jr Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Kevin Williams",
+            "Address": "2828 Martin Luther King Jr Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Michael Myers",
+            "Address": "2828 Martin Luther King Jr Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Jarred Taylor",
+            "Address": "2828 Martin Luther King Jr Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Crystal Blanks",
+            "Address": "5632 Gleneagles Plano, TX 75093",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Jeff Blanks",
+            "Address": "5632 Gleneagles Plano, TX 75093",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "J M Williams",
+            "Address": "8604 Greenville Ave Suite 200 Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2020",
+            "Name": "Charles Billings",
+            "Address": "14841 Dallas Parkway Suite 760 Dallas, TX 75254",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2020",
+            "Name": "Nancy Blanks",
+            "Address": "5919 Twin Coves Dallas, TX 75248",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Ellen Williams",
+            "Address": "8604 Greenville Ave Suite 200 Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Nancy Best",
+            "Address": "9762 Audobon Place Dallas, TX 75220",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Randy Best",
+            "Address": "9762 Audobon Place Dallas, TX 75220",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 5577.86,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2020",
+            "Name": "PrintPlace",
+            "Address": "1130 Avenue H E Arlington, TX 76011",
+            "Amount": 808.1,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "Printing Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2020",
+            "Name": "Ed Gray Associates",
+            "Address": "2225 E Randal Mills Arlington, TX 76011",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2020",
+            "Name": "PrintPlace",
+            "Address": "1130 Avenue H E Arlington, TX 76011",
+            "Amount": 545.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "Printing Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Ashley Long",
+            "Address": "5314 Columbia Dallas, TX 75214",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Jesse Moreno Campagin",
+            "Address": "Dallas, TX 75201",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/03/2020",
+            "Name": "Stonewall Democrats",
+            "Address": "P.O. Box 192305 Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2020",
+            "Name": "Chad West Campaign",
+            "Address": "3606 S Tyler Dallas, TX 75224",
+            "Amount": 105.58,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2020",
+            "Name": "Chefs For Farmers",
+            "Address": "Dallas, TX 75209",
+            "Amount": 231.33,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2020",
+            "Name": "Michaels Store",
+            "Address": "5500 Greenville Suite 70D0allas, TX 75206",
+            "Amount": 99.96,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office Overhead/Rental Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "11/02/2020",
+            "Name": "Sams Club",
+            "Address": "5555 S Buckner Dallas, TX 75227",
+            "Amount": 331.48,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "10/26/2020",
+            "Name": "Costco",
+            "Address": "8055 Churchill Way Dallas, TX 75251",
+            "Amount": 291.81,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/30/2020",
+            "Name": "ELITE NEWS",
+            "Address": "1911 E. LEDBETTER Dallas, TX 75216",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "07/27/2020",
+            "Name": "United States Postal Service",
+            "Address": "8624 Ferguson Dallas, TX 75228",
+            "Amount": 141.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office Overhead/Rental Expense",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "PayPal",
+            "Address": "2211 N First San Jose, CA 95131",
+            "Amount": 199.46,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002087_20210114_215415.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

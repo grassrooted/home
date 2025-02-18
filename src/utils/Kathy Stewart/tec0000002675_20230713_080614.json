@@ -1,0 +1,283 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Stewart",
+        "office_sought": "Council District 10",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 5600.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 52954.36,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 1411.77,
+            "Total Parsed Contributions": 5600.0,
+            "Total Parsed Expenditures": 52954.36,
+            "Total Itemized Reported Contributions": 5600.0,
+            "Total Itemized Reported Expenditures": 52954.36
+        }
+    },
+    "form_data": {
+        "period": null,
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000002675_20230713_080614.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "05/01/2023",
+            "Name": "Arun Agarwal",
+            "Address": "123 Oak Lawn Ave Dallas, TX 75207",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2023",
+            "Name": "Tony Shidid Elevation Management",
+            "Address": "6208 Copperhill Dallas, TX 75248",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2023",
+            "Name": "Alan Walne",
+            "Address": "10020 Caribou Trail Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2023",
+            "Name": "Audelia WGK II, LLC",
+            "Address": "8525 Ferndale Suite 204 Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/06/2023",
+            "Name": "Carole Rylander",
+            "Address": "6873 Blackwood Dr Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/06/2023",
+            "Name": "Christina Swisher",
+            "Address": "9959 Capridge Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/16/2023",
+            "Name": "Kelem Butts",
+            "Address": "3030 McKinney Ave. Dallas, TX 75204",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/27/2023",
+            "Name": "Walt McCool",
+            "Address": "8650 Southwestern Blvd Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/27/2023",
+            "Name": "Patrick Brown",
+            "Address": "9107 Dusti Drive Dallas, TX 75243",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2023",
+            "Name": "Thomas Dunning",
+            "Address": "2100 Ross Avenue Suite 1200 Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2023",
+            "Name": "Dallas Firefighters Assoc PAC",
+            "Address": "10956 Audelia Road Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2023",
+            "Name": "HBA of Greater Dallas PAC",
+            "Address": "5816 W. Plano Pkwy Plano, TX 75093",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 1500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consult Fee & Digital Advertising",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 1000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/16/2023",
+            "Name": "Henry Clayton",
+            "Address": "9322 Moss Trail Dallas, TX 75231",
+            "Amount": 8000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/22/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 5000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consult Fee & Digital Advertising",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 9228.84,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 1671.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 7416.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 484.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 1632.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 5480.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/08/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 8438.89,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/10/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 1149.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/16/2023",
+            "Name": "Graphics Management",
+            "Address": "9322 Moss Trail Dallas, TX 75231",
+            "Amount": 1866.42,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Campaign Materials",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/27/2023",
+            "Name": "Anedot",
+            "Address": "1340 Poydras St New Orleans, LA 70112",
+            "Amount": 65.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Digital Fundraising",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "05/31/2023",
+            "Name": "Prosperity Bank",
+            "Address": "9625 Audelia Road Dallas, LA 75238",
+            "Amount": 10.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Bank Fees",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2023",
+            "Name": "Prosperity Bank",
+            "Address": "9625 Audelia Road Dallas, TX 75238",
+            "Amount": 10.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Bank Fees",
+            "Source": "pdf_files/tec0000002675_20230713_080614.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

@@ -1,0 +1,189 @@
+{
+    "candidate_info": {
+        "first_name": "Zarin",
+        "last_name": "Gracey",
+        "office_sought": "Council District 3",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 6650.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 10953.34,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 0.0,
+            "Total Parsed Contributions": 6650.0,
+            "Total Parsed Expenditures": 10953.34,
+            "Total Itemized Reported Contributions": 6650.0,
+            "Total Itemized Reported Expenditures": 10953.34
+        }
+    },
+    "form_data": {
+        "period": null,
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000002690_20230717_132558.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "06/02/2023",
+            "Name": "James Guillory",
+            "Address": "3906 Brookston Street Houston, TX 77045",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/08/2023",
+            "Name": "Don Glendenning",
+            "Address": "3401 lee pkwy Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/08/2023",
+            "Name": "Renee Dutia",
+            "Address": "7111 Leameadow Dr Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/11/2023",
+            "Name": "Courtney Pogue",
+            "Address": "1200 Broadway Nashville, TN 37203",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2023",
+            "Name": "EJES",
+            "Address": "P.O. Box 560077 Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2023",
+            "Name": "Texas Association of Realtors PAC",
+            "Address": "P.O. Box 2246 Austin, TX 78708",
+            "Amount": 2500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/14/2023",
+            "Name": "Pete Schenkel",
+            "Address": "614 Bishop Ave Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/14/2023",
+            "Name": "Roland Parrish",
+            "Address": "1256 Regengts Park Court DeSoto, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/14/2023",
+            "Name": "Linebarger Goggin Blair & Sampson",
+            "Address": "P.O. Box 17428 Austin, TX 78750",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "06/15/2023",
+            "Name": "Castle Business Solutions",
+            "Address": "2777 N Stemmons Fwy Dallas, TX 75207",
+            "Amount": 2082.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/13/2023",
+            "Name": "Brandon Johnson",
+            "Address": "1236 Clifftop Lane Dallas, TX 75208",
+            "Amount": 2500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Campaign Manager",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/12/2023",
+            "Name": "Foxhole Strategies",
+            "Address": "5473 Blair Rd Dallas, TX 75231",
+            "Amount": 600.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "District Research",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/12/2023",
+            "Name": "Daq & Mag",
+            "Address": "3431 W Camp Wisdon Dallas, TX 75237",
+            "Amount": 1997.21,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/06/2023",
+            "Name": "Shaun Hailey",
+            "Address": "1929 Willow Bend Dr Red Oak, TX 75154",
+            "Amount": 680.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Poll Greeters",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2023",
+            "Name": "Nationbuilder",
+            "Address": "750 W. 7th St. Los Angeles, CA 90017",
+            "Amount": 58.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Donation Collection",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/08/2023",
+            "Name": "Texting for Less",
+            "Address": "354 State St Hackensack, NJ 07601",
+            "Amount": 560.46,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/10/2023",
+            "Name": "Betty Griffin",
+            "Address": "7310 Marvin D Love Dallas, TX 75237",
+            "Amount": 1850.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Poll Greeters",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        },
+        {
+            "Transaction_Date": "06/09/2023",
+            "Name": "Jackie Robinson",
+            "Address": "305 Regency Pkwy Mansfield, TX 76063",
+            "Amount": 625.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Reimbursment/Campaign Asst.",
+            "Source": "pdf_files/tec0000002690_20230717_132558.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

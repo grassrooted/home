@@ -1,0 +1,118 @@
+{
+    "candidate_info": {
+        "first_name": "Paul",
+        "last_name": "Ridley",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 9000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 102.39,
+            "Total Parsed Contributions": 9000.0,
+            "Total Parsed Expenditures": 102.39,
+            "Total Itemized Reported Contributions": 9000.0,
+            "Total Itemized Reported Expenditures": 102.39
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002771_20250107_101358.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002771_20250107_101358.pdf"
+        ],
+        "period": "7/1/2024_12/31/2024",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "09/13/2024",
+            "Name": "Trepac-Texas Realtors PAC",
+            "Address": "P.O. Box 2246 Austin, TX 78768",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "09/08/2024",
+            "Name": "Pam Gerber",
+            "Address": "4335 Holland Ave. Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/03/2024",
+            "Name": "Billy Prewitt",
+            "Address": "1601 Elm St. Suite 3110 Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Charles Koetting",
+            "Address": "3909 Stonebridge Dr. Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Caroline Koetting",
+            "Address": "3909 Stonebridge Dr. Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Hunter L Hunt",
+            "Address": "1900 N. Akard St. Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Ray L Hunt",
+            "Address": "1900 N. Akard St. Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2024",
+            "Name": "Christopher Kleinert",
+            "Address": "1900 N. Akard St. Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Paypal Hldgs",
+            "Address": "2211 N.1st. St. San Jose, CA 95131",
+            "Amount": 58.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "contribution service fees",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        },
+        {
+            "Transaction_Date": "12/03/2024",
+            "Name": "SquareUp",
+            "Address": "1455 Market St. Suite 60S0an Francisco, CA 94103",
+            "Amount": 44.1,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "contribution service fees",
+            "Source": "srp0000002771_20250107_101358.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

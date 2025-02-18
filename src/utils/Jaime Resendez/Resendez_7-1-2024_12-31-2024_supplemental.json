@@ -1,0 +1,265 @@
+{
+    "candidate_info": {
+        "first_name": "Jaime",
+        "last_name": "Resendez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 7450.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 2327.66,
+            "Total Parsed Contributions": 4750.0,
+            "Total Parsed Expenditures": 2327.66,
+            "Total Itemized Reported Contributions": 7450.0,
+            "Total Itemized Reported Expenditures": 2327.66,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002793_20250115_091304.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002793_20250115_091304.pdf"
+        ],
+        "period": "7/1/2024_12/31/2024",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "11/24/2024",
+            "Name": "Jude Akpunku",
+            "Address": "2639 Main St Dallas, TX 75226",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2024",
+            "Name": "Robert Isackson",
+            "Address": "4340 Von Karman Ave Suite 110 Newport Beach, CA 92600",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2024",
+            "Name": "Jacobe Chandler",
+            "Address": "4827 Memphis St Dallas, TX 75207",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Lauren Black",
+            "Address": "1133 S Madison Ave Dallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution Attorney",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Reid Beucler",
+            "Address": "8235 Elm Street Dallas, TX 75226",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/15/2024",
+            "Name": "Ryan Holloway",
+            "Address": "4325 Elm Street Dallas, TX 75226",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "08/06/2024",
+            "Name": "Jeff Carey",
+            "Address": "P.O. Box 24743 Lewisville, TX 75029",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "08/06/2024",
+            "Name": "Jeff Carey",
+            "Address": "P.O. Box 24743 Lewisville, TX 75029",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2024",
+            "Name": "Hudson Henley",
+            "Address": "5415 Ursula Lane Dallas, TX 75229",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2024",
+            "Name": "Kim Henley",
+            "Address": "5415 Ursula Lane Dallas, TX 75229",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "07/03/2024",
+            "Name": "Molcajetes",
+            "Address": "2306 S Buckner Blvd Dallas, TX 75227",
+            "Amount": 164.6,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "07/08/2024",
+            "Name": "Naleo Educational Fund",
+            "Address": "Houston , TX 77008",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "08/26/2024",
+            "Name": "Parking Management Service Dallas",
+            "Address": "11289 Goodnight Ln Dallas, TX 75229",
+            "Amount": 18.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Parking Lot",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "08/26/2024",
+            "Name": "Mikes Chicken",
+            "Address": "4234 Maple Ave Dallas, TX 75219",
+            "Amount": 22.49,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "09/19/2024",
+            "Name": "Molcajetes",
+            "Address": "2306 S Buckner Blvd Dallas, TX 75227",
+            "Amount": 39.48,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "10/01/2024",
+            "Name": "Bonton Farms",
+            "Address": "12650 Ravenview Rd Dallas, TX 75253",
+            "Amount": 45.47,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2024",
+            "Name": "DALLAS COUNTY DEMOCRATS",
+            "Address": "1414 N Washington AveDallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "10/16/2024",
+            "Name": "Molcajetes",
+            "Address": "2306 S Buckner Blvd Dallas, TX 75227",
+            "Amount": 32.86,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2024",
+            "Name": "Platinum Parking",
+            "Address": "2101 Elm St Dallas, TX 75201",
+            "Amount": 9.08,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Parking Lot",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "Centro De Diamantes",
+            "Address": "1642 S Buckner Blvd Dallas, TX 75217",
+            "Amount": 33.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2024",
+            "Name": "Luckys Tacos",
+            "Address": "9600 Lake June Rd Dallas, TX 75217",
+            "Amount": 333.75,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Event Food",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2024",
+            "Name": "Act Blue J Gonzalez",
+            "Address": "400 S Zang Suite 1022 Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Contribution",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2024",
+            "Name": "Molcajetes",
+            "Address": "2306 S Buckner Blvd Dallas, TX 75227",
+            "Amount": 46.89,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2024",
+            "Name": "Dallas Youth Athletic Association",
+            "Address": "2524 W Ledbetter Dr Dallas, TX 75233",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        },
+        {
+            "Transaction_Date": "11/24/2024",
+            "Name": "Paypal Fees",
+            "Address": "2211 N 1st St San Jose, CA 95131",
+            "Amount": 132.04,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Paypal Fees",
+            "Source": "srp0000002793_20250115_091304.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

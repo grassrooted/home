@@ -1,0 +1,641 @@
+{
+    "candidate_info": {
+        "first_name": "Kevin",
+        "last_name": "Stewart",
+        "office_sought": "Council District 10",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 28550.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 3247.3,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 35303.0,
+            "Total Parsed Contributions": 28550.0,
+            "Total Parsed Expenditures": 3247.3,
+            "Total Itemized Reported Contributions": 28550.0,
+            "Total Itemized Reported Expenditures": 3247.3
+        }
+    },
+    "form_data": {
+        "period": null,
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000002477_20230114_100947.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "10/25/2022",
+            "Name": "Kathy Stewart",
+            "Address": "9509 Shady Valley Dr. Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2022",
+            "Name": "Clayton Henry",
+            "Address": "9322 Moss Trail Dallas, TX 75231",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Cecelia Cox",
+            "Address": "5112 Woodview Ave. Austin, TX 78756",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Kambiz Afkhami",
+            "Address": "2308 Blackberry Dr. Richardson, TX 75082",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Andrea Afkhami",
+            "Address": "2308 Blackberry Dr. Richardson, TX 75082",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Chris Bellew",
+            "Address": "9406 Crestedge Dr. Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Jill Bellew",
+            "Address": "9406 Crestedge Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Jim Adams",
+            "Address": "9927 Capridge Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2022",
+            "Name": "Kelly Klemme",
+            "Address": "9525 Milltrail Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2022",
+            "Name": "Lisa Briggs",
+            "Address": "9759 Edgepine Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2022",
+            "Name": "Steve Hedrick",
+            "Address": "11310 Goddard Ct. Dallas, TX 75218",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2022",
+            "Name": "Kenneth Coutant",
+            "Address": "9318 Clearhurst Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Kathryn Jones",
+            "Address": "6920 Midcrest Dr. Dallas, TX 75254",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Mitchell Stein",
+            "Address": "11210 Bellafonte Dr. Dallas, TX 75243",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Elizabeth Stewart",
+            "Address": "6801 Valburn Dr. Austin, TX 78731",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Charles Badgett",
+            "Address": "8602 Middle Downs Dr. Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Don Glendenning",
+            "Address": "2200 Ross Avenue Suite 2800 Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Rolf Siegers",
+            "Address": "9432 Brentgate Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Anita Siegers",
+            "Address": "9432 Brentgate Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Stuart Barab",
+            "Address": "9132 Branch Hollow Dallas, TX 75243",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Bill Boyd",
+            "Address": "10140 Ferndale Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Jenny King",
+            "Address": "9206 Canter Dr. Dallas, TX 75231",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Jerry Baker",
+            "Address": "10416 Church Road Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Julie Bonahoom",
+            "Address": "9114 Arborside Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Larry Lauck",
+            "Address": "10529 Estate Lane Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Amy Timmerman",
+            "Address": "9924 Edgecove Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Gale Lewis",
+            "Address": "6829 Blackwood Dallas, TX 75231",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Chris Aldredge",
+            "Address": "7014 Preston Grove Dallas, TX 75230",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Cindy Aldredge",
+            "Address": "7014 Preston Grove Dallas, TX 75230",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Laurie Bubel",
+            "Address": "9624 Spring Branch Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Julie Carrick",
+            "Address": "3221 Clubview Dr Argyle, TX 76226",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2022",
+            "Name": "Elizabeth Fenimore",
+            "Address": "9728 Windledge Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2022",
+            "Name": "Molly Stewart",
+            "Address": "8750 Westminister Terrace Suite 5202Dallas, TX 75243",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Carolyn Brunkenhoefer",
+            "Address": "9077 Fairglen Dr. Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Julie Jodie",
+            "Address": "9617 Windy Hill Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Jennifer Goocher",
+            "Address": "3202 Winged Elm Dr Cedar Park, TX 78616",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Larry Lee",
+            "Address": "7302 Danashire Dallas, TX 75231",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Alison Lee",
+            "Address": "7302 Danashire Dallas, TX 75231",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Chuck Reeder",
+            "Address": "4515 Belfort Pl Dallas, TX 75205",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2022",
+            "Name": "Kim Lonergan",
+            "Address": "10050 Caribou Trail Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/26/2022",
+            "Name": "Gary Griffith",
+            "Address": "6875 Carolyncrest Dr Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/26/2022",
+            "Name": "Susan Morgan",
+            "Address": "9227 Dove Meadow Dallas, TX 75243",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/26/2022",
+            "Name": "Mike McIlwain",
+            "Address": "9109 Clearhurst Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/26/2022",
+            "Name": "Judy McIlwain",
+            "Address": "9109 Clearhurst Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/28/2022",
+            "Name": "Tom Harris",
+            "Address": "10011 Caribou Trail Dallas, TX 75238",
+            "Amount": 125.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/28/2022",
+            "Name": "Michelle Harris",
+            "Address": "10011 Caribou Trail Dallas, TX 75238",
+            "Amount": 125.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/28/2022",
+            "Name": "Cindy Woolley",
+            "Address": "9215 Meadowglen Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/28/2022",
+            "Name": "Byron Woolley",
+            "Address": "9215 Meadowglen Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Doug Rabe",
+            "Address": "7746 Eagle Trail Dallas, TX 75238",
+            "Amount": 750.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Nancy Rabe",
+            "Address": "7746 Eagle Trail Dallas, TX 75238",
+            "Amount": 750.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Melanie Cowlishaw",
+            "Address": "9531 Windy Hill Road Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Cynthia Henneberger",
+            "Address": "8928 Fairglen Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Lisa Sides",
+            "Address": "9949 Caribou Trail Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2022",
+            "Name": "Murray Morgan",
+            "Address": "9931 Wood Forest Dr Dallas, TX 75243",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2022",
+            "Name": "William Rafkin",
+            "Address": "3601 Turtle Creek Blvd Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2022",
+            "Name": "Greg Duval",
+            "Address": "9218 Loma Vista Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Adam McGough for Dallas Election Committee",
+            "Address": "5931 Greenville Ave Suite 211 Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/04/2022",
+            "Name": "Sherman Burns",
+            "Address": "9205 Clover Valley Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2022",
+            "Name": "Paula Hughes",
+            "Address": "8046 Nimrod Trail Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2022",
+            "Name": "Cheryl Zreet",
+            "Address": "9617 Windy Terrace Dallas, TX 75231",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2022",
+            "Name": "Brenda Woods",
+            "Address": "9474 Dartridge Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2022",
+            "Name": "Mark Holmes",
+            "Address": "9225 Royalpine Dr, Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2022",
+            "Name": "Jan Stell",
+            "Address": "P.O. Box 38298 Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Karen Clardy",
+            "Address": "9314 Bill Browne Lane Dallas, TX 75243",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Tipton Housewright",
+            "Address": "10102 Candlebrook Dr. Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2022",
+            "Name": "Robb Stewart",
+            "Address": "9509 Shady Valley Dr. Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2022",
+            "Name": "Jill Mellinger",
+            "Address": "9210 Westview Cr Dallas, TX 75231",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2022",
+            "Name": "Doug Rabe",
+            "Address": "77 Eagle Trail Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2022",
+            "Name": "Mitchell Bell",
+            "Address": "3362 Blackburn St. Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2022",
+            "Name": "Celia Bell",
+            "Address": "8804 Mariscal Canyon Dr. Austin, TX 78759",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2022",
+            "Name": "Fran Connell",
+            "Address": "9736 Broken Bow Dallas, TX 75238",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2022",
+            "Name": "Alyson Thompson",
+            "Address": "12323 Creekspan Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2022",
+            "Name": "Nancy Rabe",
+            "Address": "7746 Eagle Trail Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/22/2022",
+            "Name": "Clayton Henry",
+            "Address": "9109 Moss Trail Dallas, TX 75231",
+            "Amount": 2500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Prosperity Bank",
+            "Address": "9625 Audelia Road Dallas, TX 75238",
+            "Amount": 10.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Bank Fees",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Anedot",
+            "Address": "1920 McKinney Ave. SuiDtea l7la0s0, TX 75201",
+            "Amount": 737.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Digital Fundraising Expense",
+            "Source": "pdf_files/tec0000002477_20230114_100947.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

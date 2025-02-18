@@ -1,0 +1,90 @@
+{
+    "candidate_info": {
+        "first_name": "Paula",
+        "last_name": "Blackmon",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 1267.48,
+            "TOTAL POLITICAL EXPENDITURES": 2012.03,
+            "Total Parsed Contributions": 1100.0,
+            "Total Parsed Expenditures": 2012.03,
+            "Total Itemized Reported Contributions": 1100.0,
+            "Total Itemized Reported Expenditures": 2012.03
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002035_20200713_100521.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002035_20200713_100521.pdf"
+        ],
+        "period": "1/1/2020_6/30/2020",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "02/01/2020",
+            "Name": "Anthony Page",
+            "Address": "3210 Carlisle Suite 1 Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002035_20200713_100521.pdf"
+        },
+        {
+            "Transaction_Date": "03/02/2020",
+            "Name": "Chris Heinbaugh",
+            "Address": "1801 Annex Ave Suite 507 Dallas, TX 75204",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002035_20200713_100521.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "6/30/2020",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 1267.48,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002035_20200713_100521.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2020",
+            "Name": "Karen Hardtner",
+            "Address": "415 Janie Shreveport, LA 71106",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Accounting/Banking",
+            "Description": "Campaign accounting and compliance",
+            "Source": "srp0000002035_20200713_100521.pdf"
+        },
+        {
+            "Transaction_Date": "06/18/2020",
+            "Name": "Buckner Terrace Neighborhood Association",
+            "Address": "P.O. Box 270131 Dallas, TX 75227",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Neighborhood association membership",
+            "Source": "srp0000002035_20200713_100521.pdf"
+        },
+        {
+            "Transaction_Date": "06/25/2020",
+            "Name": "Paula Blackmon",
+            "Address": "6408 Patrick Drive Dallas, TX 75214",
+            "Amount": 144.55,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Loan Repayment/Reimbursement",
+            "Description": "Reimbursement for campaign meetings",
+            "Source": "srp0000002035_20200713_100521.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

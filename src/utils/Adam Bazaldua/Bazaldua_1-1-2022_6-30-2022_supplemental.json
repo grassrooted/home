@@ -1,0 +1,264 @@
+{
+    "candidate_info": {
+        "first_name": "Adam",
+        "last_name": "Bazaldua",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2750.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 4826.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 4515.0,
+            "TOTAL POLITICAL EXPENDITURES": 4515.0,
+            "Total Parsed Contributions": 2750.0,
+            "Total Parsed Expenditures": 9341.0,
+            "Total Itemized Reported Contributions": 2750.0,
+            "Total Itemized Reported Expenditures": 9341.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002466_20220715_164749.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002466_20220715_164749.pdf"
+        ],
+        "period": "1/1/2022_6/30/2022",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "05/23/2022",
+            "Name": "Larry Offutt",
+            "Address": "6P0.O38. Box Bryan Parkway Dallas, TX 75206",
+            "Amount": 150.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "06/21/2022",
+            "Name": "Larry Offutt",
+            "Address": "6P0.O38. Box Bryan Parkway Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2022",
+            "Name": "Pete Schenkel",
+            "Address": "4P2.O31. Box Belclaire Dallas, TX 75205",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2022",
+            "Name": "Jeff Carey",
+            "Address": "3P0.O0. Box E Round Grove Dallas, TX 75067",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2022",
+            "Name": "Ray Hunt",
+            "Address": "1P9.O00. Box North Akard Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "6/30/2022",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 4515.0,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "01/10/2022",
+            "Name": "Girl Scouts of America",
+            "Address": "6001 Summerside Dallas, TX 75252",
+            "Amount": 150.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "01/25/2022",
+            "Name": "Taylor Adams",
+            "Address": "1013 Glasgow Dallas, TX 75223",
+            "Amount": 216.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2022",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos Dallas, TX 75204",
+            "Amount": 625.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "02/04/2022",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 127.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "02/07/2022",
+            "Name": "White Rock Methodist Church",
+            "Address": "1450 Old Gate Dallas, TX 75218",
+            "Amount": 154.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "02/08/2022",
+            "Name": "Uber",
+            "Address": "1455 Market Street San Fransicso, CA 94103",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gift/Awards/Memorials Expense",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "03/04/2022",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos Dallas, TX 75204",
+            "Amount": 625.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "03/04/2022",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos Dallas, TX 75204",
+            "Amount": 625.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "03/04/2022",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 127.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "03/15/2022",
+            "Name": "Southwest Airlines",
+            "Address": "2702 Love Field Dr Dallas, TX 75235",
+            "Amount": 105.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2022",
+            "Name": "Deep Ellum Distillery",
+            "Address": "2880 Clover St Dallas, TX 75226",
+            "Amount": 134.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Food/Beverage Expense",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2022",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos Dallas, TX 75204",
+            "Amount": 625.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2022",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 102.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2022",
+            "Name": "Jim Hamel Photography",
+            "Address": "2609 Summit Road Southlake, TX 76092",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gift/Awards/Memorials Expense",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "05/04/2022",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 102.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "05/05/2022",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos Dallas, TX 75204",
+            "Amount": 625.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "06/06/2022",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 102.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2022",
+            "Name": "USPS",
+            "Address": "8624 Ferguson Dallas, TX 75228",
+            "Amount": 182.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002466_20220715_164749.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

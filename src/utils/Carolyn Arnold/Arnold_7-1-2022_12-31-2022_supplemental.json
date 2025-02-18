@@ -1,0 +1,346 @@
+{
+    "candidate_info": {
+        "first_name": "Carolyn",
+        "last_name": "Arnold",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 18200.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 38400.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0,
+            "Total Parsed Contributions": 38400.0,
+            "Total Parsed Expenditures": 0,
+            "Total Itemized Reported Contributions": 38400.0,
+            "Total Itemized Reported Expenditures": 0.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002514_20230117_165022.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002514_20230117_165022.pdf"
+        ],
+        "period": "7/1/2022_12/31/2022",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 18200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Transaction_Date": "10/25/2022",
+            "Name": "Coats and Rose",
+            "Address": "9 Greenway Plaza, Suite 1000 Dallas, TX 77046",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2022",
+            "Name": "Kenneth King Self",
+            "Address": "1447 Hwy 75 S. Dallas, TX 75831",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        }
+    ],
+    "expenditures": [],
+    "in_kind_contributions": [
+        {
+            "Date": "10/25/2022",
+            "Name": "Melody Walker Self",
+            "Address": "127 Oakwood Dallas, TX 76065",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/21/2022",
+            "Name": "Lydia Abby self",
+            "Address": "3605 Normandy Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/25/2022",
+            "Name": "Tanus Shidid self",
+            "Address": "6205 Copperhill Dr Dallas, TX 75240-6300",
+            "Amount": 100.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/25/2022",
+            "Name": "Kenneth Smith self",
+            "Address": "4615 Bradshaw Dallas, TX 75215",
+            "Amount": 200.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/20/2022",
+            "Name": "William Addy self",
+            "Address": "3605 Normandy Dallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "12/12/2022",
+            "Name": "Mary Vasquez self",
+            "Address": "1709 East Ave Dallas, TX 77490",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/20/2022",
+            "Name": "Rohan Bhatt self",
+            "Address": "5932 Rosebud Dallas, TX 75252",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/25/2022",
+            "Name": "Matt Canto self",
+            "Address": "3824 Cedar Springs Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/24/2022",
+            "Name": "Lucious Williams self",
+            "Address": "1421 Covington Dallas, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/25/2022",
+            "Name": "Robert Pitre self",
+            "Address": "2642 S. Harwood Dallas, TX 75215",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "12/28/2022",
+            "Name": "Gilbert Aranza self",
+            "Address": "P.O. Box 601527 Dallas, TX 75360",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "12/12/2022",
+            "Name": "Anthony Aranza self",
+            "Address": "1507 Stonehenge Houston, TX 77073",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/25/2022",
+            "Name": "Afra Cobb self",
+            "Address": "P.O. Box 7772 Dallas, TX 75123",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/25/2022",
+            "Name": "Charles O-Neal self",
+            "Address": "4811 Dove Creek Dallas, TX 75232",
+            "Amount": 100.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/28/2022",
+            "Name": "Jewel Parrish self",
+            "Address": "1256 Regents Dallas, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/28/2022",
+            "Name": "Roland Parrish self",
+            "Address": "1256 Regents DeSoto, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "08/01/2022",
+            "Name": "Demetris Sampson self",
+            "Address": "P.O. Box 763830 Dallas, TX 75326",
+            "Amount": 250.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/27/2022",
+            "Name": "Harryette Ehrhardt self",
+            "Address": "3525 Turtle Dallas, TX 75219",
+            "Amount": 25.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/14/2022",
+            "Name": "Sheppard Freddie self",
+            "Address": "1005 Whitestone Dallas, TX 75232",
+            "Amount": 100.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "08/02/2022",
+            "Name": "Dorothy Jones self",
+            "Address": "2335 Martin Luther King Dallas, TX 75215",
+            "Amount": 50.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/21/2022",
+            "Name": "William Addy self",
+            "Address": "3805 Normandy Dallas, TX 75206",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "08/01/2022",
+            "Name": "Toni Rose self",
+            "Address": "3155 Lancaster Dallas, TX 75216",
+            "Amount": 250.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/20/2022",
+            "Name": "Helen Giddings",
+            "Address": "400 S. Zang Dallas, TX 75206",
+            "Amount": 400.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "08/01/2022",
+            "Name": "Patricia Williams Self",
+            "Address": "1108 Deer Valley Lane Arlington, TX 76001",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/25/2022",
+            "Name": "Glenda Russell Self",
+            "Address": "111 11th Street Dallas, TX 75203",
+            "Amount": 25.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "08/01/2022",
+            "Name": "Wanda Huckaby Self",
+            "Address": "1640 Oak Glen Trail Dallas, TX 75232",
+            "Amount": 100.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/25/2022",
+            "Name": "Jeff Carey self",
+            "Address": "300 E. Round Grove Road Lewisville, TX 75067",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/22/2022",
+            "Name": "Alan Walne self",
+            "Address": "120 Rayflex Richardson, TX 75081",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/20/2022",
+            "Name": "Rod Givens self",
+            "Address": "6200 Los Robles Mesquite, TX 75150",
+            "Amount": 100.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "12/26/2022",
+            "Name": "Pete Schenkle self",
+            "Address": "614 N. Bishop Dallas, TX 75208",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "10/10/2022",
+            "Name": "Anuradha Agarwal self",
+            "Address": "123 Oak Lawn Avenue Dallas, TX 75207",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        },
+        {
+            "Date": "07/17/2022",
+            "Name": "John Price self",
+            "Address": "510 E. 5th Street Dallas, TX 75203",
+            "Amount": 1000.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "|0 | | |",
+            "Source": "srp0000002514_20230117_165022.pdf"
+        }
+    ]
+}

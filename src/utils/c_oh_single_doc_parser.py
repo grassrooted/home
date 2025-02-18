@@ -3,7 +3,7 @@ import re
 import json
 
 # data source
-pdf_path = "srp0000002557_20230406_075716.pdf"
+pdf_path = "caf0000002289_20210528_180905 copy.pdf"
 root_name = pdf_path.split(".")[0]
 output_file = f"{root_name}.json"
 

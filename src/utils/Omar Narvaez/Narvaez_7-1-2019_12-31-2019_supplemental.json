@@ -1,0 +1,92 @@
+{
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 20.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 1004.04,
+            "TOTAL POLITICAL EXPENDITURES": 31109.04,
+            "Total Parsed Contributions": 20.0,
+            "Total Parsed Expenditures": 31109.04,
+            "Total Itemized Reported Contributions": 20.0,
+            "Total Itemized Reported Expenditures": 31109.04
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000001987_20200115_152416.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000001987_20200115_152416.pdf"
+        ],
+        "period": "7/1/2019_12/31/2019",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/12/2019",
+            "Name": "Zahra Darwish Self",
+            "Address": "5126 Columbia Avenue Dallas, TX 75214",
+            "Amount": 20.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000001987_20200115_152416.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/31/2019",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 1004.04,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000001987_20200115_152416.pdf"
+        },
+        {
+            "Transaction_Date": "07/24/2019",
+            "Name": "Casey & Company",
+            "Address": "3500 OAK LAWN Suite D50al0las, TX 75219",
+            "Amount": 28000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "CONSULTING",
+            "Source": "srp0000001987_20200115_152416.pdf"
+        },
+        {
+            "Transaction_Date": "07/30/2019",
+            "Name": "MALENA TACOS",
+            "Address": "3260 IRVING BLVD Dallas, TX 75247",
+            "Amount": 105.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "FOOD",
+            "Source": "srp0000001987_20200115_152416.pdf"
+        },
+        {
+            "Transaction_Date": "09/19/2019",
+            "Name": "Cara Mia",
+            "Address": "3630 Harry Hines Dallas, TX 75219",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000001987_20200115_152416.pdf"
+        },
+        {
+            "Transaction_Date": "09/19/2019",
+            "Name": "Artstillery",
+            "Address": "723 Fort Worth Ave Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000001987_20200115_152416.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

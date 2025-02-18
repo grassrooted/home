@@ -1,0 +1,701 @@
+{
+    "candidate_info": {
+        "first_name": "Cara",
+        "last_name": "Mendelsohn",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 15651.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 9432.88,
+            "Total Parsed Contributions": 15651.0,
+            "Total Parsed Expenditures": 7641.64,
+            "Total Itemized Reported Contributions": 15651.0,
+            "Total Itemized Reported Expenditures": 9432.88,
+            "Expenditure Mismatch": true
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002135_20210331_222238.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002135_20210331_222238.pdf"
+        ],
+        "period": "1/1/2021_3/22/2021",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "03/16/2021",
+            "Name": "Kimberly and Darwin Deason",
+            "Address": "3953 Maple Ave Suite 150 Dallas, TX 75219",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "William Addy",
+            "Address": "3805 Normandy Ave Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "Lydia Addy",
+            "Address": "3805 Normandy Ave Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/12/2021",
+            "Name": "Jim Pitts Jim Pitts Consulting",
+            "Address": "5298 Jessica Ln Frisco, TX 75034",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2021",
+            "Name": "Jack Bronstad",
+            "Address": "6223 Pineview Rd Dallas, TX 75248",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/04/2021",
+            "Name": "John and Helen Stettler",
+            "Address": "P.O. Box 697 Royse City, TX 75189",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/06/2021",
+            "Name": "Bill and Margaret Hoyt",
+            "Address": "4404 Creekmeadow Dr Dallas, TX 75287",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/08/2021",
+            "Name": "Richard and Christine Guldi",
+            "Address": "7228 La Sobrina Dr Dallas, TX 75248",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/09/2021",
+            "Name": "Robert and Mary Rycroft",
+            "Address": "4331 Creekmeadow Dr Dallas, TX 75287",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/06/2021",
+            "Name": "J. McDonald and Ellen Carter Williams",
+            "Address": "8604 Greenville Ave Suite 200 Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/04/2021",
+            "Name": "Beverly Strauss",
+            "Address": "7009 Spanky Branch Dr Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/06/2021",
+            "Name": "Robin Farkas",
+            "Address": "7150 Eudora Drive Dallas, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/06/2021",
+            "Name": "JR McCraw",
+            "Address": "6431 Riverview Ln Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/07/2021",
+            "Name": "Dena Marra",
+            "Address": "P.O. Box 1008 Colleyville, TX 76034",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/10/2021",
+            "Name": "Betty Oliver",
+            "Address": "4230 Lawngate Dr Dallas, TX 75287",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/12/2021",
+            "Name": "Jinny Aguillard",
+            "Address": "4316 Joshua Ln Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/13/2021",
+            "Name": "Shawn Southworth",
+            "Address": "5124 Bellerive Dr Dallas, TX 75287",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/14/2021",
+            "Name": "Jolene Risch-Minsky",
+            "Address": "6011 Warm Mist Ln Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2021",
+            "Name": "Tyler McKelvy",
+            "Address": "7127 Crooked Oak Dr Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2021",
+            "Name": "Susie Wolbe",
+            "Address": "5200 Keller Springs Rd Suite 1602 Dallas, TX 75248",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2021",
+            "Name": "Esme Jacobson",
+            "Address": "6292 Willowgate Dallas, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2021",
+            "Name": "Linda Behr",
+            "Address": "5115 Quail Lake Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/15/2021",
+            "Name": "Eric Goldberg",
+            "Address": "16810 Bradgate Ct Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/16/2021",
+            "Name": "Leslie Smith",
+            "Address": "6965 Aspen Creek Lane Dallas, TX 75252",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/16/2021",
+            "Name": "Robert Culak",
+            "Address": "1223 Kings Hwy Dallas, TX 75208",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/17/2021",
+            "Name": "Elizabeth Richardson",
+            "Address": "12134 Elysian Ct Dallas, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2021",
+            "Name": "Malcom Coney",
+            "Address": "4244 Peppermill Lane Dallas, TX 75287",
+            "Amount": 20.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2021",
+            "Name": "Leon Jacobson",
+            "Address": "5818 Buffridge Trail Dallas, TX 75252",
+            "Amount": 75.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2021",
+            "Name": "Nicole Wolack",
+            "Address": "6319 Brook Lake Dr Dallas, TX 75248",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2021",
+            "Name": "Aleksandra Rosen",
+            "Address": "6924 Brentfield Dr Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/19/2021",
+            "Name": "Chris Smith",
+            "Address": "7205 Blythdale Dr Dallas, TX 75248",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/19/2021",
+            "Name": "Susan Shores",
+            "Address": "7415 Authon Dr Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/19/2021",
+            "Name": "Clifford Brott",
+            "Address": "7127 Van Hook Drive Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/19/2021",
+            "Name": "Jonathan Itzhakov",
+            "Address": "5931 Buffridge Trail Dallas, TX 75252",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/22/2021",
+            "Name": "Ken Kubiak",
+            "Address": "16819 Colegrove Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/22/2021",
+            "Name": "Olga OReilly",
+            "Address": "6710 Charlmont Cir Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/23/2021",
+            "Name": "Aleksandra Rosen",
+            "Address": "6924 Brentfield Dr Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/23/2021",
+            "Name": "Todd and Steffani Bailin",
+            "Address": "7112 Judi Ct Dallas, TX 75252",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/24/2021",
+            "Name": "Shirley Hughes",
+            "Address": "7665 Querida Ln Dallas, TX 75248",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/24/2021",
+            "Name": "Hedley Rakusin",
+            "Address": "4923 Stony Ford Drive Dallas, TX 75287",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/25/2021",
+            "Name": "Anne Binns",
+            "Address": "4244 Briarbend Rd Dallas, TX 75287",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/26/2021",
+            "Name": "Zelene Lovitt",
+            "Address": "7856 La Cabeza Dallas, TX 75248",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/27/2021",
+            "Name": "Janine Pulman",
+            "Address": "17215 Graystone Dr Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/27/2021",
+            "Name": "Larry Krasner",
+            "Address": "6723 Duffield Dr Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/27/2021",
+            "Name": "Rena and Bud Silverberg",
+            "Address": "4808 San Gabriel Dallas, TX 75229",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/29/2021",
+            "Name": "Terry Kopel",
+            "Address": "7602 Kilmichael Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/30/2021",
+            "Name": "Howard Hacker",
+            "Address": "6020 Oakcrest Rd Dallas, TX 75248",
+            "Amount": 25.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/30/2021",
+            "Name": "William K Arenson",
+            "Address": "18928 Voss Rd Dallas, TX 75287",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2021",
+            "Name": "Steven Reiman",
+            "Address": "4728 Stonehollow Way Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2021",
+            "Name": "Jaynie Schultz",
+            "Address": "11222 Saint Michaels Drive Dallas, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2021",
+            "Name": "Dana Yarborough",
+            "Address": "4607 Bretton Bay Lane Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2021",
+            "Name": "Daniel Levitt",
+            "Address": "6039 Velasco Ave Dallas, TX 75206",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/04/2021",
+            "Name": "Basil Cohen",
+            "Address": "5822 Portsmouth Ln Dallas, TX 75252",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/06/2021",
+            "Name": "Wayne LeBlanc",
+            "Address": "3827 Walden Way Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/09/2021",
+            "Name": "Brian Finkelstein",
+            "Address": "7118 Wester Way Dallas, TX 75248",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/10/2021",
+            "Name": "Gayle Kirsch",
+            "Address": "17860 Windflower Way Dallas, TX 75252",
+            "Amount": 10.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/13/2021",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2021",
+            "Name": "John Black",
+            "Address": "2404 Seedling Ln Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2021",
+            "Name": "Ken Carroll",
+            "Address": "7716 Lairds Lane Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/25/2021",
+            "Name": "Reagan Rothenberger",
+            "Address": "4315 Brooktree Lane Dallas, TX 75287",
+            "Amount": 35.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/27/2021",
+            "Name": "Randall Dillman",
+            "Address": "5315 Harbor Town Drive Dallas, TX 75287",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/27/2021",
+            "Name": "Jean G Lemons",
+            "Address": "5116 Sea Pines Drive Dallas, TX 75287",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/06/2021",
+            "Name": "DAVE NEUMANN",
+            "Address": "6318 TURNER WAY DALLAS, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/06/2021",
+            "Name": "Lane Connor",
+            "Address": "4316 Brooktree Lane Dallas, TX 75287",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/13/2021",
+            "Name": "Kelli Love",
+            "Address": "6522 Redpine Rd Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/15/2021",
+            "Name": "Douglas Deason",
+            "Address": "10134 Waller Drive Dallas, TX 75229",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/15/2021",
+            "Name": "Jacki Deason",
+            "Address": "10134 Waller Drive Dallas, TX 75229",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/16/2021",
+            "Name": "Boris Olshansky",
+            "Address": "6814 Windrock Dallas, TX 75252",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/19/2021",
+            "Name": "Hollye Ferreira",
+            "Address": "6919 Spanky Branch Ct Dallas, TX 75248",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/21/2021",
+            "Name": "Cindy Moskowitz",
+            "Address": "5915 Warm Mist Ln Dallas, TX 75248",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/11/2021",
+            "Name": "Arlin and Tobe Goldberg",
+            "Address": "7423 Whispering Pines Dallas, TX 75248",
+            "Amount": 36.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/21/2021",
+            "Name": "Adam and Margot Carter",
+            "Address": "3913 Amherst Ave Dallas, TX 75225",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/21/2021",
+            "Name": "Courtney Rai",
+            "Address": "4107 Cobblers Ln Dallas, TX 75287",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/13/2021",
+            "Name": "Ann Irvin",
+            "Address": "5934 Warm Mist Ln Dallas, TX 75248",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "Joanna St. Angelo",
+            "Address": "3221 Red Bird Ln Grapevine, TX 76051",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2021",
+            "Name": "Dane Cofer",
+            "Address": "17103 Davenport Rd Dallas, TX 75248",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2021",
+            "Name": "Apartment Association of Greater Dallas-PAC",
+            "Address": "5728 LBJ Frwy Suite 100 Dallas, TX 75240",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304Austin, CA 78701",
+            "Amount": 5317.07,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "mailer",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/04/2021",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304Austin, CA 78701",
+            "Amount": 648.2,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "door hangers",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "01/11/2021",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304Austin, CA 78701",
+            "Amount": 550.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "signs",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/18/2021",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304Austin, CA 78701",
+            "Amount": 992.57,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "door hangers",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        },
+        {
+            "Transaction_Date": "03/22/2021",
+            "Name": "DOJ Life.com",
+            "Address": "7103 Mumford Ct Dallas, TX 75252",
+            "Amount": 133.8,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Ad buy",
+            "Source": "srp0000002135_20210331_222238.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

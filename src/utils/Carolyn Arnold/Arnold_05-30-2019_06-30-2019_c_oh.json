@@ -1,0 +1,215 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Arnold",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 3500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 9394.0,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 0.0,
+            "Total Parsed Contributions": 3500.0,
+            "Total Parsed Expenditures": 9394.0,
+            "Total Itemized Reported Contributions": 3500.0,
+            "Total Itemized Reported Expenditures": 9394.0
+        }
+    },
+    "form_data": {
+        "period": "05-30-2019_06-30-2019",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000001893_20190715_152545.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "05/29/2019",
+            "Name": "Thomas Jones self",
+            "Address": "1527 Bilco Dallas, TX 75232",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "05/22/2019",
+            "Name": "Black Firefighters BFF_PAC",
+            "Address": "P.O. Box 226983 Dallas, TX 75222",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2019",
+            "Name": "Leonard Riggs self",
+            "Address": "6201 Preston Dallas, TX 72666",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2019",
+            "Name": "General Drivers Warehouse Union",
+            "Address": "1007 Jonelle Dallas, TX 75217",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/02/2019",
+            "Name": "Ellen Williams self",
+            "Address": "8804 Greenville Dallas, TX 75243",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/02/2019",
+            "Name": "Roselind Aran self",
+            "Address": "3445 University Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2019",
+            "Name": "Nancy Hunt self",
+            "Address": "1900 N. Akard Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2019",
+            "Name": "Ray Hunt self",
+            "Address": "1900 N. Akard Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/02/2019",
+            "Name": "Wick Allison self",
+            "Address": "750 N. St. Paul Dallas, TX 75201",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2019",
+            "Name": "Linebarger Blair, Sampson organization",
+            "Address": "P.O. Box 17426 Austin, TX 78750",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2019",
+            "Name": "Texas Real Estate Council TREC",
+            "Address": "3100 McKinnon Dallas, TX 75201",
+            "Amount": 2500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "06/15/2019",
+            "Name": "Amber Valdez Voice Broadcasting",
+            "Address": "1111 Broadcasting Arlington, TX 75115",
+            "Amount": 510.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/10/2019",
+            "Name": "Phil Foster Campaign to Elect - Pollworkers",
+            "Address": "3440 S. Polk Dallas, TX 75224",
+            "Amount": 2400.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/12/2019",
+            "Name": "Al Wright Al Wright",
+            "Address": "3440 S. Polk Dallas, TX 75224",
+            "Amount": 1600.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2019",
+            "Name": "Phil Foster Phil Foster Consultant",
+            "Address": "3440 S. Polk Dallas, TX 75224",
+            "Amount": 2500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/08/2019",
+            "Name": "Quik Trip QuikTrip",
+            "Address": "4767 RL Thornton Dallas, TX 75232",
+            "Amount": 220.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Transportation Equipment & Related",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/18/2019",
+            "Name": "Daphne Fain MsCas",
+            "Address": "217 N. Interstate DeSoto, TX 75115",
+            "Amount": 324.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/06/2019",
+            "Name": "HOME DEPOT HOME DEPOT - Signage Materials",
+            "Address": "373 E FM 1382 Dallas, TX 75104",
+            "Amount": 120.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Polling Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/12/2019",
+            "Name": "Darrell Blair Elite News",
+            "Address": "P.O. Box 380017 Duncanville, TX 75183",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/12/2019",
+            "Name": "Doug Hunt Doug Hunt",
+            "Address": "3404 N. Interstate Lancaster, TX 75134",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        },
+        {
+            "Transaction_Date": "06/03/2019",
+            "Name": "Phil Foster Campaign to Elect - Telephone Bank",
+            "Address": "3440 S. Polk Dallas, TX 75224",
+            "Amount": 720.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001893_20190715_152545.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

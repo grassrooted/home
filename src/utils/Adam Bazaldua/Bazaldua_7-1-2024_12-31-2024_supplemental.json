@@ -1,0 +1,182 @@
+{
+    "candidate_info": {
+        "first_name": "Adam",
+        "last_name": "Bazaldua",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4400.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 4824.0,
+            "TOTAL POLITICAL EXPENDITURES": 5989.85,
+            "Total Parsed Contributions": 4400.0,
+            "Total Parsed Expenditures": 5989.85,
+            "Total Itemized Reported Contributions": 4400.0,
+            "Total Itemized Reported Expenditures": 5989.85
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002803_20250115_193642.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002803_20250115_193642.pdf"
+        ],
+        "period": "7/1/2024_12/31/2024",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/30/2024",
+            "Name": "Christopher Kleinert",
+            "Address": "1900 N Akard Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2024",
+            "Name": "Hunter Hunt",
+            "Address": "1900 N Akard Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2024",
+            "Name": "Ray Hunt",
+            "Address": "1900 N Akard Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2024",
+            "Name": "Willis Johnson",
+            "Address": "1001 Belleview Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2024",
+            "Name": "Albert Mata",
+            "Address": "101 W Davis Suite 1502 Dallas, TX 75208",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "08/28/2024",
+            "Name": "Stephanie Timko",
+            "Address": "2421 Dorrington Dallas, TX 75228",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 4824.0,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "07/05/2024",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 130.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "08/05/2024",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 130.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "09/17/2024",
+            "Name": "USPS",
+            "Address": "8624 Ferguson Dallas, TX 75228",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "09/19/2024",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 156.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "09/23/2024",
+            "Name": "Dallas Democratic Party",
+            "Address": "1414 N Washington AveDallas, TX 75204",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Candidate/Officeholder/Political Committee",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "10/04/2024",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 130.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "11/04/2024",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 130.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "12/04/2024",
+            "Name": "Extra Space",
+            "Address": "5710 Military Pkwy Dallas, TX 75227",
+            "Amount": 130.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2024",
+            "Name": "Cosmopolitan Lounge",
+            "Address": "1212 Skillman Dallas, TX 75206",
+            "Amount": 109.85,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Food/Beverage Expense",
+            "Source": "srp0000002803_20250115_193642.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

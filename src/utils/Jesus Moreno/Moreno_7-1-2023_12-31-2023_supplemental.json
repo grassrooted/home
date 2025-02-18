@@ -1,0 +1,886 @@
+{
+    "candidate_info": {
+        "first_name": "Jesus",
+        "last_name": "Moreno",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 18013.57,
+            "Total Parsed Contributions": 2500.0,
+            "Total Parsed Expenditures": 18013.57,
+            "Total Itemized Reported Contributions": 2500.0,
+            "Total Itemized Reported Expenditures": 18013.57
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002715_20240116_152539.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002715_20240116_152539.pdf"
+        ],
+        "period": "7/1/2023_12/31/2023",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "11/01/2023",
+            "Name": "Mr Bobby Abtahi",
+            "Address": "1126 Zang Blvd Dallas, TX 75203",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/17/2023",
+            "Name": "Shoncy Raspberry",
+            "Address": "1900 Mckinney Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/10/2023",
+            "Name": "Gary Kaelson",
+            "Address": "501 Second Avenue Dallas, TX 75226",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/20/2023",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos St Suite 4 Dallas, TX 75204",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "07/07/2023",
+            "Name": "Sarah Johnston",
+            "Address": "5012 Victor St Dallas, TX 75214",
+            "Amount": 245.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Polling Expense",
+            "Description": "Social Media",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/14/2023",
+            "Name": "Uber",
+            "Address": "1455 Market St San Francisco, CA 94103",
+            "Amount": 210.6,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportaion Equipment & Related",
+            "Description": "Transportation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/15/2023",
+            "Name": "Denise Velez",
+            "Address": "5746 Marview Dallas, TX 75227",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Socail Media/Website",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/11/2023",
+            "Name": "Sicily",
+            "Address": "330 46th st New York, NY 10036",
+            "Amount": 84.34,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meals",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/15/2023",
+            "Name": "Halal Food",
+            "Address": "42 42nd St New York, NY 10036",
+            "Amount": 34.84,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meals",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/17/2023",
+            "Name": "Marriott",
+            "Address": "1535 Broadway New York, NY 10036",
+            "Amount": 191.47,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Travel Out Of District",
+            "Description": "Meeting/Conference",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/22/2023",
+            "Name": "Katy Trail Ice House",
+            "Address": "3127 Routh St Dallas, TX 75201",
+            "Amount": 33.65,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Lunch Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/24/2023",
+            "Name": "MailChimp",
+            "Address": "333 Brennan San Francisco, CA 94107",
+            "Amount": 28.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/24/2023",
+            "Name": "StoreQuest",
+            "Address": "4311 Samuell Blvd Dallas, TX 75228",
+            "Amount": 56.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Rent",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/26/2023",
+            "Name": "Southern Classic Daiquiri Factory",
+            "Address": "3030 Ross Ave Dallas, TX 75204",
+            "Amount": 203.94,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Staff Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "07/28/2023",
+            "Name": "MailHouse",
+            "Address": "2276 Vantage St Dallas, TX 75207",
+            "Amount": 307.04,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Polling Expense",
+            "Description": "Postage",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2023",
+            "Name": "Square Space",
+            "Address": "1455 Market Street San Francisco, CA 94104",
+            "Amount": 6.5,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/07/2023",
+            "Name": "Uber",
+            "Address": "1455 Market St San Francisco, CA 94103",
+            "Amount": 135.55,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportaion Equipment & Related",
+            "Description": "Transportation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/08/2023",
+            "Name": "Sheraton",
+            "Address": "200 Convention Blvd San Juan, PR 00907",
+            "Amount": 533.37,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Travel Out Of District",
+            "Description": "Meeting/Conference",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/15/2023",
+            "Name": "Denise Velez",
+            "Address": "5746 Marview Dallas, TX 75227",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Socail Media/Website",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/22/2023",
+            "Name": "MailChimp",
+            "Address": "333 Brennan San Francisco, CA 94107",
+            "Amount": 28.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/21/2023",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 112.36,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Cummunitty Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/22/2023",
+            "Name": "StoreQuest",
+            "Address": "4311 Samuell Blvd Dallas, TX 75228",
+            "Amount": 56.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Rent",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/23/2023",
+            "Name": "Joses on Lovers",
+            "Address": "4931 W Lovers Dallas, TX 75209",
+            "Amount": 52.79,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Lunch Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/28/2023",
+            "Name": "GoDaddy",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 225.38,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "08/30/2023",
+            "Name": "Whole Foods",
+            "Address": "2118 Abrams rd Dallas, TX 75214",
+            "Amount": 13.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/01/2023",
+            "Name": "Mami Coco",
+            "Address": "2706 Samuell Blvd Dallas, TX 75223",
+            "Amount": 178.61,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Community Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/05/2023",
+            "Name": "Uber",
+            "Address": "1455 Market St San Francisco, CA 94103",
+            "Amount": 213.96,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportaion Equipment & Related",
+            "Description": "Transportation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/05/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/05/2023",
+            "Name": "The Weekend",
+            "Address": "1511 Commerce St Dallas, TX 75201",
+            "Amount": 15.53,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Coffee Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/06/2023",
+            "Name": "Dallas Cocunty Democrats",
+            "Address": "1414 N Washington Dallas, TX 75204",
+            "Amount": 15.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/08/2023",
+            "Name": "Charlie Gittos",
+            "Address": "5226 Shaw Ave St. Louis, MO 63110",
+            "Amount": 353.58,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meals",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/11/2023",
+            "Name": "Marriott",
+            "Address": "800 Washington Ave St. Louis, MO 63101",
+            "Amount": 267.88,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Travel Out Of District",
+            "Description": "Meeting/Conference",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/15/2023",
+            "Name": "Denise Velez",
+            "Address": "5746 Marview Dallas, TX 75227",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Socail Media/Website",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/21/2023",
+            "Name": "The Senior Source",
+            "Address": "3910 Harry Hines Blvd Dallas, TX 75219",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/27/2023",
+            "Name": "Uber",
+            "Address": "1455 Market St San Francisco, CA 94103",
+            "Amount": 174.08,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportaion Equipment & Related",
+            "Description": "Transportation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/25/2023",
+            "Name": "Southwest",
+            "Address": "2702 Love Field Dr Dallas, TX 75235",
+            "Amount": 337.47,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Travel Out Of District",
+            "Description": "Travel",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/22/2023",
+            "Name": "MailChimp",
+            "Address": "333 Brennan San Francisco, CA 94107",
+            "Amount": 28.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/22/2023",
+            "Name": "Perrys",
+            "Address": "114 W 7th St Austin, TX 78701",
+            "Amount": 307.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meals",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "09/22/2023",
+            "Name": "StoreQuest",
+            "Address": "4311 Samuell Blvd Dallas, TX 75228",
+            "Amount": 56.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Rent",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/02/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/02/2023",
+            "Name": "Square Space",
+            "Address": "1455 Market Street San Francisco, CA 94104",
+            "Amount": 6.5,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/02/2023",
+            "Name": "Deep Ellum Texas",
+            "Address": "2582 Elm St Dallas, TX 75226",
+            "Amount": 110.5,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/06/2023",
+            "Name": "Electric Shuffle",
+            "Address": "2615 Elm St Dallas, TX 75226",
+            "Amount": 290.96,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Food",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/05/2023",
+            "Name": "Uber",
+            "Address": "1455 Market St San Francisco, CA 94103",
+            "Amount": 153.87,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportaion Equipment & Related",
+            "Description": "Transportation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/05/2023",
+            "Name": "Ebb & Flow",
+            "Address": "2651 Commerce St Dallas, TX 75226",
+            "Amount": 116.9,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Community Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2023",
+            "Name": "Denise Velez",
+            "Address": "5746 Marview Dallas, TX 75227",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Socail Media/Website",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/16/2023",
+            "Name": "La 57",
+            "Address": "920 S Harwood Dallas, TX 75201",
+            "Amount": 151.55,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2023",
+            "Name": "Dallas Porch Fest",
+            "Address": "4700 Swiss Ave Dallas, TX 75204",
+            "Amount": 310.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2023",
+            "Name": "Venton Jones for Texas",
+            "Address": "1075 Griffin St Dallas, TX 75215",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/18/2023",
+            "Name": "Jarams Donuts",
+            "Address": "2117 Abrams Rd Dallas, TX 75214",
+            "Amount": 84.17,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Community Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2023",
+            "Name": "StoreQuest",
+            "Address": "4311 Samuell Blvd Dallas, TX 75223",
+            "Amount": 56.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Rent",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2023",
+            "Name": "Starbucks",
+            "Address": "4241 Capitol Ave Dallas, TX 75204",
+            "Amount": 39.86,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Coffee Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2023",
+            "Name": "MailChimp",
+            "Address": "333 Brennan San Francisco, CA 94107",
+            "Amount": 28.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2023",
+            "Name": "Square Space",
+            "Address": "1455 Market Street San Francisco, CA 94104",
+            "Amount": 6.5,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/02/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/06/2023",
+            "Name": "Tom Thumb",
+            "Address": "2727 Live Oak St Dallas, TX 75204",
+            "Amount": 29.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/06/2023",
+            "Name": "Girls Scouts",
+            "Address": "420 Fifth Ave New York, NY 10018",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/13/2023",
+            "Name": "Uber",
+            "Address": "1455 Market St San Francisco, CA 94103",
+            "Amount": 191.75,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportaion Equipment & Related",
+            "Description": "Transportation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2023",
+            "Name": "Jarams Donuts",
+            "Address": "2117 Abrams Rd Dallas, TX 75214",
+            "Amount": 18.67,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Community Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/15/2023",
+            "Name": "Denise Velez",
+            "Address": "5746 Marview Dallas, TX 75227",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Socail Media/Website",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2023",
+            "Name": "Banquet Halls",
+            "Address": "2615 Braircliff Road Atlanta, GA 30329",
+            "Amount": 45.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meals",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2023",
+            "Name": "Westin",
+            "Address": "210 Peachtree St Atlanta, GA 30303",
+            "Amount": 198.95,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Travel Out Of District",
+            "Description": "Meeting/Conference",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2023",
+            "Name": "GoDaddy",
+            "Address": "2115 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 44.34,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2023",
+            "Name": "StoreQuest",
+            "Address": "4311 Samuell Blvd Dallas, TX 75223",
+            "Amount": 56.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Rent",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2023",
+            "Name": "Gay Willis Campaign",
+            "Address": "4728 Mill Run Road Dallas, TX 75244",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/22/2023",
+            "Name": "MailChimp",
+            "Address": "333 Brennan San Francisco, CA 94107",
+            "Amount": 28.25,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/27/2023",
+            "Name": "Victoria Neave Campaign",
+            "Address": "P.O. Box 472773 Garland , TX 75047",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/28/2023",
+            "Name": "Palmieri Coffee",
+            "Address": "920 S Harwood Dallas, TX 75201",
+            "Amount": 153.27,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Coffee Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "11/28/2023",
+            "Name": "Lubellas",
+            "Address": "10323 Ferguson Rd Dallas, TX 75228",
+            "Amount": 36.67,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Staff Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2023",
+            "Name": "Merit Coffee",
+            "Address": "2639 Main St Dallas, TX 75226",
+            "Amount": 128.77,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Community Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2023",
+            "Name": "Wild Salsa",
+            "Address": "1800 Main St Dallas, TX 75201",
+            "Amount": 300.01,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Food",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2023",
+            "Name": "US Post Offise",
+            "Address": "6120 Swiss Ave Dallas, TX 75214",
+            "Amount": 131.34,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Stamps",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2023",
+            "Name": "Square Space",
+            "Address": "1455 Main St San Francisco, CA 94104",
+            "Amount": 6.5,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2023",
+            "Name": "Janette for Fort Worth",
+            "Address": "P.O. Box 34952 Ft. Worth, TX 76162",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made",
+            "Description": "Donation",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2023",
+            "Name": "Michales",
+            "Address": "5301 Belt Line Rd Dallas, TX 75254",
+            "Amount": 83.29,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Supplies",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2023",
+            "Name": "Dollar General",
+            "Address": "2711 Motley Dr Mesquite , TX 75150",
+            "Amount": 49.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Supplies",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2023",
+            "Name": "Lone Chimney",
+            "Address": "920 S Harwood Dallas, TX 75201",
+            "Amount": 303.1,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2023",
+            "Name": "Denise Velez",
+            "Address": "5746 Marview Dallas, TX 75227",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Socail Media/Website",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2023",
+            "Name": "Whiski Designs",
+            "Address": "920 S Harwood Dallas, TX 75201",
+            "Amount": 114.74,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2023",
+            "Name": "Proper Wax",
+            "Address": "2649 Main St Dallas, TX 75226",
+            "Amount": 279.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2023",
+            "Name": "StoreQuest",
+            "Address": "4311 Samuell Blvd Dallas, TX 75223",
+            "Amount": 56.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Rent",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2023",
+            "Name": "MailChimp",
+            "Address": "333 Brennan San Francisco, CA 94107",
+            "Amount": 28.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/26/2023",
+            "Name": "Voodoo Doughnuts",
+            "Address": "Dallas, TX 75206",
+            "Amount": 39.68,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Community Meeting",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2023",
+            "Name": "Paypal",
+            "Address": "2211 N 1st St San Jose, CA 95131",
+            "Amount": 186.88,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2023",
+            "Name": "Square",
+            "Address": "1455 Market St San Francisco, CA 95131",
+            "Amount": 40.5,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002715_20240116_152539.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

@@ -1,0 +1,230 @@
+{
+    "candidate_info": {
+        "first_name": "Jaime",
+        "last_name": "Resendez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 400.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 3520.51,
+            "Total Parsed Contributions": 400.0,
+            "Total Parsed Expenditures": 3520.51,
+            "Total Itemized Reported Contributions": 400.0,
+            "Total Itemized Reported Expenditures": 3520.51
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002462_20220715_142556.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002462_20220715_142556.pdf"
+        ],
+        "period": "1/1/2022_6/30/2022",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "06/28/2022",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "06/29/2022",
+            "Name": "Steven Ramos",
+            "Address": "1234 n/a Dallas, TX 12345",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/11/2022",
+            "Name": "Go Daddy",
+            "Address": "Scottsdale , AR 85260",
+            "Amount": 76.62,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "01/12/2022",
+            "Name": "Go Daddy",
+            "Address": "Scottsdale , AR 85260",
+            "Amount": 41.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2022",
+            "Name": "Go Daddy",
+            "Address": "14455 N Hayden Rd Scottsdale , AR 85260",
+            "Amount": 118.58,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "01/18/2022",
+            "Name": "USPS",
+            "Address": "350 Buckner Blvd Dallas, TX 75217",
+            "Amount": 182.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "P.O. Box",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/02/2022",
+            "Name": "Judge David Lopez Campaign",
+            "Address": "123 N/A Dallas, TX 12345",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2022",
+            "Name": "Judge Mulder",
+            "Address": "123 N/A Dallas, TX 12345",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2022",
+            "Name": "John Creuzot Campaign",
+            "Address": "P.O. Box 181268 Dallas, TX 75218",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2022",
+            "Name": "Judge Patterson Campaign",
+            "Address": "123 N/A Dallas, TX 12345",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/03/2022",
+            "Name": "MABA",
+            "Address": "2001 Ross Ave Suite 700Dallas, TX 75201",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "membership",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/07/2022",
+            "Name": "Stonewall Democrats",
+            "Address": "P.O. Box 192305 Dallas, TX 75219",
+            "Amount": 35.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Membership",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "02/11/2022",
+            "Name": "Go Daddy",
+            "Address": "14455 N Hayden Rd Scottsdale , AR 85260",
+            "Amount": 191.75,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "04/07/2022",
+            "Name": "NLLEO",
+            "Address": "3730 Ladd St Dallas, TX 75212",
+            "Amount": 60.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Event",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "04/11/2022",
+            "Name": "Alex Padilla For Senate",
+            "Address": "Los Angeles, CA 90017",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2022",
+            "Name": "Kiwanis Club",
+            "Address": "1324 Pleasant Dr Dallas, TX 75217",
+            "Amount": 688.71,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Charitable Golf tournament",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "05/16/2022",
+            "Name": "Primos Dallas",
+            "Address": "Dallas, TX 75206",
+            "Amount": 220.59,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "5K",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "05/18/2022",
+            "Name": "La Calle Doce",
+            "Address": "1925 Skillman St Dallas, TX 75206",
+            "Amount": 42.73,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meeting",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "05/17/2022",
+            "Name": "Atalia Garcia Campaign",
+            "Address": "Dallas, TX 75228",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Campaign Contribution",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2022",
+            "Name": "PayPal",
+            "Address": "San Jose, CA 95131",
+            "Amount": 12.54,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002462_20220715_142556.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

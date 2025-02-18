@@ -1,0 +1,407 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Arnold",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 17835.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 5585.0,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 0.0,
+            "Total Parsed Contributions": 17835.0,
+            "Total Parsed Expenditures": 5585.0,
+            "Total Itemized Reported Contributions": 17835.0,
+            "Total Itemized Reported Expenditures": 5585.0
+        }
+    },
+    "form_data": {
+        "period": "01-01-2019_03-25-2019",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000001746_20190404_113156.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Mae Beck self",
+            "Address": "611 Brook Valley Dallas, TX 75232",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Robert Abtahi self",
+            "Address": "1210 N. Clinton Dallas, TX 75208",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Delva King self",
+            "Address": "1243 W. Pleasant Run DESoto, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Minnie McGee self",
+            "Address": "2323 Stovall Dallas, TX 75216",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2019",
+            "Name": "Willis Johnson self",
+            "Address": "2473 Field Street Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Lucious Williams self",
+            "Address": "1421 Covington DeSoto, TX 75115",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Loretta Sheppard",
+            "Address": "1005 Whitestone Dallas, TX 75232",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2019",
+            "Name": "James Harp",
+            "Address": "3603 Vinecrest Dallas, TX 75229",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2019",
+            "Name": "Pete Schnekel self",
+            "Address": "614 N Bishop Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Rick Callahan",
+            "Address": "P.O. Box 271405 Dallas, TX 75227",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/20/2019",
+            "Name": "Al Wash",
+            "Address": "731 R.L.thornton Dallas, TX 75203",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2019",
+            "Name": "Al Walne",
+            "Address": "10020 Caribou Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/07/2019",
+            "Name": "Gary Johnson self",
+            "Address": "1436 Esters Irving, TX 75061",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Gina Norris",
+            "Address": "4240 Prescott Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/20/2019",
+            "Name": "Wick Allison self",
+            "Address": "750 N.St Paul Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/12/2019",
+            "Name": "Michael Veale",
+            "Address": "1717 Arts Plaza Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/12/2019",
+            "Name": "Johathan Hetzel",
+            "Address": "7002 Vivian Dallas, TX 75223",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/21/2019",
+            "Name": "Joyce Brown",
+            "Address": "1011 Ann Arbor Dallas, TX 75216",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/22/2019",
+            "Name": "Eleanor Wedington",
+            "Address": "6115 Hunters View Dallas, TX 75232",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/07/2019",
+            "Name": "Cecil Armstrong",
+            "Address": "1111 Morrell Dallas, TX 75203",
+            "Amount": 160.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2019",
+            "Name": "Lott Lott Black Firefighters",
+            "Address": "1830 Park Row Dallas, TX 75216",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2019",
+            "Name": "Black firefighters Black Fire FIghters retied",
+            "Address": "P.O. Box 226983 Dallas, TX 75215",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/27/2019",
+            "Name": "Lee Proctor",
+            "Address": "P.O. Box 765129 Dallas, TX 75216",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "james lee",
+            "Address": "7432 bradford pear irving, TX 75063",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/01/2019",
+            "Name": "Hee Shook",
+            "Address": "4404 Windsor Ridge Dallas, TX 75038",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/21/2019",
+            "Name": "tim Byrne",
+            "Address": "2000 McKinney Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Rhon Hays",
+            "Address": "1819 Ebbtide Dallas, TX 75224",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Roberts Sherilyn",
+            "Address": "1222 Commerce Dallas, TX 75202",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Sam Staggs",
+            "Address": "1230 Woodlawn Dallas, TX 75208",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2019",
+            "Name": "Randy Bacon",
+            "Address": "1111 Cedar Crest Dallas, TX 75208",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/15/2019",
+            "Name": "Roland Parrish",
+            "Address": "1256 Regents Park DeSoto, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2019",
+            "Name": "Derrick Battie Alumni Association",
+            "Address": "1442 Redbird Dallas, TX 75241",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/12/2019",
+            "Name": "Jesse Oliver",
+            "Address": "3812 Holliday Dallas, TX 75224",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/04/2019",
+            "Name": "lucy Billingsley",
+            "Address": "1111 Billingsley Dallas, TX 75203",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/05/2019",
+            "Name": "Mitch Glieber",
+            "Address": "4128 Caruth Dallas, TX 75225",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/02/2019",
+            "Name": "Phil Foster",
+            "Address": "3440 S. Polk Dallas, TX 75232",
+            "Amount": 175.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/07/2019",
+            "Name": "Michael Song",
+            "Address": "1111 Village FAir Dallas, TX 75232",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/17/2019",
+            "Name": "Thomas Jones",
+            "Address": "1111 Bilco Dallas, TX 75233",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/15/2019",
+            "Name": "jewell Parrish",
+            "Address": "1256 Regents DeSoto, TX 75115",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "02/12/2019",
+            "Name": "Lamis Slepler Drivers, Warehousemen, Helpers Local union 745",
+            "Address": "1007 Jonelle Dallas, TX 75217",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "03/20/2019",
+            "Name": "Crickett Crickett Wireless",
+            "Address": "3306 W CampWisdom Dallas, TX 75232",
+            "Amount": 120.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "Phil Foster Campaign to Elect - Workers",
+            "Address": "3440 S. Polk Dallas, TX 75224",
+            "Amount": 2000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/20/2019",
+            "Name": "Campaign to Elect Campaign to Elect - Contract Labors",
+            "Address": "3440 S Polk Dallas, TX 75224",
+            "Amount": 1350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/15/2019",
+            "Name": "D. Miller BHP Printer Etc",
+            "Address": "1026 Zang Dallas, TX 75208",
+            "Amount": 365.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2019",
+            "Name": "Al Wright",
+            "Address": "3440 Polk Dallas, TX 75224",
+            "Amount": 1600.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        },
+        {
+            "Transaction_Date": "03/20/2019",
+            "Name": "Phil Foster Campaign to Elect",
+            "Address": "3440 Polk Dallas, TX 75224",
+            "Amount": 150.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Travel In District",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001746_20190404_113156.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

@@ -1,0 +1,916 @@
+{
+    "candidate_info": {
+        "first_name": "Jesus",
+        "last_name": "Moreno",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 27550.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 4675.19,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0,
+            "Total Parsed Contributions": 28550.0,
+            "Total Parsed Expenditures": 4675.19,
+            "Total Itemized Reported Contributions": 28550.0,
+            "Total Itemized Reported Expenditures": 4675.19
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002515_20230117_163959.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002515_20230117_163959.pdf"
+        ],
+        "period": "7/1/2022_12/31/2022",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "11/10/2022",
+            "Name": "Willis Johnson",
+            "Address": "1700 Pacific Ave Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2022",
+            "Name": "James Adams",
+            "Address": "1201 Elm Street Suite 2500 Dallas, TX 75270",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Jimmy Tran",
+            "Address": "5024 Denton Dr Dallas, TX 75235",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Quontinetta Bufford",
+            "Address": "2500 N. Houston Street Suite 1902 Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/15/2022",
+            "Name": "Chris Leal",
+            "Address": "1777 N Record St Dallas, TX 75202",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2022",
+            "Name": "Veletta F Lill",
+            "Address": "622 Blair Blvd Dallas, TX 75223",
+            "Amount": 200.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/24/2022",
+            "Name": "Garrett Boone",
+            "Address": "2417 Loving Ave Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Tanya Carter",
+            "Address": "2228 Colony Court Dallas, TX 75235",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Veronica Reichert",
+            "Address": "3924 Kimballdale Drive Dallas, TX 75233",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2022",
+            "Name": "Susanna Brown",
+            "Address": "4175 Wilada Drive Dallas, TX 75220",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/05/2022",
+            "Name": "Macy Davis",
+            "Address": "8322 Ridgelea St Dallas, TX 75209",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Arrthur Santa-Maria",
+            "Address": "785 Huntingdon St Coppell, TX 75019",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2022",
+            "Name": "Minerva Rodriguez",
+            "Address": "1036 Opal Drive Despot, TX 75115",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2022",
+            "Name": "Kevin Bryant",
+            "Address": "4463 Brookview Drive Dallas, TX 75220",
+            "Amount": 150.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2022",
+            "Name": "Melody Walker",
+            "Address": "127 Oakwood Lane Hickory Creek, TX 75065",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Erica Blanco",
+            "Address": "419 S Garrett Ave Dallas, TX 75223",
+            "Amount": 50.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Chris Heinbaugh",
+            "Address": "1801 Annex Ave Dallas, TX 75204",
+            "Amount": 75.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Jesse Holmes",
+            "Address": "2107 Canton Street Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2022",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2022",
+            "Name": "Ellen Magins",
+            "Address": "5511 Preston Fairways Dr. Dallas, TX 75252",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Suzanne Smith",
+            "Address": "3210 Carlisle Suite 62 Dallas, TX 75204",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Andrew Carnahan",
+            "Address": "4411 Bowser Ave Suite 301 Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/24/2022",
+            "Name": "Larry Offutt",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Samuel Mortimer",
+            "Address": "1623 Main St Suite 707 Dallas, TX 75201",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Mita Havlick",
+            "Address": "5331 Monticello Ave. Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Brad Friedman",
+            "Address": "1505 Seegar St Dallas, TX 75215",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/17/2022",
+            "Name": "Ray L Hunt",
+            "Address": "1900 North Akard Street Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "John Bryant Campaign",
+            "Address": "P.O. Box 140977 Dallas, TX 75214",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "John C Reardon",
+            "Address": "6405 E Grand Dallas, TX 75223",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Stephen G Linville",
+            "Address": "5023 Maple Springs Blvd. Dallas, TX 75235",
+            "Amount": 150.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Erik Ward",
+            "Address": "3825 Mcfarlin Blvd Dallas, TX 75205",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Gary Gray",
+            "Address": "P.O. Box 140977 Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Jonathan Hetzel",
+            "Address": "7002 Vivian Ave Dallas, TX 75223",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/14/2022",
+            "Name": "Donald H Nedler",
+            "Address": "8703 Allen Brook Ct Dallas, TX 75243",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2022",
+            "Name": "Dorene C Dominguez",
+            "Address": "8850 Vista De Lago Ct Granite Bay, CA 95746",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/23/2022",
+            "Name": "Pauline Medrano",
+            "Address": "2346 Douglas Ave Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2022",
+            "Name": "Harryette Eharhardt",
+            "Address": "3525 Turtle Creek Blvd Dallas, TX 75219",
+            "Amount": 25.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "George Solares",
+            "Address": "5203 Junius St Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2022",
+            "Name": "Bridget Lopez",
+            "Address": "4326 Meadowdale Lane Dallas, TX 75229",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "10/20/2022",
+            "Name": "William M Addy",
+            "Address": "3805 Normandy Ave. Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "10/20/2022",
+            "Name": "Lydia B Addy",
+            "Address": "3805 Normandy Ave. Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2022",
+            "Name": "Linebarger Noggin Blair & Sampson, LLP",
+            "Address": "P.O. Box 17428 Austin, TX 78760",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2022",
+            "Name": "Jorge A Garza",
+            "Address": "2231 Hondo Ave Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Mary Vasquez",
+            "Address": "1709 East Ave Katy, TX 77493",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Anthony J Aranza",
+            "Address": "1507 Stonehenge Bend Dr Houston, TX 77072",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Humberto Aranza",
+            "Address": "3105 SanJacinto St Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Jesus O Montfort",
+            "Address": "1610 hyland Greens Dr Grapevine, TX 76051",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2022",
+            "Name": "Jane A Montfort",
+            "Address": "1610 Hyland Greens Dr Grapevine, TX 76051",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2022",
+            "Name": "Harlen R Crow",
+            "Address": "3819 Maple Ave Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2022",
+            "Name": "Kenneth J Valach",
+            "Address": "5 Lazee Trl Houston, TX 77024",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2022",
+            "Name": "Katherine R Crow",
+            "Address": "4700 Preston Rd Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2022",
+            "Name": "Trammell S Crow",
+            "Address": "4000 Rock Creek Dr Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2022",
+            "Name": "Joanna Hampton",
+            "Address": "5408 Swiss Ave Dallas, TX 75214",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2022",
+            "Name": "Southwest Airlines Co. Freedom Fund",
+            "Address": "P.O. Box 36611 Dallas, TX 75235",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "07/05/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 6.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fess",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/05/2022",
+            "Name": "DropBox",
+            "Address": "333 Brennan Street San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Dropbox",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/18/2022",
+            "Name": "ActBlue Texas",
+            "Address": "366 Summer Street Somerville, MA 02144",
+            "Amount": 40.0,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Contributions/ donations made by",
+            "Description": "Donation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/20/2022",
+            "Name": "Hawkers",
+            "Address": "2800 Main Street Dallas, TX 75226",
+            "Amount": 151.35,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Meeting/ Meals",
+            "Description": "Food & Beverage Expense",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/21/2022",
+            "Name": "It\u2019s Your Florist",
+            "Address": "3801 Ross Ave Dallas, TX 75204",
+            "Amount": 38.92,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Gift/ Award/ Memorial Expense",
+            "Description": "Constituent Funeral Flowers",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/22/2022",
+            "Name": "Jimmy Johns",
+            "Address": "1414 Elm Street Dallas, TX 75202",
+            "Amount": 173.98,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/25/2022",
+            "Name": "Mokah Coffee",
+            "Address": "2803 Taylor Street Dallas, TX 75226",
+            "Amount": 14.19,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/27/2022",
+            "Name": "Las Almas Rotas",
+            "Address": "3615 Parry Ave Dallas , TX 75226",
+            "Amount": 33.11,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/28/2022",
+            "Name": "Electric Shuffle",
+            "Address": "2615 Elm Street Dallas , TX 75226",
+            "Amount": 55.65,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/28/2022",
+            "Name": "Manny\u2019s Tex- Mex",
+            "Address": "6465 E. Mockingbird LnDallas, TX 75214",
+            "Amount": 26.54,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "07/29/2022",
+            "Name": "It\u2019s Your Florist",
+            "Address": "3801 Ross Ave Dallas, TX 75204",
+            "Amount": 38.92,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contributions/ donations made by",
+            "Description": "Donation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2022",
+            "Name": "Ellens",
+            "Address": "1790 N. Record Street Dallas, TX 75202",
+            "Amount": 45.32,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meals",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2022",
+            "Name": "DropBox",
+            "Address": "333 Brennan Street San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Dropbox",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 6.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/03/2022",
+            "Name": "Mixtitos",
+            "Address": "2706 Samuell Blvd Dallas, TX 75223",
+            "Amount": 70.33,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/04/2022",
+            "Name": "Greendoor",
+            "Address": "600 S. Harwood Street Dallas , TX 75201",
+            "Amount": 40.37,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meals",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/05/2022",
+            "Name": "Uber",
+            "Address": "San Francisco, CA 94103",
+            "Amount": 136.29,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Transportation equipment & related",
+            "Description": "Transportation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2022",
+            "Name": "Palmieri Coffee",
+            "Address": "Dallas, TX 75201",
+            "Amount": 38.54,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2022",
+            "Name": "Casa Linda Bakery",
+            "Address": "10819 Garland Rd Dallas, TX 75218",
+            "Amount": 85.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2022",
+            "Name": "Uber",
+            "Address": "San Francisco, CA 94103",
+            "Amount": 3.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Transportation equipment & related",
+            "Description": "Transportation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/10/2022",
+            "Name": "Los Rancheros",
+            "Address": "10261 Ferguson Rd Dallas, TX 75228",
+            "Amount": 99.67,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/15/2022",
+            "Name": "Mixtitos",
+            "Address": "2706 Samuell Blvd Dallas, TX 75223",
+            "Amount": 665.36,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/15/2022",
+            "Name": "Deep Ellum Art Festival",
+            "Address": "2900 Main Street Dallas, TX 75226",
+            "Amount": 57.8,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/15/2022",
+            "Name": "Ginzaro Sushi",
+            "Address": "Dallas, TX 75201",
+            "Amount": 57.8,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/18/2022",
+            "Name": "La Ventana",
+            "Address": "Dallas, TX 75201",
+            "Amount": 23.08,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "08/29/2022",
+            "Name": "GoDaddy",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 114.26,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Website",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "09/01/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 6.5,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "09/02/2022",
+            "Name": "DropBox",
+            "Address": "333 Brennan Street San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "10/03/2022",
+            "Name": "DropBox",
+            "Address": "333 Brennan Street San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "10/03/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 6.5,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/02/2022",
+            "Name": "DropBox",
+            "Address": "333 Brennan Street San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/07/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 272.29,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/15/2022",
+            "Name": "WestLake Brewery Company",
+            "Address": "2816 Commerce Streeet Dallas, TX 75226",
+            "Amount": 302.84,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 6.5,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2022",
+            "Name": "National Democratic Club",
+            "Address": "30 Ivy Street SE Washington, DC 20003",
+            "Amount": 85.92,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2022",
+            "Name": "Uber",
+            "Address": "San Francisco, CA 94103",
+            "Amount": 140.21,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Transportation equipment & related",
+            "Description": "Transportation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "Beuchertes Saloon",
+            "Address": "623 Pennsylvania Ave. SWEashington, DC 20003",
+            "Amount": 338.18,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meals",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "11/23/2022",
+            "Name": "Gay Donnell Willis Campaign",
+            "Address": "4728 Mill Run Road Dallas , TX 75244",
+            "Amount": 250.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contributions/ donations made by",
+            "Description": "Donation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2022",
+            "Name": "SquareSpace",
+            "Address": "New York New Yor, NY 10014",
+            "Amount": 6.5,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2022",
+            "Name": "DropBox",
+            "Address": "333 Brennan Street San Francisco, CA 94107",
+            "Amount": 12.78,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2022",
+            "Name": "Stonewall Democrats",
+            "Address": "P.O. Box 192305 Dallas, TX 75219",
+            "Amount": 500.0,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Contributions/ donations made by",
+            "Description": "Donation",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2022",
+            "Name": "Target",
+            "Address": "2417 N. Haskell Ave Dallas, TX 75204",
+            "Amount": 87.17,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2022",
+            "Name": "Angry Dogs",
+            "Address": "2726 Commerce Street Dallas, TX 75226",
+            "Amount": 245.33,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Community Meeting",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2022",
+            "Name": "White Rhino",
+            "Address": "Dallas, TX 75208",
+            "Amount": 24.99,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food & Beverage",
+            "Description": "Meeting Meal",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2022",
+            "Name": "Heritage Collective DFW",
+            "Address": "415 N Tyler Street Dallas, TX 75208",
+            "Amount": 303.1,
+            "Transaction_Type": "Officeholder Expenditures",
+            "Category": "Gift/ Award/ Memorial Expense",
+            "Description": "Community Event",
+            "Source": "srp0000002515_20230117_163959.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

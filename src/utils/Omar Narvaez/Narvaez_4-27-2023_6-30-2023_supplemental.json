@@ -1,0 +1,230 @@
+{
+    "candidate_info": {
+        "first_name": "Omar",
+        "last_name": "Narvaez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4600.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 8873.56,
+            "TOTAL POLITICAL EXPENDITURES": 34281.67,
+            "Total Parsed Contributions": 4600.0,
+            "Total Parsed Expenditures": 34281.67,
+            "Total Itemized Reported Contributions": 4600.0,
+            "Total Itemized Reported Expenditures": 34281.67
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002695_20230717_163119.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002695_20230717_163119.pdf"
+        ],
+        "period": "4/27/2023_6/30/2023",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "04/27/2023",
+            "Name": "Angela Hunt",
+            "Address": "6811 Antrim Dallas, TX 75218",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "04/28/2023",
+            "Name": "Roy Choi",
+            "Address": "5909 Luther Lane Suite 1000 Dallas, TX 75225",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2023",
+            "Name": "Venton Jones",
+            "Address": "707 Vermont Dallas, TX 75216",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2023",
+            "Name": "John Martinez",
+            "Address": "2926 Lovers Lane Dallas, TX 75225",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/06/2023",
+            "Name": "Me Stephaney",
+            "Address": "2629 Wilderness Little Elm, TX 75068",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/08/2023",
+            "Name": "Jeff Carey",
+            "Address": "300 E. Round Groves Suite 621 Dallas, TX 75067",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "06/11/2023",
+            "Name": "Angela Medrano",
+            "Address": "2331 Douglas Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "6/30/2023",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 8873.56,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "04/30/2023",
+            "Name": "Mail House",
+            "Address": "2276 Vantage Dallas, TX 75207",
+            "Amount": 4312.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Postage",
+            "Description": "Postage",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2023",
+            "Name": "KPW Enterprises",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 2171.8,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Printing Expense",
+            "Description": "Printing",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2023",
+            "Name": "Lowe\u2019s",
+            "Address": "1710 Chalk Hill Dallas, TX 75212",
+            "Amount": 98.95,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Polling Expense",
+            "Description": "Polling expense",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Mail House",
+            "Address": "2276 Vantage Dallas, TX 75207",
+            "Amount": 2635.07,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Postage",
+            "Description": "Postage",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Javier Olivares",
+            "Address": "9749 Kittyhawk Dallas, TX 75217",
+            "Amount": 800.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2023",
+            "Name": "Jose Rico",
+            "Address": "1508 Dent Garland75042, TX 75042",
+            "Amount": 800.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/04/2023",
+            "Name": "Blue Guardian Foundation",
+            "Address": "P.O. Box 224452 Dallas, TX 75222",
+            "Amount": 90.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "05/08/2023",
+            "Name": "Sonya Tubbs",
+            "Address": "2022 Morris Dallas, TX 75212",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event expense",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "06/20/2023",
+            "Name": "Jose Rico",
+            "Address": "1508 Dent Garland, TX 75247",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2023",
+            "Name": "Javier Olivares",
+            "Address": "9749 Kittyhawk Dallas, TX 75217",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2023",
+            "Name": "Tina Shone",
+            "Address": "3671 Crowberry Euless, TX 76040",
+            "Amount": 6500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "06/12/2023",
+            "Name": "Jesse Vallejo",
+            "Address": "411 W commerce Dallas, TX 75208",
+            "Amount": 3000.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Loan Repayment/Reimbursement",
+            "Description": "Loan repayment",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        },
+        {
+            "Transaction_Date": "06/02/2023",
+            "Name": "Stonewall Democrats of Dallas",
+            "Address": "P.O. Box 192305 Dallas, TX 75210",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation",
+            "Source": "srp0000002695_20230717_163119.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

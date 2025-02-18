@@ -1,0 +1,1766 @@
+{
+    "candidate_info": {
+        "first_name": "Tennell",
+        "last_name": "Atkins",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4600.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 13391.86,
+            "Total Parsed Contributions": 4600.0,
+            "Total Parsed Expenditures": 13391.86,
+            "Total Itemized Reported Contributions": 4600.0,
+            "Total Itemized Reported Expenditures": 13391.86
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002781_20250115_080902.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002781_20250115_080902.pdf"
+        ],
+        "period": "7/1/2024_12/31/2024",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "10/10/2024",
+            "Name": "Helen Giddings",
+            "Address": "400 S Zang Blvd Suite 1018 Dallas, TX 75208",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Gilbert Aranza",
+            "Address": "P.O. Box 601527 Dallas, TX 75360-1527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/27/2024",
+            "Name": "Humberto Aranza",
+            "Address": "P.O. Box 540252 Dallas, TX 75354",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/07/2024",
+            "Name": "Tre Pac Texas Realtors Political Action Committee",
+            "Address": "P.O. Box 2246 Auston, TX 78768-2246",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "07/08/2024",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland RoadDallas, TX 75237",
+            "Amount": 226.81,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/17/2024",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland RoadDallas, TX 75237",
+            "Amount": 94.35,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland RoadDallas, TX 75237",
+            "Amount": 167.78,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2024",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland RoadDallas, TX 75237",
+            "Amount": 107.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2024",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland RoadDallas, TX 75237",
+            "Amount": 36.14,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Home Depot",
+            "Address": "2901 w Dallas, TX 75237",
+            "Amount": 173.18,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Home Depot",
+            "Address": "2901 W Wheatland RoadDallas, TX 75237",
+            "Amount": 142.05,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/30/2024",
+            "Name": "Dillards",
+            "Address": "309 W FM 1382 Cedar Hill, TX 75104",
+            "Amount": 284.7,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "State Fair of Texas",
+            "Address": "925 S Haskell Dallas, TX 75233",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "tickets",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/08/2024",
+            "Name": "Lowes",
+            "Address": "8520 S Hampton Rd Dallas, TX 75232",
+            "Amount": 37.93,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/19/2024",
+            "Name": "Dicks Sporting Goods",
+            "Address": "305 W FM 1382 Cedar Hill, TX 75104",
+            "Amount": 151.52,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Office supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 33.84,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "Gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 31.7,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/05/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 54.3,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/10/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Dallas, TX 75237",
+            "Amount": 23.97,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "GAS",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/06/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 42.21,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/22/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 51.01,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/22/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 87.86,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "Gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/22/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 41.7,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/23/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 45.91,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/29/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 8.94,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 30.83,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 43.43,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/06/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 38.1,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 32.02,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 32.57,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/13/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 23.73,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/19/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 42.13,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/19/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 27.32,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/26/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 32.7,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/30/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 28.09,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/03/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 49.19,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/09/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 41.59,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/13/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 34.74,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/16/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 24.43,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/23/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 62.37,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/23/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 36.32,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 29.9,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 34.46,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 34.57,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 8.18,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 43.52,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 15.12,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 29.8,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 25.06,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 30.51,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 30.4,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 21.05,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/04/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 81.54,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 28.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 23.72,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 36.82,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 27.31,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 18.39,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 45.01,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/05/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 28.87,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 44.01,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 37.16,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland RoadDallas, TX 75237",
+            "Amount": 36.44,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 32.48,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 36.73,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 68.65,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 36.87,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 19.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/15/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 25.9,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/18/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 23.65,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/29/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 29.17,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/30/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 15.32,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/31/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 12.95,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 21.58,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/04/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 12.3,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 24.51,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 24.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 19.32,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 14.91,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 15.21,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 24.72,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 20.3,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 19.87,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 17.47,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "McDonalds",
+            "Address": "125 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 18.99,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/12/2024",
+            "Name": "Breakfast Brothers",
+            "Address": "3704 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 18.4,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/05/2024",
+            "Name": "Off The Bone",
+            "Address": "1734 Botham Jean Blvd Dallas, TX 75215",
+            "Amount": 20.94,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2024",
+            "Name": "Off The Bone",
+            "Address": "1734 Botham Jean Blvd Dallas, TX 75215",
+            "Amount": 20.56,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/02/2024",
+            "Name": "Baby Back Shack",
+            "Address": "1800 S Akard St Dallas, TX 75215",
+            "Amount": 33.61,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/05/2024",
+            "Name": "Baby Back Shack",
+            "Address": "1734 Botham Jean Blvd Dallas, TX 75215",
+            "Amount": 69.66,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/18/2024",
+            "Name": "Baby Back Shack",
+            "Address": "18100 S Akard St Dallas, TX 75215",
+            "Amount": 53.58,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/25/2024",
+            "Name": "Baby Back Shack",
+            "Address": "1800 S Akard St Dallas, TX 75215",
+            "Amount": 18.12,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/04/2024",
+            "Name": "KFC",
+            "Address": "3415 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 41.27,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "KFC",
+            "Address": "3415 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 21.37,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Ojeda Family Rest.",
+            "Address": "2109 N Hampton Desoto, TX 75115",
+            "Amount": 54.77,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/11/2024",
+            "Name": "Popeyes",
+            "Address": "8181 S Lancaster Dallas, TX 75241",
+            "Amount": 21.94,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/05/2024",
+            "Name": "Popeyes",
+            "Address": "8181 S Lancaster Dallas, TX 75241",
+            "Amount": 26.48,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Popeyes",
+            "Address": "8181 S Lancaster Dallas, TX 75241",
+            "Amount": 25.48,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Popeyes",
+            "Address": "8181 S Lancaster Dallas, TX 75241",
+            "Amount": 20.27,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2024",
+            "Name": "Popeyes",
+            "Address": "8181 S Lancaster Dallas, TX 75241",
+            "Amount": 31.2,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2024",
+            "Name": "Popeyes",
+            "Address": "8181 S Lancaster Dallas, TX 75241",
+            "Amount": 29.81,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/29/2024",
+            "Name": "Taco Bell",
+            "Address": "2972 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 17.29,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2024",
+            "Name": "Taco Bell",
+            "Address": "2972 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 17.29,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Taco Bell",
+            "Address": "2972 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 16.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2024",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 105.67,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/05/2024",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 75.07,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 62.41,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 62.41,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "CAMPISIS",
+            "Address": "1520 ELM ST DALLAS, TX 75201",
+            "Amount": 8.61,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/16/2024",
+            "Name": "Lubys Cafeteria",
+            "Address": "5600 S Hampton Rd Dallas, TX 75232",
+            "Amount": 41.88,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/30/2024",
+            "Name": "Lubys Cafeteria",
+            "Address": "5600 S Hampton Rd Dallas, TX 75232",
+            "Amount": 45.63,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/07/2024",
+            "Name": "Lubys Cafeteria",
+            "Address": "5600 S Hampton Rd Dallas, TX 75232",
+            "Amount": 46.5,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/27/2024",
+            "Name": "Lubys Cafeteria",
+            "Address": "5600 S Hampton Rd Dallas, TX 75232",
+            "Amount": 45.96,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/15/2024",
+            "Name": "Wingstop",
+            "Address": "3333 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 149.03,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Two Ponders",
+            "Address": "1441 Robert B Cullum BDlvadllas, TX 75210",
+            "Amount": 67.07,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2024",
+            "Name": "Dans Seafood",
+            "Address": "8360 S Polk St Dallas, TX 75232",
+            "Amount": 34.61,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/19/2024",
+            "Name": "Pappadeaux",
+            "Address": "800 E Hwy 67 Duncanville, TX 75116",
+            "Amount": 142.46,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/13/2024",
+            "Name": "Pappadeaux",
+            "Address": "800 E Hwy 67 Duncanville, TX 75116",
+            "Amount": 168.8,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/08/2024",
+            "Name": "S and D Oyster",
+            "Address": "2701 McKinney Ave Dallas, TX 75204",
+            "Amount": 91.15,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/12/2024",
+            "Name": "S and D Oyster",
+            "Address": "2701 McKinney Ave Dallas, TX 75204",
+            "Amount": 149.03,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/03/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 21.65,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/16/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 16.24,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/23/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 16.24,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 16.27,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/25/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 16.24,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 20.34,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2024",
+            "Name": "Wendys",
+            "Address": "2828 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 27.81,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/09/2024",
+            "Name": "Colter BBQ",
+            "Address": "3904 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 43.73,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Colter BBQ",
+            "Address": "3904 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 21.11,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Colter BBQ",
+            "Address": "3904 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 97.37,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Colter BBQ",
+            "Address": "3904 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 49.8,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2024",
+            "Name": "Spring Creek",
+            "Address": "2827 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 47.47,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2024",
+            "Name": "Spring Creek",
+            "Address": "2827 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 67.73,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "Chilis",
+            "Address": "2503 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 57.88,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2024",
+            "Name": "Chilis",
+            "Address": "2503 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 31.01,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2024",
+            "Name": "Arbys",
+            "Address": "2810 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 53.28,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/26/2024",
+            "Name": "Burger King",
+            "Address": "2403 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 31.88,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/30/2024",
+            "Name": "Sonic",
+            "Address": "2960 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 14.05,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/02/2024",
+            "Name": "Dickeys BBQ",
+            "Address": "4610 N Central ExpresswDaayllas, TX 75206",
+            "Amount": 19.32,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Chick Fila",
+            "Address": "2429 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 39.18,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/05/2024",
+            "Name": "La Madaleine",
+            "Address": "3072 Mockingbird Dallas, TX 75205",
+            "Amount": 37.63,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/23/2024",
+            "Name": "Chubbys",
+            "Address": "7474 S Cockrell Hill RdDallas, TX 75236",
+            "Amount": 35.03,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 334.79,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/24/2024",
+            "Name": "Sams Club",
+            "Address": "2900 W Wheatland Rd Dallas, TX 75237",
+            "Amount": 186.37,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Krogers",
+            "Address": "200 W Camp Wisdom Duncanville, TX 75115",
+            "Amount": 151.63,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2024",
+            "Name": "Krogers",
+            "Address": "200 W Camp Wisdom Duncanville, TX 75116",
+            "Amount": 45.47,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "food",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2024",
+            "Name": "Party City",
+            "Address": "39759 LBJ Frwy Dallas, TX 75237",
+            "Amount": 9.73,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2024",
+            "Name": "Five Below",
+            "Address": "3450 Bainbridge Dr Dallas, TX 75237",
+            "Amount": 34.73,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2024",
+            "Name": "Five Below",
+            "Address": "3450 Bainbridge Dr Dallas, TX 75237",
+            "Amount": 18.67,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "supplies",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/06/2024",
+            "Name": "Swewll Infiniti",
+            "Address": "7110 Lemmon Ave Dallas, TX 75209",
+            "Amount": 780.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "auto",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/09/2024",
+            "Name": "Autozone",
+            "Address": "1201 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 16.23,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "auto",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Autozone",
+            "Address": "1201 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 31.38,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "auto",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Texaco",
+            "Address": "5909 S Hampton Rd Dallas, TX 75232",
+            "Amount": 46.62,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Texaco",
+            "Address": "5909 S Hampton Rd Dallas, TX 75232",
+            "Amount": 46.62,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "gas",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/03/2024",
+            "Name": "Bright Brigade",
+            "Address": "3611 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 31.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "auto",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/29/2024",
+            "Name": "Bright Brigade",
+            "Address": "3611 W Camp Wisdom Dallas, TX 75237",
+            "Amount": 31.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Transportation Equipment & Related",
+            "Description": "auto",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2024",
+            "Name": "Jefferson Monument",
+            "Address": "351 Jefferson Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "rent",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2024",
+            "Name": "Jefferson Monument",
+            "Address": "351 Jefferson Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "rent",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/01/2024",
+            "Name": "Jefferson Monument",
+            "Address": "351 Jefferson Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "rent",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/01/2024",
+            "Name": "Jefferson Monument",
+            "Address": "351 Jefferson Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "rent",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2024",
+            "Name": "Jefferson Monument",
+            "Address": "351 Jefferson Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "rent",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2024",
+            "Name": "Jefferson Monument",
+            "Address": "351 Jefferson Dallas, TX 75208",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "rent",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/12/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 360.8,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 119.14,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 360.86,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "08/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 119.14,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 370.9,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "09/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 119.36,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 370.96,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "10/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 119.36,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 370.9,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "11/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 119.36,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 370.9,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        },
+        {
+            "Transaction_Date": "12/01/2024",
+            "Name": "ATT",
+            "Address": "P.O. Box 5014 Carol Stream, IL 60197",
+            "Amount": 119.36,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "phone",
+            "Source": "srp0000002781_20250115_080902.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}
