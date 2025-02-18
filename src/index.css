@@ -25,7 +25,8 @@ body {
   height: 100%;
   margin: 0;
   line-height: 1.5;
-  color: #121212;
+  color: white;
+  background-color: black;
 }
 textarea,
 input,
@@ -371,8 +372,9 @@ i {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: #F7F4E9;
+  background: #121212;
   border-radius: 8px;
+  color: white;
 }
 
 .box-container {
@@ -397,7 +399,7 @@ i {
   padding: 15px 20px; /* Add consistent padding for content */
   margin: 10px;
   border-radius: 8px; /* Add rounded corners */
-  color: black;
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
   display: flex;
@@ -420,7 +422,7 @@ i {
 
 .box-subtitle {
   word-wrap: break-word;
-  color: black;
+  color: white;
   font-size: 1rem;
 }
 
@@ -431,6 +433,11 @@ i {
   text-align: center;
   margin: 5px;
 }
+
+.section:hover {
+  border-radius: 5px;
+  border: 2px solid #eaeaea;
+  }
 
 
 

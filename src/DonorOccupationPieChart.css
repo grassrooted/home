@@ -1,7 +1,7 @@
 #occupation-pie-chart-wrapper {
     display: flex;
     flex-direction: column;
-    background: #F7F4E9;
+    background: black;
     border-radius: 8px;
     justify-content: center;
     margin-top: 20px;
