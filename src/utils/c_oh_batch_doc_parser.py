@@ -5,7 +5,7 @@ import os
 import requests
 
 # File containing the list of PDF links
-LAST_NAME_CONFIG = "Stewart"
+LAST_NAME_CONFIG = "Gracey"
 related_tec_docs_filename = f"c_oh_related_sources_{LAST_NAME_CONFIG}.txt"
 unmatched_tec_docs_filename = f"unmatched_c_oh_files_{LAST_NAME_CONFIG}.txt"
 def extract_filename_from_url(url):

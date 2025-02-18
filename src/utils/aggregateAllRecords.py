@@ -2,11 +2,11 @@ import os
 import json
 import shutil
 
-FIRST = "Kathy"
-LAST = "Stewart"
+FIRST = "Zarin"
+LAST = "Gracey"
 folder = f"{FIRST} {LAST}/"
 output_file = f"{FIRST}_{LAST}_contributions_expenditures.json"
-unique_sources_file = "unique_sources.txt"
+unique_sources_file = "Paul Ridley/unique_sources.txt"
 
 def clean_string(value):
     if isinstance(value, str):

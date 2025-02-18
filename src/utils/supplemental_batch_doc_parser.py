@@ -6,8 +6,8 @@ import requests
 import logging
 import subprocess
 
-FIRST_NAME_CONFIG = "Kathy"
-LAST_NAME_CONFIG = "Stewart"
+FIRST_NAME_CONFIG = "Zarin"
+LAST_NAME_CONFIG = "Gracey"
 input_all_campfin_docs = f"{FIRST_NAME_CONFIG}_{LAST_NAME_CONFIG}_2019_2025.txt"
 output_unmatched_tec_file = f"unmatched_c_oh_files_{LAST_NAME_CONFIG}.txt"
 output_related_sources_file = f"c_oh_related_sources_{LAST_NAME_CONFIG}.txt"
