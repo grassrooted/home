@@ -58,15 +58,17 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
         return categoryTotals;
     }, [filteredData, profile, profiles]);
 
+    const colors = ["#4E5D89", "#D7816A", "#ad6c6c", "#5C6B8A", "#A45C5C", "#8F8DA3", "#E3A87C"]
+    const legend = [
+        'Small Dollar (Individual Donations  <$100)',
+        `Large Dollar (Individual Donations of $${profile.individual_limit}+)`,
+        'PAC',
+        'Self-Funding',
+        'Other Candidates',
+        'Other'
+    ]
     const data = {
-        labels: [
-            'Small Dollar (Individual Donations  <$100)',
-            `Large Dollar (Individual Donations of $${profile.individual_limit}+)`,
-            'PAC',
-            'Self-Funding',
-            'Other Candidates',
-            'Other'
-        ],
+        labels: legend,
         datasets: [
             {
                 label: 'Contribution Amounts',
@@ -78,7 +80,8 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
                     categories.otherCandidates,
                     categories.other,
                 ],
-                backgroundColor: ['#4caf50', '#ff5722', '#3f51b5', '#9c27b0', '#ffc107', '#9e9e9e'],
+                backgroundColor: colors.slice(0, legend.length),
+                hoverBackgroundColor: colors.slice(0, legend.length).map(color => color + "CC"), // Slight transparency on hover
                 hoverOffset: 4,
             },
         ],
@@ -87,7 +90,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
     const options = {
         responsive: true,
         plugins: {
-            legend: { position: 'top' },
+            legend: { position: 'top', labels: {color: "white"} },
             tooltip: {
                 callbacks: {
                     label: function (context) {

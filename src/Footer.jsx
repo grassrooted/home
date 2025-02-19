@@ -8,7 +8,7 @@ function Footer() {
             Texas Election Audits 
         </h1>
         <p>
-            est. 2021
+            est. 2025
         </p>
     </div>
   );

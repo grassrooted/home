@@ -9,7 +9,6 @@ export async function getCities(query) {
     const response = await fetch(`${process.env.PUBLIC_URL}/cities.yml`);
     const yamlText = await response.text();
     let cities = yaml.load(yamlText);
-    console.log(cities)
     if (!cities) cities = [];
     if (query) {
       cities = matchSorter(cities, query, { keys: ["name"] });

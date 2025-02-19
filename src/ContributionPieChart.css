@@ -16,25 +16,12 @@
   }
   
   table {
-    width: 90%;
     border-collapse: collapse;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 10px;
-  }
-  
-  thead {
-    background-color: #f4f4f4;
-  }
-  
-  th {
-    padding: 12px 15px;
-    text-align: left;
-    font-weight: bold;
-    color: #333;
-    border-bottom: 2px solid #ddd;
   }
   
   td {

@@ -5,37 +5,48 @@ import './TimelineChart.css';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
-function aggregateDataByDate(profile, data) {
-    const aggregatedData = {};
-    data.forEach(record => {
-        const date = record[profile.contribution_fields.Transaction_Date].split(' ')[0];
-        const amount = record[profile.contribution_fields.Amount];
+function aggregateCumulativeData(profile, data) {
+    const aggregatedData = [];
+    let cumulativeTotal = 0;
 
-        if (!aggregatedData[date]) {
-            aggregatedData[date] = 0;
-        }
-        aggregatedData[date] += amount;
+    const sortedData = data.map(record => ({
+        date: new Date(record[profile.contribution_fields.Transaction_Date].split(' ')[0]),
+        amount: record[profile.contribution_fields.Amount]
+    })).sort((a, b) => a.date - b.date);
+
+    sortedData.forEach(entry => {
+        cumulativeTotal += entry.amount;
+        aggregatedData.push({ x: entry.date, y: cumulativeTotal });
     });
 
-    return Object.keys(aggregatedData).map(date => ({
-        x: new Date(date),
-        y: aggregatedData[date]
-    })).sort((a, b) => a.x - b.x);
+    return aggregatedData;
 }
 
-function TimelineChart({ profile, contribution_data }) {
-    const aggregatedData = aggregateDataByDate(profile, contribution_data);
+function TimelineChart({ profile, contribution_data, expenditure_data }) {
+    const cumulativeContributions = aggregateCumulativeData(profile, contribution_data);
+    const cumulativeExpenditures = aggregateCumulativeData(profile, expenditure_data);
 
     const data = {
-        datasets: [{
-            label: 'Total Contributions ($)',
-            data: aggregatedData,
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1,
-            pointStyle: false,
-            fill: true
-        }]
+        datasets: [
+            {
+                label: 'Cumulative Contributions ($)',
+                data: cumulativeContributions,
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1,
+                pointStyle: false,
+                fill: true
+            },
+            {
+                label: 'Cumulative Expenditures ($)',
+                data: cumulativeExpenditures,
+                backgroundColor: 'rgba(192, 75, 75, 0.2)',
+                borderColor: 'rgba(192, 75, 75, 1)',
+                borderWidth: 1,
+                pointStyle: false,
+                fill: true
+            }
+        ]
     };
 
     const options = {
@@ -55,7 +66,7 @@ function TimelineChart({ profile, contribution_data }) {
             y: {
                 title: {
                     display: true,
-                    text: 'Total Amount ($)'
+                    text: 'Cumulative Amount ($)'
                 }
             }
         },
@@ -68,8 +79,8 @@ function TimelineChart({ profile, contribution_data }) {
 
     return (
         <div className='section' id="timeline">
-            <h1>Individual Donation Timeline</h1>
-            <h4><i>Refers to all contribution data.</i></h4>
+            <h1>Cumulative Contributions vs Cumulative Expenditures</h1>
+            <h4><i>Tracking cumulative totals over time.</i></h4>
             <div className="timeline-chart-container">
                 <Line data={data} options={options} />
             </div>

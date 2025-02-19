@@ -51,7 +51,6 @@ function AggregatedExpendituresTable({ profile, expenditure_data, selectedDateRa
             .sort((a, b) => b.Amount - a.Amount)
             .slice(0, 10);
 
-        console.log(tableData)
         const table = new Tabulator("#aggregated-expenditures-table", {
             data: tableData,
             layout: "fitColumns",

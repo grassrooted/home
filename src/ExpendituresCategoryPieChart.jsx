@@ -1,104 +1,119 @@
 import React from "react";
-import { Pie } from "react-chartjs-2";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import Highcharts from "highcharts";
+import HighchartsSunburst from "highcharts/modules/sunburst";
+import HighchartsReact from "highcharts-react-official";
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+// Properly initialize the module
+if (typeof HighchartsSunburst === "function") {
+    HighchartsSunburst(Highcharts);
+}
 
-const ExpendituresCategoryPieChart = ({ records, profile }) => {
-  // Aggregate amounts by category
-  const categoryTotals = records.reduce((acc, record) => {
-    acc[record.Category] = (acc[record.Category] || 0) + record.Amount;
-    return acc;
-  }, {});
+const ExpendituresCategorySunburstChart = ({ records, profile }) => {
+    // Aggregate amounts by category
+    const categoryTotals = records.reduce((acc, record) => {
+        acc[record.Category] = (acc[record.Category] || 0) + record.Amount;
+        return acc;
+    }, {});
 
-  // Separate out "Self" category
-  const selfRecords = records.filter(record => 
-    record.Name.toLowerCase().includes(profile.name.toLowerCase())
-  );
-  
-  const selfTotal = selfRecords.reduce((sum, record) => sum + record.Amount, 0);
-  
-  // Subtract selfTotal amounts from respective categories
-  selfRecords.forEach(record => {
-    if (categoryTotals[record.Category]) {
-      categoryTotals[record.Category] -= record.Amount;
-      if (categoryTotals[record.Category] <= 0) {
-        delete categoryTotals[record.Category];
-      }
-    }
-  });
-  
-  const sortedCategories = Object.entries(categoryTotals)
-    .sort((a, b) => b[1] - a[1]);
-  
-  const topCategories = sortedCategories.slice(0, 5);
-  const otherTotal = sortedCategories.slice(5).reduce((sum, [, amount]) => sum + amount, 0);
-  
-  const finalCategories = topCategories.map(([category]) => category);
-  const finalAmounts = topCategories.map(([, amount]) => amount);
+    // Separate out "Self" category
+    const selfRecords = records.filter(record =>
+        record.Name.toLowerCase().includes(profile.name.toLowerCase())
+    );
+    const selfTotal = selfRecords.reduce((sum, record) => sum + record.Amount, 0);
 
-  if (otherTotal > 0) {
-    finalCategories.push("Other");
-    finalAmounts.push(otherTotal);
-  }
+    // Subtract selfTotal amounts from respective categories
+    selfRecords.forEach(record => {
+        if (categoryTotals[record.Category]) {
+            categoryTotals[record.Category] -= record.Amount;
+            if (categoryTotals[record.Category] <= 0) {
+                delete categoryTotals[record.Category];
+            }
+        }
+    });
 
-  if (selfTotal > 0) {
-    finalCategories.push("Self");
-    finalAmounts.push(selfTotal);
-  }
+    const sortedCategories = Object.entries(categoryTotals).sort((a, b) => b[1] - a[1]);
+    const topCategories = sortedCategories.slice(0, 5);
 
-  // Define a visually appealing color palette
-  const colors = [
-    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"
-  ];
+    // Prepare Sunburst chart data
+    let sunburstData = [
+        { id: "root", name: "Expenditures", color: "#ffffff" },
+    ];
 
-  const data = {
-    labels: finalCategories,
-    datasets: [
-      {
-        data: finalAmounts,
-        backgroundColor: colors.slice(0, finalCategories.length),
-        hoverBackgroundColor: colors.slice(0, finalCategories.length).map(color => color + "CC"), // Slight transparency on hover
-        borderColor: "#ffffff",
-        borderWidth: 2,
-      },
-    ],
-  };
+    topCategories.forEach(([category, amount], index) => {
+        const categoryId = `category-${index}`;
+        sunburstData.push({
+            id: categoryId,
+            parent: "root",
+            name: category,
+            value: amount,
+            color: ["#4E5D89", "#D7816A", "#7A3333", "#5C6B8A", "#A45C5C"][index],
+        });
 
-  const options = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: "bottom",
-        labels: {
-          color: "#ffffff",
-          font: {
-            size: 14,
-          },
+        // Aggregate records by Name within each category
+        const nameTotals = records
+            .filter(record => record.Category === category)
+            .reduce((acc, record) => {
+                acc[record.Name] = (acc[record.Name] || 0) + record.Amount;
+                return acc;
+            }, {});
+
+        const sortedNames = Object.entries(nameTotals).sort((a, b) => b[1] - a[1]);
+        const topNames = sortedNames.slice(0, 5);
+        const otherTotal = sortedNames.slice(5).reduce((sum, [, value]) => sum + value, 0);
+
+        topNames.forEach(([name, total]) => {
+            sunburstData.push({
+                id: `record-${category}-${name}`,
+                parent: categoryId,
+                name: name,
+                value: total,
+            });
+        });
+
+        if (otherTotal > 0) {
+            sunburstData.push({
+                id: `record-${category}-other`,
+                parent: categoryId,
+                name: "Other",
+                value: otherTotal,
+            });
+        }
+    });
+
+    const options = {
+        chart: {
+            height: "500px",
+            backgroundColor: "#000000",
         },
-      },
-      tooltip: {
-        backgroundColor: "rgba(0, 0, 0, 0.7)",
-        titleColor: "#ffffff",
-        bodyColor: "#ffffff",
-        bodyFont: {
-          size: 14,
+        title: {
+            text: "Expenditures Breakdown",
+            style: { color: "#ffffff" },
         },
-      },
-    },
-    maintainAspectRatio: false,
-  };
+        series: [{
+            type: "sunburst",
+            data: sunburstData,
+            allowDrillToNode: true,
+            levels: [
+                {
+                    level: 1,
+                    colorByPoint: true,
+                    dataLabels: { color: "#ffffff" },
+                },
+                {
+                    level: 2,
+                    colorVariation: { key: "brightness", to: -0.5 },
+                    dataLabels: { color: "#ffffff" },
+                },
+            ],
+        }],
+    };
 
-  return (
-    <div class="section">
-        <h1>Expenditures Summary</h1>
-
-        <div style={{ width: "100%", maxWidth: "500px", height: "500px", margin: "auto" }}>
-        <Pie data={data} options={options} />
+    return (
+        <div className="section">
+            <h1 style={{ color: "#ffffff" }}>Expenditures Summary</h1>
+            <HighchartsReact highcharts={Highcharts} options={options} />
         </div>
-    </div>
-
-  );
+    );
 };
 
-export default ExpendituresCategoryPieChart;
+export default ExpendituresCategorySunburstChart;

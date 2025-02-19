@@ -4,6 +4,7 @@ import ProfileSnapshot from '../ProfileSnapshot';
 import { getProfile, getProfiles } from '../Profiles';
 import TimelineChart from '../TimelineChart';
 import ContributionsBarChart from '../ContributionsBarChart';
+import MembershipList from '../MembershipList';
 import Highlights from '../Highlights';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
@@ -13,6 +14,9 @@ import ContributionPieChart from '../ContributionPieChart';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import '../index.css';
 import ExpendituresCategoryPieChart from '../ExpendituresCategoryPieChart';
+import FoodExpenditureAnalysis from '../FoodExpenditureAnalysis';
+import DonationList from '../DonationList';
+import DonorVolunteerLineGraph from '../DonorVolunteerLineGraph';
 
 const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {
@@ -72,7 +76,6 @@ function Profile() {
         const fetchData = async () => {
             try {
                 const fetchedProfile = await getProfile(profileId);
-                console.log(fetchedProfile)
                 const fetchedProfiles = await getProfiles();
                 setProfile(fetchedProfile);
                 setProfiles(fetchedProfiles);
@@ -129,7 +132,24 @@ function Profile() {
                 aggregated_data={aggregatedData}
                 contribution_data={profile.contributions}
                 selectedDateRange={selectedDateRange}/>
+
+            <TimelineChart 
+                profile={profile}
+                contribution_data={profile.contributions}
+                expenditure_data={profile.expenditures}/>
+
+            <MembershipList 
+                expenditure_data={profile.expenditures}/>
                 
+            <FoodExpenditureAnalysis
+                expenditure_data={profile.expenditures} />
+
+            <DonationList
+                expenditure_data={profile.expenditures} />
+
+            <DonorVolunteerLineGraph
+                expenditure_data={profile.expenditures} />
+
             <span className='side-by-side'>
                 <AggregatedDataTable 
                     profile={profile} 

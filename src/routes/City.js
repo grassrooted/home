@@ -3,7 +3,6 @@ import '../index.css';
 import { useOutletContext, useParams } from "react-router-dom";
 import ProfileStream from '../ProfileStream';
 import Header from '../Header';
-import OutOfCityBarChart from '../OutOfCityBarChart';
 import { getCityProfiles } from "../Cities";
 import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
