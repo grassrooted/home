@@ -46,6 +46,8 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
                 categoryTotals.otherCandidates += amount;
             } else if (donorName.includes("pac") || donorName.includes("committee")) {
                 categoryTotals.pac += amount;
+            } else if (donorName.toUpperCase().includes("TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS") || donorName.toUpperCase().includes("TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS")) {
+                categoryTotals.smallDollar += amount;
             } else if (amount < smallDollarLimit) {
                 categoryTotals.smallDollar += amount;
             } else if (amount >= bigDonorLimit) {
