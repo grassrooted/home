@@ -13,6 +13,13 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+#cumulative-contributions-line-chart-wrapper{
+    height: 550px;
+    width: 550px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
 
 /* Title Styling */
 #timeline-graph-title {

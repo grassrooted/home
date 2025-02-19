@@ -372,7 +372,7 @@ i {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: #121212;
+  background: #1E3A5F;
   border-radius: 8px;
   color: white;
 }
@@ -432,6 +432,7 @@ i {
   align-items: center;
   text-align: center;
   margin: 5px;
+  padding: 5px;
 }
 
 .section:hover {

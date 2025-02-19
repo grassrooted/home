@@ -3,33 +3,33 @@ import { TabulatorFull as Tabulator } from "tabulator-tables";
 import 'tabulator-tables/dist/css/tabulator.min.css';
 
 const aggregateDataByName = (profile, data) => {
-    return data.reduce((acc, contribution) => {
-        const normalizedName = contribution[profile.contribution_fields.Donor].toLowerCase();
+    return data.reduce((acc, expenditure) => {
+        const normalizedName = expenditure[profile.contribution_fields.Donor].toLowerCase();
         if (!acc[normalizedName]) {
             acc[normalizedName] = {
                 Amount: 0,
-                Campaign: contribution[profile.contribution_fields.Recipient],
-                Name: contribution[profile.contribution_fields.Donor],
-                Address: contribution[profile.contribution_fields.Address],
+                Campaign: expenditure[profile.contribution_fields.Recipient],
+                Name: expenditure[profile.contribution_fields.Donor],
+                Address: expenditure[profile.contribution_fields.Address],
                 children: []
             };
         }
-        acc[normalizedName].Amount += contribution[profile.contribution_fields.Amount];
+        acc[normalizedName].Amount += expenditure[profile.contribution_fields.Amount];
         acc[normalizedName].children.push({
-            ReportId: contribution.ReportId,
-            Amount: contribution[profile.contribution_fields.Amount],
-            Campaign: contribution[profile.contribution_fields.Recipient],
-            TransactionDate: contribution[profile.contribution_fields.Transaction_Date],
-            Latitude: contribution.Latitude,
-            Longitude: contribution.Longitude,
-            Name: contribution[profile.contribution_fields.Donor],
-            Address: contribution.Address
+            ReportId: expenditure.ReportId,
+            Amount: expenditure[profile.contribution_fields.Amount],
+            Campaign: expenditure[profile.contribution_fields.Recipient],
+            TransactionDate: expenditure[profile.contribution_fields.Transaction_Date],
+            Latitude: expenditure.Latitude,
+            Longitude: expenditure.Longitude,
+            Name: expenditure[profile.contribution_fields.Donor],
+            Address: expenditure.Address
         });
         return acc;
     }, {});
 };
 
-function AggregatedDataTable({ profile, selectedDateRange, contribution_data }) {
+function AggregatedExpendituresTable({ profile, expenditure_data, selectedDateRange }) {
     const style = { height: "auto" };
 
     useEffect(() => {
@@ -42,7 +42,7 @@ function AggregatedDataTable({ profile, selectedDateRange, contribution_data }) 
             });
         };
 
-        const filteredData = filterDataByDate(contribution_data, selectedDateRange);
+        const filteredData = filterDataByDate(expenditure_data, selectedDateRange);
         let aggregatedData = aggregateDataByName(profile, filteredData);
         let tableData = Object.values(aggregatedData);
 
@@ -51,14 +51,15 @@ function AggregatedDataTable({ profile, selectedDateRange, contribution_data }) 
             .sort((a, b) => b.Amount - a.Amount)
             .slice(0, 10);
 
-        const table = new Tabulator("#aggregated-contributions-table", {
+        console.log(tableData)
+        const table = new Tabulator("#aggregated-expenditures-table", {
             data: tableData,
             layout: "fitColumns",
             initialSort: [
                 { column: "Amount", dir: "desc" },
             ],
             columns: [
-                { title: "Contributor", field: "Name" },
+                { title: "Vendor", field: "Name" },
                 { title: "Amount ($)", field: "Amount", formatter: "money" },
                 { title: "Candidate", field: "Campaign" },
                 { title: "Transaction Date", field: "TransactionDate" },
@@ -80,17 +81,17 @@ function AggregatedDataTable({ profile, selectedDateRange, contribution_data }) 
         });
 
         return () => table.destroy();
-    }, [contribution_data, selectedDateRange, profile]);
+    }, [expenditure_data, selectedDateRange, profile]);
 
     return (
         <div className='section'>
-            <h1>Top Donors</h1>
+            <h1>Top Expenditures</h1>
             <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
-            <div id="aggregated-contributions-table" style={style}></div>
-            <h4><i>Contributions made by the same person have been grouped together.</i></h4>
+            <div id="aggregated-expenditures-table" style={style}></div>
+            <h4><i>Expenditures made to the same person have been grouped together.</i></h4>
 
         </div>
     );
 }
 
-export default AggregatedDataTable;
+export default AggregatedExpendituresTable;

@@ -1,5 +1,5 @@
 /* General Styling for the Chart Container */
-#contribution-bar-chart-wrapper {
+#contribution-bar-chart-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,25 +14,32 @@
     box-sizing: border-box;
 }
 
+#stacked-bar-chart-wrapper{
+    height: 550px;
+    width: 550px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
 /* Title and Subtitle Styling */
-#contribution-bar-chart-wrapper h2,
-#contribution-bar-chart-wrapper h4 {
+#contribution-bar-chart-section h2,
+#contribution-bar-chart-section h4 {
     text-align: center;
     margin: 10px 0;
 }
 
 
 @media (max-width: 480px) {
-    #contribution-bar-chart-wrapper {
+    #contribution-bar-chart-section {
         padding: 0;
     }
 
     /* Adjust the title and subtitle font sizes for mobile screens */
-    #contribution-bar-chart-wrapper h2 {
+    #contribution-bar-chart-section h2 {
         font-size: 18px;
     }
 
-    #contribution-bar-chart-wrapper h4 {
+    #contribution-bar-chart-section h4 {
         font-size: 14px;
     }
     .chartjs-size-monitor,

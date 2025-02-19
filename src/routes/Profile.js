@@ -7,10 +7,12 @@ import ContributionsBarChart from '../ContributionsBarChart';
 import Highlights from '../Highlights';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import AggregatedDataTable from '../AggregatedDataTable';
+import AggregatedExpendituresTable from '../AggregatedExpendituresTable';
 import Header from '../Header';
 import ContributionPieChart from '../ContributionPieChart';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import '../index.css';
+import ExpendituresCategoryPieChart from '../ExpendituresCategoryPieChart';
 
 const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {
@@ -70,6 +72,7 @@ function Profile() {
         const fetchData = async () => {
             try {
                 const fetchedProfile = await getProfile(profileId);
+                console.log(fetchedProfile)
                 const fetchedProfiles = await getProfiles();
                 setProfile(fetchedProfile);
                 setProfiles(fetchedProfiles);
@@ -133,10 +136,10 @@ function Profile() {
                     contribution_data={profile.contributions}
                     selectedDateRange={selectedDateRange} />
 
-                <ContributionsBarChart 
-                    profile={profile} 
-                    contribution_data={profile.contributions}
-                    selectedDateRange={selectedDateRange} />
+                <AggregatedExpendituresTable
+                    profile={profile}
+                    expenditure_data={profile.expenditures}
+                    selectedDateRange={selectedDateRange}/>
             </span>
 
             <ContributionPieChart
@@ -145,7 +148,9 @@ function Profile() {
                 profiles={profiles} 
                 selectedDateRange={selectedDateRange} />
 
-
+            <ExpendituresCategoryPieChart
+                profile={profile}
+                records={profile.expenditures} />
 
             <IndividualContributionsTable 
                 profile={profile} 

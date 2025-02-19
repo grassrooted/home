@@ -121,7 +121,10 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
             <table id="contribution-pie-chart-table">
                 <tbody>
                     {tableData.map((row, index) => (
-                        <tr key={index}>
+                        <tr 
+                            key={index} 
+                            style={{ backgroundColor: index % 2 === 0 ? "#2c2c2c" : "#222"}}
+                        >
                             <td>{row.category}</td>
                             <td>${row.amount.toLocaleString()}</td>
                             <td>{row.percentage}</td>
@@ -129,6 +132,7 @@ function ContributionPieChart({ profile, contribution_data, profiles, selectedDa
                     ))}
                 </tbody>
             </table>
+
         </div>
     );
 }

@@ -8,7 +8,6 @@ export async function getProfiles(query) {
     const response = await fetch(`${process.env.PUBLIC_URL}/profiles.yml`);
     const yamlText = await response.text();
     let profiles = yaml.load(yamlText);
-    console.log(profiles)
     if (!profiles) profiles = [];
     if (query) {
       profiles = matchSorter(profiles, query, { keys: ["name", "city", "district"] });
@@ -32,9 +31,13 @@ export async function getProfile(id) {
         res = Array.from(new Set(data.map(JSON.stringify)))
                .map(JSON.parse);
         profile.contributions = res;
+
+        data = jsonResponse.data.expenditures;
+        res = Array.from(new Set(data.map(JSON.stringify)))
+               .map(JSON.parse);
+        profile.expenditures = res;
       } catch (error) {
         console.error('Error fetching data:', error);
       }
-    console.log(profile)
     return profile
 }

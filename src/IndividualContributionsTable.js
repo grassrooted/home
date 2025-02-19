@@ -9,7 +9,6 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
     };
 
     useEffect(() => {
-        // Preprocess data to convert Transaction Date to a JavaScript Date object
         const preprocessData = (data) => {
             return data.map(record => ({
                 ...record,
@@ -38,15 +37,15 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
             {
                 title: "Transaction Date",
                 field: profile.contribution_fields.Transaction_Date,
-                sorter: (a, b) => new Date(a) - new Date(b), // Custom date sorter
+                sorter: (a, b) => new Date(a) - new Date(b),
                 formatter: (cell) => {
                     const dateValue = cell.getValue();
                     if (isNaN(dateValue)) {
                         return "(Invalid Date)";
                     }
-                    return dateValue.toLocaleDateString("en-US"); // Format as MM/DD/YYYY
+                    return dateValue.toLocaleDateString("en-US");
                 },
-                headerFilter: "input" // Optional: Add date search/filter
+                headerFilter: "input"
             }
         ];
 
@@ -54,7 +53,21 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
             data: tableData,
             layout: "fitColumns",
             columns: columns,
+            autoResize: true,
+            rowFormatter: (row) => {
+                const index = row.getPosition(true);
+                row.getElement().style.backgroundColor = index % 2 === 0 ? "#2c2c2c" : "#222";
+                row.getElement().style.color = "#fff";
+            },
         });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".tabulator .tabulator-header").forEach(header => {
+                header.style.backgroundColor = "#1a1a1a";
+                header.style.color = "white";
+            });
+        });
+        
 
         return () => table.destroy();
     }, [

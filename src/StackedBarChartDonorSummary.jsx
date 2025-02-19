@@ -130,14 +130,16 @@ function StackedBarChartDonorSummary({ cityProfileData, selectedDateRange }) {
     };
 
     return (
-        <div id="contribution-bar-chart-wrapper">
+        <div id="contribution-bar-chart-section">
             <h2>Donor Summary</h2>
             <h4>
                 <i>
                     Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}
                 </i>
             </h4>
-            <Bar data={chartData} options={options} width="100%"/>
+            <div id="stacked-bar-chart-wrapper">
+                <Bar data={chartData} options={options} width="100%"/>
+            </div>
 \        </div>
     );
 }
