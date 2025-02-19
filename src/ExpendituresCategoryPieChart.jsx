@@ -90,9 +90,14 @@ const ExpendituresCategoryPieChart = ({ records, profile }) => {
   };
 
   return (
-    <div style={{ width: "100%", maxWidth: "500px", height: "500px", margin: "auto" }}>
-      <Pie data={data} options={options} />
+    <div class="section">
+        <h1>Expenditures Summary</h1>
+
+        <div style={{ width: "100%", maxWidth: "500px", height: "500px", margin: "auto" }}>
+        <Pie data={data} options={options} />
+        </div>
     </div>
+
   );
 };
 

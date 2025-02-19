@@ -106,8 +106,12 @@ function City() {
                 setSelectedDateRange={setSelectedDateRange}
             />
             <Header city={city_config.name} profile={city_config} />
-            <StackedBarChartDonorSummary cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
-            <CumulativeContributionsTimeline cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
+            
+            <span className='side-by-side'>
+                <StackedBarChartDonorSummary cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
+                <CumulativeContributionsTimeline cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
+            </span>
+
             <ProfileStream cityId={cityId} cityProfileData={cityProfileData} />
             <IndividualContributionsTable
                 profile={cityProfileData?.[0]}
