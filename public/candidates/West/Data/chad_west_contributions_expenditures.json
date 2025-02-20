@@ -1468,6 +1468,15 @@
             "Recipient": "Chad West"
         },
         {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Kristian Teleki",
+            "Address": "325 Canyon Oaks Drive Argyle, Tx 76226",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "caf0000002252_20210423_141710.pdf",
+            "Recipient": "Chad West"
+        },
+        {
             "Transaction_Date": "03/31/2021",
             "Name": "Cece Cox",
             "Address": "6333 Richmond Ave. Suite A Dallas, TX 75214",
@@ -4090,9 +4099,9 @@
             "Transaction_Date": "12/11/2024",
             "Name": "Joel Williams",
             "Address": "4323 Lorraine Avenue Dallas, TX 75205",
-            "Amount": 100.0,
+            "Amount": 1000.0,
             "Transaction_Type": "Campaign Contribution",
-            "Source": "srp0000002794_20250115_165529.pdf",
+            "Source": "caf0000002794_20250116_154141.pdf",
             "Recipient": "Chad West"
         },
         {
@@ -4108,9 +4117,9 @@
             "Transaction_Date": "12/11/2024",
             "Name": "Susan Williams",
             "Address": "4323 Lorraine Avenue Dallas, TX 75205",
-            "Amount": 100.0,
+            "Amount": 1000.0,
             "Transaction_Type": "Campaign Contribution",
-            "Source": "srp0000002794_20250115_165529.pdf",
+            "Source": "caf0000002794_20250116_154141.pdf",
             "Recipient": "Chad West"
         },
         {
@@ -4333,9 +4342,9 @@
             "Transaction_Date": "12/20/2024",
             "Name": "Austin Schenkel",
             "Address": "3317 Purdue Avenue Dallas, TX 75225",
-            "Amount": 50.0,
+            "Amount": 500.0,
             "Transaction_Type": "Campaign Contribution",
-            "Source": "srp0000002794_20250115_165529.pdf",
+            "Source": "caf0000002794_20250116_160235.pdf",
             "Recipient": "Chad West"
         },
         {
@@ -19770,8 +19779,8 @@
         {
             "Transaction_Date": "09/13/2024",
             "Name": "Greater Dallas Chamber",
-            "Address": "Irving, TX 74111",
-            "Amount": 300.0,
+            "Address": "909 Lake Carolyn Parkway Suite 320 Irving, TX 74111",
+            "Amount": 200.0,
             "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
             "Category": "Donation",
             "Description": "Sponsorship",
@@ -20376,7 +20385,7 @@
             "Transaction_Date": "10/22/2024",
             "Name": "Fort Worth Avenue Development",
             "Address": "P.O. Box 225120 Fort Worth , TX 75222",
-            "Amount": 250.0,
+            "Amount": 300.0,
             "Transaction_Type": "Officeholder Expenditures",
             "Category": "Donation",
             "Description": "Sponsorship",
