@@ -476,6 +476,18 @@ i {
   width: 100%;
 }
 
+#text-data-box:hover {
+  border-radius: 5px;
+  border: 2px solid #eaeaea;
+}
+
+#text-data-box {
+  background: #3A3F5C;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
 @media (max-width: 480px) {
   #row-section {
       flex-direction: column;

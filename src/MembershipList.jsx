@@ -10,7 +10,6 @@ const MembershipList = ({ expenditure_data }) => {
 
   // Extract unique names from filtered expenditure_data and sort them in descending order
   const uniqueNames = [...new Set(membershipRecords.map((record) => record.Name))].sort((a, b) => b.localeCompare(a));
-
   return (
     <div className="p-4 bg-gray-900 text-white rounded-xl shadow-lg">
       <h2 className="text-xl font-bold mb-2">Membership Payments</h2>

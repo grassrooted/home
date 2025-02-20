@@ -138,17 +138,17 @@ function Profile() {
                 contribution_data={profile.contributions}
                 expenditure_data={profile.expenditures}/>
 
-            <MembershipList 
-                expenditure_data={profile.expenditures}/>
-                
-            <FoodExpenditureAnalysis
-                expenditure_data={profile.expenditures} />
+            <span className='side-by-side' id="text-data-box">
+                <MembershipList 
+                    expenditure_data={profile.expenditures}/>
+                    
+                <FoodExpenditureAnalysis
+                    expenditure_data={profile.expenditures} />
 
-            <DonationList
-                expenditure_data={profile.expenditures} />
+                <DonationList
+                    expenditure_data={profile.expenditures} />
+            </span>
 
-            <DonorVolunteerLineGraph
-                expenditure_data={profile.expenditures} />
 
             <span className='side-by-side'>
                 <AggregatedDataTable 
@@ -161,17 +161,21 @@ function Profile() {
                     expenditure_data={profile.expenditures}
                     selectedDateRange={selectedDateRange}/>
             </span>
+            
+            <DonorVolunteerLineGraph
+                expenditure_data={profile.expenditures} />
 
-            <ContributionPieChart
-                profile={profile}
-                contribution_data={profile.contributions}
-                profiles={profiles} 
-                selectedDateRange={selectedDateRange} />
+            <span className='side-by-side'>
+                <ContributionPieChart
+                    profile={profile}
+                    contribution_data={profile.contributions}
+                    profiles={profiles} 
+                    selectedDateRange={selectedDateRange} />
 
-            <ExpendituresCategoryPieChart
-                profile={profile}
-                records={profile.expenditures} />
-
+                <ExpendituresCategoryPieChart
+                    profile={profile}
+                    records={profile.expenditures} />
+            </span>
             <IndividualContributionsTable 
                 profile={profile} 
                 contribution_data={profile.contributions}

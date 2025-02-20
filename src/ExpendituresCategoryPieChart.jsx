@@ -11,25 +11,9 @@ if (typeof HighchartsSunburst === "function") {
 const ExpendituresCategorySunburstChart = ({ records, profile }) => {
     // Aggregate amounts by category
     const categoryTotals = records.reduce((acc, record) => {
-        acc[record.Category] = (acc[record.Category] || 0) + record.Amount;
+        acc[record.Category] = (acc[record.Category] || 0) + Math.round(record.Amount);
         return acc;
     }, {});
-
-    // Separate out "Self" category
-    const selfRecords = records.filter(record =>
-        record.Name.toLowerCase().includes(profile.name.toLowerCase())
-    );
-    const selfTotal = selfRecords.reduce((sum, record) => sum + record.Amount, 0);
-
-    // Subtract selfTotal amounts from respective categories
-    selfRecords.forEach(record => {
-        if (categoryTotals[record.Category]) {
-            categoryTotals[record.Category] -= record.Amount;
-            if (categoryTotals[record.Category] <= 0) {
-                delete categoryTotals[record.Category];
-            }
-        }
-    });
 
     const sortedCategories = Object.entries(categoryTotals).sort((a, b) => b[1] - a[1]);
     const topCategories = sortedCategories.slice(0, 5);
@@ -53,7 +37,7 @@ const ExpendituresCategorySunburstChart = ({ records, profile }) => {
         const nameTotals = records
             .filter(record => record.Category === category)
             .reduce((acc, record) => {
-                acc[record.Name] = (acc[record.Name] || 0) + record.Amount;
+                acc[record.Name] = (acc[record.Name] || 0) + Math.round(record.Amount);
                 return acc;
             }, {});
 
@@ -86,7 +70,7 @@ const ExpendituresCategorySunburstChart = ({ records, profile }) => {
             backgroundColor: "#000000",
         },
         title: {
-            text: "Expenditures Breakdown",
+            text: "Top 5 Expense Categories + Top 5 Vendors",
             style: { color: "#ffffff" },
         },
         series: [{
