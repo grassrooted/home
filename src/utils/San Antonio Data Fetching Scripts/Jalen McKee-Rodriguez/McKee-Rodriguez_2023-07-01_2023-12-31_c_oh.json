@@ -1,0 +1,607 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "McKee-Rodriguez",
+        "office_sought": "Council District 2",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4102.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 3106.59,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 5168.01,
+            "Total Parsed Contributions": 4102.0,
+            "Total Parsed Expenditures": 3106.59,
+            "Total Itemized Reported Contributions": 4102.0,
+            "Total Itemized Reported Expenditures": 3106.59
+        }
+    },
+    "form_data": {
+        "period": "2023-07-01_2023-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003141_20240116_175816.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "7/4/2023",
+            "Name": "LESLIE FINCHER",
+            "Address": "336 336 CLAREMONT AVE Apt 2 SAN ANTONIO, TX 78209",
+            "Amount": 7.0,
+            "Occupation": "Security Data Technician",
+            "Employer": "CyberFortress",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/5/2023",
+            "Name": "Daniel Keegan",
+            "Address": "314 314 Tall Oaks Dr Durham, NC 27713",
+            "Amount": 10.0,
+            "Occupation": "Not employed",
+            "Employer": "Not employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/8/2023",
+            "Name": "Meagan Knuth",
+            "Address": "729 729 Junction Dr Apt 729 Allen, TX 75013",
+            "Amount": 7.0,
+            "Occupation": "Lawyer",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/26/2023",
+            "Name": "Kimani Mitchell",
+            "Address": "7706 7706 Coffee Mill San Antonio, TX 78252",
+            "Amount": 15.0,
+            "Occupation": "Assistant Principal",
+            "Employer": "KIPP Texas",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/4/2023",
+            "Name": "LESLIE FINCHER",
+            "Address": "336 336 CLAREMONT AVE Apt 2 SAN ANTONIO, TX 78209",
+            "Amount": 7.0,
+            "Occupation": "Security Data Technician",
+            "Employer": "CyberFortress",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/5/2023",
+            "Name": "Daniel Keegan",
+            "Address": "314 314 Tall Oaks Dr Durham, NC 27713",
+            "Amount": 10.0,
+            "Occupation": "Not employed",
+            "Employer": "Not employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/6/2023",
+            "Name": "Meagan Knuth",
+            "Address": "729 729 Junction Dr Apt 729 Allen, TX 75013",
+            "Amount": 7.0,
+            "Occupation": "Lawyer",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/19/2023",
+            "Name": "CS VanHollebeke",
+            "Address": "1322 1322 Eastwind Drive Early, TX 76802",
+            "Amount": 15.0,
+            "Occupation": "Not employed",
+            "Employer": "Not employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/20/2023",
+            "Name": "William Trynoski",
+            "Address": "12033 12033 Canyon Rock Ln San Antonio, TX 78254",
+            "Amount": 500.0,
+            "Occupation": "Chief of Staff",
+            "Employer": "San Antonio Local Government Corporation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/4/2023",
+            "Name": "LESLIE FINCHER",
+            "Address": "336 336 CLAREMONT AVE Apt 2 SAN ANTONIO, TX 78209",
+            "Amount": 7.0,
+            "Occupation": "Security Data Technician",
+            "Employer": "CyberFortress",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2023",
+            "Name": "Daniel Keegan",
+            "Address": "314 314 Tall Oaks Dr Durham, NC 27713",
+            "Amount": 10.0,
+            "Occupation": "Not employed",
+            "Employer": "Not employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/8/2023",
+            "Name": "Meagan Knuth",
+            "Address": "729 729 Junction Dr Apt 729 Allen, TX 75013",
+            "Amount": 7.0,
+            "Occupation": "Lawyer",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/12/2023",
+            "Name": "Frank Burney",
+            "Address": "112 112 E. Pecan St. Suite 1616 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Partner",
+            "Employer": "Martin & Drought, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Nicholas Marquez",
+            "Address": "555 Ginsberg Dr Schertz, TX 78154",
+            "Amount": 500.0,
+            "Occupation": "Self",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Nava Michael and Brenna",
+            "Address": "522 Possum Oak Shavano Park, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Self",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Owens-Bragg Luke and Amie",
+            "Address": "3703 Wild Fig San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "Self",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Christensen Patrick and Mardi",
+            "Address": "325 w mistletoe ave San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Self",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Loredo Sarah",
+            "Address": "1391 Misty Ln Spring Branch, TX 78070",
+            "Amount": 500.0,
+            "Occupation": "Founder",
+            "Employer": "SAORSA Insurance",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Haas Christopher",
+            "Address": "204 e melrose dr San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Self",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/3/2023",
+            "Name": "Alejandro Barragan",
+            "Address": "2614 Arlene Park San Antonio, TX 78251",
+            "Amount": 1250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Fundraising",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/6/2023",
+            "Name": "Spoke",
+            "Address": "13742 Harper St Santa Ana, CA 92703",
+            "Amount": 57.03,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/7/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 11.26,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/10/2023",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/11/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 19.13,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/17/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 42.11,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/18/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/20/2023",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 15.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/10/2023",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 12.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/15/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 42.11,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/18/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "8/21/2023",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 8.1,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2023",
+            "Name": "Marriott St Louis",
+            "Address": "800 Washington Ave St Louis, MO 63101",
+            "Amount": 14.17,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2023",
+            "Name": "American Airlines",
+            "Address": "9710 Airport Blvd San Antonio, TX 78216",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2023",
+            "Name": "Lyft",
+            "Address": "185 Berry St San Francisco, CA 94107",
+            "Amount": 37.19,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2023",
+            "Name": "Marriott St Louis",
+            "Address": "800 Washington Ave St Louis, MO 63101",
+            "Amount": 28.73,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/8/2023",
+            "Name": "Marriott St Louis",
+            "Address": "800 Washington Ave St Louis, MO 63101",
+            "Amount": 76.34,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2023",
+            "Name": "United Airlines",
+            "Address": "10701 Lambert International Blvd St Louis, MO 63145",
+            "Amount": 35.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2023",
+            "Name": "Marriott St Louis",
+            "Address": "800 Washington Ave St Louis, MO 63101",
+            "Amount": 18.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2023",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 12.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 6.43,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/15/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 42.11,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "9/18/2023",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 12.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 7.87,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "10/10/2023",
+            "Name": "LAZ Parking",
+            "Address": "112 E Pecan St San Antonio, TX 78205",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Parking for Fundraiser",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "10/11/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 9.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "10/16/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 42.11,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "10/18/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "10/20/2023",
+            "Name": "Delta Airlines",
+            "Address": "9800 Airport Blvd San Antonio, TX 78216",
+            "Amount": 362.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference Travel",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "11/6/2023",
+            "Name": "Home Depot",
+            "Address": "4909 Windsor Hl San ANtonio, TX 78218",
+            "Amount": 92.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Supplies",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "11/9/2023",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 12144",
+            "Amount": 4.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "11/15/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 42.11,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2023",
+            "Name": "Delta Airlines",
+            "Address": "9800 Airport Blvd San Antonio, TX 78216",
+            "Amount": 130.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference Travel",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2023",
+            "Name": "Delta Airlines",
+            "Address": "9800 Airport Blvd San Antonio, TX 78216",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Conference Travel",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2023",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon AVE NE #5000 Atlanta, GA 30308",
+            "Amount": 47.97,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2023",
+            "Name": "Monarch Trophy",
+            "Address": "16227 San Pedro Ave San Antonio, TX 78232",
+            "Amount": 453.57,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other: Other",
+            "Description": "Fiesta Medals",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2023",
+            "Name": "DropBox",
+            "Address": "1800 Owens St San Francisco, CA 94158",
+            "Amount": 12.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000003141_20240116_175816.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

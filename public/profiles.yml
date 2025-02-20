@@ -356,7 +356,7 @@
     Address: "Address"
 - name:  "Sukh Kaur"
   id: "SukhKaur"
-  path_to_contributions_data: "/candidates/SukhKaur/sukhkaur_contributions.json"
+  path_to_contributions_data: "/candidates/SukhKaur/Sukh_Kaur_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/SukhKaur/kaur_headshot.jpeg"
   path_to_maps:
     - "/candidates/SukhKaur/maps/SukhKaur_donors_map_2021-2023.png"
@@ -375,12 +375,12 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Jalen McKee-Rodriguez"
   id: "JalenMcKee-Rodriguez"
-  path_to_contributions_data: "/candidates/JalenMcKee-Rodriguez/JalenMcKeeRodriguez_contributions.json"
+  path_to_contributions_data: "/candidates/JalenMcKee-Rodriguez/Jalen_McKee-Rodriguez_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/JalenMcKee-Rodriguez/rodriguez_headshot.png"
   path_to_maps:
     - "/candidates/JalenMcKee-Rodriguez/maps/JalenMckeeRodriguez_donors_map_2019-2021.png"
@@ -400,8 +400,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Phyllis Viagran"
   id: "PhyllisViagran"

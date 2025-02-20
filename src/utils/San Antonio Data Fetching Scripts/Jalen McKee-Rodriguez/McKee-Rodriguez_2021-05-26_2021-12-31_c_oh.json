@@ -1,0 +1,558 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "McKee-Rodriguez",
+        "office_sought": "Council District 2",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 8095.43,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 14128.35,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 1644.86,
+            "Total Parsed Contributions": 7121.77,
+            "Total Parsed Expenditures": 14128.35,
+            "Total Itemized Reported Contributions": 8095.43,
+            "Total Itemized Reported Expenditures": 14128.35,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2021-05-26_2021-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002812_20220211_103916.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/31/2021",
+            "Name": "TOTAL UNITEMIZED POLITICAL CONTRIBUTIONS",
+            "Address": "N/A",
+            "Amount": 973.66,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/1/2021",
+            "Name": "Steve Mahoney",
+            "Address": "2714 N Loop 1604 #202 San Antonio, TX 78232",
+            "Amount": 250.0,
+            "Occupation": "Owner",
+            "Employer": "Tuckers",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/1/2021",
+            "Name": "Byron Miller",
+            "Address": "6306 Port Royal St San Antonio, TX 78244",
+            "Amount": 250.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/1/2021",
+            "Name": "Communication Workers of America",
+            "Address": "501 3rd St Washington, DC 20001",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/28/2021",
+            "Name": "Linebarger Goggan Blair & Sampson Attorneys at Law",
+            "Address": "PO Box 13428 Austin, TX 78750",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Charles Williams",
+            "Address": "4514 Charles Williams Pl San Antonio, TX 78220",
+            "Amount": 125.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Frank Dunn",
+            "Address": "6511 Kings Crown Way San Antonio, TX 78233",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Lynn Bobbitt",
+            "Address": "410 King William St San Antonio, TX 78204",
+            "Amount": 100.0,
+            "Occupation": "Executive Director",
+            "Employer": "Brackenridge Park Conservancy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Stanley Stropshire",
+            "Address": "104 Lanark Dr San Antonio, TX 78218",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "The Big Bib",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "On Time Connect",
+            "Address": "11503 Jones Maltsberger Rd San Antonio, TX 78216",
+            "Amount": 250.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Leticia Van de Putte",
+            "Address": "222 Gerwick Dr San Antonio, TX 78213",
+            "Amount": 250.0,
+            "Occupation": "Owner",
+            "Employer": "AVP Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "CJ Littlefield",
+            "Address": "13739 Stoney Hill San Antonio, TX 78231",
+            "Amount": 50.0,
+            "Occupation": "Pastor",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Jacqueline Roberts",
+            "Address": "818 N Olive St San Antonio, TX 78202",
+            "Amount": 350.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Willis Mackey",
+            "Address": "14711 Hermes Dr San Antonio, TX 78154",
+            "Amount": 250.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Gordon Hartman",
+            "Address": "1202 W Bitters #1200 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Morgans Wonderland",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Friends of Nelson Wolff",
+            "Address": "PO Box 867 San Antonio, TX 78511",
+            "Amount": 250.0,
+            "Occupation": "County Judge",
+            "Employer": "Bexar County",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2021",
+            "Name": "Jane Macon",
+            "Address": "300 Convent St San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Bracewell",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2021",
+            "Name": "Michael Guerrero",
+            "Address": "7203 Ashton Pl San Antonio, TX 78229",
+            "Amount": 250.0,
+            "Occupation": "Self Employed",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2021",
+            "Name": "Christopher Morales",
+            "Address": "9706 Dove Shadow San Antonio, TX 78230",
+            "Amount": 250.0,
+            "Occupation": "Self Employed",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "9/15/2021",
+            "Name": "Bracewell PAC",
+            "Address": "711 Louisiana St #2300 San Antonio, TX 77032",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/7/2021",
+            "Name": "Tarrant County Stonewall Democrats",
+            "Address": "7016 Howell Ln Arlington, TX 76016",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/7/2021",
+            "Name": "Felipe Gutierrez",
+            "Address": "2608 Museum Way #3419 Fort Worth, TX 76107",
+            "Amount": 500.0,
+            "Occupation": "VP Community Engagement",
+            "Employer": "Texas Stonewall Dems",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/7/2021",
+            "Name": "Julian Rangel",
+            "Address": "2608 Museum Way #3419 Fort Worth, TX 76107",
+            "Amount": 396.77,
+            "Occupation": "Student",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/1/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 246.87,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/1/2021",
+            "Name": "LGM Job For You",
+            "Address": "3666 Versailles San Antonio, TX 78219",
+            "Amount": 4035.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Canvassing (Run-Off)",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/2/2021",
+            "Name": "Texas Democratic Party",
+            "Address": "1106 Lavaca St #100 Austin, TX 78701",
+            "Amount": 240.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "NGP Van",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/6/2021",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Zoom",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/9/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144",
+            "Amount": 65.45,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "7/16/2021",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 13.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Ads",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/2/2021",
+            "Name": "Duable LLC",
+            "Address": "110 Broadway San Antonio, TX 78205",
+            "Amount": 1623.75,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/3/2021",
+            "Name": "Jordee Rodriguez",
+            "Address": "6155 Echert Rd San Antonio, TX 78240",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/5/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144",
+            "Amount": 49.17,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/6/2021",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Zoom",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/9/2021",
+            "Name": "Jordee Rodriguez",
+            "Address": "6155 Eckhert Rd San Antonio, TX 78240",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/10/2021",
+            "Name": "Prestige Printing",
+            "Address": "8 Burwood Ln San Antonio, TX 78216",
+            "Amount": 1591.28,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Printing",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/10/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 85.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "8/26/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 7.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "9/3/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 7.45,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2021",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Zoom",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "9/20/2021",
+            "Name": "Jessie Gloria",
+            "Address": "807 Rittiman Rd San Antonio, TX 78218",
+            "Amount": 1000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "10/4/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 8.12,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "10/6/2021",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Zoom",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "10/12/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 21.06,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "10/27/2021",
+            "Name": "Texas Democratic Party",
+            "Address": "1106 Lavaca St #100 Austin, TX 78701",
+            "Amount": 450.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "VAN",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "11/3/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 2.94,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "11/8/2021",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Zoom",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "11/9/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 2.82,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/2/2021",
+            "Name": "Spoke",
+            "Address": "13742 Harper St Santa Ana, CA 92703",
+            "Amount": 1912.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Texts",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/3/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144",
+            "Amount": 1.44,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/6/2021",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Zoom",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/6/2021",
+            "Name": "Jessie Gloria",
+            "Address": "807 Rittiman Rd San Antonio, TX 78218",
+            "Amount": 658.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/9/2021",
+            "Name": "ActBlue",
+            "Address": "PO Box 441146 Somerville, MA 02144-0031",
+            "Amount": 10.92,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fee",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2021",
+            "Name": "Jessie Gloria",
+            "Address": "807 Rittiman Rd San Antonio, TX 78218",
+            "Amount": 1000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000002812_20220211_103916.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}
