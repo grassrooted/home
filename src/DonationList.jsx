@@ -39,7 +39,7 @@ const DonationList = ({ expenditure_data }) => {
   return (
     <div className="p-4 bg-gray-900 text-white rounded-xl shadow-lg">
       <h2 ref={listRef} className="text-xl font-bold mb-2">
-        Donation Payments
+        Donation Expenditures
       </h2>
       {sortedNames.length > 0 ? (
         <>
@@ -51,8 +51,7 @@ const DonationList = ({ expenditure_data }) => {
           {sortedNames.length > 10 && (
             <button
               className="mt-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded"
-              onClick={toggleExpand}
-            >
+              onClick={toggleExpand}>
               {expanded ? "Show Less" : "Show More"}
             </button>
           )}

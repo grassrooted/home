@@ -1,7 +1,7 @@
 {
   "name": "dew",
   "version": "0.1.0",
-  "private": true,  
+  "private": true,
   "homepage": "https://grassrooted.github.io/home",
   "dependencies": {
     "@react-google-maps/api": "^2.20.3",
@@ -11,6 +11,8 @@
     "chart.js": "^4.4.3",
     "chartjs-adapter-date-fns": "^3.0.0",
     "file-saver": "^2.0.5",
+    "highcharts": "^12.1.2",
+    "highcharts-react-official": "^3.2.1",
     "js-yaml": "^4.1.0",
     "luxon": "^3.5.0",
     "match-sorter": "^6.3.4",
@@ -30,7 +32,7 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },  
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -1,45 +1,65 @@
-  #contribution-pie-chart-wrapper{
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
+#contribution-pie-chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+#funding-summary-pie-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
   #funding-summary-pie-chart {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    height: 350px;
-    width: 350px;
+      max-width: 280px;
   }
-  
+
   table {
-    border-collapse: collapse;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin: 10px;
-  }
-  
-  td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    color: white;
-  }
-  
-  tr:last-child td {
-    border-bottom: none;
-  }
-  
-  @media (max-width: 480px) {
-    table {
       font-size: 14px;
-    }
-    th, td {
-      padding: 8px 10px;
-    }
+      width: 90%;
   }
-  
+
+  td {
+      padding: 8px 10px;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+
+  h4 {
+      font-size: 14px;
+      text-align: center;
+  }
+}

@@ -12,7 +12,7 @@ const MembershipList = ({ expenditure_data }) => {
   const uniqueNames = [...new Set(membershipRecords.map((record) => record.Name))].sort((a, b) => b.localeCompare(a));
   return (
     <div className="p-4 bg-gray-900 text-white rounded-xl shadow-lg">
-      <h2 className="text-xl font-bold mb-2">Membership Payments</h2>
+      <h2 className="text-xl font-bold mb-2">Membership Expenditures</h2>
       {uniqueNames.length > 0 ? (
         <ul className="list-disc pl-5">
           {uniqueNames.map((name, index) => (

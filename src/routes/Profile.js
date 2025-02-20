@@ -131,24 +131,13 @@ function Profile() {
                 profile={profile}
                 aggregated_data={aggregatedData}
                 contribution_data={profile.contributions}
-                selectedDateRange={selectedDateRange}/>
+                selectedDateRange={selectedDateRange}
+                expenditure_data={profile.expenditures}/>
 
             <TimelineChart 
                 profile={profile}
                 contribution_data={profile.contributions}
                 expenditure_data={profile.expenditures}/>
-
-            <span className='side-by-side' id="text-data-box">
-                <MembershipList 
-                    expenditure_data={profile.expenditures}/>
-                    
-                <FoodExpenditureAnalysis
-                    expenditure_data={profile.expenditures} />
-
-                <DonationList
-                    expenditure_data={profile.expenditures} />
-            </span>
-
 
             <span className='side-by-side'>
                 <AggregatedDataTable 
@@ -161,7 +150,7 @@ function Profile() {
                     expenditure_data={profile.expenditures}
                     selectedDateRange={selectedDateRange}/>
             </span>
-            
+
             <DonorVolunteerLineGraph
                 expenditure_data={profile.expenditures} />
 
@@ -176,6 +165,18 @@ function Profile() {
                     profile={profile}
                     records={profile.expenditures} />
             </span>
+
+            <span className='side-by-side' id="text-data-box">
+                <MembershipList 
+                    expenditure_data={profile.expenditures}/>
+                    
+                <FoodExpenditureAnalysis
+                    expenditure_data={profile.expenditures} />
+
+                <DonationList
+                    expenditure_data={profile.expenditures} />
+            </span>
+
             <IndividualContributionsTable 
                 profile={profile} 
                 contribution_data={profile.contributions}

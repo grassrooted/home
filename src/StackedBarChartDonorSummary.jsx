@@ -140,7 +140,7 @@ function StackedBarChartDonorSummary({ cityProfileData, selectedDateRange }) {
             <div id="stacked-bar-chart-wrapper">
                 <Bar data={chartData} options={options} width="100%"/>
             </div>
-\        </div>
+        </div>
     );
 }
 

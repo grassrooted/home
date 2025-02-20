@@ -1,0 +1,7 @@
+#expenditure-category-section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}

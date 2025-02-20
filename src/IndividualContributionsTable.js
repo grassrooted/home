@@ -80,7 +80,7 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
 
     return (
         <div className='section'>
-            <h1>All Donations</h1>
+            <h1>All Contributions</h1>
             <h4>
                 <i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i>
             </h4>

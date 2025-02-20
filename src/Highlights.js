@@ -1,13 +1,13 @@
 import React, { useMemo } from 'react';
 
-function calculateExcessContributions(data, startDate, endDate, limitNonPAC, limitPAC) {
+function calculateExcessContributions(contributions, startDate, endDate, limitNonPAC, limitPAC) {
     let excessSum = 0;
-    Object.keys(data).forEach(true_name => {
+    Object.keys(contributions).forEach(true_name => {
         let total_contributed = 0
         const name = true_name;
         const limit = name.includes('pac') ? limitPAC : limitNonPAC;
 
-        data[true_name].children.forEach(child => {
+        contributions[true_name].children.forEach(child => {
             const isodatestring = child.TransactionDate.replace(" ","T")
             const transactionDate = new Date(isodatestring);
             const donorName = child.Name;
@@ -25,8 +25,8 @@ function calculateExcessContributions(data, startDate, endDate, limitNonPAC, lim
     return excessSum;
 }
 
-function Highlights({profile, aggregated_data, contribution_data, selectedDateRange}) {
-    const data = useMemo(() => {
+function Highlights({profile, aggregated_data, contribution_data, selectedDateRange, expenditure_data}) {
+    const contributions = useMemo(() => {
         if (selectedDateRange === 'all') {
             return contribution_data;
         }
@@ -37,12 +37,26 @@ function Highlights({profile, aggregated_data, contribution_data, selectedDateRa
         });
     }, [contribution_data, profile, selectedDateRange]);
 
+    const expenditures = useMemo(() => {
+        if (selectedDateRange === 'all') {
+            return contribution_data;
+        }
+        const { start, end } = selectedDateRange;
+        return expenditure_data.filter(record => {
+            const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
+            return transactionDate >= start && transactionDate <= end;
+        });
+    }, [expenditure_data, profile, selectedDateRange]);
+
+    console.log(expenditures)
+
     let total_contributions = 0
-    data.forEach(record => {
+    contributions.forEach(record => {
         total_contributions += record[profile.contribution_fields.Amount]
     });
+    total_contributions=Math.round(total_contributions)
 
-    const in_city_sum = data
+    const in_city_sum = contributions
         .filter(item => (item[profile.contribution_fields.Address].includes(profile.city) || (profile.contribution_fields.City_State_Zip ? item[profile.contribution_fields.City_State_Zip].includes(profile.city) : false)))
         .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0);
 
@@ -61,10 +75,15 @@ function Highlights({profile, aggregated_data, contribution_data, selectedDateRa
         )
 
     totalExcessContributions = Math.round(totalExcessContributions)
+    
+    const self_payments = Math.round(expenditures
+        .filter(item => (item.Name.includes(profile.name)))
+        .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0));
+
     return (
         <div className="section" id="highlights">
             <h1>Highlights</h1>
-            <h4><i>Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
+            <h4><i>Showing contributions from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}</i></h4>
             <div className="box-container">
                 <div className="box-wrapper">
                     <div id="ExternalSupport">{outside_city_percentage}%</div>
@@ -81,6 +100,11 @@ function Highlights({profile, aggregated_data, contribution_data, selectedDateRa
                     <div id="AboveLimitSupport">${totalExcessContributions.toLocaleString()}</div>
                     <div className="box-title">ABOVE-LIMIT DONATIONS</div>
                     <div className="box-subtitle">${profile.individual_limit} Limit for Individuals <br></br> ${profile.pac_limit} Limit for PACs</div>
+                </div>
+
+                <div className="box-wrapper">
+                    <div id="SelfPayments">${self_payments.toLocaleString()}</div>
+                    <div className="box-title">Campaign Funds Sent to {profile.name}</div>
                 </div>
 
             </div>
