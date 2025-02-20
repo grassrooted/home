@@ -21,7 +21,7 @@ const ExpendituresCategorySunburstChart = ({ records, profile }) => {
 
     // Prepare Sunburst chart data
     let sunburstData = [
-        { id: "root", name: "Expenses", color: "#ffffff" },
+        { id: "root", name: "Expenditures", color: "#ffffff" },
     ];
 
     topCategories.forEach(([category, amount], index) => {
@@ -66,60 +66,61 @@ const ExpendituresCategorySunburstChart = ({ records, profile }) => {
     });
 
     const options = {
-        chart: {
-            height: null, // Auto height for responsiveness
-            width: null,  // Auto width for responsiveness
-            backgroundColor: "#000000",
-            spacing: [10, 10, 10, 10], // Consistent padding
-        },
-        title: {
-            text: "Top 5 Expense Categories +<br> Top 5 Recipients",
-            style: { color: "#ffffff", fontSize: "18px" }
-        },
-        tooltip: {
-            formatter: function () {
-                return `<b>${this.point.name}</b>: $${this.y}`;
-            }
-        },
-        series: [{
-            type: "sunburst",
-            data: sunburstData,
-            allowDrillToNode: true,
-            levels: [
-                {
-                    level: 1,
-                    colorByPoint: true,
-                    dataLabels: { color: "#ffffff", style: { fontSize: "14px" } },
-                },
-                {
-                    level: 2,
-                    colorVariation: { key: "brightness", to: -0.5 },
-                    dataLabels: { color: "#ffffff", style: { fontSize: "12px" } },
-                },
-            ],
-        }],
-        responsive: {
-            rules: [{
-                condition: { maxWidth: 480 },
-                chartOptions: {
-                    title: { style: { fontSize: "14px" } },
-                    tooltip: { enabled: false }, // Hide tooltips on mobile
-                    series: [{
-                        levels: [
-                            {
-                                level: 1,
-                                dataLabels: { enabled: false } // Hide labels for cleaner mobile UI
-                            },
-                            {
-                                level: 2,
-                                dataLabels: { enabled: false }
-                            }
-                        ]
-                    }]
-                }
-            }]
+    chart: {
+        height: null, // Auto height for responsiveness
+        width: null,  // Auto width for responsiveness
+        backgroundColor: "#000000",
+        spacing: [10, 10, 10, 10], // Consistent padding
+    },
+    title: {
+        text: "Top 5 Expense Categories + Top 5 Recipients",
+        style: { color: "#ffffff", fontSize: "18px" }
+    },
+    tooltip: {
+        formatter: function () {
+            return `<b>${this.point.name}</b>: $${this.value.toLocaleString()}`;
         }
-    };    
+    },
+    series: [{
+        type: "sunburst",
+        data: sunburstData,
+        allowDrillToNode: true,
+        levels: [
+            {
+                level: 1,
+                colorByPoint: true,
+                dataLabels: { color: "#ffffff", style: { fontSize: "14px" } },
+            },
+            {
+                level: 2,
+                colorVariation: { key: "brightness", to: -0.5 },
+                dataLabels: { color: "#ffffff", style: { fontSize: "12px" } },
+            },
+        ],
+    }],
+    responsive: {
+        rules: [{
+            condition: { maxWidth: 480 },
+            chartOptions: {
+                title: { style: { fontSize: "14px" } },
+                tooltip: { enabled: false }, // Hide tooltips on mobile
+                series: [{
+                    levels: [
+                        {
+                            level: 1,
+                            dataLabels: { enabled: false } // Hide labels for cleaner mobile UI
+                        },
+                        {
+                            level: 2,
+                            dataLabels: { enabled: false }
+                        }
+                    ]
+                }]
+            }
+        }]
+    }
+};
+
 
     return (
         <div className="section" id="expenditure-category-section">
