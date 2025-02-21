@@ -405,7 +405,7 @@
     Address: "Address"
 - name:  "Phyllis Viagran"
   id: "PhyllisViagran"
-  path_to_contributions_data: "/candidates/PhyllisViagran/PhyllisViagran_contributions.json"
+  path_to_contributions_data: "/candidates/PhyllisViagran/Phyllis_Viagran_contributions_expenditures.json"
   path_to_headshot_photo: "/candidates/PhyllisViagran/viagran_headshot.jpeg"
   path_to_maps:
     - "/candidates/PhyllisViagran/maps/PhyllisViagran_donors_map_2019-2021.png"
@@ -425,8 +425,8 @@
   contribution_fields:
     Donor: "Name"
     Recipient: "Recipient"
-    Transaction_Date: "Transaction Date:"
-    Amount: "Contribution_Amount"
+    Transaction_Date: "Transaction_Date"
+    Amount: "Amount"
     Address: "Address"
 - name:  "Adriana Garcia"
   id: "AdrianaGarcia"

@@ -1,0 +1,357 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Viagran",
+        "office_sought": "Council District 3",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 5700.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 8208.64,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 13732.06,
+            "Total Parsed Contributions": 5700.0,
+            "Total Parsed Expenditures": 8208.64,
+            "Total Itemized Reported Contributions": 5700.0,
+            "Total Itemized Reported Expenditures": 8208.64
+        }
+    },
+    "form_data": {
+        "period": "2023-07-01_2023-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003133_20240116_073922.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "7/11/2023",
+            "Name": "Reuben Bar Yadin",
+            "Address": "2629 Macro Dr San Antonio, TX 78218",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "United Fashions of Texas",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "7/13/2023",
+            "Name": "Deborah Bar Yadin",
+            "Address": "218 Wellesley Landing Shavano Park, TX 78231",
+            "Amount": 500.0,
+            "Occupation": "Not employed",
+            "Employer": "Not employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "7/27/2023",
+            "Name": "Derek Naiser",
+            "Address": "8918 Tesoro #401 San Antonio, TX 78217",
+            "Amount": 250.0,
+            "Occupation": "Engineer",
+            "Employer": "Ardurra",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2023",
+            "Name": "Gerald Lee",
+            "Address": "8127 N. New Braunfels #801 San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Associate",
+            "Employer": "Andrade - Van de Putte",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2023",
+            "Name": "Melissa Dominguez",
+            "Address": "8205 Asmara CT San Antonio, TX 78750",
+            "Amount": 500.0,
+            "Occupation": "Not employed",
+            "Employer": "Not employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2023",
+            "Name": "Thad Rutherford",
+            "Address": "8205 Asmara Court Austin, TX 78750",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Southstar",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2023",
+            "Name": "Hope Andrade",
+            "Address": "123 Lexington Avenue San Antonio, TX 78205",
+            "Amount": 250.0,
+            "Occupation": "Owner",
+            "Employer": "Andrade Van de Putte",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "9/20/2023",
+            "Name": "Jeffrey Kothman",
+            "Address": "326 Oak Dr Adkins, TX 78101",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Texas Towing",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "9/20/2023",
+            "Name": "Clay Jackson",
+            "Address": "2047 Rigsby San Antonio, TX 78210",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "Jackson Motors",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "9/21/2023",
+            "Name": "Tom Kelly",
+            "Address": "1110 99th Street San Antonio, TX 78234",
+            "Amount": 500.0,
+            "Occupation": "Pilot",
+            "Employer": "Falcon Avaition",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/16/2023",
+            "Name": "SABPAC 1",
+            "Address": "3625 Paesanos Parkway San Antonio, TX 78231",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2023",
+            "Name": "Kristi Sutterfield",
+            "Address": "18523 Wild Onion San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Executive Vice President",
+            "Employer": "Greater San Antonio Builders Association",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2023",
+            "Name": "Enrique Davila",
+            "Address": "215 N Center St #1808 San Antonio, TX 78202",
+            "Amount": 500.0,
+            "Occupation": "Business Owner",
+            "Employer": "Capitol Electric",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2023",
+            "Name": "Linda Davila",
+            "Address": "215 N Center St San Antonio, TX 78202",
+            "Amount": 500.0,
+            "Occupation": "Business Owner",
+            "Employer": "Capitol Electric",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/10/2023",
+            "Name": "Laura Barberena",
+            "Address": "1850 Fredricksburg San Antonio, TX 78201",
+            "Amount": 3000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "7/17/2023",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 234.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "7/27/2023",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 10.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/1/2023",
+            "Name": "Herospace Digital",
+            "Address": "1840 Mulberry Ave San Antonio, TX 78201",
+            "Amount": 508.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Digital services",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/17/2023",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 234.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2023",
+            "Name": "Go Daddy",
+            "Address": "14455 N Hayden Rd Scottsdale, AZ 85260",
+            "Amount": 115.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "URL/Hosting",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2023",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 4.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "9/18/2023",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 234.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "9/21/2023",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 20.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "9/26/2023",
+            "Name": "Herospace Digital",
+            "Address": "1840 Mulberry Ave San Antonio, TX 78201",
+            "Amount": 508.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Digital services",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/13/2023",
+            "Name": "Special Olymics Texas",
+            "Address": "4732 Whirlwind Dr. San Antonio, TX 78217",
+            "Amount": 300.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Donation for luncheon",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2023",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 234.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/18/2023",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 4.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "10/26/2023",
+            "Name": "Herospace Digital",
+            "Address": "1840 Mulberry Ave San Antonio, TX 78201",
+            "Amount": 1016.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Digital consulting",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2023",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 234.52,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2023",
+            "Name": "Go Daddy",
+            "Address": "14455 N Hayden Rd Scottsdale, AZ 85260",
+            "Amount": 217.34,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "URL/Hosting",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2023",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 245.18,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2023",
+            "Name": "Go Daddy",
+            "Address": "14455 N Hayden Rd Scottsdale, AZ 85260",
+            "Amount": 70.32,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Branded email",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2023",
+            "Name": "Herospace Digital",
+            "Address": "1840 Mulberry Ave San Antonio, TX 78201",
+            "Amount": 1016.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Digital services",
+            "Source": "rpt0000003133_20240116_073922.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

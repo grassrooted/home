@@ -1,0 +1,217 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Viagran",
+        "office_sought": "Council District 3",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 713.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 2113.49,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 3599.52,
+            "Total Parsed Contributions": 713.0,
+            "Total Parsed Expenditures": 2113.49,
+            "Total Itemized Reported Contributions": 713.0,
+            "Total Itemized Reported Expenditures": 2113.49
+        }
+    },
+    "form_data": {
+        "period": "2020-12-21_2020-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002524_20210115_180352.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Giselle Calvillo",
+            "Address": "2655 Flight Nurse San Antonio, TX 78235",
+            "Amount": 100.0,
+            "Occupation": "CEO",
+            "Employer": "Mix Fit",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Ann Castano",
+            "Address": "5607 Thunder Oaks San Antonio, TX 78261",
+            "Amount": 50.0,
+            "Occupation": "Admin Supervisor",
+            "Employer": "Bexar County",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "LIsa Sosa",
+            "Address": "330 Teakwood Lane San Antonio, TX 78216",
+            "Amount": 50.0,
+            "Occupation": "Student",
+            "Employer": "Student",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Alyssa Lazzeroni",
+            "Address": "9708 Margo Ann Lane St. Louis, MO 63134",
+            "Amount": 21.0,
+            "Occupation": "Social Worker",
+            "Employer": "Three Circles of Healing LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Alicia Reyes-Barrientez",
+            "Address": "8319 Puente San Antonio, TX 78223",
+            "Amount": 50.0,
+            "Occupation": "Professor",
+            "Employer": "Texas A&M University San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Annette Sanchez",
+            "Address": "8319 Meadow Forest San Antonio, TX 78251",
+            "Amount": 25.0,
+            "Occupation": "Compensation Analyst",
+            "Employer": "Alamo Colleges District",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Maria Nieto-Trevino",
+            "Address": "628 South Park Boulevard San Antonio, TX 78204",
+            "Amount": 21.0,
+            "Occupation": "Teacher",
+            "Employer": "Northside ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Desiree Lancharic",
+            "Address": "11015 Burr Oak Drive San Antonio, TX 78230",
+            "Amount": 21.0,
+            "Occupation": "Sales",
+            "Employer": "Citywide Facility Solutions",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Vanessa Said",
+            "Address": "635 East Nottingham Drive San Antonio, TX 78209",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Marisa Jackson",
+            "Address": "13202 Sabine Parke San Antonio, TX 78254",
+            "Amount": 100.0,
+            "Occupation": "Agent Success Manager",
+            "Employer": "Realty San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Chritine Sanchez",
+            "Address": "5827 Gomer Pyle Drive San Antonio, TX 78240",
+            "Amount": 100.0,
+            "Occupation": "Digital Product Manager",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Linda Michel",
+            "Address": "4637 Timberhill San Antonio, TX 78238",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Theresa Ortiz",
+            "Address": "1415 Canyon Parke Drive San Antonio, TX 78232",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Freddy Carrillo",
+            "Address": "216 Bluebonnett Lane San Antonio, TX 78223",
+            "Amount": 100.0,
+            "Occupation": "Consultant",
+            "Employer": "NTT Data Services",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/5/2020",
+            "Name": "Go Daddy",
+            "Address": "14455 N Hayden Rd Scottsdale, AZ 85260",
+            "Amount": 120.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2020",
+            "Name": "Alamo Mailing Co.",
+            "Address": "13114 Lookout Ru San Antonio, TX 78233",
+            "Amount": 1371.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Mailing and Postage",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Prestige Printing",
+            "Address": "8 Burwood Lane San Antonio, TX 78216",
+            "Amount": 588.88,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Printing",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 6.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Processing Fees",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 26.12,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Processing Fees",
+            "Source": "rpt0000002524_20210115_180352.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

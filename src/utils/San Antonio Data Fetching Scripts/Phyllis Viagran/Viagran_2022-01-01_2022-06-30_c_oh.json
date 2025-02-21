@@ -1,0 +1,557 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Viagran",
+        "office_sought": "Council District 3",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 10155.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 6055.55,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 24690.07,
+            "Total Parsed Contributions": 10155.0,
+            "Total Parsed Expenditures": 6055.55,
+            "Total Itemized Reported Contributions": 10155.0,
+            "Total Itemized Reported Expenditures": 6055.55
+        }
+    },
+    "form_data": {
+        "period": "2022-01-01_2022-06-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002860_20220715_165907.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "1/14/2022",
+            "Name": "Cynthia Matson",
+            "Address": "522 West Mally Boulevard San Antonio, TX 78221",
+            "Amount": 100.0,
+            "Occupation": "President",
+            "Employer": "Texas A&M University-San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/14/2022",
+            "Name": "Lupita Corbeil",
+            "Address": "16 Duxbury Park San Antonio, TX 78257",
+            "Amount": 50.0,
+            "Occupation": "Vice President Of Human Resources",
+            "Employer": "Den-Tex Central, Inc.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/15/2022",
+            "Name": "Edward Collins",
+            "Address": "114 Camp St. #301 San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/15/2022",
+            "Name": "Louis Cintron",
+            "Address": "289 West Hermosa Drive San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "Linux Engineer",
+            "Employer": "Huntington ingalls industries",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/16/2022",
+            "Name": "Thad Rutherford",
+            "Address": "8205 Asmara Court Austin, TX 78750",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "SouthStar Communities",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/18/2022",
+            "Name": "Annette Sanchez",
+            "Address": "8319 Meadow Forest San Antonio, TX 78251",
+            "Amount": 30.0,
+            "Occupation": "Compensation Analyst",
+            "Employer": "Alamo Colleges District",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/28/2022",
+            "Name": "Landrys Restaurants, PAC",
+            "Address": "1510 West Loop South Houston, TX 77027",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "3/7/2022",
+            "Name": "Vanessa Smeberg",
+            "Address": "2010 W Kings Hwy San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "Physician",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "3/7/2022",
+            "Name": "Ronald Smeberg",
+            "Address": "2010 W Kings Hwy San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "The Smeberg Law Firm, PLLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2022",
+            "Name": "Camille Denton",
+            "Address": "1 Bitterblue Ln San Antonio, TX 78218",
+            "Amount": 500.0,
+            "Occupation": "Business Developemnet",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/12/2022",
+            "Name": "Ray Garza",
+            "Address": "108 North Abrego Crossing Floresville, TX 78114",
+            "Amount": 100.0,
+            "Occupation": "Golf Instructor",
+            "Employer": "On Par Golf",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2022",
+            "Name": "Ernesto Gomez M.D.",
+            "Address": "208 Bentley Manor Shavano Partk, TX 78249",
+            "Amount": 500.0,
+            "Occupation": "Physician",
+            "Employer": "CentroMed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2022",
+            "Name": "Vanessa Said",
+            "Address": "635 E Nottingham Pl San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Business Development",
+            "Employer": "Barnes & Nobel",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2022",
+            "Name": "H. Analco Gonzalez",
+            "Address": "11703 Bridge Hampton San Antonio, TX 78251",
+            "Amount": 250.0,
+            "Occupation": "Partner",
+            "Employer": "OCI",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2022",
+            "Name": "Patrick Christiansen",
+            "Address": "826 W Craig Pl San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2022",
+            "Name": "Jim Campbell",
+            "Address": "524 King William San Antonio, TX 78204",
+            "Amount": 250.0,
+            "Occupation": "Consultant",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "John Marshall",
+            "Address": "1915 Broadway #327 San Antonio, TX 78215",
+            "Amount": 100.0,
+            "Occupation": "Law Enforcement Office",
+            "Employer": "City of San Antonio Police",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Paul Basaldua",
+            "Address": "3 Woltwood San Antonio, TX 78248",
+            "Amount": 500.0,
+            "Occupation": "Real Estate Developement",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Christine Sanchez",
+            "Address": "5827 Gomer Pyle Dr San Antonio, TX 78240",
+            "Amount": 50.0,
+            "Occupation": "Senior Digital Product Manager",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Jay Johnson",
+            "Address": "152 E Pecan St #1001 San Antonio, TX 78205",
+            "Amount": 100.0,
+            "Occupation": "Community Housing Consultant",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Anita Fernandez",
+            "Address": "1714 Arroya Vista Dr San Antonio, TX 78213",
+            "Amount": 250.0,
+            "Occupation": "Consultant",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Olivia Travieso",
+            "Address": "508 Channing Ave San Antonio , TX 78210",
+            "Amount": 250.0,
+            "Occupation": "Partner",
+            "Employer": "OCI",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Sylvia Cruz",
+            "Address": "7726 Nimrod San Antonio, TX 78240",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Edward Collins",
+            "Address": "114 Camp St. #301 San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Ronald Smeberg",
+            "Address": "2010 W Kings Hwy San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "The Smeberg Law Firm, PLLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Clifton Douglas",
+            "Address": "606 Garraty Rd San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Jennifer Ramos",
+            "Address": "5910 Wales St San Antonio, TX 78223",
+            "Amount": 150.0,
+            "Occupation": "Business Development Manager",
+            "Employer": "Halff Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Yolanda Diaz",
+            "Address": "1200 Southeast Military Drive San Antonio, TX 78214",
+            "Amount": 250.0,
+            "Occupation": "Optometrist",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/19/2022",
+            "Name": "Nancy Poppoom",
+            "Address": "145 Grand Dam St San Antonio, TX 78229",
+            "Amount": 500.0,
+            "Occupation": "Affordable Housing Consultant",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/19/2022",
+            "Name": "Pat Jasso",
+            "Address": "326 Anton San Antonio, TX 78223",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/24/2022",
+            "Name": "S & B PAC",
+            "Address": "PO Box 265245 Houston, TX 77207",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/3/2022",
+            "Name": "Jeffrey Czar",
+            "Address": "307 Huntington Place San Antonio, TX 78231",
+            "Amount": 200.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/3/2022",
+            "Name": "Shad Schmid",
+            "Address": "316 Waxberry Trl San Antonio, TX 78256",
+            "Amount": 200.0,
+            "Occupation": "Manager",
+            "Employer": "King Fish Development, LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/9/2022",
+            "Name": "Marilu Reyna",
+            "Address": "1207 Bailey Avenue San Antonio, TX 78210",
+            "Amount": 150.0,
+            "Occupation": "Executive Vice President",
+            "Employer": "Baptist Child and Family Services",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/23/2022",
+            "Name": "Andi Rodriguez",
+            "Address": "110 Broadway #230 San Antonio, TX 78205",
+            "Amount": 100.0,
+            "Occupation": "Communications",
+            "Employer": "Centro",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2022",
+            "Name": "Bill Brown",
+            "Address": "106 Samoth Dr San Antnio, TX 78223",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "1/16/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 37.2,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/18/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 20.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/18/2022",
+            "Name": "Mailchimp",
+            "Address": "512 Means St. Atlanta, GA 30318",
+            "Amount": 181.22,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "1/20/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 1.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Service charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "2/17/2022",
+            "Name": "Mailchimp",
+            "Address": "512 Means St. Atlanta, GA 30318",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "3/11/2022",
+            "Name": "Celebrate Excelence",
+            "Address": "2130 Jackson Keller Rd San Antonio, TX 78213",
+            "Amount": 4209.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Fiesta Medals",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "3/17/2022",
+            "Name": "Mailchimp",
+            "Address": "512 Means St. Atlanta, GA 30318",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "4/18/2022",
+            "Name": "Mailchimp",
+            "Address": "512 Means St. Atlanta, GA 30318",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 24.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card processing fees",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2022",
+            "Name": "Mailchimp",
+            "Address": "512 Means St. Atlanta, GA 30318",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 14.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fees",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 44.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fees",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/11/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 6.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fees",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/17/2022",
+            "Name": "Mailchimp",
+            "Address": "512 Means St. Atlanta, GA 30318",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Service Charge",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/25/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 4.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fees",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 4.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fees",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2022",
+            "Name": "Ronald Smeberg",
+            "Address": "2010 W Kings Hwy San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Loan Repayment/Reimbursement",
+            "Description": "donation",
+            "Source": "rpt0000002860_20220715_165907.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

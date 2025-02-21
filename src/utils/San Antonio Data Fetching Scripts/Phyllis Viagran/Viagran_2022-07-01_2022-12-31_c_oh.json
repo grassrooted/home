@@ -1,0 +1,197 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Viagran",
+        "office_sought": "Council District 3",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2750.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 1787.27,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 25755.44,
+            "Total Parsed Contributions": 2750.0,
+            "Total Parsed Expenditures": 1787.27,
+            "Total Itemized Reported Contributions": 2750.0,
+            "Total Itemized Reported Expenditures": 1787.27
+        }
+    },
+    "form_data": {
+        "period": "2022-07-01_2022-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002911_20230117_144117.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "8/3/2022",
+            "Name": "Francesca Rattray",
+            "Address": "232 West Lullwood Ave San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "Non-profit Management",
+            "Employer": "YWCA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "8/22/2022",
+            "Name": "Jenise Vasquez",
+            "Address": "16006 Ponderosa Pass Helotes, TX 78023",
+            "Amount": 500.0,
+            "Occupation": "Business Owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "8/22/2022",
+            "Name": "Silvestre Vasquez",
+            "Address": "16006 Ponderosa Pass Helotes, TX 78023",
+            "Amount": 500.0,
+            "Occupation": "Business Owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "9/8/2022",
+            "Name": "Frank Burney",
+            "Address": "112 E. Pecan St. #1616 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought, PC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "9/9/2022",
+            "Name": "Rebecca Viagran for Congress",
+            "Address": "499 South Capital Street SW Washington, DC 20003",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2022",
+            "Name": "USAA Employee Political Action Committee",
+            "Address": "9800 Fredericksburg San Antonio, TX 78288",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/17/2022",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "8/5/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 10.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "8/11/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 20.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "8/17/2022",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "9/13/2022",
+            "Name": "Anedot",
+            "Address": "5555 Hilton Ave Baton Rouge, TX 70808",
+            "Amount": 20.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Credit Card Processing Fee",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "9/19/2022",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "E-blast subscription",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2022",
+            "Name": "Edward Collins",
+            "Address": "114 Camp St. #301 San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Refund to donor",
+            "Description": "Return contribution to donor.",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2022",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "E-blast subscription",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "10/26/2022",
+            "Name": "Harland Clarke",
+            "Address": "15955 La Cantera Parkway San Antonio, TX 78256",
+            "Amount": 27.55,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Check order",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2022",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2022",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce de Leon Ave NE Altanta, GA 30308",
+            "Amount": 201.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Eblast subscription",
+            "Source": "rpt0000002911_20230117_144117.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

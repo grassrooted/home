@@ -8,8 +8,8 @@ import time
 import json
 
 # Set search parameters
-search_first_name_query = "Jalen"
-search_last_name_query = "McKee-Rodriguez"
+search_first_name_query = "Phyllis"
+search_last_name_query = "Viagran"
 transaction_type_queries = ["Contributions", "Expenditures"]
 start_year = "2019"
 end_year = "2025"
