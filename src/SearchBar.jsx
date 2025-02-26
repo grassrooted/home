@@ -15,7 +15,7 @@ function SearchBar({ profiles }) {
         }
 
         const matches = profiles.filter((profile) =>
-            profile.name.toLowerCase().includes(searchText.toLowerCase())
+            profile.name.toLowerCase().includes(searchText.toLowerCase()) || profile.city.toLowerCase().includes(searchText.toLowerCase())
         );
         setFilteredProfiles(matches);
     };

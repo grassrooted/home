@@ -42,6 +42,15 @@ function About() {
 
             <div className='about-section'>
                 <h3>
+                    What Kind of Data Can I Find?
+                </h3>
+                <p>
+                    Itemized contributions and expenditure data. For cities in Texas, that means Schedule A1 and F1.
+                </p>
+            </div>
+
+            <div className='about-section'>
+                <h3>
                     Commitment to Nonpartisanship
                 </h3>
                 <p>

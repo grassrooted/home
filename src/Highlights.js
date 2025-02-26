@@ -48,8 +48,6 @@ function Highlights({profile, aggregated_data, contribution_data, selectedDateRa
         });
     }, [expenditure_data, profile, selectedDateRange]);
 
-    console.log(expenditures)
-
     let total_contributions = 0
     contributions.forEach(record => {
         total_contributions += record[profile.contribution_fields.Amount]
@@ -77,7 +75,7 @@ function Highlights({profile, aggregated_data, contribution_data, selectedDateRa
     totalExcessContributions = Math.round(totalExcessContributions)
     
     const self_payments = Math.round(expenditures
-        .filter(item => (item.Name.includes(profile.name)))
+        .filter(item => (item.Name.toLowerCase().includes(profile.name.toLowerCase())))
         .reduce((total, item) => total + item[profile.contribution_fields.Amount], 0));
 
     return (

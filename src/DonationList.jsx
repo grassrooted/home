@@ -8,7 +8,9 @@ const DonationList = ({ expenditure_data }) => {
   const donationExpenditureData = expenditure_data.filter(
     (record) =>
       record.Category?.toLowerCase().includes("donation") ||
-      record.Description?.toLowerCase().includes("donation")
+      record.Description?.toLowerCase().includes("donation") ||
+      record.Category?.toLowerCase().includes("donate") ||
+      record.Description?.toLowerCase().includes("donate")
   );
 
   // Aggregate total amount per unique Name

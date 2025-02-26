@@ -17,6 +17,7 @@ import ExpendituresCategoryPieChart from '../ExpendituresCategoryPieChart';
 import FoodExpenditureAnalysis from '../FoodExpenditureAnalysis';
 import DonationList from '../DonationList';
 import DonorVolunteerLineGraph from '../DonorVolunteerLineGraph';
+import DonorOccupationPieChart from '../DonorOccupationPieChart';
 
 const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {
@@ -133,6 +134,9 @@ function Profile() {
                 contribution_data={profile.contributions}
                 selectedDateRange={selectedDateRange}
                 expenditure_data={profile.expenditures}/>
+
+            <DonorOccupationPieChart 
+                contribution_data={profile.contributions} />
 
             <TimelineChart 
                 profile={profile}

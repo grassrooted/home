@@ -1,56 +1,41 @@
 import React from "react";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import './DonorOccupationPieChart.css'
+import './DonorOccupationPieChart.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const DonorOccupationPieChart = ({ contribution_data }) => {
-  // Grouping data by `Donor_Reported_Occupation` and summing contributions
-  const occupationData = contribution_data.reduce((acc, record) => {
-    const occupation = record.Donor_Reported_Occupation === "NaN" ? "Unknown" : record.Donor_Reported_Occupation;
-    if (!acc[occupation]) {
-      acc[occupation] = { count: 0, totalContribution: 0 };
-    }
-    acc[occupation].count += 1;
-    acc[occupation].totalContribution += record.Contribution_Amount || 0;
+  // Aggregate total contributions by Occupation
+  const occupationTotals = contribution_data.reduce((acc, record) => {
+    const occupation = record.Occupation && record.Occupation !== "NaN" ? record.Occupation : "N/A";
+    acc[occupation] = (acc[occupation] || 0) + (record.Amount || 0);
     return acc;
   }, {});
 
-  // Separating data into top occupations and "Other" bucket
-  const occupations = Object.entries(occupationData).map(([occupation, details]) => ({
-    occupation,
-    count: details.count,
-    totalContribution: details.totalContribution,
-  }));
+  // Convert to array and sort by total contribution (descending)
+  const sortedOccupations = Object.entries(occupationTotals)
+    .map(([occupation, totalContribution]) => ({ occupation, totalContribution }))
+    .sort((a, b) => b.totalContribution - a.totalContribution);
 
-  const topOccupations = occupations.filter((item) => item.count >= 10);
-  const otherOccupations = occupations.filter((item) => item.count < 10);
-
-  const otherCount = otherOccupations.reduce((sum, item) => sum + item.count, 0);
-  const otherTotalContribution = otherOccupations.reduce((sum, item) => sum + item.totalContribution, 0);
-
-  if (otherCount > 0) {
-    topOccupations.push({
-      occupation: "Other",
-      count: otherCount,
-      totalContribution: otherTotalContribution,
-    });
+  // Extract Top 5 Occupations, excluding "N/A"
+  const topOccupations = sortedOccupations
+    .filter(item => item.occupation !== "N/A") 
+    .slice(0, 5);
+  
+  // Sum remaining occupations (including "N/A") into "Other"
+  const otherTotal = sortedOccupations.slice(5).reduce((sum, item) => sum + item.totalContribution, 0);
+  if (otherTotal > 0) {
+    topOccupations.push({ occupation: "Other", totalContribution: otherTotal });
   }
 
-  // Sorting by total contribution for the table
-  const sortedOccupations = [...topOccupations].sort((a, b) => b.totalContribution - a.totalContribution);
-
-  // Preparing data for the pie chart
-  const labels = topOccupations.map((item) => item.occupation);
-  const dataPoints = topOccupations.map((item) => item.totalContribution);
-
+  // Prepare Pie Chart Data
   const chartData = {
-    labels,
+    labels: topOccupations.map((item) => item.occupation),
     datasets: [
       {
-        data: dataPoints,
-        backgroundColor: ['#4caf50', '#ff5722', '#3f51b5', '#9c27b0', '#ffc107', '#9e9e9e'],
+        data: topOccupations.map((item) => item.totalContribution),
+        backgroundColor: ["#4E5D89", "#D7816A", "#ad6c6c", "#5C6B8A", "#A45C5C", "#8F8DA3"],
       },
     ],
   };
@@ -58,10 +43,16 @@ const DonorOccupationPieChart = ({ contribution_data }) => {
   const options = {
     responsive: true,
     plugins: {
-      legend: {
-        position: "top",
+      legend: { position: "top" },
+      tooltip: {
+        callbacks: {
+          label: function (tooltipItem) {
+            let value = tooltipItem.raw || 0;
+            return `$${value.toLocaleString()}`; // Formats number with a dollar sign
+          },
+        },
       },
-    },
+    }
   };
 
   return (
@@ -71,9 +62,9 @@ const DonorOccupationPieChart = ({ contribution_data }) => {
         <Pie data={chartData} options={options} />
       </div>
       <h3>Top 5 Occupations by Contribution Amount</h3>
-      <table style={{ width: "100%", borderCollapse: "collapse", marginTop: "20px" }}>
+      <table id="donor-occupation-table">
         <tbody>
-          {sortedOccupations.slice(1, 6).map((item, index) => (
+          {topOccupations.map((item, index) => (
             <tr key={index}>
               <td>{item.occupation}</td>
               <td>${item.totalContribution.toLocaleString()}</td>
