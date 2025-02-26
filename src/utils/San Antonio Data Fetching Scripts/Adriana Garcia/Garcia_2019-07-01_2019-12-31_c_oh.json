@@ -1,0 +1,358 @@
+{
+    "candidate_info": {
+        "first_name": "Arthur",
+        "last_name": "Garcia",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 6620.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 7863.08,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 13195.2,
+            "Total Parsed Contributions": 6600.0,
+            "Total Parsed Expenditures": 7863.08,
+            "Total Itemized Reported Contributions": 6620.0,
+            "Total Itemized Reported Expenditures": 7863.08,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2019-07-01_2019-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002403_20200115_091848.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "8/19/2019",
+            "Name": "Ms Tara Snowden",
+            "Address": "775 Flightline Spring Branch, TX 78070",
+            "Amount": 100.0,
+            "Occupation": "VP Public Affairs",
+            "Employer": "Zachry Corporation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "NuStar PAC",
+            "Address": "PO Box 781609 San Antonio, TX 78278",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr William Greehey",
+            "Address": "PO Box 780489 San Antonio, TX 78278",
+            "Amount": 500.0,
+            "Occupation": "Chairman of the Board",
+            "Employer": "NuStar Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mrs Vera Stephenson",
+            "Address": "266 Meadowpath San Antonio, TX 78227",
+            "Amount": 50.0,
+            "Occupation": "Accountant",
+            "Employer": "Divine Providence Catholic Church",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr Jack Stephenson",
+            "Address": "266 Meadowpath San Antonio, TX 78227",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr Thomas Guido",
+            "Address": "10115 Manton Ln San Antonio, TX 78213",
+            "Amount": 500.0,
+            "Occupation": "Chairman of the Board",
+            "Employer": "Guido Construction",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mrs Maryanne Guido",
+            "Address": "10115 Manton Ln San Antonio, TX 78213",
+            "Amount": 500.0,
+            "Occupation": "President & CEO",
+            "Employer": "Guido Construction",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr Juan Flores",
+            "Address": "203 St Marys San Antonio, TX 78205",
+            "Amount": 100.0,
+            "Occupation": "Executive Vice President",
+            "Employer": "Port San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr John Warren",
+            "Address": "9522 Burwick Dr San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Clark Construction TX",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr Rudy Rodriguez",
+            "Address": "6827 Rock Road San Antonio, TX 78229",
+            "Amount": 500.0,
+            "Occupation": "Principal",
+            "Employer": "R 4 Strategies",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr Julio Martinez",
+            "Address": "795 Hartung Ln Somerset, TX 78069",
+            "Amount": 400.0,
+            "Occupation": "Vice President",
+            "Employer": "Mr. W Fireworks",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr Jim Gonzales",
+            "Address": "25406 Pyrite San Antonio, TX 78006",
+            "Amount": 500.0,
+            "Occupation": "President & CEO",
+            "Employer": "IDCUS",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mrs Cheryl Gonzales",
+            "Address": "25406 Pyrite San Antonio, TX 78006",
+            "Amount": 500.0,
+            "Occupation": "Principal",
+            "Employer": "IDCUS",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Mr John E Carlson Jr",
+            "Address": "17803 La Cantera Ter San Antonio, TX 78256",
+            "Amount": 150.0,
+            "Occupation": "VP & Strategic Business Director",
+            "Employer": "Sundt Construction",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Linebarger Goggan Blair & Sampson",
+            "Address": "PO Box 17428 Austin, TX 78760",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "San Antonio Professional Firefighters PAC",
+            "Address": "PO Box 100455 San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2019",
+            "Name": "Ms Mary Rose Brown",
+            "Address": "48 Vineyard San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "Executive Vice President",
+            "Employer": "NuStar Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2019",
+            "Name": "Mr David S Zachry",
+            "Address": "PO Box 33240 San Antonio, TX 78265-3240",
+            "Amount": 250.0,
+            "Occupation": "Chairman of the Board",
+            "Employer": "Zachry Corporation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/1/2019",
+            "Name": "Facebook",
+            "Address": "1601 Willow Rd. Menlo Park, CA 94025",
+            "Amount": 32.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "7/2/2019",
+            "Name": "Mr Marc A Rodriguez",
+            "Address": "1122 Colorado #2399 Austin, TX 78701",
+            "Amount": 300.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Returned contribution",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "7/2/2019",
+            "Name": "Mr Marc A Rodriguez",
+            "Address": "1122 Colorado #2399 Austin, TX 78701",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Returned contribution",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "7/5/2019",
+            "Name": "Hustle, Inc.",
+            "Address": "717 Market San Francisco, CA 94103",
+            "Amount": 147.9,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "7/31/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "8/12/2019",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 150.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "8/22/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 6.2,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "8/29/2019",
+            "Name": "Southerleigh",
+            "Address": "136 Grayson San Antonio, TX 78215",
+            "Amount": 1539.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "8/29/2019",
+            "Name": "National Hispanic Institute",
+            "Address": "11703 Bridge Hampton San Antonio, TX 78251",
+            "Amount": 175.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "10/31/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2019",
+            "Name": "Ms Adriana R Garcia",
+            "Address": "PO Box 240381 San Antonio, TX 78224",
+            "Amount": 5000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Loan Repayment/Reimbursement",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002403_20200115_091848.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

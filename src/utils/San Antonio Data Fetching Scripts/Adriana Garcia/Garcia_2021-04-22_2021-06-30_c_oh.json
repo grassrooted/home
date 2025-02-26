@@ -1,0 +1,387 @@
+{
+    "candidate_info": {
+        "first_name": "Arthur",
+        "last_name": "Garcia",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 5700.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 8728.26,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 15661.93,
+            "Total Parsed Contributions": 5700.0,
+            "Total Parsed Expenditures": 8728.26,
+            "Total Itemized Reported Contributions": 5700.0,
+            "Total Itemized Reported Expenditures": 8728.26
+        }
+    },
+    "form_data": {
+        "period": "2021-04-22_2021-06-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002760_20210715_105751.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "4/22/2021",
+            "Name": "AFSCME",
+            "Address": "1625 L Street NW Washington, DC 20036",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/22/2021",
+            "Name": "Larry Stauffer",
+            "Address": "108 Wild Basin Rd. #250 Austin, TX 78746",
+            "Amount": 250.0,
+            "Occupation": "CEO",
+            "Employer": "Right of Way USA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/23/2021",
+            "Name": "Agustin Llano",
+            "Address": "7522 Five Palms Dr. San Antonio, TX 78242",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Juan A Flores",
+            "Address": "439 Calumet San Antonio, TX 78209",
+            "Amount": 250.0,
+            "Occupation": "Government Affairs Executive",
+            "Employer": "Port San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/27/2021",
+            "Name": "Jen Yantis",
+            "Address": "12018 Indigo Bend San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Mosaic",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/27/2021",
+            "Name": "Mr Blake Yantis",
+            "Address": "12018 Indigo Bend San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Mosaic",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/27/2021",
+            "Name": "San Antonio Apartment Association",
+            "Address": "7525 Babcock Rd. San Antonio, TX 78249",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/23/2021",
+            "Name": "Stephen Poppoon",
+            "Address": "145 Grand Oak Dr. Hollywood Park, TX 78232",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self-employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2021",
+            "Name": "Mr David S Zachry",
+            "Address": "PO Box 33240 San Antonio, TX 78265-3240",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Zachry Corp.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2021",
+            "Name": "Martin & Drought",
+            "Address": "112 E. Pecan San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2021",
+            "Name": "Leon Falic",
+            "Address": "6100 Hollywood Blvd. Hollywood, FL 33024",
+            "Amount": 500.0,
+            "Occupation": "Principal",
+            "Employer": "Duty Free America",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2021",
+            "Name": "Simon Falic",
+            "Address": "6100 Hollywood Blvd. Hollywood, FL 33024",
+            "Amount": 500.0,
+            "Occupation": "Principal",
+            "Employer": "Duty Free America",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2021",
+            "Name": "Jerome Falic",
+            "Address": "6100 Hollywood Blvd. Hollywood, FL 33024",
+            "Amount": 500.0,
+            "Occupation": "Principal",
+            "Employer": "Duty Free America",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "4/23/2021",
+            "Name": "Prestige Printing LLC",
+            "Address": "8 Burwood Lane San Antonio, TX 78216",
+            "Amount": 613.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Marketing materials",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 1680.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Poll watchers",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Arco Iris",
+            "Address": "1435 Frio City Rd. San Antonio, TX 78226",
+            "Amount": 25.76,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Paletas for volunteers.",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 11.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Service fee",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 27.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Lunch for poll workers",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 87.77,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Food for volunteers.",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 150.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Trailer advertising",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/27/2021",
+            "Name": "Ms Sylvia Lopez",
+            "Address": "2610 Tillie Dr. San Antonio, TX 78222",
+            "Amount": 2700.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Blockwalkers",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/27/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 44.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Service fees",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and paper statement fee",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Service fee",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2021",
+            "Name": "Taqueria El Charro de Jalisco",
+            "Address": "150 Valley Hi San Antonio, TX 78227",
+            "Amount": 437.93,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Food for volunteers/supporters at watch party",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2021",
+            "Name": "Tripolis Mediterranean Grill",
+            "Address": "322 Valley Hi #106 San Antonio, TX 78227",
+            "Amount": 78.88,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Volunteer lunches",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2021",
+            "Name": "Smiley Productions",
+            "Address": "218 Stafford San Antonio, TX 78208",
+            "Amount": 524.75,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "AV for watch party",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2021",
+            "Name": "Dollar Tree",
+            "Address": "214 Valley Hi Dr. San Antonio, TX 78227",
+            "Amount": 31.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Decorations for watch party",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2021",
+            "Name": "Mexico Taqueria",
+            "Address": "6333 Old Pearsall Rd. San Antonio, TX 78242",
+            "Amount": 64.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Tacos for volunteers",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2021",
+            "Name": "Traders Village",
+            "Address": "9333 SW Loop 410 San Antonio, TX 78242",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Hall for watch party",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 150.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Trailer advertising",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 1745.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Poll watchers/poll dressing",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/18/2021",
+            "Name": "Nonis Sweet Treats",
+            "Address": "5526 Ghost Hawk San Antonio, TX 78242",
+            "Amount": 125.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Thank you cookies for supporters/volunteers",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and paper statement fees",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/23/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 22.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Service fee",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and paper statement fees.",
+            "Source": "rpt0000002760_20210715_105751.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

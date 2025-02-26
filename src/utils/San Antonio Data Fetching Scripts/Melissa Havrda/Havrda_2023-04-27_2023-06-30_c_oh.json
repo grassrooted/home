@@ -1,0 +1,587 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Havrda",
+        "office_sought": "Council District 6",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 22309.82,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 62660.25,
+            "Total Parsed Contributions": 4100.0,
+            "Total Parsed Expenditures": 22309.82,
+            "Total Itemized Reported Contributions": 4100.0,
+            "Total Itemized Reported Expenditures": 22309.82
+        }
+    },
+    "form_data": {
+        "period": "2023-04-27_2023-06-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003091_20230717_152014.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Thomas Kelly",
+            "Address": "1409 Quaker Ridge Austin, TX 78746",
+            "Amount": 500.0,
+            "Occupation": "printing",
+            "Employer": "Kelly Graphics",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Ashley Kelly",
+            "Address": "1409 Quaker Ridge Austin, TX 78746",
+            "Amount": 500.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Sandra Martinez",
+            "Address": "312 Pearl Parkway #4909 San Antonio, TX 78215",
+            "Amount": 500.0,
+            "Occupation": "legal marketing",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Latino Victory Fund PAC",
+            "Address": "PO Box 34104 Washington, DC 20005",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "Andi Rodriguez",
+            "Address": "222 E Houston San Antonio, TX 78205",
+            "Amount": 100.0,
+            "Occupation": "Cultural Placemaking",
+            "Employer": "Centro",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "John T Munford",
+            "Address": "1 Buckingham Court San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "principal",
+            "Employer": "JTM Consulting",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "Kelly Curbow",
+            "Address": "206 Quarry Springs San Marcos, TX 78666",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Frost Bank",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2023",
+            "Name": "Pat Frost",
+            "Address": "605 Garraty San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Frost Bank",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2023",
+            "Name": "Phillip Green",
+            "Address": "157 Cibolo Ridge Trl Fair Oaks Ranch, TX 78015",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Frost Bank",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "4/29/2023",
+            "Name": "Anamarie Garcia",
+            "Address": "1418 Melissa Sue San Antonio, TX 78228",
+            "Amount": 969.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2023",
+            "Name": "Irene Portillo",
+            "Address": "23123 Dragon Rock San Antonio, TX 78212",
+            "Amount": 357.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2023",
+            "Name": "Esperanza Garcia",
+            "Address": "1418 Melissa Sue San Antonio, TX 78228",
+            "Amount": 969.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/1/2023",
+            "Name": "JVC Media LLC",
+            "Address": "9335 Lamerton San Antonio, TX 78250",
+            "Amount": 562.9,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "campaign signs",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "G Suite",
+            "Address": "1600 Amphitheatre Parkway Mountain View, CA 94043",
+            "Amount": 12.79,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "software",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Walmart",
+            "Address": "9526 W Military Dr San Antonio, TX 78251",
+            "Amount": 12.91,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: campaign signs",
+            "Description": "zip ties for campaign signs",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Prestige Printing",
+            "Address": "8 Burwood Ln San Antonio, TX 78212",
+            "Amount": 1077.09,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mailers",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "IBC Bank",
+            "Address": "300 E Travis San Antonio , TX 78205",
+            "Amount": 12.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "wire fee",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2023",
+            "Name": "Whataburger",
+            "Address": "8756 Grissom San Antonio, TX 78251",
+            "Amount": 40.01,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "early vote- poll watcher lunch",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2023",
+            "Name": "Bill Millers",
+            "Address": "8802 FM 471 W San Antonio, TX 78251",
+            "Amount": 47.28,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "early vote- poll watcher lunch",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2023",
+            "Name": "Alamo Mailing",
+            "Address": "13114 Lookout Run San Antonio, TX 78233",
+            "Amount": 1595.02,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mailers",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/5/2023",
+            "Name": "Prestige Printing",
+            "Address": "8 Burwood Ln San Antonio, TX 78212",
+            "Amount": 1827.26,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "mailers",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/5/2023",
+            "Name": "Inez Garcia",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 629.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2023",
+            "Name": "HEB",
+            "Address": "9255 FM 471 W San Antonio, TX 78251",
+            "Amount": 13.06,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "early vote- poll watcher water",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2023",
+            "Name": "El Taco de Jalisco",
+            "Address": "8099 Culebra San Antonio, TX 78251",
+            "Amount": 734.56,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "early vote/watch party food",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2023",
+            "Name": "USPS",
+            "Address": "702 Richland Hills San Antonio, TX 78245",
+            "Amount": 18.9,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "printing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2023",
+            "Name": "USPS",
+            "Address": "702 Richland Hills San Antonio, TX 78245",
+            "Amount": 18.9,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "printing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Anamarie Garcia",
+            "Address": "1418 Melissa Sue San Antonio, TX 78228",
+            "Amount": 782.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Duable Brand Trust",
+            "Address": "110 Broadway #170 San Antonio, TX 78205",
+            "Amount": 3670.63,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "social media",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "MJ Ross Group Inc.",
+            "Address": "7409 SW Capitol Hwy #206 Portland, OR 97219",
+            "Amount": 119.91,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "robo calls",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "In Focus Campaigns",
+            "Address": "PO Box 10726 Ft Worth, TX 76114",
+            "Amount": 1369.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "robo call",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Esperanza Garcia",
+            "Address": "1418 Melissa Sue San Antonio, TX 78228",
+            "Amount": 782.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Isaac Ybarra",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 357.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Irene Portillo",
+            "Address": "23123 Dragon Rock San Antonio, TX 78212",
+            "Amount": 204.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Laika Cheesecake & Espresso",
+            "Address": "4718 Broadway Alamo Heights, TX 78209",
+            "Amount": 39.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "staff birthday",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Flagship Campaigns",
+            "Address": "56 Oak Villa Rd Canyon Lake, TX 78133",
+            "Amount": 300.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "graphic design",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Stephanie Garcia",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 782.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2023",
+            "Name": "Inez Garcia",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 357.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "Stephanie Garcia",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 969.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "Stephanie Garcia",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 969.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "Flagship Campaigns",
+            "Address": "56 Oak Villa Rd Canyon Lake, TX 78133",
+            "Amount": 705.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "voicemail drops",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2023",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 239.85,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "email database",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/12/2023",
+            "Name": "Squarespace",
+            "Address": "8 Clarkson Street New York, NY 10014",
+            "Amount": 31.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "website hosting",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/12/2023",
+            "Name": "Isaac Ybarra",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 629.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/12/2023",
+            "Name": "Isaac Ybarra",
+            "Address": "1666 SW 19th San Antonio, TX 78207",
+            "Amount": 629.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "canvassing",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2023",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "software",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/19/2023",
+            "Name": "Squarespace",
+            "Address": "8 Clarkson Street New York, NY 10014",
+            "Amount": 35.72,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "website hosting",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/30/2023",
+            "Name": "GoDaddy.com",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 15.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "domain hosting",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "5/30/2023",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "software",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/1/2023",
+            "Name": "G Suite",
+            "Address": "1600 Amphitheatre Parkway Mountain View, CA 94043",
+            "Amount": 12.79,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "software",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/12/2023",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 239.85,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "email database",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/12/2023",
+            "Name": "Squarespace",
+            "Address": "8 Clarkson Street New York, NY 10014",
+            "Amount": 31.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "website hosting",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/12/2023",
+            "Name": "Squarespace",
+            "Address": "8 Clarkson Street New York, NY 10014",
+            "Amount": 31.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "website hosting",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/12/2023",
+            "Name": "Pride San Antonio Inc",
+            "Address": "1300 N Main San Antonio, TX 78212",
+            "Amount": 29.16,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Pride San Antonio parade",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/16/2023",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "photo package",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2023",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "software",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        },
+        {
+            "Transaction_Date": "6/29/2023",
+            "Name": "GoDaddy.com",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 15.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "domain hosting",
+            "Source": "rpt0000003091_20230717_152014.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

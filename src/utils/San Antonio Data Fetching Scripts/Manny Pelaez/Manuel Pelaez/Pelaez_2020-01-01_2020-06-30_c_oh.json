@@ -1,0 +1,378 @@
+{
+    "candidate_info": {
+        "first_name": "Manuel",
+        "last_name": "Pelaez",
+        "office_sought": "Council District 8",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 3100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 4719.36,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 13792.24,
+            "Total Itemized Reported Contributions": 3100.0,
+            "Total Itemized Reported Expenditures": 4719.36,
+            "Total Parsed Contributions": 3100.0,
+            "Total Parsed Expenditures": 4605.52,
+            "Expenditure Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2020-01-01_2020-06-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002453_20200715_193641.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "4/7/2020",
+            "Name": "Micheal Nava",
+            "Address": "13823 Ridge Chase Drive San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "4/7/2020",
+            "Name": "Brenna Nava",
+            "Address": "13823 Ridge Chase Drive San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "4/9/2020",
+            "Name": "Julio Lopez",
+            "Address": "PO Box 90898 San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2020",
+            "Name": "John Panther",
+            "Address": "PO Box 12495 San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "Attorney",
+            "Employer": "3M",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2020",
+            "Name": "Jacob Harris",
+            "Address": "51 Essex St. San Antonio, TX 78210",
+            "Amount": 500.0,
+            "Occupation": "Managing Partner",
+            "Employer": "Harris Bay",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/27/2020",
+            "Name": "Kathleen Weir",
+            "Address": "102 E. Hollywood Ave. San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "Owner",
+            "Employer": "Hope Medical",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/27/2020",
+            "Name": "Glen Grossenbacher",
+            "Address": "24165 IH 10 West #217 San Antonio, TX 78257",
+            "Amount": 250.0,
+            "Occupation": "Attorney",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "6/15/2020",
+            "Name": "S&B PAC",
+            "Address": "PO Box 266245 Houston, TX 77207",
+            "Amount": 500.0,
+            "Occupation": "Engineer PAC",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "6/30/2020",
+            "Name": "TOTAL UNITEMIZED POLITICAL EXPENDITURES",
+            "Address": "N/A",
+            "Amount": 113.84,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "1/16/2020",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce De Leon Ave #5000 Atlanta, GA 30308",
+            "Amount": 63.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Email program",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "1/16/2020",
+            "Name": "Cool Cat Caricatures",
+            "Address": "849 E. Commerce San Antonio, TX 78205",
+            "Amount": 125.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "fiesta medal design",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "1/24/2020",
+            "Name": "Cool Cat Caricatures",
+            "Address": "849 E. Commerce San Antonio, TX 78205",
+            "Amount": 125.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Fiesta Medal design",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "1/28/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Website",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "1/28/2020",
+            "Name": "Viva Strategy Group",
+            "Address": "1850 Fredericksburg Rd. San Antonio, TX 78201",
+            "Amount": 1087.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Fundraising",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "1/31/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 55.4,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "ad",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "2/10/2020",
+            "Name": "Girl Scout Troop 1257",
+            "Address": "PO Box 684162 Austin, TX 78768",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "cookie gifts",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "2/18/2020",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce De Leon #5000 Atlanta, GA 30308",
+            "Amount": 63.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email program",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "2/24/2020",
+            "Name": "Monica Alcantara Campaign",
+            "Address": "655 Freiling San Antonio, TX 78213",
+            "Amount": 750.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "donation",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "2/24/2020",
+            "Name": "Monarch Trophy Studio",
+            "Address": "16227 San Pedro San Antonio, TX 78232",
+            "Amount": 680.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Fiesta Medal",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "2/28/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "3/2/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 59.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "ads",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "3/16/2020",
+            "Name": "Mail Chimp",
+            "Address": "675 Ponce De Leon #5000 Atlanta, GA 30308",
+            "Amount": 90.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email program",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "3/30/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "3/31/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 60.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "ads",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "4/16/2020",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce De Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 90.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email program",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "4/18/2020",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd. San Jose, TX 95113",
+            "Amount": 15.96,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "virtual meetings",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "4/28/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave. Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 120.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "promotion",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2020",
+            "Name": "Constant Contact",
+            "Address": "1601 Trapelo Rd. Waltham, MA 02451",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email program",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2020",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd. San Jose, TX 95113",
+            "Amount": 15.96,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "virtual meetings",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave. Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "6/6/2020",
+            "Name": "Constant Contact",
+            "Address": "1601 Trapelo Rd. Waltham, MA 02451",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email program",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "6/15/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "promotions",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "6/18/2020",
+            "Name": "Zoom",
+            "Address": "55 Almaden Blvd. San Jose, TX 95113",
+            "Amount": 15.96,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "virtual meetings",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        },
+        {
+            "Transaction_Date": "6/29/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave. Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002453_20200715_193641.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

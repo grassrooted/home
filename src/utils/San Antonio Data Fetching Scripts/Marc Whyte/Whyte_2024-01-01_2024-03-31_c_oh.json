@@ -1,0 +1,147 @@
+{
+    "candidate_info": {
+        "first_name": "Marc",
+        "last_name": "Whyte",
+        "office_sought": "Council District 10",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1080.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 4978.23,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 24651.65,
+            "Total Itemized Reported Contributions": 1080.0,
+            "Total Itemized Reported Expenditures": 4978.23,
+            "Total Parsed Contributions": 1080.0,
+            "Total Parsed Expenditures": 4978.23
+        }
+    },
+    "form_data": {
+        "period": "2024-01-01_2024-03-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003151_20240415_071303.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "1/16/2024",
+            "Name": "Gordon V Hartman",
+            "Address": "1202 W. Bitters Bldg. 1 #1200 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Philanthropist/Founder",
+            "Employer": "Gordon Hartman Family Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "1/16/2024",
+            "Name": "Mrs Margaret V Hartman",
+            "Address": "1500 Fawn Bluff San Antonio, TX 78245",
+            "Amount": 500.0,
+            "Occupation": "Co-Founder",
+            "Employer": "Gordon Hartman Family Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "1/26/2024",
+            "Name": "John Brenneman",
+            "Address": "4 Bromwich Ct San Antonio, TX 78218",
+            "Amount": 80.0,
+            "Occupation": "Engineer",
+            "Employer": "Air Force Civil Service",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "1/10/2024",
+            "Name": "NORMA DENHAM & ASSOCIATES",
+            "Address": "15706 Knoll Cliff San Antonio, TX 78247",
+            "Amount": 1075.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Fundraising",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "1/22/2024",
+            "Name": "GODADDY.COM",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 210.85,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "1/22/2024",
+            "Name": "GODADDY.COM",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 599.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "1/29/2024",
+            "Name": "SP FATHEAD, LLC",
+            "Address": "1201 Woodward Avenue Livonia , MI 48226",
+            "Amount": 150.42,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Poster",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "1/31/2024",
+            "Name": "GODADDY.COM",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 22.17,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2024",
+            "Name": "Erika Guzman",
+            "Address": "12002 Los Cerdos St. San Antonio, TX 78233",
+            "Amount": 260.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Campaign finance report",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "2/15/2024",
+            "Name": "Raconteur Media Company",
+            "Address": "PO Box 26511 Austin, TX 78755",
+            "Amount": 1367.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "3/6/2024",
+            "Name": "Raconteur Media Company",
+            "Address": "PO Box 26511 Austin, TX 78755",
+            "Amount": 1084.92,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        },
+        {
+            "Transaction_Date": "3/15/2024",
+            "Name": "4 Imprint",
+            "Address": "101 Commerce St Oshkosh, WI 54901",
+            "Amount": 207.65,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "coffee clutch",
+            "Source": "rpt0000003151_20240415_071303.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

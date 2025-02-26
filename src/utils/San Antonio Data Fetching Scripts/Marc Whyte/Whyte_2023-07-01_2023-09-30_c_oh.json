@@ -1,0 +1,207 @@
+{
+    "candidate_info": {
+        "first_name": "Marc",
+        "last_name": "Whyte",
+        "office_sought": "Council District 10",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 2150.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 8158.98,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 25322.66,
+            "Total Itemized Reported Contributions": 2150.0,
+            "Total Itemized Reported Expenditures": 8158.98,
+            "Total Parsed Contributions": 2150.0,
+            "Total Parsed Expenditures": 8158.98
+        }
+    },
+    "form_data": {
+        "period": "2023-07-01_2023-09-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003107_20231013_070956.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "7/11/2023",
+            "Name": "Killen Griffin & Farrimond Political Committee",
+            "Address": "10101 Reunion Place #250 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "Shad R Schmid",
+            "Address": "318 Waxberry Trl San Antonio, TX 78256",
+            "Amount": 100.0,
+            "Occupation": "Manager",
+            "Employer": "King Fish Development",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "Kristi Sutterfied",
+            "Address": "18523 Wild Onion San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Executive Officer",
+            "Employer": "San Antonio Builders Association",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "EPA Experts Inc",
+            "Address": "19179 Blanco Rd #105- San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Real Estate",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "SABPAC I Political Contributions",
+            "Address": "3625 Paesanos Pkwy San Antonio, TX 78231",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "Anny. Whyte",
+            "Address": "2211 Fairview St. Houston, TX 77019",
+            "Amount": 100.0,
+            "Occupation": "VP Business Development",
+            "Employer": "Origin Bank",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/27/2023",
+            "Name": "Derek Naiser",
+            "Address": "8918 Tesoro #401 San Antonio, TX 78217",
+            "Amount": 250.0,
+            "Occupation": "Engineer",
+            "Employer": "Ardurra",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "9/12/2023",
+            "Name": "Frank Burney",
+            "Address": "112 East Pecan Street #1616 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/10/2023",
+            "Name": "NORMA DENHAM & ASSOCIATES",
+            "Address": "15706 Knoll Cliff San Antonio, TX 78247",
+            "Amount": 1890.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Campaign",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/10/2023",
+            "Name": "Raconteur Media Company",
+            "Address": "PO Box 26511 Austin, TX 78755",
+            "Amount": 1333.33,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/10/2023",
+            "Name": "GODADDY.COM",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 9.58,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "7/14/2023",
+            "Name": "Andrew J Greene CPA",
+            "Address": "5642 Timber Steep San Antonio, TX 78250",
+            "Amount": 2662.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Campaign reports, bookeeping, CPA",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "8/8/2023",
+            "Name": "GODADDY.COM",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 9.58,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "8/9/2023",
+            "Name": "Raconteur Media Company",
+            "Address": "PO Box 26511 Austin, TX 78755",
+            "Amount": 1019.26,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media services",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "8/14/2023",
+            "Name": "Erika Guzman",
+            "Address": "12002 Los Cerdos St. San Antonio, TX 78233",
+            "Amount": 923.92,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Prepare Finance Report, Thank you cards",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2023",
+            "Name": "GODADDY.COM",
+            "Address": "2155 E. GoDaddy Way Tempe, AZ 85284",
+            "Amount": 9.58,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Media",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "9/15/2023",
+            "Name": "Anedot",
+            "Address": "1340 Poydras Street New Orleans, LA 70112",
+            "Amount": 30.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Contribution platform processing fees 7/01/23-9/30/23",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Jonathan Alonso Photography",
+            "Address": "518 Cherry Ridge Ave. San Antonio, TX 78213",
+            "Amount": 270.63,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Roundtable Discussion",
+            "Source": "rpt0000003107_20231013_070956.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

@@ -1,0 +1,257 @@
+{
+    "candidate_info": {
+        "first_name": "John",
+        "last_name": "Courage",
+        "office_sought": "Council District 9",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 3489.33,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 16566.44,
+            "Total Itemized Reported Contributions": 1000.0,
+            "Total Itemized Reported Expenditures": 3489.33,
+            "Total Parsed Contributions": 1000.0,
+            "Total Parsed Expenditures": 3489.33
+        }
+    },
+    "form_data": {
+        "period": "2020-01-01_2020-03-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002443_20200415_212016.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "1/9/2020",
+            "Name": "San Antonio Fire & Police Pens Assn-PAC",
+            "Address": "11603 W. Coker Loop #201A San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "1/20/2020",
+            "Name": "Heriberto Guerra Jr Jr",
+            "Address": "1 Lone Star Pass #41 San Antonio, TX 78264",
+            "Amount": 500.0,
+            "Occupation": "Chairman & CEO",
+            "Employer": "Anvanzar",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "1/6/2020",
+            "Name": "Weebly",
+            "Address": "460 Bryant St San Francisco, CA 94107",
+            "Amount": 15.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "1/7/2020",
+            "Name": "Weebly",
+            "Address": "460 Bryant St San Francisco, CA 94107",
+            "Amount": 15.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "1/13/2020",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 63.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "1/16/2020",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "1/17/2020",
+            "Name": "Norma Denham & Associates",
+            "Address": "118 Broadway San Antonio, TX 78205",
+            "Amount": 1555.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Consultation Services",
+            "Description": "Campaign Consulting",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "1/31/2020",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/3/2020",
+            "Name": "Weebly",
+            "Address": "460 Bryant St San Francisco, CA 94107",
+            "Amount": 15.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/4/2020",
+            "Name": "Northeast Bexar County Democrats",
+            "Address": "PO Box 700766 San Antonio, TX 78270-0766",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "AD",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/5/2020",
+            "Name": "Weebly",
+            "Address": "460 Bryant St San Francisco, CA 94107",
+            "Amount": 15.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/10/2020",
+            "Name": "Metal Promo",
+            "Address": "517 S. Lamar Blvd #C Austin, TX 78704-1548",
+            "Amount": 776.69,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Fiesta Medals",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/13/2020",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 63.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/18/2020",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/18/2020",
+            "Name": "Alamo Mailing",
+            "Address": "13114 Lookout Run San Antonio, TX 78233",
+            "Amount": 163.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Campaign Mailing",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "2/28/2020",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/2/2020",
+            "Name": "Weebly",
+            "Address": "460 Bryant St San Francisco, CA 94107",
+            "Amount": 15.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/5/2020",
+            "Name": "Weebly",
+            "Address": "460 Bryant St San Francisco, CA 94107",
+            "Amount": 15.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/13/2020",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 63.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/16/2020",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/23/2020",
+            "Name": "RoboDial.org",
+            "Address": "4601 N. Fairfax Dr. #1200 Arlington, VA 22203",
+            "Amount": 95.51,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/31/2020",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        },
+        {
+            "Transaction_Date": "3/31/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 14.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002443_20200415_212016.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

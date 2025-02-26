@@ -1,0 +1,237 @@
+{
+    "candidate_info": {
+        "first_name": "Joe",
+        "last_name": "Castillo",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 263.33,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 523.94,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 7649.63,
+            "Total Parsed Contributions": 263.33,
+            "Total Parsed Expenditures": 523.94,
+            "Total Itemized Reported Contributions": 263.33,
+            "Total Itemized Reported Expenditures": 523.94
+        }
+    },
+    "form_data": {
+        "period": "2021-07-01_2021-09-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002792_20220118_225259.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "7/7/2021",
+            "Name": "James Long",
+            "Address": "2508 Tampico Street #340 San Antonio, TX 78207",
+            "Amount": 17.0,
+            "Occupation": "Teacher",
+            "Employer": "SAISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/9/2021",
+            "Name": "Edward Hernandez",
+            "Address": "351 Brighton Ave #4106 San Francisco, CA 94112",
+            "Amount": 27.0,
+            "Occupation": "Software Engineer",
+            "Employer": "Uber",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/13/2021",
+            "Name": "Eliseo Iglesias",
+            "Address": "5503 Research Dr San Antonio, TX 78240",
+            "Amount": 27.0,
+            "Occupation": "adjunct professor",
+            "Employer": "University",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/14/2021",
+            "Name": "Jen Ethier",
+            "Address": "701 NW 118th St Oklahoma City, OK 73114",
+            "Amount": 4.0,
+            "Occupation": "Legal Department",
+            "Employer": "TVC Pro-Driver",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/15/2021",
+            "Name": "Nicholas Jurus",
+            "Address": "9412 SW Gorsuch Rd Vashon, WA 98070",
+            "Amount": 2.0,
+            "Occupation": "Not Employed",
+            "Employer": "Not Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/19/2021",
+            "Name": "Elizabeth Williams",
+            "Address": "1111 10th street Alamogordo, NM 88310",
+            "Amount": 1.0,
+            "Occupation": "Not Employed",
+            "Employer": "Not Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/19/2021",
+            "Name": "Daniel Graham",
+            "Address": "1811 Oak St North Aurora, IL 60542",
+            "Amount": 1.11,
+            "Occupation": "Teacher",
+            "Employer": "DeKalb high school",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/27/2021",
+            "Name": "Charles Lopez",
+            "Address": "601 N SANTA ROSA St SAN ANTONIO, TX 78207",
+            "Amount": 27.0,
+            "Occupation": "Teacher",
+            "Employer": "Harlandale ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "8/7/2021",
+            "Name": "James Long",
+            "Address": "2508 Tampico Street San Antonio, TX 78207",
+            "Amount": 17.0,
+            "Occupation": "Teacher",
+            "Employer": "SAISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "8/15/2021",
+            "Name": "Nicholas Jurus",
+            "Address": "9412 SW Gorsuch Rd Vashon, WA 98070",
+            "Amount": 2.0,
+            "Occupation": "Not Employed",
+            "Employer": "Not Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "8/19/2021",
+            "Name": "Daniel Graham",
+            "Address": "1811 Oak St North Aurora, IL 60542",
+            "Amount": 1.11,
+            "Occupation": "Teacher",
+            "Employer": "DeKalb high school",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "8/25/2021",
+            "Name": "Trevino",
+            "Address": "314 Teakwood Ln San Antonio, TX 78216",
+            "Amount": 100.0,
+            "Occupation": "Not Employed",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2021",
+            "Name": "James Long",
+            "Address": "2508 Tampico Street San Antonio, TX 78207",
+            "Amount": 17.0,
+            "Occupation": "Teacher",
+            "Employer": "SAISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "9/15/2021",
+            "Name": "Nicholas Jurus",
+            "Address": "9412 SW Gorsuch Rd Vashon, WA 98070",
+            "Amount": 2.0,
+            "Occupation": "Not Employed",
+            "Employer": "Not Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "9/19/2021",
+            "Name": "Daniel Graham",
+            "Address": "1811 Oak St North Aurora, IL 60542",
+            "Amount": 1.11,
+            "Occupation": "Teacher",
+            "Employer": "DeKalb high school",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "9/22/2021",
+            "Name": "Huey Fischer",
+            "Address": "445 East Mistletoe San Antonio, TX 78212",
+            "Amount": 17.0,
+            "Occupation": "Attorney",
+            "Employer": "Jackson Walker LLP",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/6/2021",
+            "Name": "ActBlue",
+            "Address": "366 Summer St. Somerville, MA 02144",
+            "Amount": 8.06,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Online Donation Platform",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/13/2021",
+            "Name": "Ric Galvan",
+            "Address": "3311 Meadow Dr San Antonio, TX 78251",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Communications Consultant",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "7/15/2021",
+            "Name": "BBVA",
+            "Address": "15 South 20th Street Birmingham, AL 35233",
+            "Amount": 6.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "8/5/2021",
+            "Name": "ActBlue",
+            "Address": "366 Summer St. Somerville, MA 02144",
+            "Amount": 1.62,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Online Donations Platform",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        },
+        {
+            "Transaction_Date": "8/10/2021",
+            "Name": "VANTIV (Worldpay, Inc)",
+            "Address": "8500 Governors Hill Drive Symmes Township, OH 45249",
+            "Amount": 8.26,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Online Donations Platform / Transfer Facilitation",
+            "Source": "rpt0000002792_20220118_225259.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

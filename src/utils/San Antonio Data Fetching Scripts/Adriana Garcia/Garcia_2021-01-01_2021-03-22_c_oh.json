@@ -1,0 +1,498 @@
+{
+    "candidate_info": {
+        "first_name": "Arthur",
+        "last_name": "Garcia",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 7655.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 7065.87,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 16978.28,
+            "Total Parsed Contributions": 6405.0,
+            "Total Parsed Expenditures": 7065.87,
+            "Total Itemized Reported Contributions": 7655.0,
+            "Total Itemized Reported Expenditures": 7065.87,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2021-01-01_2021-03-22",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002585_20210401_090252.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "1/21/2021",
+            "Name": "Ms Jenee M Gonzales",
+            "Address": "8415 Fredericksburg Rd. #805 San Antonio, TX 78229",
+            "Amount": 100.0,
+            "Occupation": "Philanthropy Coordinator",
+            "Employer": "The Marianist Province of the United States",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "1/21/2021",
+            "Name": "Montie Chavez",
+            "Address": "733 Oak Street De Pere, WI 54115-2432",
+            "Amount": 5.0,
+            "Occupation": "Communications Manager",
+            "Employer": "St. Norbert Abbey",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "1/31/2021",
+            "Name": "Robert Greenblum",
+            "Address": "11221 Empire Lane Rockville, MD 20852",
+            "Amount": 250.0,
+            "Occupation": "Managing Member",
+            "Employer": "Greenblum Consulting LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "1/31/2021",
+            "Name": "Ms Kelli Cubeta",
+            "Address": "130 Park Dr. San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "Partner",
+            "Employer": "Cubeta Law Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2021",
+            "Name": "Mr Alexander Miller",
+            "Address": "9014 Beartooth Pass San Antonio, TX 78255",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2021",
+            "Name": "Mr Louis Barrios",
+            "Address": "1102 Morgans Peak San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "President/CEO",
+            "Employer": "Los Barrios Family Restaurants",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2021",
+            "Name": "Mrs Stephanie A Fineleon Cortez",
+            "Address": "242 Ranch Country Dr. San Antonio, TX 78121",
+            "Amount": 100.0,
+            "Occupation": "Chief Development and Communications Officer",
+            "Employer": "Girl Scouts of Southwest Texas",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2021",
+            "Name": "Lyssa Ochoa",
+            "Address": "708 Canterbury Hill Street San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Vascular surgeon",
+            "Employer": "The SAVE Clinic",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2021",
+            "Name": "Mr Junab Ali",
+            "Address": "1711 Citadel Plz. San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "President",
+            "Employer": "Mobius Partners, Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/2/2021",
+            "Name": "Gil Chavarria",
+            "Address": "715 Cypresstree Drive San Antonio, TX 78245",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/2/2021",
+            "Name": "Carl Negley",
+            "Address": "708 Canterbury Hill St San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Medical Practice Management Consultant",
+            "Employer": "Medvolution Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/3/2021",
+            "Name": "Mr Thomas OBrien",
+            "Address": "24 Devon Wood San Antonio, TX 78257",
+            "Amount": 250.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/6/2021",
+            "Name": "Ms Geraldine Garcia",
+            "Address": "300 E. Basse Rd. #2520 San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Consultant",
+            "Employer": "Andrade Van De Putte and Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/9/2021",
+            "Name": "Mr Suren Kamath",
+            "Address": "3115 Iron Stone Ln. San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Briggs Medical Office Park, Inc.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/26/2021",
+            "Name": "Richard Wells",
+            "Address": "610 E. Market St. #3302 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Dailey & Wells Comm",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/26/2021",
+            "Name": "Joanne Wells",
+            "Address": "610 E. Market St. San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Dailey & Wells Comm",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/27/2021",
+            "Name": "Marcus Higuchi",
+            "Address": "141 Caleta Beach San Antonio, TX 78232",
+            "Amount": 50.0,
+            "Occupation": "Teacher",
+            "Employer": "Northside Independent School District",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/4/2021",
+            "Name": "Ashley Dumulong",
+            "Address": "1111 Charlisas Way San Antonio, TX 78216",
+            "Amount": 250.0,
+            "Occupation": "GIR",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/6/2021",
+            "Name": "Mr Todd Thames",
+            "Address": "1738 Fox Tree Lane San Antonio, TX 78248",
+            "Amount": 250.0,
+            "Occupation": "Senior Medical Director",
+            "Employer": "Grand Rounds, Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/13/2021",
+            "Name": "Mr Paul Basaldua",
+            "Address": "3 Woltwood San Antonio, TX 78248",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "VersaTerra Development",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/13/2021",
+            "Name": "Mrs Norma S Rodriguez",
+            "Address": "2101 W. Summit Ave. San Antonio, TX 78201",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/13/2021",
+            "Name": "Mr Arthur J Rodriguez",
+            "Address": "204 E. Arsenal San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "EVP",
+            "Employer": "Texas 2036",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/13/2021",
+            "Name": "Alexandra J Rodriguez",
+            "Address": "204 E. Arsenal San Antonio, TX 78204",
+            "Amount": 100.0,
+            "Occupation": "Mission Support and Communications Manager",
+            "Employer": "Congregation of Divine Providence",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/15/2021",
+            "Name": "Yvette Robinson",
+            "Address": "20770 US HWY 281 N, Suite #108 San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Owner",
+            "Employer": "Robinson GC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/20/2021",
+            "Name": "Johnny Hernandez",
+            "Address": "411 E. Cevallos San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "Grupo La Gloria",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "1/25/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 5.23,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fees",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "1/25/2021",
+            "Name": "Wix.com LTD",
+            "Address": "500 Terry A Francois Blvd San Francisco, CA 94158",
+            "Amount": 32.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Email account",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "1/29/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/3/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 41.4,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fees",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/4/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 31.4,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fees",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/5/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 33.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/9/2021",
+            "Name": "City of San Antonio",
+            "Address": "PO Box 839966 San Antonio, TX 78283",
+            "Amount": 100.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Filing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/10/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 4.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/11/2021",
+            "Name": "Innovative Multimedia Group",
+            "Address": "8627 Cinnamon Creek Dr. #602 San Antonio, TX 78240",
+            "Amount": 350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Video",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/23/2021",
+            "Name": "J.C. Wollslager",
+            "Address": "421 Washington St. Grapevine, TX 76051",
+            "Amount": 50.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Graphic Design",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/25/2021",
+            "Name": "3-D Screen Printing",
+            "Address": "8015 West 2nd Somerset, TX 78069",
+            "Amount": 900.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Signs",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "2/26/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/1/2021",
+            "Name": "J.C. Wollslager",
+            "Address": "421 Washington St. Grapevine, TX 76051",
+            "Amount": 60.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Graphic Design",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/2/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 44.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/3/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 2.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/8/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 11.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/9/2021",
+            "Name": "Awaloo Printing and Sign Shop",
+            "Address": "7905 4th St. Somerset, TX 78069",
+            "Amount": 1980.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Yard signs",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/10/2021",
+            "Name": "Viva Politics",
+            "Address": "1850 Fredericksburg Rd. San Antonio, TX 78250",
+            "Amount": 3000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Campaign Management",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/10/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 11.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/11/2021",
+            "Name": "Tru Branding",
+            "Address": "1414 West Poplar San Antonio, TX 78207-1233",
+            "Amount": 343.69,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "T-shirts",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/17/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 54.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fees",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        },
+        {
+            "Transaction_Date": "3/18/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 4.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002585_20210401_090252.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

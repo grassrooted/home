@@ -1,0 +1,565 @@
+{
+    "candidate_info": {
+        "first_name": "John",
+        "last_name": "Courage",
+        "office_sought": "Council District 10",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 274.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4524.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 18.25,
+            "TOTAL POLITICAL EXPENDITURES": 12400.01,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 4609.08,
+            "Total Itemized Reported Contributions": 4524.0,
+            "Total Itemized Reported Expenditures": 12400.01,
+            "Total Parsed Contributions": 4524.0,
+            "Total Parsed Expenditures": 12400.01
+        }
+    },
+    "form_data": {
+        "period": "2019-04-25_2019-06-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002362_20190715_084848.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "2019/06/30",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 274.0,
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Frank Burney",
+            "Address": "300 Convent #25 San Antonio, T 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Mark Mays",
+            "Address": "250 W. Nottingham #400 San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "W_Plack Carr III",
+            "Address": "201 Primrose San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Carla Zaine",
+            "Address": "316 Brahan Blvd San Antonio, TX 78215",
+            "Amount": 250.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2019",
+            "Name": "Camille Denton",
+            "Address": "1 Bitterblue Ln San Antonio, TX 78218-1790",
+            "Amount": 250.0,
+            "Occupation": "self employed",
+            "Employer": "Denton Communities",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2019",
+            "Name": "Laddie Denton",
+            "Address": "1 Bitterblue Ln San Antonio, TX 78218-1790",
+            "Amount": 250.0,
+            "Occupation": "self employed",
+            "Employer": "Denton Communities",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2019",
+            "Name": "Southwest Laborers District Council SWLDC PAC",
+            "Address": "11720 East 21 St Tulsa, OK 74129",
+            "Amount": 250.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "Robert Worth",
+            "Address": "270 Terrell Rd San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "self employed",
+            "Employer": "Worth Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/5/2019",
+            "Name": "Tracey S Bedwell",
+            "Address": "15722 Mission Crest San Antonio, TX 78232",
+            "Amount": 100.0,
+            "Occupation": "Treasurer",
+            "Employer": "Alamo Community Colleges",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Arthur Downey",
+            "Address": "730 Arch Stone San Antonio, T 78258",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Kenneth Phelps",
+            "Address": "18222 Crystal Cove San Antonio, T 78259",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "SAHLA PAC",
+            "Address": "8531 N. New Braunfels #203 San Antonio, TX 78217",
+            "Amount": 250.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/7/2019",
+            "Name": "Cecily Macdonald",
+            "Address": "12701 West Ave #1412 San Antonio, T 78216",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/13/2019",
+            "Name": "Monique Diaz",
+            "Address": "PO Box 90883 San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Judge",
+            "Employer": "Bexar County",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/27/2019",
+            "Name": "Tamara A Tapman",
+            "Address": "2401 Ridge Country San Antonio, TX 78247",
+            "Amount": 100.0,
+            "Occupation": "VP",
+            "Employer": "SWBC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/27/2019",
+            "Name": "Frank Burney",
+            "Address": "300 Convent #25 San Antonio, T 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "2019/06/30",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED",
+            "Address": "N/A",
+            "Amount": 18.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Lone Star Media",
+            "Address": "1011 N. Frio St. San Antonio, TX 78207",
+            "Amount": 1110.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Campaign Materials",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/27/2019",
+            "Name": "PayPal",
+            "Address": "2211 N. First St. San Jose, CA 95131",
+            "Amount": 7.55,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Processing Expenses",
+            "Description": "Service Charges",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "RoboDial.org",
+            "Address": "4601 N. Fairfax Dr. #1200 Arlington, VA 22203",
+            "Amount": 40.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "RoboDial.org",
+            "Address": "4601 N. Fairfax Dr. #1200 Arlington, VA 22203",
+            "Amount": 50.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 401.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2019",
+            "Name": "Alpha Media LLC",
+            "Address": "4050 Eisenhauer Rd San Antonio, TX 78218",
+            "Amount": 586.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Radio Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2019",
+            "Name": "Office Max",
+            "Address": "13484 Bitters Rd San Antonio, TX 78216",
+            "Amount": 139.83,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Campaign Materials",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2019",
+            "Name": "Lowes",
+            "Address": "1200 N. FM 1604 West San Antonio, TX 78248",
+            "Amount": 59.22,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Campaign Materials",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2019",
+            "Name": "Jorge Vasquez",
+            "Address": "7602 Maxwell St. San Antonio, TX 78214",
+            "Amount": 1250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "AT&T",
+            "Address": "410 NE Broadway St Portland, OR 97232",
+            "Amount": 84.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Campaign Office Expense",
+            "Description": "Phone",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Zack Lyke",
+            "Address": "2118 Edgehill Dr #203 San Antonio, TX 78209",
+            "Amount": 1845.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Colt Osburn",
+            "Address": "67 Triangle #3 San Antonio, TX 78255",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Bryan Naylor",
+            "Address": "159 Gray Bluff Bulverde, TX 78163",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Weathered Souls",
+            "Address": "606 Embassy Oaks #500 San Antonio, TX 78216",
+            "Amount": 574.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Campaign Election Watch Event",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Google Services",
+            "Address": "1600 Amphitheater Pkwy Mountain View, CA 94043",
+            "Amount": 350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Derek Roberts",
+            "Address": "11818 Jasmine Way San Antonio, TX 78253",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Babette Olson",
+            "Address": "1903 Oakline San Antonio, TX 78232",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Mildred Ray",
+            "Address": "950 E. Bitters #603 San Antonio, TX 78216",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Monique Lane",
+            "Address": "13054 Five Brooks Helotes, TX 78023",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/7/2019",
+            "Name": "DNH*GODADDY.COM",
+            "Address": "14455 N Hayden Rd Scottsdale, AZ 85260",
+            "Amount": 5.32,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2019",
+            "Name": "CPS Energy",
+            "Address": "PO Box 2678 San Antonio, TX 78289",
+            "Amount": 71.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Campaign Office Expense",
+            "Description": "Utilities",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2019",
+            "Name": "PayPal",
+            "Address": "2211 N. First St. San Jose, CA 95131",
+            "Amount": 12.51,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Processing Expenses",
+            "Description": "Service Charges",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "DNH*GODADDY.COM",
+            "Address": "14455 N Hayden Rd Scottsdale, AZ 85260",
+            "Amount": 5.32,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 53.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Jorge Vasquez",
+            "Address": "7602 Maxwell St. San Antonio, TX 78214",
+            "Amount": 1250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Jorge Vasquez",
+            "Address": "7602 Maxwell St. San Antonio, TX 78214",
+            "Amount": 2500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: consulting Expense",
+            "Description": "Consultation Services",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2019",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/26/2019",
+            "Name": "CPS Energy",
+            "Address": "PO Box 2678 San Antonio, TX 78289",
+            "Amount": 49.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Campaign Office Expense",
+            "Description": "Utilities",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/31/2019",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 145.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "5/31/2019",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/3/2019",
+            "Name": "AT&T",
+            "Address": "410 NE Broadway St Portland, OR 97232",
+            "Amount": 84.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Campaign Office Expense",
+            "Description": "Phone",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/3/2019",
+            "Name": "Google Services",
+            "Address": "1600 Amphitheater Pkwy Mountain View, CA 94043",
+            "Amount": 78.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/13/2019",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 53.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/17/2019",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2019",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002362_20190715_084848.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

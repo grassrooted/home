@@ -1,0 +1,448 @@
+{
+    "candidate_info": {
+        "first_name": "Joe",
+        "last_name": "Castillo",
+        "office_sought": "Council District 5",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1767.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 385.13,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 1381.87,
+            "Total Parsed Contributions": 1738.0,
+            "Total Parsed Expenditures": 363.81,
+            "Total Itemized Reported Contributions": 1767.0,
+            "Total Itemized Reported Expenditures": 385.13,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2020-12-01_2020-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002508_20210115_143127.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "TOTAL UNITEMIZED POLITICAL CONTRIBUTIONS",
+            "Address": "N/A",
+            "Amount": 29.0,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2020",
+            "Name": "Irma M Hofmann",
+            "Address": "3011 White Tail Dr. San Antonio, TX 78228",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/8/2020",
+            "Name": "Irma M Hofmann",
+            "Address": "3011 White Tail Dr. San Antonio, TX 78228",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2020",
+            "Name": "Alexandra Harris",
+            "Address": "1323 Crane Ct San Antonio, TX 78245",
+            "Amount": 25.0,
+            "Occupation": "Teacher",
+            "Employer": "NISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2020",
+            "Name": "Alejandra Casas",
+            "Address": "115 Flair Dr. San Antonio, TX 78227",
+            "Amount": 15.0,
+            "Occupation": "Videographer",
+            "Employer": "Federal Court Reporters of San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2020",
+            "Name": "Ricardo Briones",
+            "Address": "230 W Whittier San Antonio, TX 78210",
+            "Amount": 100.0,
+            "Occupation": "Attorney",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2020",
+            "Name": "Samantha Jimenez",
+            "Address": "330 W. Bedford Ave. San Antonio, TX 78226",
+            "Amount": 15.0,
+            "Occupation": "Hostess",
+            "Employer": "Jardin",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/16/2020",
+            "Name": "Mia Loseff",
+            "Address": "532 W. Mistletoe Ave #A San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "Community Equity Analyst",
+            "Employer": "Texas Housers",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2020",
+            "Name": "Adrian Lopez",
+            "Address": "119 Rehmann Street San Antonio, TX 78204",
+            "Amount": 15.0,
+            "Occupation": "Flooring Specialist",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2020",
+            "Name": "Yaneth Flores",
+            "Address": "201 Eleanor Ave San Antonio, TX 78209",
+            "Amount": 25.0,
+            "Occupation": "Field Organizer",
+            "Employer": "URGE",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2020",
+            "Name": "Katy Bravenec",
+            "Address": "501 Shook Ave San Antonio, TX 78212",
+            "Amount": 50.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2020",
+            "Name": "James Davenport",
+            "Address": "231 Herweck Dr #109 Castle Hills, TX 78213-3348",
+            "Amount": 25.0,
+            "Occupation": "Cashier",
+            "Employer": "Circle K",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2020",
+            "Name": "Linda Ortega",
+            "Address": "2505 Saunders Ave San Antonio, TX 78207",
+            "Amount": 100.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "John Alvarez",
+            "Address": "25805 Velvet Creek San Antonio, TX 78255",
+            "Amount": 29.0,
+            "Occupation": "Counselor",
+            "Employer": "Zachry",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Heather Stine",
+            "Address": "2500 Hendricks Ave Jacksonville, FL 32207-4033",
+            "Amount": 29.0,
+            "Occupation": "Public Relations",
+            "Employer": "San Marco Preservation Society",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Maureen Galindo",
+            "Address": "300 Labor Street San Antonio, TX 78210",
+            "Amount": 29.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Andrea Ruiz",
+            "Address": "6236 Valley Castle San Antonio, TX 78250",
+            "Amount": 10.0,
+            "Occupation": "Bartender",
+            "Employer": "Deol",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Tommy Pelkey",
+            "Address": "8227 Coppergate Converse, TX 78109",
+            "Amount": 29.0,
+            "Occupation": "Warehouse Associate",
+            "Employer": "Sygma Network",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Katy Bravenec",
+            "Address": "501 Shook Avenue San Antonio, TX 78212",
+            "Amount": 29.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Delilah Hernandez",
+            "Address": "7330 Parkett San Antonio, TX 78223",
+            "Amount": 50.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "J Alexis Fisher-Rizk",
+            "Address": "3311 Kensington Avenue Richmond, VA 23221",
+            "Amount": 29.0,
+            "Occupation": "Attorney",
+            "Employer": "Henrico County",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Susana Segura",
+            "Address": "1242 W. Villaret San Antonio, TX 78224",
+            "Amount": 29.0,
+            "Occupation": "organizer",
+            "Employer": "esperanza",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2020",
+            "Name": "Steve Versteeg",
+            "Address": "105 Reno San Antonio, TX 78208",
+            "Amount": 29.0,
+            "Occupation": "Design Engineer",
+            "Employer": "FBD Partnership",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Pancho Valdez",
+            "Address": "211 N. Alamo #308 San Antonio, TX 78205",
+            "Amount": 29.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Justice Lovin",
+            "Address": "115 Regent San Antonio, TX 78204",
+            "Amount": 27.0,
+            "Occupation": "Teacher",
+            "Employer": "SAISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Salena Ramirez",
+            "Address": "222 Hopkins St San Antonio, TX 78221",
+            "Amount": 29.0,
+            "Occupation": "Teacher",
+            "Employer": "Southside ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Ric Galvan",
+            "Address": "3311 Meadow Dr San Antonio, TX 78251-1606",
+            "Amount": 27.0,
+            "Occupation": "Deputy Field Organizer",
+            "Employer": "Texas Freedom Network",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Ray Morales",
+            "Address": "203 Medford Drive San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Norma Torres",
+            "Address": "222 Hopkins St San Antonio, TX 78221",
+            "Amount": 29.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Christopher Gilbert",
+            "Address": "123 Marcia Pl #1 San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Realtor",
+            "Employer": "Parman Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Nikki Loseff",
+            "Address": "5080 Faber Way San Diego, CA 92115",
+            "Amount": 10.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Eugene Marck",
+            "Address": "345 Argyle Ave San Antonio, TX 78209",
+            "Amount": 47.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Ariel Calderon",
+            "Address": "4811 Luz Avenue San Antonio, TX 78237",
+            "Amount": 100.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Francisco Cuellar",
+            "Address": "6623 Babcock Rd #731 San Antonio, TX 78249",
+            "Amount": 20.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Jerry Gonzalez",
+            "Address": "146 Milford Dr. San Antonio, TX 78213",
+            "Amount": 47.0,
+            "Occupation": "Professor",
+            "Employer": "UTSA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Kamala Platt",
+            "Address": "3910 W. Martin San Antonio, TX 78207",
+            "Amount": 12.0,
+            "Occupation": "Educator",
+            "Employer": "SHARCS, ASU",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Lisa Sanchez",
+            "Address": "2201 Saunders Ave San Antonio, TX 78207",
+            "Amount": 50.0,
+            "Occupation": "Not Employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Richard Acosta",
+            "Address": "3414 Hopecrest San Antonio, TX 78230",
+            "Amount": 100.0,
+            "Occupation": "Real estate/construction",
+            "Employer": "KW Heritage/Dina Contracting Resources",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2020",
+            "Name": "Saul Hernandez",
+            "Address": "411 W Baylor San Antonio, TX 78204",
+            "Amount": 20.0,
+            "Occupation": "Adjunct",
+            "Employer": "ACC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Taylor Watson",
+            "Address": "3503 Bent Hollow San Antonio, TX 78259",
+            "Amount": 29.0,
+            "Occupation": "Manager",
+            "Employer": "Kamin Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/8/2020",
+            "Name": "Elija Fernandez",
+            "Address": "11744 Gaelic Drive Austin, TX 78754",
+            "Amount": 243.56,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Purchase of Campaign Design",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "GoDaddy",
+            "Address": "14455 N. Hayden Rd #219 Scottsdale, AZ 85260",
+            "Amount": 120.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Purchase of Website and Website Builder.",
+            "Source": "rpt0000002508_20210115_143127.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

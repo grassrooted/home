@@ -1,0 +1,168 @@
+{
+    "candidate_info": {
+        "first_name": "John",
+        "last_name": "Courage",
+        "office_sought": "Council District 9",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 514.06,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 5959.92,
+            "Total Itemized Reported Contributions": 1000.0,
+            "Total Itemized Reported Expenditures": 514.06,
+            "Total Parsed Contributions": 1000.0,
+            "Total Parsed Expenditures": 504.84,
+            "Expenditure Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2023-07-01_2023-09-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003111_20231016_083314.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "8/28/2023",
+            "Name": "Mr Derek Naiser",
+            "Address": "8918 Tesoro #401 San Antonio, TX 78217",
+            "Amount": 250.0,
+            "Occupation": "Engineer",
+            "Employer": "Arderra",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "9/12/2023",
+            "Name": "Mr Frank Burney",
+            "Address": "112 E Pecan San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought PC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "9/20/2023",
+            "Name": "Mr Arthur C Burdick",
+            "Address": "29119 W. Interstate 10 #902 SAN ANTONIO, TX 78257",
+            "Amount": 250.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "9/30/2023",
+            "Name": "TOTAL UNITEMIZED POLITICAL EXPENDITURES.",
+            "Address": "N/A",
+            "Amount": 9.22,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "7/15/2023",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 122.59,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "7/17/2023",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 17.07,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "7/17/2023",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 35.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "7/31/2023",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "8/15/2023",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 122.59,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "8/16/2023",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 35.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2023",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "9/18/2023",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 35.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "9/18/2023",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 122.59,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2023",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000003111_20231016_083314.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

@@ -1,0 +1,1907 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Havrda",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 20365.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 36938.57,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 38556.82,
+            "Total Parsed Contributions": 20365.0,
+            "Total Parsed Expenditures": 36938.57,
+            "Total Itemized Reported Contributions": 20365.0,
+            "Total Itemized Reported Expenditures": 36938.57
+        }
+    },
+    "form_data": {
+        "period": "2024-07-01_2024-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003212_20250115_152556.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "7/1/2024",
+            "Name": "Greg Kowalski",
+            "Address": "PO Box 1361 San Antonio, TX 78295",
+            "Amount": 500.0,
+            "Occupation": "President and CEO",
+            "Employer": "RK Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/1/2024",
+            "Name": "Bekki Kowalski",
+            "Address": "PO Box 1361 San Antonio, TX 78295",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/11/2024",
+            "Name": "Frank Burney",
+            "Address": "112 E. Pecan San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/16/2024",
+            "Name": "SA Prof Firefighters",
+            "Address": "PO Box 100455 San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/21/2024",
+            "Name": "Tillman Fertitta",
+            "Address": "1510 West Loop South Houston, TX 77027",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Landrys",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2024",
+            "Name": "Toni Marie Van Buren",
+            "Address": "115 Schreiner Pl San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "retired",
+            "Employer": "Retired UWSA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/4/2024",
+            "Name": "Gabriela Rocha",
+            "Address": "16333 Vance Jackson Road San Antonio, TX 78257",
+            "Amount": 50.0,
+            "Occupation": "Personal Development",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2024",
+            "Name": "Jezzika Perez",
+            "Address": "704 Clower San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "Accountant",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/6/2024",
+            "Name": "Myrl & Marjorie Britten",
+            "Address": "5415 Timber Post San Antonio, TX 78250",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/6/2024",
+            "Name": "Joyce Townsend",
+            "Address": "15662 Robin Ridge Road San Antonio, TX 78248",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/6/2024",
+            "Name": "Christina Castano",
+            "Address": "927 Serenade Drive San Antonio, TX 78213",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/2/2024",
+            "Name": "Christian Archer",
+            "Address": "134 W Mistletoe Ave San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Self",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2024",
+            "Name": "Fernando Aguilar",
+            "Address": "206 Wake Forrest Dr San Antonio, TX 78228",
+            "Amount": 25.0,
+            "Occupation": "Constituent Advocate",
+            "Employer": "US House of Representatives",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2024",
+            "Name": "Carlos RAYMOND",
+            "Address": "7490 Culebra Road San Antonio, TX 78251",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2024",
+            "Name": "Wendy Black",
+            "Address": "431 King William Street San Antonio, TX 78204",
+            "Amount": 50.0,
+            "Occupation": "Nonprofit",
+            "Employer": "Footbridge Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/8/2024",
+            "Name": "Oralia Lara-Vargas",
+            "Address": "8311 Willow Creek Dr San Antonio, TX 78251",
+            "Amount": 20.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/8/2024",
+            "Name": "Robert Vargas",
+            "Address": "8311 Willow Creek Dr San Antonio, TX 78251",
+            "Amount": 20.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/9/2024",
+            "Name": "Filemon Vela",
+            "Address": "2619 Eastgrove Lane Houston, TX 77027",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/10/2024",
+            "Name": "Daniel Rossiter",
+            "Address": "4606 Lone Eagle St San Antonio, TX 78238",
+            "Amount": 50.0,
+            "Occupation": "Rental operator",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/10/2024",
+            "Name": "Mary Nancy Cardenas",
+            "Address": "7919 Misty Park Street San Antonio, TX 78250",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/10/2024",
+            "Name": "Kye Fox",
+            "Address": "34 Haverhill Way San Antonio, TX 78209",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/11/2024",
+            "Name": "Lea LaPort",
+            "Address": "11614 Foxford San Antonio, TX 78253",
+            "Amount": 25.0,
+            "Occupation": "Dental Hygienist",
+            "Employer": "Aspen Dentsl",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/11/2024",
+            "Name": "Jason Arechiga",
+            "Address": "22603 Impala Bend San Antonio, TX 78259",
+            "Amount": 250.0,
+            "Occupation": "Developer",
+            "Employer": "The NRP Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/14/2024",
+            "Name": "Ram Cabrera",
+            "Address": "1210 Weston San Antonio, TX 78251",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/14/2024",
+            "Name": "Lyssa Ochoa",
+            "Address": "708 Canterbury Hill San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Phsyician",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Jen Galletti",
+            "Address": "133 Lotus Street San Antonio, TX 78210",
+            "Amount": 25.0,
+            "Occupation": "Animal rescue",
+            "Employer": "Na",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Janie Gonzalez",
+            "Address": "1710 North Main Avenue San Antonio, TX 78212",
+            "Amount": 50.0,
+            "Occupation": "CE0",
+            "Employer": "Webhead",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Chelsea Staley",
+            "Address": "4230 Laterite Trail San Antonio, TX 78253",
+            "Amount": 100.0,
+            "Occupation": "Director of Lifesaving",
+            "Employer": "Petco Love",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Adelfa Reyna",
+            "Address": "655 Freiling San Antonio, TX 78213",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Debra Guerrero",
+            "Address": "3915 Skylark San Antonio, TX 78210",
+            "Amount": 250.0,
+            "Occupation": "Real Estate",
+            "Employer": "The NRP Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Silvestre Vasquez",
+            "Address": "16006 Ponderosa Pass Helotes, TX 78023",
+            "Amount": 500.0,
+            "Occupation": "Consultant",
+            "Employer": "Quatro Strategic Solutions",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Andrew Turner",
+            "Address": "707 Ridgewood Drive Antioch, IL 60002",
+            "Amount": 500.0,
+            "Occupation": "Vice President of Business Development",
+            "Employer": "Dalkia Energy Solutions",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Ashley Turner",
+            "Address": "707 Ridgewood Drive Antioch, IL 60002",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Jean-Christophe Florensen",
+            "Address": "1401 Fairview #A Houston, TX 77006",
+            "Amount": 500.0,
+            "Occupation": "Vice President, Smart Infrastructure Solutions",
+            "Employer": "Dalkia Energy Solutions",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Yuridia Quintanilla",
+            "Address": "1401 Fairview #A Houston, TX 77006",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Fortress Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2024",
+            "Name": "Kevin Kaye",
+            "Address": "607 W Kings Hwy San Antonio, TX 78212",
+            "Amount": 1000.0,
+            "Occupation": "Senior Director of Operations",
+            "Employer": "Dalkia Energy Solutions",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/30/2024",
+            "Name": "Clermont LLC",
+            "Address": "7334 Blanco #200 San Antonio, TX 78216",
+            "Amount": 1000.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/30/2024",
+            "Name": "Iron Gate Technology LLC",
+            "Address": "PO Box 593277 San Antonio, TX 78259",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/31/2024",
+            "Name": "Habitat Investment Properties",
+            "Address": "2902 Spider Lily San Antonio, TX 78258",
+            "Amount": 1000.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/17/2024",
+            "Name": "Kristi Garza Villanueva",
+            "Address": "809 Wyoming St San Antonio, TX 78203",
+            "Amount": 1000.0,
+            "Occupation": "Owner",
+            "Employer": "Tru-Matrix",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Emily Garza",
+            "Address": "757 Treaty Oak San Antonio, TX 78258",
+            "Amount": 500.0,
+            "Occupation": "Educator",
+            "Employer": "HSCSs",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Nicole Trevino",
+            "Address": "8039 Eagle peak Helotes, TX 78023",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "One Seven Transport",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Fakhrudin Valibhai",
+            "Address": "8710 Sandia Circle Helotes, TX 78023",
+            "Amount": 1000.0,
+            "Occupation": "Pharmacist",
+            "Employer": "Dept of Defense",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Suzanne Kaufman-McNamara",
+            "Address": "8515 Oak Fence St San Antonio, TX 78251",
+            "Amount": 25.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Raul Tijerina",
+            "Address": "2715 Grosenbacher San Antonio, TX 78245",
+            "Amount": 50.0,
+            "Occupation": "Detective",
+            "Employer": "SAPD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Christopher Callanen",
+            "Address": "7330 S Old Hammer Aurora, CO 80016",
+            "Amount": 100.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Analysse Escobar",
+            "Address": "132 Seaton Pl NW Washington, DC 20001",
+            "Amount": 25.0,
+            "Occupation": "SAP for Domestic Agency Personnel",
+            "Employer": "EOP",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "April Atkinson",
+            "Address": "207 SW 25th Street San Antonio, TX 78207",
+            "Amount": 25.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Luis Gomez",
+            "Address": "4443 Eldridge Ave San Antonio, TX 78237",
+            "Amount": 100.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/4/2024",
+            "Name": "Hector Santos",
+            "Address": "734 Sawtooth Dr San Antonio, TX 78245",
+            "Amount": 100.0,
+            "Occupation": "Contractor",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/5/2024",
+            "Name": "Myfe Moore",
+            "Address": "11409 Mountain Climb Helotes, TX 78023",
+            "Amount": 100.0,
+            "Occupation": "Mgr",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/6/2024",
+            "Name": "Louis Ortega",
+            "Address": "8814 Ansley Bend Dr San Antonio, TX 78251",
+            "Amount": 25.0,
+            "Occupation": "Project Manager",
+            "Employer": "ABM",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/6/2024",
+            "Name": "Myrl Britten",
+            "Address": "5415 Timber Post St San Antonio, TX 78250",
+            "Amount": 50.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/8/2024",
+            "Name": "Lawrence Romo",
+            "Address": "4811 Isaac Ryan San Antonio, TX 78253",
+            "Amount": 250.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/8/2024",
+            "Name": "Guillermina Reyna",
+            "Address": "9035 Wellwood St San Antonio, TX 78250",
+            "Amount": 25.0,
+            "Occupation": "Housekeeping",
+            "Employer": "Kairoi Residential",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2024",
+            "Name": "Raul Tijerina",
+            "Address": "2715 Grosenbacher Rd. San antonio, TX 78245",
+            "Amount": 50.0,
+            "Occupation": "Detective",
+            "Employer": "SAPD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2024",
+            "Name": "Mary Campos",
+            "Address": "4547 Shavano Peak San Antonio, TX 78230",
+            "Amount": 250.0,
+            "Occupation": "Management",
+            "Employer": "Vantage Bank",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Robert Ramirez",
+            "Address": "414 Resurrection San Antonio, TX 78227",
+            "Amount": 50.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Lawrence Romo",
+            "Address": "4811 Isaac Ryan San Antonio, TX 78253",
+            "Amount": 100.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2024",
+            "Name": "Raul Tijerina",
+            "Address": "2715 Grosenbacher Rd. San antonio, TX 78245",
+            "Amount": 100.0,
+            "Occupation": "Police Detective",
+            "Employer": "Ra\u00fal Tijerina",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2024",
+            "Name": "IBEW PAC Voluntary Fund",
+            "Address": "900 Seventh St., NW Washington, DC 20001",
+            "Amount": 1000.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/23/2024",
+            "Name": "Linebarger Goggan Blair & Sampson LLC",
+            "Address": "PO Box 17428 Austin, TX 78760",
+            "Amount": 1000.0,
+            "Occupation": "Attorney",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/26/2024",
+            "Name": "Joseph Caldwell",
+            "Address": "111 Piazza Vetta Dr #B Austin, TX 78734",
+            "Amount": 1000.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Pina Partners",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2024",
+            "Name": "Paul ruiz",
+            "Address": "634 Spacious Sky San Antonio, TX 78260",
+            "Amount": 250.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2024",
+            "Name": "Suzanne Carpenter",
+            "Address": "2115 Jim Bowie Dr San Antonio, TX 78238",
+            "Amount": 100.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2024",
+            "Name": "Toni-Marie V Buren",
+            "Address": "115 Schreiner Place San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "Teresa Frogge",
+            "Address": "8931 Fabens San Antonio, TX 78251",
+            "Amount": 100.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "PATRICIA STOUT",
+            "Address": "8930 Wurzbach Rd San Antonio, TX 78240",
+            "Amount": 50.0,
+            "Occupation": "Business Owner",
+            "Employer": "Alamo Travel",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "Marion Williams",
+            "Address": "PO Box 90298 San antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "Rose Caballero",
+            "Address": "5918 Winterhaven Drive Windcrest, TX 78239",
+            "Amount": 25.0,
+            "Occupation": "Registered Nurse",
+            "Employer": "Galen college of Nursing",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "Roman Pena",
+            "Address": "514 w. Commerce San Antonio, TX 78221",
+            "Amount": 50.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/1/2024",
+            "Name": "GoDaddy",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 15.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Domain Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/2/2024",
+            "Name": "Google Suite",
+            "Address": "1600 Amphitheatre Parkway Mountainview, CA 94043",
+            "Amount": 15.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Dues and Subscriptions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/3/2024",
+            "Name": "Anedot Inc.",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 121.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Fundraising fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/8/2024",
+            "Name": "AAAA Mini Storage",
+            "Address": "8611 Potranco Road San Antonio, TX 78251",
+            "Amount": 229.42,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Storage",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/8/2024",
+            "Name": "AAAA Mini Storage",
+            "Address": "8611 Potranco Road San Antonio, TX 78251",
+            "Amount": 1140.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Storage",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/8/2024",
+            "Name": "Southwest Voter Registration Project",
+            "Address": "320 El Paso St San Antonio, TX 78207",
+            "Amount": 2000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Political Committee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/11/2024",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 278.22,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Email Database",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/12/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 30.91,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/15/2024",
+            "Name": "Anedot Inc.",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 20.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Fundraising fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/16/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/19/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 35.18,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/19/2024",
+            "Name": "Alpha Graphics",
+            "Address": "12077 Starcrest Drive San Antonio, TX 78247",
+            "Amount": 350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Printing",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2024",
+            "Name": "Duable",
+            "Address": "110 Broadway #170 San Antonio, TX 78205",
+            "Amount": 3500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/30/2024",
+            "Name": "GoDaddy",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 294.09,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Domain Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/31/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 25.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "7/31/2024",
+            "Name": "GoDaddy",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 35.16,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Domain Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/2/2024",
+            "Name": "Google Suite",
+            "Address": "1600 Amphitheatre Parkway Mountainview, CA 94043",
+            "Amount": 15.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Dues and Subscriptions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/12/2024",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 278.22,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Email Database",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/12/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 30.91,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/12/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 25.46,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/13/2024",
+            "Name": "Domain Networks",
+            "Address": "PO Box 1280 Henderson, NC 28793",
+            "Amount": 289.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Domain Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/14/2024",
+            "Name": "Duable",
+            "Address": "110 Broadway #170 San Antonio, TX 78205",
+            "Amount": 3500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/15/2024",
+            "Name": "Nancy Reyna",
+            "Address": "7806 Coral Elm San Antonio, TX 78251",
+            "Amount": 21.65,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/15/2024",
+            "Name": "San Antonio AFL-CIO",
+            "Address": "9502 Computer Dr #201 San Antonio, TX 78229",
+            "Amount": 750.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Charitable Contributions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/16/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/18/2024",
+            "Name": "San Antonio Alliance Local 67",
+            "Address": "120 Adams St San Antonio, TX 78210",
+            "Amount": 100.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Charitable Contributions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/19/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 38.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 10.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 24.12,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/3/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 10.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/3/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 10.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/3/2024",
+            "Name": "Google Suite",
+            "Address": "1600 Amphitheatre Parkway Mountainview, CA 94043",
+            "Amount": 15.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Dues and Subscriptions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/5/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 15.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/6/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 12.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/9/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 15.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 17.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/11/2024",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 300.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Email Database",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/12/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 35.18,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/16/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/17/2024",
+            "Name": "Duable",
+            "Address": "110 Broadway #170 San Antonio, TX 78205",
+            "Amount": 6500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/19/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 38.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/25/2024",
+            "Name": "Society of professional journalists SA",
+            "Address": "3909 N Meridian St Indianapolis, IN 46208",
+            "Amount": 412.41,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 24.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2024",
+            "Name": "Anedot Inc.",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 25.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Fundraising fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/1/2024",
+            "Name": "Google Suite",
+            "Address": "1600 Amphitheatre Parkway Mountainview, CA 94043",
+            "Amount": 15.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Dues and Subscriptions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/1/2024",
+            "Name": "Vanessa Velasquez Photography",
+            "Address": "PO Box 23224 San Antonio, TX 78223",
+            "Amount": 324.75,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Photography",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/1/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 6.51,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/3/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 19.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/4/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 21.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/8/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 24.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/11/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 27.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/11/2024",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 300.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Email Database",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 35.18,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/16/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 38.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/21/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 33.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/22/2024",
+            "Name": "Alpha Graphics",
+            "Address": "12077 Starcrest Drive San Antonio, TX 78247",
+            "Amount": 350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Printing",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "J Alexander S",
+            "Address": "255 E Basse Rd San Antonio, TX 78209",
+            "Amount": 53.79,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meal",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "La Panaderia",
+            "Address": "8305 Broadway San Antonio, TX 78209",
+            "Amount": 21.23,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meal",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/23/2024",
+            "Name": "Duable",
+            "Address": "110 Broadway #170 San Antonio, TX 78205",
+            "Amount": 4810.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 37.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/25/2024",
+            "Name": "Alamedas Cafe",
+            "Address": "342 W Houston San Antonio, TX 78205",
+            "Amount": 13.23,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Meal",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/25/2024",
+            "Name": "Walgreens",
+            "Address": "10718 Bandera San Antonio, TX 78250",
+            "Amount": 25.73,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Supplies",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 28.08,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 8.46,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/31/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 27.85,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "10/31/2024",
+            "Name": "Anedot Inc.",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 116.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Fundraising fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/1/2024",
+            "Name": "Google Suite",
+            "Address": "1600 Amphitheatre Parkway Mountainview, CA 94043",
+            "Amount": 15.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Dues and Subscriptions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/4/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 41.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 300.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Email Database",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/12/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 35.18,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 62.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 69.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 76.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 84.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 93.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 103.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 114.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 38.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2024",
+            "Name": "AAAA Mini Storage",
+            "Address": "8611 Potranco Road San Antonio, TX 78251",
+            "Amount": 19.49,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Storage",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 126.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 139.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 153.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/25/2024",
+            "Name": "Duable",
+            "Address": "110 Broadway #170 San Antonio, TX 78205",
+            "Amount": 4500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 20.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 169.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/29/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 51.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2024",
+            "Name": "Anedot Inc.",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 40.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Fundraising fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 25.99,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/2/2024",
+            "Name": "Google Suite",
+            "Address": "1600 Amphitheatre Parkway Mountainview, CA 94043",
+            "Amount": 15.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Dues and Subscriptions",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/2/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 186.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/2/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 205.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/2/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 226.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/6/2024",
+            "Name": "Flower Bucket",
+            "Address": "11305 West Ave San Antonio, TX 78213",
+            "Amount": 56.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Gifts/Awards/Memorials",
+            "Description": "Gifts",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/9/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 251.92,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/9/2024",
+            "Name": "Personalization Mall",
+            "Address": "850 Veterans Parkway Bolingbrook, IL 60440",
+            "Amount": 28.24,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Gifts/Awards/Memorials",
+            "Description": "Gifts",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/9/2024",
+            "Name": "Personalization Mall",
+            "Address": "850 Veterans Parkway Bolingbrook, IL 60440",
+            "Amount": 363.78,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Gifts/Awards/Memorials",
+            "Description": "Gifts",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2024",
+            "Name": "X corp",
+            "Address": "1355 Market St #900 San Francisco, CA 94103",
+            "Amount": 8.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2024",
+            "Name": "Dollar Tree",
+            "Address": "6511 W Loop 1604 San Antonio, TX 78254",
+            "Amount": 9.47,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Supplies",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2024",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr Loveland, CO 80538",
+            "Amount": 300.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Email Database",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 10.81,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 35.18,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2024",
+            "Name": "Texas Democratic Party",
+            "Address": "4818 E Ben White #104 Austin, TX 78741",
+            "Amount": 840.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Political Committee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2024",
+            "Name": "Alpha Graphics",
+            "Address": "12077 Starcrest Drive San Antonio, TX 78247",
+            "Amount": 560.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Printing",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "Square Space",
+            "Address": "8 Clarkson St New York, NY 10014",
+            "Amount": 38.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Website Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/19/2024",
+            "Name": "GoDaddy",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 48.34,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Domain Hosting",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2024",
+            "Name": "Adobe Inc",
+            "Address": "345 Park Ave San Jose, CA 95110",
+            "Amount": 21.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Software",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2024",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 208.28,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertisement",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "Anedot Inc.",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 102.4,
+            "Transaction_Type": "Expenditure",
+            "Category": "Solicitation/Fundraising Expense",
+            "Description": "Fundraising fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2024",
+            "Name": "IBC bank",
+            "Address": "130 East Travis San Antonio, TX 78205",
+            "Amount": 12.49,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Bank Fee",
+            "Source": "rpt0000003212_20250115_152556.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

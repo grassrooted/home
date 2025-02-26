@@ -1,0 +1,708 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Gavito",
+        "office_sought": "Council District 7",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 15499.87,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 19793.5,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 13602.55,
+            "Total Parsed Contributions": 15449.87,
+            "Total Parsed Expenditures": 19765.57,
+            "Total Itemized Reported Contributions": 15499.87,
+            "Total Itemized Reported Expenditures": 19793.5,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2023-07-01_2023-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000003130_20240115_172648.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/31/2023",
+            "Name": "TOTAL UNITEMIZED POLITICAL CONTRIBUTIONS",
+            "Address": "N/A",
+            "Amount": 50.0,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/12/2023",
+            "Name": "Frank Burney",
+            "Address": "112 East Pecan Street #1616 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Martin & Drought, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/13/2023",
+            "Name": "Gerald Lee",
+            "Address": "8127 N. New Braunfels #801 San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Consultant",
+            "Employer": "Andrade - Van de Putte",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/14/2023",
+            "Name": "Henry Van de Putte III",
+            "Address": "803 West Oltorf Street Austin, TX 78704",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Meals on Wheels Central Texas",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/19/2023",
+            "Name": "Gordon Hartman",
+            "Address": "1302 W Bitters #1200 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Founder",
+            "Employer": "Gordon Hartman Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/20/2023",
+            "Name": "Sarah McLornan",
+            "Address": "115 Paloma Dr San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "homemaker",
+            "Employer": "homemaker",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/22/2023",
+            "Name": "daniel and rose kellum",
+            "Address": "330 E Summit Ave san antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "physician",
+            "Employer": "kellum physician partners",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/25/2023",
+            "Name": "Robert Worth Jr",
+            "Address": "270 Terrell Road San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Commercial Real Estate Developer",
+            "Employer": "Worth & Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/25/2023",
+            "Name": "Richard Robledo",
+            "Address": "8315 Kingsway St San Antonio, TX 78254",
+            "Amount": 50.0,
+            "Occupation": "Civil Service",
+            "Employer": "Randolph AFB",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/25/2023",
+            "Name": "Preston Woolfolk",
+            "Address": "7743 Winecup Hill San Antonio, TX 78256-1640",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Documation, Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Sandra Martinez",
+            "Address": "312 Pearl Parkway #4909 San Antonio, TX 78215",
+            "Amount": 500.0,
+            "Occupation": "Legal Marketing",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Christian Archer",
+            "Address": "134 W Mistletoe Ave San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Captial Partner",
+            "Employer": "Watts Guerra LLP",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Ellen R Clark",
+            "Address": "930 East Sunshine Drive San Antonio, TX 78228",
+            "Amount": 25.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Adel Hernandez",
+            "Address": "506 Royal Court San Antonio, TX 78228-2032",
+            "Amount": 250.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Sharon Whitley",
+            "Address": "8323 Dawnwood Dr San Antonio, TX 78250",
+            "Amount": 25.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Javier Bocanegra",
+            "Address": "6505 Laurel Hill Dr San Antonio, TX 78229",
+            "Amount": 250.0,
+            "Occupation": "Doctor",
+            "Employer": "Community Family Medicne",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Javier Bocanegra",
+            "Address": "6505 Laurel Hill Dr San Antonio, TX 78229",
+            "Amount": 250.0,
+            "Occupation": "Doctor",
+            "Employer": "Community Family Medicne",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Laura Cabanilla",
+            "Address": "3334 Nantucket Dr San Antonio, TX 78230",
+            "Amount": 100.0,
+            "Occupation": "Financial",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Joe Candelario",
+            "Address": "4306 Muirfield Dr San Antonio, TX 78229",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "N/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Diana Doria",
+            "Address": "101 101 Linda Dr San Antonio, TX 78216",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Edward Guerrero",
+            "Address": "150 East Lynwood Avenue San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "Engineering Manager",
+            "Employer": "AMD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Frank Herrera",
+            "Address": "106 Blackhawk Trl San Antonio, TX 78232",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "The Herrera Law Firm",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Matt Jones",
+            "Address": "PO Box 12037 San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "Director of Government Relations",
+            "Employer": "Francis Energy LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "linda maldonado",
+            "Address": "8503 Honiley San Antonio, TX 78254",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Eduardo Parra",
+            "Address": "28 Grantham Glen San Antonio, TX 78257",
+            "Amount": 250.0,
+            "Occupation": "Civil Engineer",
+            "Employer": "Parra & Co",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Arthur Rodriguez",
+            "Address": "2101 W. Summit Ave San Antonio, TX 78201",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Claudia Salinas",
+            "Address": "1414 Fulton Avenue San Antonio, TX 78201",
+            "Amount": 100.0,
+            "Occupation": "Manager",
+            "Employer": "DaVita Kidney Care",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Minnie Sanchez",
+            "Address": "3711 River Falls San Antonio, TX 78259",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Martha G Sepeda",
+            "Address": "2420 McCullough Avenue #122 San Antonio, TX 78212",
+            "Amount": 25.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Jane Velasquez",
+            "Address": "5939 Woodridge Rock San Antonio, TX 78249",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "N/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "MedWheels Inc",
+            "Address": "1322 E Houston St San Antonio, TX 78205",
+            "Amount": 200.0,
+            "Occupation": "n/a",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Ortiz McKnight PLLC",
+            "Address": "112 E Pecan St #1350 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "n/a",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "ACEC PAC",
+            "Address": "PO Box 6323 San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "n/a",
+            "Employer": "PAC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Oscar Maron",
+            "Address": "2127 W Magnolia Ave San Antonio, TX 78201",
+            "Amount": 200.0,
+            "Occupation": "retired",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "John Agather",
+            "Address": "300 West French Pl San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Musician",
+            "Employer": "AIC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Paul Basaldua",
+            "Address": "3 Woltwood San Antonio, TX 78248",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "VersaTerra",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Chris Aldrete",
+            "Address": "335 Country Wood Drive San Antonio, TX 78216",
+            "Amount": 250.0,
+            "Occupation": "consultant",
+            "Employer": "Aldrete Strategic Partners, LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Caroline McDonald",
+            "Address": "100 NE Loop 410 #1385 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Brown & McDonald",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Ken Brown",
+            "Address": "100 NE Loop 410 #1385 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Brown & McDonald",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Gerald Lee",
+            "Address": "8127 N. New Braunfels #801 San Antonio, TX 78209",
+            "Amount": 150.0,
+            "Occupation": "Lobbyist",
+            "Employer": "Andrade - Van de Putte & Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Elisa Bernal",
+            "Address": "3010 Whisper Fern San Antonio, TX 78230",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "n/a",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/29/2023",
+            "Name": "Ivan Jaime",
+            "Address": "3830 Balentine San Antonio, TX 78257",
+            "Amount": 250.0,
+            "Occupation": "Director",
+            "Employer": "Walmart",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/1/2023",
+            "Name": "Justin Rodriguez Campaign Fund",
+            "Address": "PO Box 100153 San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "Comissioner",
+            "Employer": "Bexar County",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/4/2023",
+            "Name": "Jeffrey L Kothman",
+            "Address": "326 Big Oak Dr Adkins, TX 78101",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Texas Towing",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2023",
+            "Name": "Clay Jackson",
+            "Address": "2047 Rigsby San Antonio, TX 78210",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Clay Jackson Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/13/2023",
+            "Name": "George Gavito",
+            "Address": "1931 W French Pl San Antonio, TX 78201",
+            "Amount": 24.87,
+            "Occupation": "Realtor",
+            "Employer": "The Agency",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "11/1/2023",
+            "Name": "Jack Vexler",
+            "Address": "201 Charles Rd San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Monterrey Iron & Metal Recycling",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "11/6/2023",
+            "Name": "Mary Jordan Vexler",
+            "Address": "127 E Mulberry San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "COO",
+            "Employer": "Monterrey Iron & Metal Recycling",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "11/10/2023",
+            "Name": "CWA Political Action Fund",
+            "Address": "501 3rd Street NW Washington, DC 20001",
+            "Amount": 500.0,
+            "Occupation": "PAC",
+            "Employer": "PAC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "11/21/2023",
+            "Name": "USAA Employee PAC",
+            "Address": "9800 Fredricksburg Rd San Antonio, TX 78288",
+            "Amount": 500.0,
+            "Occupation": "PAC",
+            "Employer": "PAC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "12/25/2023",
+            "Name": "Greg Kowalski",
+            "Address": "PO Box 1361 San Antonio, TX 78295",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "RK Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/1/2023",
+            "Name": "Marina A Gavito",
+            "Address": "1850 Fredericksburg Rd San Antonio, TX 78201",
+            "Amount": 24.87,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Loan Repayment /",
+            "Description": "Reimbursement",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "7/22/2023",
+            "Name": "Prestige Printing",
+            "Address": "8 Burwood Ln San Antonio, TX 78216",
+            "Amount": 3117.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Printing",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2023",
+            "Name": "Norma Denham",
+            "Address": "PO Box 461753 San Antonio, TX 78246",
+            "Amount": 6905.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Fundraising",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "7/27/2023",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 106.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2023",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 106.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/27/2023",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 106.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/28/2023",
+            "Name": "Dulce Suenos",
+            "Address": "1904 Fredericksburg Rd San Antonio, TX 78201",
+            "Amount": 683.31,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Soliciation/Fundraising",
+            "Description": "Event",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/29/2023",
+            "Name": "Dulce Suenos",
+            "Address": "1904 Fredericksburg Rd San Antonio, TX 78201",
+            "Amount": 109.31,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Soliciation/Fundraising",
+            "Description": "Event",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2023",
+            "Name": "Anedot",
+            "Address": "1340 Poydras Street #1770 New Orleans, LA 70112",
+            "Amount": 235.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Fees",
+            "Description": "Transaction Fees",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/2/2023",
+            "Name": "Little Ceasers",
+            "Address": "2002 Fredericksburg Rd San Antonio, TX 78201",
+            "Amount": 41.62,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Food/Beverage Expense",
+            "Description": "Event food",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/4/2023",
+            "Name": "Viva Politics",
+            "Address": "1850 Fredericksburg Rd San Antonio, TX 78201",
+            "Amount": 6850.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Campaign Management",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2023",
+            "Name": "Flagship Campaigns",
+            "Address": "56 Oak Villa Rd Canyon Lake, TX 78133",
+            "Amount": 750.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Polling Expense",
+            "Description": "Field data",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2023",
+            "Name": "Audrey Brunner",
+            "Address": "512 W Euclid San Antonio, TX 07212",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Event staff",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "10/27/2023",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 106.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "11/27/2023",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 106.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "12/5/2023",
+            "Name": "HEB",
+            "Address": "2118 Fredericksburg Rd San Antonio, TX 78202",
+            "Amount": 198.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Other",
+            "Description": "Stamps",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        },
+        {
+            "Transaction_Date": "12/27/2023",
+            "Name": "Mailchimp",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 117.26,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email",
+            "Source": "rpt0000003130_20240115_172648.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

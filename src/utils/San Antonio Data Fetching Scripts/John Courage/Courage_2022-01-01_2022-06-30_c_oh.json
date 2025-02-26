@@ -1,0 +1,947 @@
+{
+    "candidate_info": {
+        "first_name": "John",
+        "last_name": "Courage",
+        "office_sought": "Council District 9",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 17852.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 2154.88,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 33451.87,
+            "Total Itemized Reported Contributions": 17852.0,
+            "Total Itemized Reported Expenditures": 2154.88,
+            "Total Parsed Contributions": 17852.0,
+            "Total Parsed Expenditures": 2154.88
+        }
+    },
+    "form_data": {
+        "period": "2022-01-01_2022-06-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002858_20220715_150756.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "1/27/2022",
+            "Name": "Mr Lloyd A Denton Jr",
+            "Address": "1 Bitterblue Ln San Antonio, TX 78218-1790",
+            "Amount": 500.0,
+            "Occupation": "Dilettante",
+            "Employer": "Bitterblue, Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "1/27/2022",
+            "Name": "Mrs Camille L Denton",
+            "Address": "1 Bitterblue Ln San Antonio, TX 78218-1790",
+            "Amount": 500.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2022",
+            "Name": "Mr Jeffrey Morgan",
+            "Address": "5606 S Rice Ave Houston, TX 77081",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "Morgan Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2022",
+            "Name": "Mr Kate Morgan",
+            "Address": "5606 S Rice Ave Houston, TX 77081",
+            "Amount": 500.0,
+            "Occupation": "Not employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2022",
+            "Name": "Mrs Patti B Morgan",
+            "Address": "422 Thamer Houston, TX 77024",
+            "Amount": 500.0,
+            "Occupation": "Not employed",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2022",
+            "Name": "Mr Michael S Morgan",
+            "Address": "422 Thamer Houston, TX 77024",
+            "Amount": 500.0,
+            "Occupation": "Chairman",
+            "Employer": "Morgan Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/1/2022",
+            "Name": "Mr Jason D Hauck",
+            "Address": "2101 Airole Way #B Austin, TX 78704-3226",
+            "Amount": 500.0,
+            "Occupation": "Regional Development Partner",
+            "Employer": "Morgan Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/2/2022",
+            "Name": "Mr Alan Bass",
+            "Address": "27605 Bulverde Rd San Antonio, TX 78260",
+            "Amount": 500.0,
+            "Occupation": "Assoc VP",
+            "Employer": "Providence Commercial Real Estate Services",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/2/2022",
+            "Name": "Mr Richard K Sheldon",
+            "Address": "4006 Green Oak Dr Waco, TX 76710",
+            "Amount": 500.0,
+            "Occupation": "President CEO",
+            "Employer": "Rick Sheldon Real Estated",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/2/2022",
+            "Name": "Mrs Lisa L Sheldon",
+            "Address": "4006 Green Oak Dr Waco, TX 76710",
+            "Amount": 500.0,
+            "Occupation": "Manager",
+            "Employer": "Rick Sheldon Real Estated",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/6/2022",
+            "Name": "Mr Jaime R Arechiga",
+            "Address": "2310 Winding Way San Antonio, TX 78260",
+            "Amount": 500.0,
+            "Occupation": "Sr VP",
+            "Employer": "The NRP Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/7/2022",
+            "Name": "Mr Gerald M Merck III",
+            "Address": "22346 Fossil Ridge San Antonio, TX 78261-3015",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Legacy Sitework, LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/7/2022",
+            "Name": "Mr B Scott Teeter",
+            "Address": "15522 Clover Rdg San Antonio, TX 78248-1333",
+            "Amount": 500.0,
+            "Occupation": "Developer",
+            "Employer": "Bitterblue, Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/7/2022",
+            "Name": "Ms Sandra Teeter",
+            "Address": "15522 Clover Rdg San Antonio, TX 78248-1333",
+            "Amount": 500.0,
+            "Occupation": "General Manager",
+            "Employer": "Zillow, Inc",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Stephen Pooppoon",
+            "Address": "145 Grand Oak St San Antonio, TX 78232-1221",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Louis Poppoon Development & Consulting, Ltd",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Ms Nancy A Pooppoon",
+            "Address": "145 Grand Oak St San Antonio, TX 78232-1221",
+            "Amount": 500.0,
+            "Occupation": "Director",
+            "Employer": "The Soldier Road Home Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Thomas D Rutherford",
+            "Address": "8205 Asmara Ct Austin, TX 78750",
+            "Amount": 500.0,
+            "Occupation": "President CEO",
+            "Employer": "Southstar Communities",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Ken L Espensen",
+            "Address": "3406 Mont Blanc San Antonio, TX 78258",
+            "Amount": 500.0,
+            "Occupation": "Sr. VP",
+            "Employer": "REOC Development",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Ms Aubra L Franklin",
+            "Address": "1502 Greystone Rdg San Antonio, TX 78258-4666",
+            "Amount": 500.0,
+            "Occupation": "Founder",
+            "Employer": "Franklin Development",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Harry B Adams",
+            "Address": "2319 Fountain Way San Antonio, TX 78248-1937",
+            "Amount": 500.0,
+            "Occupation": "Executive VP",
+            "Employer": "McCombs Enterprises",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Kenneth W Brown",
+            "Address": "2454 Toftrees Dr San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Brown & Ortiz, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Ms Leslie Brown",
+            "Address": "2454 Toftrees Dr San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "US Government",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Christopher T Donohue",
+            "Address": "4023 Monteverde Way San Antonio, TX 78261-2950",
+            "Amount": 100.0,
+            "Occupation": "President",
+            "Employer": "Marathon Title Company",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mr Daniel Ortiz",
+            "Address": "9103 Mellbrook St San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Brown & Ortiz, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/8/2022",
+            "Name": "Mrs Casandra Ortiz",
+            "Address": "9103 Mellbrook St San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Kassahn & Ortiz, PC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/9/2022",
+            "Name": "Ms Mary A Rozar-Hogan",
+            "Address": "1305 Yosemite Oaks San Antonio, TX 78213-1637",
+            "Amount": 500.0,
+            "Occupation": "Dir. Special Projects and Facilities",
+            "Employer": "Unitversity of Texas at San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/9/2022",
+            "Name": "Mr Michael A Hogan",
+            "Address": "1305 Yosemite Oaks San Antonio, TX 78213-1637",
+            "Amount": 500.0,
+            "Occupation": "President CEO",
+            "Employer": "Hogan Properties Company",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/11/2022",
+            "Name": "Mr Allen Hoover",
+            "Address": "9 Jason Rd Boerne, TX 78006",
+            "Amount": 500.0,
+            "Occupation": "Teacher",
+            "Employer": "FBC Boerne",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/11/2022",
+            "Name": "Ms Karen Hoover",
+            "Address": "9 Jason Rd Boerne, TX 78006",
+            "Amount": 500.0,
+            "Occupation": "Teacher",
+            "Employer": "FBC Boerne",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/28/2022",
+            "Name": "Mr John Munley",
+            "Address": "1010 Serenata Circle San Antonio, TX 78216",
+            "Amount": 100.0,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/11/2022",
+            "Name": "Mr Rollette Schreckenghost",
+            "Address": "10502 Posthouse Cir San Antonio, TX 78216",
+            "Amount": 9.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/11/2022",
+            "Name": "Mr Russell Voyles",
+            "Address": "918 Riverstone Dr San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Banker",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/11/2022",
+            "Name": "Mr Mobi Warren",
+            "Address": "1826 Poppy Peak St San Antonio, TX 78232",
+            "Amount": 20.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/11/2022",
+            "Name": "Mr Robert W Miller",
+            "Address": "14215 Jones Maltsberger Rd San Antonio, TX 78247",
+            "Amount": 100.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/11/2022",
+            "Name": "Mr Gary Rogers",
+            "Address": "203 Donella Dr San Antonio, TX 78232",
+            "Amount": 50.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/12/2022",
+            "Name": "Ms Stephanie Aicher",
+            "Address": "9444 Atelier Dr Anchorage, AK 99507",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Chairman of Board",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/12/2022",
+            "Name": "Ms Sophie R Minich",
+            "Address": "8326 Heavenly Cr Anchorage, AK 99654",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "Chief Counsel",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/12/2022",
+            "Name": "Mr Chad Nugent",
+            "Address": "4237 E Meridian Loop Wasilla, AK 99654",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "COO",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/12/2022",
+            "Name": "Ms Jenny Nugent",
+            "Address": "4237 E Meridian Loop Wasilla, AK 99654",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/12/2022",
+            "Name": "Mr Colleen Waguespack",
+            "Address": "1603 Tarton Ln San Antonio, TX 78231",
+            "Amount": 100.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "CPA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/14/2022",
+            "Name": "Mr Richard Lewis",
+            "Address": "1923 Deer Rdg San Antonio, TX 78232",
+            "Amount": 20.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Arthur Downey",
+            "Address": "730 Arch Stone San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Colonel",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Richrd Pressman",
+            "Address": "11310 Whisper Falls St San Antonio, TX 78230",
+            "Amount": 9.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Ms Angelica Cox",
+            "Address": "12223 Farview Ln San Antonio, TX 78216",
+            "Amount": 25.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Stay at home mom",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Jerry Morrisey",
+            "Address": "18631 Encino Way San Antonio, TX 78259",
+            "Amount": 20.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Kenneth Phelps",
+            "Address": "18222 Crystal Cv San Antonio, TX 78259",
+            "Amount": 50.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "continuous breathing",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Kenneth Phelps",
+            "Address": "18222 Crystal Cv San Antonio, TX 78259",
+            "Amount": 50.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Hubert T Hill",
+            "Address": "24806 Night Arrow San Antonio, TX 78258",
+            "Amount": 20.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Ms Eileen Shiman",
+            "Address": "1130 Tranquil Trall Dr San Antonio, TX 78232",
+            "Amount": 20.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/22/2022",
+            "Name": "Mr Richard Pressman",
+            "Address": "11310 Whisper Falls St San Antonio, TX 78230",
+            "Amount": 9.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/23/2022",
+            "Name": "Mr Ronald Sims",
+            "Address": "13606 Oak Ash San Antonio, TX 78232",
+            "Amount": 50.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/24/2022",
+            "Name": "Mr Alex Hill",
+            "Address": "16803 SUMMER CREEK Dr San Antonio, TX 78248",
+            "Amount": 250.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "claims mgr",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/24/2022",
+            "Name": "Ms Yehonati Leor",
+            "Address": "127 Sandhill Woods Rockport, TX 78382",
+            "Amount": 100.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "Drought researcher",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/26/2022",
+            "Name": "Mr George L Lamborn",
+            "Address": "2410 Borders Sam Antonio, TX 78232",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/28/2022",
+            "Name": "Ms Catherine Silvers",
+            "Address": "2427 Thrasher Oak San Antonio, TX 78232",
+            "Amount": 50.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "1/13/2022",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 67.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "1/13/2022",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "1/18/2022",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "1/18/2022",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "1/31/2022",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/9/2022",
+            "Name": "Metal Promo",
+            "Address": "517 S. Lamar Blvd Austin, TX 78704-1548",
+            "Amount": 874.12,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Fiesta Medals",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/14/2022",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/14/2022",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 74.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/16/2022",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/16/2022",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/22/2022",
+            "Name": "PayPal",
+            "Address": "12312 Port Grace Blvd La Vista, NE 76592",
+            "Amount": 29.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "2/28/2022",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/1/2022",
+            "Name": "PayPal",
+            "Address": "12312 Port Grace Blvd La Vista, NE 76592",
+            "Amount": 3.2,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/7/2022",
+            "Name": "FHK",
+            "Address": "9501 Console Dr. #200 San Antonio, TX 78229",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "1099 Form preparation",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/14/2022",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/14/2022",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 74.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/16/2022",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/16/2022",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "3/31/2022",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/13/2022",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/13/2022",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 74.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/18/2022",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/18/2022",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2022",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/9/2022",
+            "Name": "GODADDY.COM",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 76.62,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Email addresses",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2022",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2022",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 74.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2022",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2022",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2022",
+            "Name": "PayPal",
+            "Address": "12312 Port Grace Blvd La Vista, NE 76592",
+            "Amount": 18.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "5/31/2022",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/13/2022",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 74.61,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/13/2022",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/16/2022",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/16/2022",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 35.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/29/2022",
+            "Name": "PayPal",
+            "Address": "12312 Port Grace Blvd La Vista, NE 76592",
+            "Amount": 26.84,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        },
+        {
+            "Transaction_Date": "6/30/2022",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002858_20220715_150756.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

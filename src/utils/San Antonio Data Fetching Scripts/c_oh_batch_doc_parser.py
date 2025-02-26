@@ -6,9 +6,9 @@ import requests
 from datetime import datetime
 
 # File containing the list of PDF links
-FIRST_NAME_CONFIG = "Phyllis"
-LAST_NAME_CONFIG = "Viagran"
-related_tec_docs_filename = f"{FIRST_NAME_CONFIG}_{LAST_NAME_CONFIG}_2019_2025.txt"
+FIRST_NAME_CONFIG = "Marc"
+LAST_NAME_CONFIG = "Whyte"
+related_tec_docs_filename = f"{FIRST_NAME_CONFIG}_{LAST_NAME_CONFIG}_2016_2025.txt"
 def extract_filename_from_url(url):
     return url.split("/")[-1]
 
@@ -77,9 +77,9 @@ def extract_finance_data_from_table(pdf_path):
     def parse_totals_page(table):
         flat_text = " ".join(filter(None, [str(item) for sublist in table for item in sublist])).replace("None", "").replace("\n","")
         patterns = {
-            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"LOANS, OR GUARANTEES OF LOANS\), UNLESS ITEMIZED\s+\$\s*([\d,]+\.\d{2})",
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": r"LOANS, OR GUARANTEES OF LOANS\), UNLESS ITEMIZED\s+\$\s*([\d,]+\.\d{2})",
             "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": r"2\. TOTAL POLITICAL CONTRIBUTIONS\s*\(OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS\)\s+\$\s*([\d,]+\.\d{2})",
-            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": r"100 OR LESS,UNLESS ITEMIZED\s+\$\s*([\d,]+\.\d{2})",
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": r"100 OR LESS, UNLESS ITEMIZED\s+\$\s*([\d,]+\.\d{2})",
             "TOTAL POLITICAL EXPENDITURES": r"4\. TOTAL POLITICAL EXPENDITURES\s+\$\s*([\d,]+\.\d{2})",
             "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": r"REPORTING PERIOD\s+\$\s*([\d,]+\.\d{2})"
         }
@@ -262,8 +262,8 @@ def extract_finance_data_from_table(pdf_path):
         contributions = []
         expenditures = []
 
-        political_contributions = data["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
-        political_expenditures = data["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]
+        political_contributions = data["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
+        political_expenditures = data["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]
 
         if political_contributions > 0:
             contributions.append({
@@ -277,7 +277,7 @@ def extract_finance_data_from_table(pdf_path):
         if political_expenditures > 0:
             expenditures.append({
                 "Transaction_Date": end_of_reporting_period,
-                "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+                "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED",
                 "Address": "N/A",
                 "Amount": political_expenditures,
                 "Transaction_Type": "Expenditure",
@@ -308,7 +308,14 @@ def extract_finance_data_from_table(pdf_path):
             # Extract category and description
             category_data = record[2][1].split("\n")
             category = category_data[1] if len(category_data) > 1 else None
-            description = record[2][2].split("\n")[-1] if record[2][2] else None
+
+            description = record[2][2]\
+                .replace("\n"," ")\
+                .replace("(b)","")\
+                .replace("Check if travel outside of Texas, complete schedule T","")\
+                .replace("Check if Austin, TX, officeholder living expense","")\
+                .replace("Description","")\
+                .strip()
 
             # Return the parsed record
             if date and payee_name and amount and payee_address and category and description:
@@ -348,6 +355,17 @@ def extract_finance_data_from_table(pdf_path):
                     data["expenditures"].extend(non_itemized_expenditures)
                     json_str = json.dumps(data["candidate_info"]["report_totals"], indent=4)
                     print(json_str)
+            elif page_num == 2:
+                for p in tables:
+                    for row in p:
+                        for cell in row:
+                            if cell and "SCHEDULE A1" in cell:
+                                itemized_contrib_total = float(row[-1].replace("$","").replace(",",""))
+                                data["candidate_info"]["report_totals"]["Total Itemized Reported Contributions"] = itemized_contrib_total
+                            elif cell and "SCHEDULE F1" in cell:
+                                itemized_expend_total = float(row[-1].replace("$","").replace(",",""))
+                                data["candidate_info"]["report_totals"]["Total Itemized Reported Expenditures"] = itemized_expend_total
+
 
             page_title = "".join(page.extract_tables()[0][0][0])
 
@@ -412,28 +430,27 @@ def process_pdfs_from_links(related_tec_docs_filename, output_dir=f"downloaded_p
                 pc = period_covered.replace("/", "-")
                 output_file = f"{last_name}_{pc}_c_oh.json"
 
-            total_contributions_monetary = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
-            total_in_kind_contributions = round(sum(record["Amount"] for record in finance_data["in_kind_contributions"]), 2)
-            total_contributions = total_contributions_monetary + total_in_kind_contributions
-            total_expenditures = round(sum(record["Amount"] for record in finance_data["expenditures"]) + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"], 2)
+            total_contributions_monetary_itemized = round(sum(record["Amount"] for record in finance_data["contributions"]), 2)
+            total_expenditures_monetary_itemized = round(sum(record["Amount"] for record in finance_data["expenditures"]), 2)
 
-            finance_data["candidate_info"]["report_totals"]["Total Parsed Contributions"] = total_contributions
-            finance_data["candidate_info"]["report_totals"]["Total Parsed Expenditures"] = total_expenditures
+            finance_data["candidate_info"]["report_totals"]["Total Parsed Contributions"] = total_contributions_monetary_itemized
+            finance_data["candidate_info"]["report_totals"]["Total Parsed Expenditures"] = total_expenditures_monetary_itemized
 
-            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]
-            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES"]\
-                + finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED"]
+            reported_total_contributions = finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Contributions"]
+            reported_total_expenditures = finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Expenditures"]
 
-            finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Contributions"] = reported_total_contributions
-            finance_data["candidate_info"]["report_totals"]["Total Itemized Reported Expenditures"] = reported_total_expenditures
 
-            if (reported_total_contributions != total_contributions):
-                print("***MISMATCHING CONTRIBUTION TOTAL***\n\n")
+
+            if (total_contributions_monetary_itemized - reported_total_contributions) != 0:
+                print(f"Diff: {abs(total_contributions_monetary_itemized - reported_total_contributions)}")
+                if round(abs(total_contributions_monetary_itemized - reported_total_contributions), 2) != finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED"]:
+                    print("***MISMATCHING CONTRIBUTION TOTAL***\n\n")
                 finance_data["candidate_info"]["report_totals"]["Contribution Mismatch"] = True
-            elif (reported_total_expenditures != total_expenditures):
-                print("***MISMATCHING EXPENDITURE TOTAL***\n\n")
-                finance_data["candidate_info"]["report_totals"]["Expenditure Mismatch"] = True
+            if (total_expenditures_monetary_itemized - reported_total_expenditures) != 0:
+                print(f"Diff: {abs(total_expenditures_monetary_itemized - reported_total_expenditures)}")
+                if round(abs(total_expenditures_monetary_itemized - reported_total_expenditures), 2) != finance_data["candidate_info"]["report_totals"]["TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED"]:
+                    print("***MISMATCHING EXPENDITURE TOTAL***\n\n")
+                    finance_data["candidate_info"]["report_totals"]["Expenditure Mismatch"] = True
             print("\n\n\n\n")
             with open(output_file, "w") as file:
                 json.dump(finance_data, file, indent=4)

@@ -1,0 +1,257 @@
+{
+    "candidate_info": {
+        "first_name": "John",
+        "last_name": "Courage",
+        "office_sought": "Council District 9",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 1765.9,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 19058.59,
+            "Total Itemized Reported Contributions": 1500.0,
+            "Total Itemized Reported Expenditures": 1765.9,
+            "Total Parsed Contributions": 1500.0,
+            "Total Parsed Expenditures": 1765.9
+        }
+    },
+    "form_data": {
+        "period": "2021-07-01_2021-09-30",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002788_20211018_092125.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "8/28/2021",
+            "Name": "Richard Wells",
+            "Address": "600 E Market San Antonio, T 78266",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Dailey & Wells Communications",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2021",
+            "Name": "JoAnne Wells",
+            "Address": "610 E Market St san antonio, TX 78240",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Dailey & Wells Communications",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/8/2021",
+            "Name": "Stephen Pooppoon",
+            "Address": "145 Grand Oak San Antonio, T 78232",
+            "Amount": 500.0,
+            "Occupation": "Developer",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/1/2021",
+            "Name": "Hustle Inc",
+            "Address": "251 Kearny St San Francisco, CA 94108",
+            "Amount": 960.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Texting Campaign Services",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "7/13/2021",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "7/13/2021",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 67.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "7/16/2021",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "7/16/2021",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "7/30/2021",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/13/2021",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 67.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/13/2021",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/16/2021",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/16/2021",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/28/2021",
+            "Name": "PayPal",
+            "Address": "12312 Port Grace Blvd La Vista, NE 76592",
+            "Amount": 29.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Service Charge",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2021",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/8/2021",
+            "Name": "PayPal",
+            "Address": "12312 Port Grace Blvd La Vista, NE 76592",
+            "Amount": 14.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Service Charge",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/13/2021",
+            "Name": "Cricket Wireless",
+            "Address": "575 Morosgo Dr Atlanta, GA 30324",
+            "Amount": 30.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "phone service",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/13/2021",
+            "Name": "Harmony Hills PTA",
+            "Address": "10727 Memory Lane San Antonio, TX 78216",
+            "Amount": 160.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Contribution",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/13/2021",
+            "Name": "Harmony Hills Elementary",
+            "Address": "10727 Memory Lane San Antonio, TX 78216",
+            "Amount": 160.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Matching Contribution for Blood Drive",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/13/2021",
+            "Name": "Rocket Science Group, LLC",
+            "Address": "675 Ponce de Leon Ave NE #5000 Atlanta, GA 30308",
+            "Amount": 67.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Advertising",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/16/2021",
+            "Name": "ZOOM US",
+            "Address": "55 Almanden Blvd San Jose, CA 95113",
+            "Amount": 16.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Video Meeting",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/16/2021",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 29.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Advertising",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2021",
+            "Name": "Frost Bank",
+            "Address": "PO Box 1600 San Antonio, TX 78296",
+            "Amount": 5.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Service Charges",
+            "Description": "Bank Service Charge",
+            "Source": "rpt0000002788_20211018_092125.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

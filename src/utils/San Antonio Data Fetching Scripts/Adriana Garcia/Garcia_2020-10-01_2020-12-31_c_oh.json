@@ -1,0 +1,157 @@
+{
+    "candidate_info": {
+        "first_name": "Arthur",
+        "last_name": "Garcia",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1500.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 673.6,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 11119.15,
+            "Total Parsed Contributions": 1500.0,
+            "Total Parsed Expenditures": 673.6,
+            "Total Itemized Reported Contributions": 1500.0,
+            "Total Itemized Reported Expenditures": 673.6
+        }
+    },
+    "form_data": {
+        "period": "2020-10-01_2020-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002507_20210113_082317.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "9/21/2020",
+            "Name": "Norton Rose Fulbright US LLP Texas Committee",
+            "Address": "1301 McKinney #5100 Houston, TX 77010",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/16/2020",
+            "Name": "The Boeing Company Political Action Committee",
+            "Address": "929 Long Bridge Dr. Arlington, VA 22202-4208",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/18/2020",
+            "Name": "Martin & Drought",
+            "Address": "112 E. Pecan San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/31/2020",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and Paper Statement Fees",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2020",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and Paper Statement Fees",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2020",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and Paper Statement Fees",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "10/30/2020",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and Paper Statement Fees",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/9/2020",
+            "Name": "Google LLC",
+            "Address": "1600 Amphitheatre Pkwy Mountain View, CA 94043",
+            "Amount": 12.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Google Domain",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/9/2020",
+            "Name": "Google LLC",
+            "Address": "1600 Amphitheatre Pkwy Mountain View, CA 94043",
+            "Amount": 24.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Google Domain",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/10/2020",
+            "Name": "Wix.com LTD",
+            "Address": "500 Terry A Francois Blvd San Francisco, CA 94158",
+            "Amount": 519.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/27/2020",
+            "Name": "USPS",
+            "Address": "5510 SW Loop 410 San Antonio, TX 78227-9998",
+            "Amount": 106.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "Post office box rental",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2020",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and Paper Statement Fees",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and Paper Statement Fees",
+            "Source": "rpt0000002507_20210113_082317.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

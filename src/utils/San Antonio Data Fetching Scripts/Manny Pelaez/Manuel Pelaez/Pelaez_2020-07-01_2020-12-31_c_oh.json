@@ -1,0 +1,678 @@
+{
+    "candidate_info": {
+        "first_name": "Manuel",
+        "last_name": "Pelaez",
+        "office_sought": "Council District 8",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 13270.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 4748.81,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 0.0,
+            "Total Itemized Reported Contributions": 13170.0,
+            "Total Itemized Reported Expenditures": 4748.81,
+            "Total Parsed Contributions": 13170.0,
+            "Total Parsed Expenditures": 4669.42,
+            "Expenditure Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2020-07-01_2020-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002543_20210119_101508.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "8/25/2020",
+            "Name": "John Thornton",
+            "Address": "12358 Autumn Vista San Antonio, TX 78249",
+            "Amount": 25.0,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2020",
+            "Name": "Joe Soliz",
+            "Address": "8915 Datapoint Dr. #45B San Antonio, TX 78229",
+            "Amount": 50.0,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/15/2020",
+            "Name": "Michael Shearn",
+            "Address": "1405 Spyglass Dr Austin, TX 78746",
+            "Amount": 100.0,
+            "Occupation": "Investor",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/16/2020",
+            "Name": "Marjorie Lucey",
+            "Address": "12835 Castle Bend San Antonio, TX 78230",
+            "Amount": 20.0,
+            "Occupation": "retired",
+            "Employer": "retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2020",
+            "Name": "Jim Reed",
+            "Address": "7317 Ashton Place San Antonio, TX 78229",
+            "Amount": 200.0,
+            "Occupation": "President",
+            "Employer": "SA Medical Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/20/2020",
+            "Name": "Robert Braubach",
+            "Address": "106 S. St. Marys #200 San Antonio, TX 78205",
+            "Amount": 250.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2020",
+            "Name": "Brent Farney",
+            "Address": "8258 Pimlico Lane Boerne, TX 78015",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Thomas J. Henry Law",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2020",
+            "Name": "Griffen Farney",
+            "Address": "8258 Pimlico Lane Boerne, TX 78015",
+            "Amount": 500.0,
+            "Occupation": "Law Firm",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2020",
+            "Name": "Collins Farney",
+            "Address": "8258 Pimlico Lane Boerne, TX 78015",
+            "Amount": 500.0,
+            "Occupation": "Investor",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2020",
+            "Name": "Cynthia Farney",
+            "Address": "8258 Pimlico Lane Boerne, TX 78015",
+            "Amount": 500.0,
+            "Occupation": "Pre-school educator",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/24/2020",
+            "Name": "Rosalyn Farney",
+            "Address": "8258 Pimlico Lane Boerne, TX 78015",
+            "Amount": 500.0,
+            "Occupation": "Gallery Asst.",
+            "Employer": "SAIC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/25/2020",
+            "Name": "Susan List",
+            "Address": "8922 Brae Bend San Antonio, TX 78249",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/27/2020",
+            "Name": "Daniel Barrett",
+            "Address": "13314 Ming Heights San Antonio, TX 78232",
+            "Amount": 100.0,
+            "Occupation": "Insurance agent",
+            "Employer": "Barrett Insurance",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Muhammad Choudary",
+            "Address": "1507 Pamerview San Antonio, TX 78260",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "Mission Wrecker",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Rashid Sharaf",
+            "Address": "1 Chambord San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "Doctor",
+            "Employer": "Renal Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Anita Fernandez",
+            "Address": "1714 Arroya Vis San Antonio, TX 78213",
+            "Amount": 500.0,
+            "Occupation": "Consultant",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Tim Carrasco",
+            "Address": "9800 Fredericksburg Rd. San Antonio, TX 78288",
+            "Amount": 100.0,
+            "Occupation": "Sr. Systems Analyst",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Jacqueline Wilson",
+            "Address": "93 Sendero Verde San Antonio, TX 78261",
+            "Amount": 500.0,
+            "Occupation": "business owner",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Ryan Wilson",
+            "Address": "93 Sendero Verde San Antonio, TX 78261",
+            "Amount": 500.0,
+            "Occupation": "business owner",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Susan Franklin",
+            "Address": "21260 Gathering Oak #101 San Antonio, TX 78260",
+            "Amount": 500.0,
+            "Occupation": "Business owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Aubra Franklin",
+            "Address": "21260 Gathering Oak #101 San Antonio, TX 78260",
+            "Amount": 500.0,
+            "Occupation": "Business owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Roland Gonzales",
+            "Address": "5103 Newcastle Lane San Antonio, TX 78249",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Cokinos",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Nancy Kelley",
+            "Address": "7 Links Green San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Khalid Bajwa",
+            "Address": "23811 Spring Scent San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Occupation": "Business owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Greg Kowalski",
+            "Address": "PO Box 1361 San Antonio, TX 78295",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "RK Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Bekki Kowalski",
+            "Address": "PO Box 1361 San Antonio, TX 78295",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "RK Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Walter Serna",
+            "Address": "237 W Travis Street #100 San Antonio, TX 78205",
+            "Amount": 400.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Landrys PAC",
+            "Address": "1510 W Loop South Houston, TX 77027",
+            "Amount": 500.0,
+            "Occupation": "PAC",
+            "Employer": "Landry's",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Linebarger, Goggan, Blair, Sampson LLP",
+            "Address": "PO Box 17428 Austin, TX 78760",
+            "Amount": 500.0,
+            "Occupation": "Attorneys",
+            "Employer": "Linebarger, Goggan, Blair, Sampson",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "John L Bonney",
+            "Address": "706 Acubas San Antonio, TX 78260",
+            "Amount": 75.0,
+            "Occupation": "Division Manager",
+            "Employer": "Yates Construction",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Irfan Butt",
+            "Address": "9006 Eagle Bend Helotes, TX 78023",
+            "Amount": 100.0,
+            "Occupation": "Business owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Anwar Tahir",
+            "Address": "10623 Cavelier Pt. San Antonio, TX 78254",
+            "Amount": 100.0,
+            "Occupation": "Business owner",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Mohammed Rana",
+            "Address": "13426 Baldwin Ridge San Antonio, TX 78249",
+            "Amount": 100.0,
+            "Occupation": "business owner",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Sarah Shakil",
+            "Address": "1507 Palmer Vw San Antonio, TX 78260",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "Mission Wrecker",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Rock Holdings Inc, PAC",
+            "Address": "101 Washington Square #300 Lansing , MI 48933",
+            "Amount": 500.0,
+            "Occupation": "PAC",
+            "Employer": "Rock Holdings",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "11/4/2020",
+            "Name": "Michael Shearn",
+            "Address": "1405 Spyglass Austin, TX 78746",
+            "Amount": 400.0,
+            "Occupation": "Investor",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "11/10/2020",
+            "Name": "Martin & Drought Law Firm",
+            "Address": "300 Convent St. San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorneys",
+            "Employer": "Martin & Drought",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "11/13/2020",
+            "Name": "Law Office of David Christian",
+            "Address": "1800 MCCullough Ave San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "TOTAL UNITEMIZED POLITICAL EXPENDITURES.",
+            "Address": "N/A",
+            "Amount": 79.39,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "7/2/2020",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr. Loveland, CO 80538",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Email",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "7/6/2020",
+            "Name": "GoDaddy.com",
+            "Address": "14455 N. Hayden Rd #219 Scottsdale, AZ 85260",
+            "Amount": 102.34,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "web Hosting",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "7/29/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S Grand Ave Los Angeles , CA 90071",
+            "Amount": 96.34,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "8/3/2020",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Ave Loveland, CO 80538",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email program",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "8/17/2020",
+            "Name": "Wix.com",
+            "Address": "500 Terry Francois Blvd San Francisco, CA 94158",
+            "Amount": 220.83,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Hosting",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "8/24/2020",
+            "Name": "Wix.com",
+            "Address": "500 Terry Francois Blvd San Francisco, CA 94158",
+            "Amount": 155.88,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo, CA 94025",
+            "Amount": 138.97,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "ads",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website, email",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "9/1/2020",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Drive Loveland, CO 80538",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "email",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "9/17/2020",
+            "Name": "SA Hispanic Chamber of Commerce",
+            "Address": "200 E Grayson #203 San Antonio, TX 78215",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Contribution",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "9/29/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2020",
+            "Name": "Facebook",
+            "Address": "1 Hacker Way Menlo Park, CA 94025",
+            "Amount": 40.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "ads",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/1/2020",
+            "Name": "SA Hispanic Chamber of Commerce",
+            "Address": "200 E. Grayson St. #203 San Antonio, TX 78215",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Event sponsorship",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/1/2020",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Drive Loveland, CO 80538",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Email program",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/27/2020",
+            "Name": "SA Ready to Work PAC",
+            "Address": "0000 Not Available San Antonio, TX 00000",
+            "Amount": 500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "PAC",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/28/2020",
+            "Name": "Monarch Trophy Studio",
+            "Address": "16227 San Pedro San Antonio, TX 78232",
+            "Amount": 632.07,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Fiesta medals",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "11/2/2020",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr. Loveland, CO 80538",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Email program",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "11/6/2020",
+            "Name": "HEB",
+            "Address": "1150 HWY 1604 Loop San Antonio, TX 78248",
+            "Amount": 155.31,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Event expense - food",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "12/1/2020",
+            "Name": "Constant Contact",
+            "Address": "3675 Precision Dr. Loveland, CO 80538",
+            "Amount": 101.27,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Email program",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Amazon",
+            "Address": "410 Terry Ave. North Seattle, WA 98109",
+            "Amount": 25.96,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Supplies, masks, gloves, sanitizer",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "American Red Cross",
+            "Address": "3642 East Houston San Antonio, TX 78219",
+            "Amount": 74.1,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Ornaments for council gifts",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2020",
+            "Name": "Hispanic Leadership Dev. Foundation",
+            "Address": "200 E. Grayson St. #203 San Antonio, TX 78215",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Leadership program",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "12/18/2020",
+            "Name": "American Red Cross",
+            "Address": "3642 East Houston San Antonio, TX 78219",
+            "Amount": 275.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Holiday contribution in the name of all Councilmembers",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2020",
+            "Name": "Nationbuilder",
+            "Address": "520 S. Grand Ave Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "website",
+            "Source": "rpt0000002543_20210119_101508.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

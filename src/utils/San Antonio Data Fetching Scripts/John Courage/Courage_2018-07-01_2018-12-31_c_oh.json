@@ -1,0 +1,587 @@
+{
+    "candidate_info": {
+        "first_name": "John",
+        "last_name": "Courage",
+        "office_sought": "Council District 9",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 7548.24,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 60.0,
+            "TOTAL POLITICAL EXPENDITURES": 11028.74,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 8992.16,
+            "Total Itemized Reported Contributions": 7548.24,
+            "Total Itemized Reported Expenditures": 11028.74,
+            "Total Parsed Contributions": 7548.24,
+            "Total Parsed Expenditures": 11028.74
+        }
+    },
+    "form_data": {
+        "period": "2018-07-01_2018-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002203_20190115_080249.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "7/1/2018",
+            "Name": "John Friedrich",
+            "Address": "1577 Chase Rd Berlin, V 05602",
+            "Amount": 500.0,
+            "Occupation": "VP",
+            "Employer": "ADP",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/1/2018",
+            "Name": "Marcie ince",
+            "Address": "30 imperial way San Antonio, T 78248",
+            "Amount": 200.0,
+            "Occupation": "Community Service",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/3/2018",
+            "Name": "Pat Maloney Jr.",
+            "Address": "239 E. Commerce San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "The Law Offices of Maloney",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/5/2018",
+            "Name": "Kristen Friedrich",
+            "Address": "1577 Chase Road Berlin, V 05602",
+            "Amount": 500.0,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/6/2018",
+            "Name": "Shannon Locke",
+            "Address": "1834 Deer Mountain San Antonio, T 78232",
+            "Amount": 250.0,
+            "Occupation": "Attorney",
+            "Employer": "The Locke Law Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/6/2018",
+            "Name": "Jorge Herrera",
+            "Address": "11902 Sandbar Hl San Antonio, T 78230",
+            "Amount": 250.0,
+            "Occupation": "Attorney",
+            "Employer": "jherrera@herreralaw.com",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/9/2018",
+            "Name": "Lukin T Gilliand Jr.",
+            "Address": "901 NE Loop #909 San Antonio, TX 78209",
+            "Amount": 250.0,
+            "Occupation": "Partner",
+            "Employer": "Incyte Venture Partners, LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/12/2018",
+            "Name": "Phil Hardberger",
+            "Address": "319 W. Hollywood Ave San Antonio, TX 78212",
+            "Amount": 250.0,
+            "Occupation": "Attorney",
+            "Employer": "Dykema Law Firm",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/25/2018",
+            "Name": "Linebarger Groggan Blair & Sampson LLP",
+            "Address": "PO Box 17428 Austin, TX 78760",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/31/2018",
+            "Name": "Yasaman J Azima",
+            "Address": "PO Box 91012 San Antonio, TX 78209",
+            "Amount": 250.0,
+            "Occupation": "Founder",
+            "Employer": "Jasmine Engineering",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "8/3/2018",
+            "Name": "Zada True-Courage",
+            "Address": "1938 Broken Oak St San Antonio, T 78232",
+            "Amount": 500.0,
+            "Occupation": "Financial Analyst",
+            "Employer": "CPS Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2018",
+            "Name": "Donald J Kuyrkendall",
+            "Address": "14110 Bluff Grove Dr. San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Partner",
+            "Employer": "Kuykendall & Company",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "9/7/2018",
+            "Name": "Deborah Kuyrkendall",
+            "Address": "14110 Bluff Grove Dr. San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Partner",
+            "Employer": "Kuykendall & Company",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2018",
+            "Name": "Nathan Ratner",
+            "Address": "14502 Majestic Prince St. San Antonio, TX 78248-1133",
+            "Amount": 50.0,
+            "Occupation": "Bus Driver",
+            "Employer": "Homewood Residence Shavano Park",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/4/2018",
+            "Name": "HDR, Inc. PAC",
+            "Address": "8404 Indian Hill Dr. Omaha, NE 68114",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/11/2018",
+            "Name": "USAA Employee PAC",
+            "Address": "9800 Fredericksburg Rd San Antonio, TX 78288",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Ted Peck",
+            "Address": "14201 Parkhurst San Antonio, T 78232",
+            "Amount": 18.36,
+            "Occupation": "tutor",
+            "Employer": "self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Edward Benson",
+            "Address": "12822 Country Crst San Antonio, T 78216",
+            "Amount": 18.36,
+            "Occupation": "Registered Investment Advisor",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Eric Fenton",
+            "Address": "14207 BOLD RULER ST SAN ANTONIO, T 78248",
+            "Amount": 20.0,
+            "Occupation": "Clergy",
+            "Employer": "Retired USAF",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Susan Hancock",
+            "Address": "1914 Hillingway San Antonio, T 78248",
+            "Amount": 18.36,
+            "Occupation": "Consu,ltant",
+            "Employer": "Self-employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Kathryn L Rhoads",
+            "Address": "3212 Castledale San Antonio, T 78230",
+            "Amount": 18.36,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Robert W Miller",
+            "Address": "14215 Jones Maltsberger Rd SAN ANTONIO, T 78247",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "None",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Mary Cardenas",
+            "Address": "1226 Carmel Chase San Antonio, T 78258",
+            "Amount": 18.36,
+            "Occupation": "CPA",
+            "Employer": "Gilliam &amp; Associates PC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Donna Thompson",
+            "Address": "13815 BLUFF LANE SAN ANTONIO, T 78216",
+            "Amount": 25.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Michael Appleby",
+            "Address": "1758 Fox Tree Lane San Antonio, T 78248",
+            "Amount": 9.0,
+            "Occupation": "FBI Agent",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Olga M Graves",
+            "Address": "11507 WHISPER DEW San Antonio, T 78230",
+            "Amount": 9.0,
+            "Occupation": "citizen",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "David Van Os",
+            "Address": "240 Post Ave San Antonio, T 78215",
+            "Amount": 18.36,
+            "Occupation": "Lawyer",
+            "Employer": "David Van Os &amp; Associates, P.C.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Tom Rademacher",
+            "Address": "14007 Bluff Manor Dr San Antonio, T 78216-7967",
+            "Amount": 25.0,
+            "Occupation": "Project Manager",
+            "Employer": "Lone Star Promotional Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Ann Parsons",
+            "Address": "11011 Whisper Hollow St San Antonio, T 78230",
+            "Amount": 18.36,
+            "Occupation": "retired professor",
+            "Employer": "ACCD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Todd Spears",
+            "Address": "24726 Bogey Rdg San Antonio, T 78260",
+            "Amount": 18.36,
+            "Occupation": "Chief Operating Officer",
+            "Employer": "Sharkeys Cuts For Kids",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "Eugene Marck",
+            "Address": "345 Argyle Ave San Antonio, T 78209",
+            "Amount": 18.36,
+            "Occupation": "N/A",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/18/2018",
+            "Name": "Homer Nelson",
+            "Address": "510 Texas Pt San Antonio, T 78260",
+            "Amount": 9.0,
+            "Occupation": "Owner",
+            "Employer": "self employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/18/2018",
+            "Name": "Steven Guerrero",
+            "Address": "14225 Jones Maltsberger Rd San Antonio, T 78247",
+            "Amount": 9.0,
+            "Occupation": "Pharmacist",
+            "Employer": "Walgreens Pharmacy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/18/2018",
+            "Name": "Ralph Celento",
+            "Address": "1402 MESA CREEK SAN ANTONIO, T 78258",
+            "Amount": 25.0,
+            "Occupation": "Civilian Employee",
+            "Employer": "Federal Government",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/30/2018",
+            "Name": "Michael A Nava",
+            "Address": "13823 Ridge Chase Dr. San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Allan, Nava & Glander, PLLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/30/2018",
+            "Name": "Brenna G Nava",
+            "Address": "13823 Ridge Chase Dr. San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Sr Director, Legal",
+            "Employer": "Rackspace",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/21/2018",
+            "Name": "Ryan Phillips",
+            "Address": "3338 Morning Brook San Antonio, T 78247",
+            "Amount": 27.0,
+            "Occupation": "Day Hab for Individual with Autism",
+            "Employer": "SMSM",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2018",
+            "Name": "Mario Bravo",
+            "Address": "1222 Donaldson Ave San Antonio, T 78228",
+            "Amount": 100.0,
+            "Occupation": "Texas Outreach Specialist",
+            "Employer": "Environmental Defense Fund",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2018",
+            "Name": "Terry Burns",
+            "Address": "13139 Vista del Mundo San Antonio, T 78216",
+            "Amount": 100.0,
+            "Occupation": "physician",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "2018/12/31",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED",
+            "Address": "N/A",
+            "Amount": 60.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/11/2018",
+            "Name": "Kennedy Hatfield",
+            "Address": "7707 Broadway st #16 San Antonio, TX 78209",
+            "Amount": 1000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Campaign fundraising",
+            "Description": "Campaign Services",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "7/17/2018",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "8/17/2018",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "8/20/2018",
+            "Name": "Can We Talk",
+            "Address": "326 Anton Dr San Antonio, TX 78223",
+            "Amount": 70.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "9/17/2018",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/17/2018",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "10/26/2018",
+            "Name": "Society of Professional Journalists",
+            "Address": "8631 Post Oak Lane San Antonio, TX 78217",
+            "Amount": 350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "11/5/2018",
+            "Name": "Northeast Bexar County Democrats",
+            "Address": "PO Box 700766 San Antonio, TX 78270-0766",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "11/19/2018",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "11/20/2018",
+            "Name": "General Land & Property, LLC",
+            "Address": "201 Bristol Court Florence, AL 35630",
+            "Amount": 8400.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Rent",
+            "Description": "Rent for entire lease period",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2018",
+            "Name": "Prestige Printing",
+            "Address": "8 Burwood Lane ##3 San Antonio, TX 78216",
+            "Amount": 146.13,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2018",
+            "Name": "Pericos",
+            "Address": "1439 E. Sonterra Blvd San Antonio, TX 78258",
+            "Amount": 100.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Campaign Event Deposit on Room",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2018",
+            "Name": "GODADDY.COM",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 5.4,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2018",
+            "Name": "GODADDY.COM",
+            "Address": "14455 N Hayden Rd #226 Scottsdale, AZ 85260",
+            "Amount": 76.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/17/2018",
+            "Name": "NationBuilder",
+            "Address": "520 S. Grand Ave #2 Fl Los Angeles, CA 90071",
+            "Amount": 89.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Website Svcs",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        },
+        {
+            "Transaction_Date": "12/26/2018",
+            "Name": "CPS Energy",
+            "Address": "PO Box 2678 San Antonio, TX 78289",
+            "Amount": 37.21,
+            "Transaction_Type": "Expenditure",
+            "Category": "Other: Utilities",
+            "Description": "Utilities",
+            "Source": "rpt0000002203_20190115_080249.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

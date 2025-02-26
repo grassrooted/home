@@ -1,0 +1,307 @@
+{
+    "candidate_info": {
+        "first_name": "Arthur",
+        "last_name": "Garcia",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 5505.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 6335.87,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 15081.06,
+            "Total Parsed Contributions": 5505.0,
+            "Total Parsed Expenditures": 6335.87,
+            "Total Itemized Reported Contributions": 5505.0,
+            "Total Itemized Reported Expenditures": 6335.87
+        }
+    },
+    "form_data": {
+        "period": "2021-07-01_2021-12-31",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002803_20220118_135137.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "8/4/2021",
+            "Name": "Valero Political Action Committee",
+            "Address": "PO Box 696000 San Antonio, TX 78269",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/4/2021",
+            "Name": "BJ McCombs",
+            "Address": "PO Box 003 San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "CEO",
+            "Employer": "McCombs Enterprises",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/4/2021",
+            "Name": "Marsha Shields",
+            "Address": "PO Box 003 San Antonio, TX 78201",
+            "Amount": 500.0,
+            "Occupation": "COO",
+            "Employer": "McCombs Enterprises",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2021",
+            "Name": "Harry Adams",
+            "Address": "2319 Fountain Way San Antonio, TX 78248",
+            "Amount": 500.0,
+            "Occupation": "Vice President",
+            "Employer": "McCombs Enterprises",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2021",
+            "Name": "Charisse Adams",
+            "Address": "2319 Fountain Way San Antonio, TX 78248",
+            "Amount": 500.0,
+            "Occupation": "Self-employed",
+            "Employer": "Self-employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2021",
+            "Name": "TEXAS REALTORS PAC",
+            "Address": "PO Box 295305 Kerrville, TX 78029",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/30/2021",
+            "Name": "TEXAS REALTORS PAC",
+            "Address": "PO Box 295305 Kerrville, TX 78029",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "9/2/2021",
+            "Name": "Stephen Poppoon",
+            "Address": "145 Grand Oak Dr. Hollywood Park, TX 78232",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Self-employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2021",
+            "Name": "David Zavala",
+            "Address": "2935 Thousand Oaks #6223 San Antonio, TX 78247",
+            "Amount": 5.0,
+            "Occupation": "Social Policy Researcher",
+            "Employer": "University of Arizona and University of Sydney",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2021",
+            "Name": "Michael Guerrero",
+            "Address": "7203 Ashton Pl San Antonio, TX 78229",
+            "Amount": 250.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self-employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2021",
+            "Name": "Christopher Morales",
+            "Address": "9706 Dove Shadow San Antonio, TX 78230",
+            "Amount": 250.0,
+            "Occupation": "Real Estate",
+            "Employer": "Self-employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2021",
+            "Name": "The Boeing Company Political Action Committee",
+            "Address": "929 Long Bridge Dr. Arlington, VA 22202-4208",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2021",
+            "Name": "Mr Marc Ross",
+            "Address": "PO Box 28490 San Antonio, TX 78228",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Ross Properties, LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "7/8/2021",
+            "Name": "3-D Screen Printing",
+            "Address": "8015 West 2nd Somerset, TX 78069",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Sign pick up",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "7/15/2021",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 250.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Sign pick up",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "7/30/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and paper statement fee",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/10/2021",
+            "Name": "Prestige Printing LLC",
+            "Address": "8 Burwood Lane San Antonio, TX 78216",
+            "Amount": 368.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Campaign Literature",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "8/31/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Statement and paper statement fee",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "9/2/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 22.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing fees",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "9/30/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement and paper statement fees",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "10/5/2021",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 0.53,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Processing Fee",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "10/29/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement & Paper Statement Fee",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "11/30/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement & Paper Statement Fee",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2021",
+            "Name": "Walmart",
+            "Address": "7239 SW Loop 410 San Antonio, TX 78242",
+            "Amount": 221.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Toys for Toy Drive",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/22/2021",
+            "Name": "Wix.com LTD",
+            "Address": "500 Terry A Francois Blvd San Francisco, CA 94158",
+            "Amount": 77.94,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Website",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/29/2021",
+            "Name": "Adriana R Garcia",
+            "Address": "PO Box 27581 San Antonio, TX 78227",
+            "Amount": 5000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Loan Repayment/Reimbursement",
+            "Description": "Loan repayment #2 of 4",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/30/2021",
+            "Name": "USPS",
+            "Address": "5510 SW Loop 410 San Antonio, TX 78227-9998",
+            "Amount": 134.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "P.O. Box fees",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2021",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 2.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Accounting/Banking",
+            "Description": "Statement & Paper Statement Fee",
+            "Source": "rpt0000002803_20220118_135137.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

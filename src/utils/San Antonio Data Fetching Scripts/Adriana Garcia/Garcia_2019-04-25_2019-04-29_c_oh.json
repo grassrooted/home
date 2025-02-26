@@ -1,0 +1,1488 @@
+{
+    "candidate_info": {
+        "first_name": "Arthur",
+        "last_name": "Garcia",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 31375.45,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 25422.94,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 24710.55,
+            "Total Parsed Contributions": 30104.0,
+            "Total Parsed Expenditures": 25422.94,
+            "Total Itemized Reported Contributions": 31375.45,
+            "Total Itemized Reported Expenditures": 25422.94,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "2019-04-25_2019-04-29",
+        "data_source": "https://webapp5.sanantonio.gov/CampFinHistoricPDFFiles/rpt0000002339_20190531_155036.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Ms Emma Guerrero",
+            "Address": "3915 Skylark Ave San Antonio, TX 78210",
+            "Amount": 250.0,
+            "Occupation": "Retired",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Mr Johnny Hernandez",
+            "Address": "214 Regent San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "True Flavors",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Martin & Drought, P.C.",
+            "Address": "300 Convent St. San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "Mr Jesus Rendon",
+            "Address": "503 Wilcox San Antonio, TX 78211",
+            "Amount": 50.0,
+            "Occupation": "Cyber Software Engineer",
+            "Employer": "Northrop Grumman",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "Mr John Ernst",
+            "Address": "9386 Huebner Rd. San Antonio, TX 78240",
+            "Amount": 500.0,
+            "Occupation": "Contractor",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "Ms Colleen Ernst",
+            "Address": "9386 Huebner Rd. San Antonio, TX 78240",
+            "Amount": 500.0,
+            "Occupation": "Self-employed",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "Mr Robert Worth",
+            "Address": "270 Terrell Rd. San Antonio, TX 78209",
+            "Amount": 500.0,
+            "Occupation": "President",
+            "Employer": "Worth & Associates",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Ms Amanda Skyes",
+            "Address": "126 Brittany San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Homemaker",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Mr Mellick Skyes",
+            "Address": "126 Brittany San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "San Antonio Apartment Association",
+            "Address": "7525 Babcock Rd. San Antonio, TX 78249",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Mr Jesus Rendon",
+            "Address": "503 Wilcox San Antonio, TX 78211",
+            "Amount": 50.0,
+            "Occupation": "Cyber Software Engineer",
+            "Employer": "Northrop Grumman",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Mr Daniel Mezza",
+            "Address": "13755 Morningbluff San Antonio, TX 78216",
+            "Amount": 100.0,
+            "Occupation": "Self-employed",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Mr Gilbert Chavarria",
+            "Address": "7339 Sunscape Way San Antonio, TX 78250",
+            "Amount": 300.0,
+            "Occupation": "Procurement",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Martin & Drought, P.C.",
+            "Address": "300 Convent St. San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/9/2019",
+            "Name": "Camille Denton",
+            "Address": "1 Bitterblue Ln. San Antonio, TX 78216",
+            "Amount": 250.0,
+            "Occupation": "Homemaker",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/9/2019",
+            "Name": "Mr Judy Perez",
+            "Address": "959 W. Villaret Blvd. San Antonio, TX 78224",
+            "Amount": 500.0,
+            "Occupation": "Homemaker",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/9/2019",
+            "Name": "IBC State Political Action Committee",
+            "Address": "130 E. Travis San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "8 Principal occupation / Job title (See instructions)",
+            "Employer": "9 Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2019",
+            "Name": "Mr Greg Kowalski",
+            "Address": "PO Box 1361 San Antonio, TX 78295",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "RK Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2019",
+            "Name": "Mr Johnny Hernandez",
+            "Address": "214 Regent San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "True Flavors",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2019",
+            "Name": "Mr Arthur Rodriguez",
+            "Address": "204 E. Arsenal St. San Antonio, TX 78204",
+            "Amount": 500.0,
+            "Occupation": "Vice President",
+            "Employer": "Zachry Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "Ms Jenee Gonzalez",
+            "Address": "427 E. Olmos #B San Antonio, TX 78212",
+            "Amount": 200.0,
+            "Occupation": "Philanthropy Advisor",
+            "Employer": "The Marianist Province of the United States",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "Ms Ina Minjarez",
+            "Address": "9406 Hazelton Lane San Antonio, TX 78251",
+            "Amount": 200.0,
+            "Occupation": "Texas State Representative, HD-124",
+            "Employer": "State of Texas",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Southwest Laborers District Council PAC",
+            "Address": "11720 East 21 St. #D Tulsa, OK 74129",
+            "Amount": 250.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Ms Kristal Thomson",
+            "Address": "37 Westerleigh San Antonio, TX 78218",
+            "Amount": 300.0,
+            "Occupation": "Attorney",
+            "Employer": "Langley & Banack",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Mr Junab Ali",
+            "Address": "1711 Citadel Plz. San Antonio, TX 78212",
+            "Amount": 300.0,
+            "Occupation": "Co-Founder",
+            "Employer": "Mobius Partners",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Ms Sonya Medina Williams",
+            "Address": "104 Bushnell Ave. San Antonio, TX 78212",
+            "Amount": 100.0,
+            "Occupation": "Consultant",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "NuStar PAC",
+            "Address": "PO Box 781609 San Antonio, TX 78278",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Linebarger Goggan Blair & Sampson, LLP",
+            "Address": "PO Box 17428 Austin, TX 78760",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/15/2019",
+            "Name": "Mr Michael Beldon",
+            "Address": "4 Westelm Cir. San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Chairman",
+            "Employer": "Beldon Roofing",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/15/2019",
+            "Name": "San Antonio Fire & Police Pension Association PAC",
+            "Address": "11603 W. Coker Loop #201A San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/15/2019",
+            "Name": "Mr William Calve",
+            "Address": "122 Roy Smith St. ##3429 San Antonio, TX 78215",
+            "Amount": 50.0,
+            "Occupation": "Attorney",
+            "Employer": "Norton Rose Fulbright",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/15/2019",
+            "Name": "Mr Oscar Perez",
+            "Address": "5207 Hayden Dr. San Antonio, TX 78242",
+            "Amount": 100.0,
+            "Occupation": "Registered Nurse",
+            "Employer": "Harlandale ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Cynthia Salazar",
+            "Address": "300 E. Basse ##2420 San Antonio, TX 78209",
+            "Amount": 200.0,
+            "Occupation": "Teacher",
+            "Employer": "Harlandale ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Cathy Obriotti Green",
+            "Address": "128 Grant Ave. San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "None",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "San Antonio Police Officers Association",
+            "Address": "1939 NE Loop 410 #300 San Antonio, TX 78217",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr AJ Hausman",
+            "Address": "411 Bitters San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Food broker",
+            "Employer": "ADT LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Teal Lawrence Hausman",
+            "Address": "18627 Crosstimber San Antonio, TX 78258",
+            "Amount": 500.0,
+            "Occupation": "Employee",
+            "Employer": "ADT LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Kelly Hasuman",
+            "Address": "18627 Crosstimber San Antonio, TX 78258",
+            "Amount": 500.0,
+            "Occupation": "Nursing",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Yuhoe Gia Dice",
+            "Address": "18627 Crosstimber San Antonio, TX 78258",
+            "Amount": 500.0,
+            "Occupation": "Doctor",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Harry Hausman",
+            "Address": "9364 Canyon Mist Helotes, TX 78023",
+            "Amount": 500.0,
+            "Occupation": "Real Estate Developer",
+            "Employer": "Hausman Homes",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Heather Love",
+            "Address": "310 Lantana Cerro Spring Branch, TX 78070",
+            "Amount": 500.0,
+            "Occupation": "Homemaker",
+            "Employer": "N/A",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Jordan Love",
+            "Address": "310 Lantana Cerro Spring Branch, TX 78070",
+            "Amount": 500.0,
+            "Occupation": "Employee",
+            "Employer": "Lovehaus LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Jimmy Hoyt",
+            "Address": "9811 Wilderness Sun San Antonio, TX 78254",
+            "Amount": 500.0,
+            "Occupation": "Insurance",
+            "Employer": "USAA",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Mary Magdalen Hoyt",
+            "Address": "9811 Wilderness Sun San Antonio, TX 78254",
+            "Amount": 500.0,
+            "Occupation": "Employee",
+            "Employer": "Hausman Holdings LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Enrique Lopez",
+            "Address": "6022 Opal Falls San Antonio, TX 78222",
+            "Amount": 500.0,
+            "Occupation": "Employee",
+            "Employer": "ADT LLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Buddy Ford",
+            "Address": "4702 Center Park Blvd. San Antonio, TX 78218",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "Texas Towing",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Marc Rodriguez",
+            "Address": "1122 Colorado #2399 Austin, TX 78701",
+            "Amount": 500.0,
+            "Occupation": "Owner",
+            "Employer": "Offices of Marc Rodriguez",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Alison Cochrane",
+            "Address": "208 Grandview Pl. ##1 San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Vice President",
+            "Employer": "Zachry Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Ms Smita Bhakta",
+            "Address": "3 Privada Yesa San Antonio, TX 78257",
+            "Amount": 50.0,
+            "Occupation": "Attorney",
+            "Employer": "Kruger Carson, PLLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Mr Jude Aguinaga",
+            "Address": "3027 Sandstone Creek Lane Rosenberg, TX 77471",
+            "Amount": 500.0,
+            "Occupation": "Director of Health and Safety",
+            "Employer": "Rago Enterprises, LLC.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2019",
+            "Name": "Leo Pacheco Campaign",
+            "Address": "PO Box 14244 San Antonio, TX 78214",
+            "Amount": 250.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2019",
+            "Name": "Mr Rey Saldana",
+            "Address": "8902 Victoria Lake San Antonio, TX 78224",
+            "Amount": 250.0,
+            "Occupation": "City Councilman",
+            "Employer": "City of San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Mr Diego Bernal",
+            "Address": "213 Woodlief St. San Antonio, TX 78212",
+            "Amount": 300.0,
+            "Occupation": "Attorney",
+            "Employer": "Self Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Michaeline Agnese",
+            "Address": "11202 Vance Jackson Rd. #11 San Antonio, TX 78230",
+            "Amount": 250.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Mr Gordon Hartman",
+            "Address": "1202 W. Bitters #1200 San Antonio, TX 78216",
+            "Amount": 500.0,
+            "Occupation": "Executive Director",
+            "Employer": "Hartman Foundation",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Ms Amy Perry",
+            "Address": "419 Happy Trail Shavano Park, TX 78231",
+            "Amount": 500.0,
+            "Occupation": "Attorney and Executive",
+            "Employer": "NuStar Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/21/2019",
+            "Name": "Ms Susan Blackwood",
+            "Address": "706 South Birdson Way San Antonio, TX 78258",
+            "Amount": 50.0,
+            "Occupation": "Retired",
+            "Employer": "None",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/21/2019",
+            "Name": "Mr William Greehey",
+            "Address": "PO Box 780489 San Antonio, TX 78278",
+            "Amount": 500.0,
+            "Occupation": "Chairman of the Board",
+            "Employer": "NuStar Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/21/2019",
+            "Name": "Mr Paul Bell",
+            "Address": "312 Pearl Parkway #2403 San Antonio, TX 78215",
+            "Amount": 500.0,
+            "Occupation": "Co-Founder",
+            "Employer": "Group 42",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/21/2019",
+            "Name": "Ms Celina Pena",
+            "Address": "2007 W. Martin St. San Antonio, TX 78207",
+            "Amount": 104.0,
+            "Occupation": "NGO",
+            "Employer": "LiftFund",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Ms Barbara Greene",
+            "Address": "1100 NW Loop 410 #700 San Antonio, TX 78213",
+            "Amount": 200.0,
+            "Occupation": "CEO",
+            "Employer": "Greene and Associates, Inc.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Ms Jane Macon",
+            "Address": "300 Convent St. #2700 San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Attorney",
+            "Employer": "Bracewell",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Ms Nancy Loeffler",
+            "Address": "PO Box 15070 San Antonio, TX 78212",
+            "Amount": 500.0,
+            "Occupation": "Independenct Contractor",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Ms Norma Rodriguez",
+            "Address": "2101 W. Summit Ave. San Antonio, TX 78201",
+            "Amount": 125.0,
+            "Occupation": "Retired",
+            "Employer": "None",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Ms Mary Rose Brown",
+            "Address": "48 Vineyard San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "Executive Vice President",
+            "Employer": "NuStar Energy",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Mr Paul Basaldua",
+            "Address": "3 Woltwood San Antonio, TX 78248",
+            "Amount": 100.0,
+            "Occupation": "Real Estate",
+            "Employer": "Mosaic Development",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Mr Fernando Reyes",
+            "Address": "2 Davenport Lane San Antonio, TX 78257",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Reyes Ventures",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Ms Estella DeLuna",
+            "Address": "11950 Autumn Vista St. San Antonio, TX 78249",
+            "Amount": 200.0,
+            "Occupation": "Client Service Representative",
+            "Employer": "SWBC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Mr Guillermo Reyes-Long",
+            "Address": "502 W. Woodlawn Ave. San Antonio, TX 78212",
+            "Amount": 50.0,
+            "Occupation": "Manager",
+            "Employer": "CEC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Mr Jennifer Castro",
+            "Address": "2018 Sunbend Fls. San Antonio, TX 78224",
+            "Amount": 100.0,
+            "Occupation": "Administrator",
+            "Employer": "Harlandale ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Ms Hope Andrade",
+            "Address": "680 E. Basse Rd. #128 San Antonio, TX 78209",
+            "Amount": 150.0,
+            "Occupation": "Entrepreneur",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Mr Thomas Mayes",
+            "Address": "221 Lexington Ave. San Antonio, TX 78215",
+            "Amount": 250.0,
+            "Occupation": "Partner",
+            "Employer": "Phipps Deacon Purnell PLLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Ms Rosemary Kowalski",
+            "Address": "1220 E. Commerce St. San Antonio, TX 78205",
+            "Amount": 500.0,
+            "Occupation": "Chairman Emeritus",
+            "Employer": "RK Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Ms Ruby Perez",
+            "Address": "368 New Laredo Highway San Antonio, TX 78211",
+            "Amount": 50.0,
+            "Occupation": "Owner",
+            "Employer": "A. Perez Restaurant Equipment Parts & Services Inc.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Mr Roberto Espinosa",
+            "Address": "3218 Falling Brook San Antonio, TX 78258",
+            "Amount": 50.0,
+            "Occupation": "Financial Manager",
+            "Employer": "Northwestern Mutual",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Mr Alcide Longoria",
+            "Address": "125 Aylesbury Hill St. San Antonio, TX 78209",
+            "Amount": 100.0,
+            "Occupation": "Real Estate",
+            "Employer": "JLL",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/24/2019",
+            "Name": "Mr David Ty West",
+            "Address": "512 Ridgemont San Antonio, TX 78209",
+            "Amount": 200.0,
+            "Occupation": "Real Estate",
+            "Employer": "JLL",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/24/2019",
+            "Name": "Mr Richard Wells",
+            "Address": "600 E. Market St. San Antonio, TX 78266",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Dailey & Wells Communication",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/24/2019",
+            "Name": "Ms JoAnne Wells",
+            "Address": "600 E. Market St. San Antonio, TX 78266",
+            "Amount": 500.0,
+            "Occupation": "Executive",
+            "Employer": "Dailey & Wells Communication",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Ms Theresa Hinojosa",
+            "Address": "22818 Cardigan Chase San Antonio, TX 78260",
+            "Amount": 200.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Ms Maria Janet Guzman",
+            "Address": "26227 Dakota Chief San Antonio, TX 78261",
+            "Amount": 250.0,
+            "Occupation": "Retired",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Mr Johnathon Cruz",
+            "Address": "7918 Dempsey St. San Antonio, TX 78242",
+            "Amount": 25.0,
+            "Occupation": "Administrator",
+            "Employer": "Southwest ISD",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Mr Pedro Cazares",
+            "Address": "2300 Nacogdoches Rd. San Antonio, TX 78209",
+            "Amount": 300.0,
+            "Occupation": "Entrepreneur",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Ms Martha Martinez-Flores",
+            "Address": "204 Clay St. San Antonio, TX 78204",
+            "Amount": 250.0,
+            "Occupation": "Creative Director",
+            "Employer": "MM Creative",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Mr Randall Preissig",
+            "Address": "11814 Mill Rock Rd. San Antonio, TX 78230",
+            "Amount": 500.0,
+            "Occupation": "Medical Doctor",
+            "Employer": "Retired",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Chazar 410 Holdings LLC",
+            "Address": "610 Chandler Dr. Chandler, TX 78758",
+            "Amount": 500.0,
+            "Occupation": "Principal occupation / Job title (See instructions)",
+            "Employer": "Employer (See instructions)",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Mr Suren Kamath",
+            "Address": "3115 Iron Stone Ln. San Antonio, TX 78230",
+            "Amount": 250.0,
+            "Occupation": "President",
+            "Employer": "Briggs Medical Office Park",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Ms Ann Wells",
+            "Address": "106 Crescent St. San Antonio, TX 78209",
+            "Amount": 250.0,
+            "Occupation": "CPA",
+            "Employer": "Self",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Mr Juan Antonio Flores",
+            "Address": "348 Redwood San Antonio, TX 78209",
+            "Amount": 250.0,
+            "Occupation": "Executive",
+            "Employer": "Port San Antonio",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Mr Juan Elias",
+            "Address": "12414 Alstroemeria San Antonio, TX 78253",
+            "Amount": 100.0,
+            "Occupation": "Retired",
+            "Employer": "None",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 300.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/25/2019",
+            "Name": "Bexar County Clerk",
+            "Address": "1103 S. Frio #100 San Antonio, TX 78207",
+            "Amount": 40.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/26/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 29.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/29/2019",
+            "Name": "Ms Sylvia Lopez",
+            "Address": "2610 Tillie Dr. San Antonio, TX 78222",
+            "Amount": 1280.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 2100.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Polling Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Amegy Bank",
+            "Address": "PO Box 4837 Houston, TX 77210-4837",
+            "Amount": 8.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "4/30/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 12.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/1/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 18.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/1/2019",
+            "Name": "Lopez Print & Marketing",
+            "Address": "427 Lombrano San Antonio, TX 78207",
+            "Amount": 394.34,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/1/2019",
+            "Name": "Lopez Print & Marketing",
+            "Address": "427 Lombrano San Antonio, TX 78207",
+            "Amount": 925.54,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/1/2019",
+            "Name": "Alamo Mailing Co.",
+            "Address": "11314 Lookout Run San Antonio, TX 78233",
+            "Amount": 1209.43,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/1/2019",
+            "Name": "Rockys Taco House",
+            "Address": "1302 Cupples San Antonio, TX 78226",
+            "Amount": 38.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2019",
+            "Name": "Walmart",
+            "Address": "7239 SW Loop 410 San Antonio, TX 78242",
+            "Amount": 58.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/2/2019",
+            "Name": "Taqueria El Charro de Jalisco",
+            "Address": "150 Valley Hi San Antonio, TX 78227",
+            "Amount": 1260.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2019",
+            "Name": "Tru Branding",
+            "Address": "1414 West Poplar San Antonio, TX 78207-1233",
+            "Amount": 337.74,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2019",
+            "Name": "Smiley Productions",
+            "Address": "218 Stafford San Antonio, TX 78208",
+            "Amount": 262.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/3/2019",
+            "Name": "Dollar Tree",
+            "Address": "214 Valley Hi Dr. San Antonio, TX 78227",
+            "Amount": 25.98,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Facebook",
+            "Address": "1601 Willow Rd. Menlo Park, CA 94025",
+            "Amount": 77.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Mexico Taqueria",
+            "Address": "6333 Old Pearsall Rd. San Antonio, TX 78242",
+            "Amount": 58.46,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Brendas Burgers",
+            "Address": "3837 SW Military Dr. San Antonio, TX 78211",
+            "Amount": 148.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Taqueria El Charro de Jalisco",
+            "Address": "150 Valley Hi San Antonio, TX 78227",
+            "Amount": 39.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 840.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/6/2019",
+            "Name": "Walmart",
+            "Address": "7239 SW Loop 410 San Antonio, TX 78242",
+            "Amount": 33.22,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/7/2019",
+            "Name": "Ms Sylvia Lopez",
+            "Address": "2610 Tillie Dr. San Antonio, TX 78222",
+            "Amount": 1980.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/7/2019",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 1000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/7/2019",
+            "Name": "Mr Arnulfo Ybarra",
+            "Address": "3215 Coconino San Antonio, TX 78211",
+            "Amount": 160.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/7/2019",
+            "Name": "Smiley Productions",
+            "Address": "218 Stafford San Antonio, TX 78208",
+            "Amount": 262.37,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2019",
+            "Name": "Blue Skies of Texas East",
+            "Address": "4917 Ravenswood San Antonio, TX 78227",
+            "Amount": 59.54,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/8/2019",
+            "Name": "Innovative Multimedia Group",
+            "Address": "8627 Cinnamon Creek Dr. #602 San Antonio, TX 78240",
+            "Amount": 450.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/10/2019",
+            "Name": "South San Antonio Chamber of Commerce",
+            "Address": "3315 Sidney Brooks #200 San Antonio, TX 78235",
+            "Amount": 20.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/11/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 29.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "Matthew Hall",
+            "Address": "6503 Bluff Springs Rd. Austin, TX 78755",
+            "Amount": 550.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 12.1,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/13/2019",
+            "Name": "Traders Village",
+            "Address": "9333 SW Loop 410 San Antonio, TX 78242",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 54.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/14/2019",
+            "Name": "Lopez Print & Marketing",
+            "Address": "427 Lombrano San Antonio, TX 78207",
+            "Amount": 1353.13,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/15/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 9.45,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Lopez Print & Marketing",
+            "Address": "427 Lombrano San Antonio, TX 78207",
+            "Amount": 703.63,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/16/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 21.55,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/17/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 29.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 33.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Lopez Print & Marketing",
+            "Address": "427 Lombrano San Antonio, TX 78207",
+            "Amount": 811.88,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Mr Haolrd Orosco",
+            "Address": "8015 West 2nd Somerset, TX 78069",
+            "Amount": 1082.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/20/2019",
+            "Name": "Ms Sylvia Lopez",
+            "Address": "2610 Tillie Dr. San Antonio, TX 78222",
+            "Amount": 2350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/21/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 33.05,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 18.54,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/22/2019",
+            "Name": "Alamo Mailing Co.",
+            "Address": "11314 Lookout Run San Antonio, TX 78233",
+            "Amount": 1389.38,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/23/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 48.1,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/24/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 24.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 59.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "Walmart",
+            "Address": "7239 SW Loop 410 San Antonio, TX 78242",
+            "Amount": 33.14,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/28/2019",
+            "Name": "HEB",
+            "Address": "368 Valley Hi Dr. San Antonio, TX 78227",
+            "Amount": 45.69,
+            "Transaction_Type": "Expenditure",
+            "Category": "Food/Beverage Expense",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Corner Store",
+            "Address": "6003 Old Pearsall Rd. San Antonio, TX 78242",
+            "Amount": 36.56,
+            "Transaction_Type": "Expenditure",
+            "Category": "Travel In District",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Ms Sylvia Lopez",
+            "Address": "2610 Tillie Dr. San Antonio, TX 78222",
+            "Amount": 2960.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Voice Broadcasting",
+            "Address": "1527 South Cooper Arlington, TX 76010",
+            "Amount": 37.08,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        },
+        {
+            "Transaction_Date": "5/29/2019",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 67.63,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Check if Austin, TX, officeholder living expense",
+            "Source": "rpt0000002339_20190531_155036.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

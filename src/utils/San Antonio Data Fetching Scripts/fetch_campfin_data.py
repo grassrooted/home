@@ -8,15 +8,14 @@ import time
 import json
 
 # Set search parameters
-search_first_name_query = "Phyllis"
-search_last_name_query = "Viagran"
+search_first_name_query = "Marc"
+search_last_name_query = "Whyte"
 transaction_type_queries = ["Contributions", "Expenditures"]
-start_year = "2019"
+start_year = "2016"
 end_year = "2025"
 data_source_link = "https://webapp1.sanantonio.gov/campfinsearch/search.aspx"
 
 output_data_sources_links = f"{search_first_name_query}_{search_last_name_query}_{start_year}_{end_year}.txt"
-
 
 # Convert the existing headers (left) to standardized headers (right)
 header_mapping_contr = {
