@@ -8,8 +8,8 @@ import time
 import json
 
 # Set search parameters
-search_first_name_query = "Marc"
-search_last_name_query = "Whyte"
+search_first_name_query = "Adriana"
+search_last_name_query = "Garcia"
 transaction_type_queries = ["Contributions", "Expenditures"]
 start_year = "2016"
 end_year = "2025"
@@ -58,12 +58,14 @@ for transaction_type_query in transaction_type_queries:
     dropdown_start_year = driver.find_element(By.ID, "SDateYYYY")
     dropdown_end_year = driver.find_element(By.ID, "EDateYYYY")
     dropdown_transaction_type = driver.find_element(By.ID, "TranType")
+    correction_affidavit_check_box = driver.find_element(By.ID, "CheckBox2")
 
     last_name_box.send_keys(search_last_name_query)
     first_name_box.send_keys(search_first_name_query)
     Select(dropdown_transaction_type).select_by_visible_text(transaction_type_query)
     Select(dropdown_start_year).select_by_visible_text(start_year)
     Select(dropdown_end_year).select_by_visible_text(end_year)
+    correction_affidavit_check_box.click()
 
     submit_button = driver.find_element(By.ID, "btnSearch")
     submit_button.send_keys(Keys.RETURN)

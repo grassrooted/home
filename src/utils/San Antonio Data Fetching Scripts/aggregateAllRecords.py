@@ -2,8 +2,8 @@ import os
 import json
 import shutil
 
-FIRST = "Marc"
-LAST = "Whyte"
+FIRST = "Manny"
+LAST = "Pelaez"
 folder = f"{FIRST} {LAST}/"
 output_file = f"{FIRST}_{LAST}_contributions_expenditures.json"
 unique_sources_file = "unique_sources.txt"

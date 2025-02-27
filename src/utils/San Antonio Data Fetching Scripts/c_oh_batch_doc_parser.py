@@ -6,8 +6,8 @@ import requests
 from datetime import datetime
 
 # File containing the list of PDF links
-FIRST_NAME_CONFIG = "Marc"
-LAST_NAME_CONFIG = "Whyte"
+FIRST_NAME_CONFIG = "Adriana"
+LAST_NAME_CONFIG = "Garcia"
 related_tec_docs_filename = f"{FIRST_NAME_CONFIG}_{LAST_NAME_CONFIG}_2016_2025.txt"
 def extract_filename_from_url(url):
     return url.split("/")[-1]

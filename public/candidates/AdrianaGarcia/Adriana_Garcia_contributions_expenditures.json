@@ -1,6 +1,127 @@
 {
     "contributions": [
         {
+            "Transaction_Date": "11/28/2018",
+            "Name": "Ms Jenee M Gonzales",
+            "Address": "8415 Fredericksburg Rd. #805 San Antonio, TX 78229",
+            "Amount": 100.0,
+            "Occupation": "Philanthropy Advisor",
+            "Employer": "Marianist Province of the U.S.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/5/2018",
+            "Name": "Mr Louis Barrios",
+            "Address": "1102 Morgans Peak San Antonio, TX 78258",
+            "Amount": 200.0,
+            "Occupation": "Restaurant Owner",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/15/2018",
+            "Name": "Mr Demonte Alexander",
+            "Address": "8455 Mannington Pl. Coverse, TX 78109",
+            "Amount": 500.0,
+            "Occupation": "Founder, President AXR Strategies",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/15/2018",
+            "Name": "Mr Ricardo Jimenez",
+            "Address": "PO Box 33511 San Antonio, TX 78265",
+            "Amount": 100.0,
+            "Occupation": "Consultant",
+            "Employer": "SMS Inc.",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/17/2018",
+            "Name": "Ms Melissa Sparks",
+            "Address": "9103 Tezel Bluff San Antonio, TX 78250",
+            "Amount": 100.0,
+            "Occupation": "Corporate Communications",
+            "Employer": "Toyota Motor North America",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/17/2018",
+            "Name": "Ms Laura E Jesse",
+            "Address": "PO Box 1377 Port O'Connor, TX 77982",
+            "Amount": 100.0,
+            "Occupation": "Account Supervisor",
+            "Employer": "KGB Texas",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/17/2018",
+            "Name": "Mr Michael Rodriguez",
+            "Address": "206 E. Arsenal San Antonio, TX 78204",
+            "Amount": 50.0,
+            "Occupation": "Banker",
+            "Employer": "BBVA Compass Bank",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/17/2018",
+            "Name": "Mr Arthur J Rodriguez",
+            "Address": "204 E. Arsenal San Antonio, TX 78204",
+            "Amount": 250.0,
+            "Occupation": "Vice President, External Affairs",
+            "Employer": "Zachry Group",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/18/2018",
+            "Name": "Mr Akeem Brown",
+            "Address": "220 Chestnut San Antonio, TX 78220",
+            "Amount": 50.0,
+            "Occupation": "Consulting",
+            "Employer": "Self-Employed",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/19/2018",
+            "Name": "Mrs Smita Bhakta",
+            "Address": "3 Privada Yesa San Antonio, TX 78257",
+            "Amount": 100.0,
+            "Occupation": "Lawyer",
+            "Employer": "Kruger Carson PLLC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/31/2018",
+            "Name": "Mr Jordan Ghawi",
+            "Address": "903 West Huisache San Antonio, TX 78201",
+            "Amount": 100.0,
+            "Occupation": "Healthcare",
+            "Employer": "STRAC",
+            "Transaction_Type": "Contribution",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
             "Transaction_Date": "9/21/2020",
             "Name": "Norton Rose Fulbright US LLP Texas Committee",
             "Address": "1301 McKinney #5100 Houston, TX 77010",
@@ -6184,6 +6305,28 @@
         }
     ],
     "expenditures": [
+        {
+            "Transaction_Date": "12/7/2018",
+            "Name": "Lopez Print & Marketing",
+            "Address": "427 Lombrano San Antonio, TX 78207",
+            "Amount": 43.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Business cards",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
+        {
+            "Transaction_Date": "12/23/2018",
+            "Name": "Stripe, Inc.",
+            "Address": "185 Berry St. #550 San Francisco, CA 94107-9105",
+            "Amount": 31.3,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Fees for electronic contributions",
+            "Source": "rpt0000002184_20190115_080120.pdf",
+            "Recipient": "Adriana Garcia"
+        },
         {
             "Transaction_Date": "7/31/2020",
             "Name": "Amegy Bank",
