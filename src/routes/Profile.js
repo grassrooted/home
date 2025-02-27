@@ -7,6 +7,7 @@ import ContributionsBarChart from '../ContributionsBarChart';
 import MembershipList from '../MembershipList';
 import Highlights from '../Highlights';
 import IndividualContributionsTable from '../IndividualContributionsTable';
+import IndividualExpendituresTable from '../IndividualExpendituresTable';
 import AggregatedDataTable from '../AggregatedDataTable';
 import AggregatedExpendituresTable from '../AggregatedExpendituresTable';
 import Header from '../Header';
@@ -135,8 +136,9 @@ function Profile() {
                 selectedDateRange={selectedDateRange}
                 expenditure_data={profile.expenditures}/>
 
-            <DonorOccupationPieChart 
-                contribution_data={profile.contributions} />
+            {profile.contributions.some(contribution => contribution.Occupation) && (
+                <DonorOccupationPieChart contribution_data={profile.contributions} />
+            )}
 
             <TimelineChart 
                 profile={profile}
@@ -184,6 +186,11 @@ function Profile() {
             <IndividualContributionsTable 
                 profile={profile} 
                 contribution_data={profile.contributions}
+                selectedDateRange={selectedDateRange} />
+
+            <IndividualExpendituresTable 
+                profile={profile} 
+                expenditure_data={profile.expenditures}
                 selectedDateRange={selectedDateRange} />
         </div>
     );

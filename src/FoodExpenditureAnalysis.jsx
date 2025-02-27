@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 
 const FoodExpenditureAnalysis = ({ expenditure_data }) => {
+  const [expanded, setExpanded] = useState(false);
+  const listRef = useRef(null);
+
   // Keywords to identify food-related expenses
   const foodKeywords = ["meals", "food", "beverage", "drinks"];
 
@@ -23,29 +26,38 @@ const FoodExpenditureAnalysis = ({ expenditure_data }) => {
     return acc;
   }, {});
 
-  // Identify vendor with the most transactions
-  const topVendor = Object.keys(vendorStats).reduce((a, b) =>
-    vendorStats[a]?.count > vendorStats[b]?.count ? a : b
-  , "");
+  // Filter vendors that have been visited more than once and sort by total amount spent
+  const frequentVendors = Object.entries(vendorStats)
+    .filter(([_, stats]) => stats.count > 1)
+    .sort((a, b) => b[1].totalAmount - a[1].totalAmount);
 
-  const topVendorTotalAmount = topVendor && vendorStats[topVendor] ? vendorStats[topVendor].totalAmount : 0;
+  // Determine how many items to show
+  const displayedVendors = expanded ? frequentVendors : frequentVendors.slice(0, 10);
 
-  // Identify the record with the highest amount
-  const highestAmountRecord = foodexpenditure_data.reduce((max, record) =>
-    record.Amount > (max?.Amount || 0) ? record : max
-  , null);
+  // Function to handle expanding/collapsing
+  const toggleExpand = () => {
+    if (expanded) {
+      listRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    setExpanded(!expanded);
+  };
 
   return (
     <div className="p-4 bg-gray-900 text-white rounded-xl shadow-lg">
-      <h2 className="text-xl font-bold mb-2">Food & Beverage Expenditures</h2>
-      {topVendor ? (
-        <p><strong>Top Vendor by Food & Beverage Expenditures: Most Frequent Vendor & Total Spending</strong> {topVendor} - ${topVendorTotalAmount.toFixed(2)} spent</p>
-      ) : (
-        <p>No food-related transactions found.</p>
+      <h2 className="text-xl font-bold mb-2" ref={listRef}>Food & Beverage Expenditures</h2>
+      <h3 className="text-lg font-semibold mt-4">Frequently Visited Vendors</h3>
+      <ul>
+        {displayedVendors.map(([vendor, stats]) => (
+          <li key={vendor}>{vendor} - ${stats.totalAmount.toFixed(2)} spent</li>
+        ))}
+      </ul>
+      {frequentVendors.length > 10 && (
+        <button
+          className="mt-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded"
+          onClick={toggleExpand}>
+          {expanded ? "Show Less" : "Show More"}
+        </button>
       )}
-      {highestAmountRecord ? (
-        <p><strong>Largest Single Food & Beverage Expenditure: Vendor with Highest Individual Transaction</strong> {highestAmountRecord.Name} - ${highestAmountRecord.Amount.toFixed(2)}</p>
-      ) : null}
     </div>
   );
 };
