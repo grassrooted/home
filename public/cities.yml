@@ -24,17 +24,3 @@
     south: 29.1872
     east: -98.2927
     west: -98.8055
-- name: "Austin"
-  id: "Austin"
-  election_cycle_years: 4
-  individual_limit: 300
-  pac_limit: 1000
-  out_of_city_aggregate_contribution_limit: 30000
-  data_source: "https://data.austintexas.gov/City-Government/Campaign-Finance-Contributions/3kfv-biw6"
-  find_my_district: "https://maps.austintexas.gov/GIS/CouncilDistrictMap/"
-  cover_photo: "/cities/austin.png"
-  city_bounds:
-    north: 30.5166
-    south: 30.1468
-    east: -97.5687
-    west: -97.9384
