@@ -1,0 +1,97 @@
+{
+    "candidate_info": {
+        "first_name": "carolyn",
+        "last_name": "arnold",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 4850.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0,
+            "Total Parsed Contributions": 4850.0,
+            "Total Parsed Expenditures": 0,
+            "Total Itemized Reported Contributions": 4850.0,
+            "Total Itemized Reported Expenditures": 0.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002094_20210115_162938.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002094_20210115_162938.pdf"
+        ],
+        "period": "7/1/2020_12/31/2020",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Jacob Brown self",
+            "Address": "3101 Forestwood Dr Bryan, TX 77801",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Lee Kleinman self",
+            "Address": "7336 Hill Forest Dallas, TX 75230",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/28/2020",
+            "Name": "Pete Schenkel self",
+            "Address": "614 Bishop Dallas, TX 75208",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/25/2020",
+            "Name": "Erv Thomas self",
+            "Address": "775 Lafayette Ave Suite 3A Brooklyn, NY 11221",
+            "Amount": 750.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2020",
+            "Name": "Eugene Thomas self",
+            "Address": "2 Edinburgh Randolph, NJ 07869",
+            "Amount": 350.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2020",
+            "Name": "Kenneth King self",
+            "Address": "P.O. Box 1447 Buffalo, TX 75831",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2020",
+            "Name": "Marilyn Barnes self",
+            "Address": "P.O. Box 1476 Buffalo, TX 75831",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        },
+        {
+            "Transaction_Date": "12/20/2020",
+            "Name": "Kevin King self",
+            "Address": "7005 Brook Valley Circle Dallas, TX 78724",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002094_20210115_162938.pdf"
+        }
+    ],
+    "expenditures": [],
+    "in_kind_contributions": []
+}

@@ -1,0 +1,219 @@
+{
+    "candidate_info": {
+        "first_name": "Cara",
+        "last_name": "Mendelsohn",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1900.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 2963.15,
+            "Total Parsed Contributions": 1900.0,
+            "Total Parsed Expenditures": 2443.46,
+            "Total Itemized Reported Contributions": 1900.0,
+            "Total Itemized Reported Expenditures": 2963.15,
+            "Expenditure Mismatch": true
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002737_20240707_173705.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002737_20240707_173705.pdf"
+        ],
+        "period": "1/1/2024_6/30/2024",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "02/13/2024",
+            "Name": "David Kurtz",
+            "Address": "5727 Portsmouth Ln Dallas, TX 75252",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/21/2024",
+            "Name": "Anne Binns",
+            "Address": "4244 Briarbend Rd Dallas, TX 75287",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/21/2024",
+            "Name": "Michelle Canter",
+            "Address": "5315 Stone Falls Ln Dallas, TX 75287",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/22/2024",
+            "Name": "Hugh Peace",
+            "Address": "4528 Briar Oaks Cir Dallas, TX 75287",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/27/2024",
+            "Name": "Kandi Duplantis",
+            "Address": "5202 Harbor Town Dr Dallas, TX 75287",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/27/2024",
+            "Name": "Susan Meriwether",
+            "Address": "7255 Holyoke Dr Dallas, TX 75248",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/27/2024",
+            "Name": "Jeffrey Rosenfeld",
+            "Address": "6925 Rocky Top Cir Dallas, TX 75252",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/27/2024",
+            "Name": "John Galli Jr",
+            "Address": "1614 Squaw Valley Dr Dallas, TX 75252",
+            "Amount": 200.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/02/2024",
+            "Name": "Google G Suite",
+            "Address": "1600 Amphitheatre PkwyMountain View, CA 94043",
+            "Amount": 12.79,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Google business workspace",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "01/16/2024",
+            "Name": "Constant Contact",
+            "Address": "1601 Trapelo Rd Waltham, MA 02451",
+            "Amount": 81.02,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "emails",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "01/25/2024",
+            "Name": "Go Daddy",
+            "Address": "2155 E GoDaddy Way Tempe, AZ 85284",
+            "Amount": 340.87,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "website",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "01/29/2024",
+            "Name": "Automattic, Inc.",
+            "Address": "60 29th Street Suite 343 San Francisco, CA 94110",
+            "Amount": 268.63,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "website",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "01/29/2024",
+            "Name": "Automattic, Inc.",
+            "Address": "60 29th Street Suite 343 San Francisco, CA 94110",
+            "Amount": 51.17,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "website",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/22/2024",
+            "Name": "Constant Contact",
+            "Address": "1601 Trapelo Rd Waltham, MA 02451",
+            "Amount": 243.06,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "emails",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2024",
+            "Name": "Go Daddy",
+            "Address": "2155 E GoDaddy Way Tempe, AZ 85284",
+            "Amount": 191.75,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "website",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/22/2024",
+            "Name": "Signs by Tomorrow",
+            "Address": "1101 Ohio Drive Suite 11P7lano, TX 75093",
+            "Amount": 572.6,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Signs",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "03/31/2024",
+            "Name": "Wix.com Inc.",
+            "Address": "5 Yunitsman St Tel Aviv Israel, TX 69360-25",
+            "Amount": 233.82,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "website",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2024",
+            "Name": "Amazon Inc.",
+            "Address": "410 Terry Ave N Seattle, WA 98109",
+            "Amount": 106.63,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Sign stakes",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2024",
+            "Name": "Constant Contact",
+            "Address": "1601 Trapelo Rd Waltham, MA 02451",
+            "Amount": 170.56,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "emails",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2024",
+            "Name": "Constant Contact",
+            "Address": "1601 Trapelo Rd Waltham, MA 02451",
+            "Amount": 170.56,
+            "Transaction_Type": "Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "emails",
+            "Source": "srp0000002737_20240707_173705.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

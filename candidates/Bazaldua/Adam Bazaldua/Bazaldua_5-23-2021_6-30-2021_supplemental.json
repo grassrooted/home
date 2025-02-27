@@ -1,0 +1,460 @@
+{
+    "candidate_info": {
+        "first_name": "Adam",
+        "last_name": "Bazaldua",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 45.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 5845.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 4363.0,
+            "TOTAL POLITICAL EXPENDITURES": 46207.46,
+            "Total Parsed Contributions": 5845.0,
+            "Total Parsed Expenditures": 46207.46,
+            "Total Itemized Reported Contributions": 5845.0,
+            "Total Itemized Reported Expenditures": 46207.46
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002353_20210715_192232.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002353_20210715_192232.pdf"
+        ],
+        "period": "5/23/2021_6/30/2021",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "6/30/2021",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 45.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/27/2021",
+            "Name": "Erin Moore",
+            "Address": "324 Easton Dallas, TX 75218",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/27/2021",
+            "Name": "Diane Birdwell",
+            "Address": "5705 Meadowick Dallas, TX 75227",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "Monica Bravo",
+            "Address": "1155 Timplemore Dr Dallas, TX 75218",
+            "Amount": 300.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/29/2021",
+            "Name": "Eric Dominguez",
+            "Address": "1628 Daywood Irving, TX 75061",
+            "Amount": 50.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/30/2021",
+            "Name": "Tim Dickey",
+            "Address": "3134 Lockmoor Dallas, TX 75220",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2021",
+            "Name": "Richard Skibell",
+            "Address": "5841 Park Ln Dallas, TX 75225",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2021",
+            "Name": "Andrea Skibell",
+            "Address": "5841 Park Ln Dallas, TX 75225",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/06/2021",
+            "Name": "Next Generation Action Network",
+            "Address": "850 Greenview Grand Prarie, TX 75050",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/10/2021",
+            "Name": "Leah Baker",
+            "Address": "112 Gail Weatherford, TX 76085",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/10/2021",
+            "Name": "1010 Partnership LLC",
+            "Address": "3606 S Tyler St Dallas, TX 75224",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/23/2021",
+            "Name": "CWA COPE PCC",
+            "Address": "501 3rd Street Washington, DC 20001",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "6/30/2021",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 4363.0,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "7-Eleven",
+            "Address": "4710 S Buckner Dallas, TX 75227",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1747.8,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Lit",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2021",
+            "Name": "Taylor Adams",
+            "Address": "519 N Oak Cliff Blvd Dallas, TX 75208",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2021",
+            "Name": "Bryan Tony",
+            "Address": "1500 Pecos Dallas, TX 75204",
+            "Amount": 3800.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2021",
+            "Name": "Strategic Business Concepts, LLC",
+            "Address": "2129 Great Southwest PkDwayllas, TX 75051",
+            "Amount": 1217.81,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/02/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1547.6,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Political Signs",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/03/2021",
+            "Name": "ActBlue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 106.85,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Contribution Fees",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2021",
+            "Name": "Costco",
+            "Address": "8055 Churchill Dallas, TX 75251",
+            "Amount": 331.24,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2021",
+            "Name": "In Focus Campaign",
+            "Address": "P.O. Box 10726 Ft Worth, TX 76114",
+            "Amount": 1450.08,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Lit",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "Eight Bells Alehouse",
+            "Address": "831 Exposition Dallas, TX 75226",
+            "Amount": 128.5,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "Start the Party",
+            "Address": "5730 Logancraft Dallas, TX 75227",
+            "Amount": 352.62,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "Nana Bs Soul Food",
+            "Address": "4705 Yancy Dallas, TX 75216",
+            "Amount": 702.06,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "balloon city",
+            "Address": "110 exposition Dallas, TX 75226",
+            "Amount": 595.38,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 149.2,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Lit",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "Office Max",
+            "Address": "2415 haskell Dallas, TX 75204",
+            "Amount": 125.03,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Campaign Lit",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/08/2021",
+            "Name": "Pokey Os",
+            "Address": "3034 Mockingbird Dallas, TX 75205",
+            "Amount": 264.11,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/09/2021",
+            "Name": "ActBlue",
+            "Address": "P.O. Box 441146 Somerville, MA 02144",
+            "Amount": 185.57,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Contribution Fees",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/09/2021",
+            "Name": "In Focus Campaign",
+            "Address": "P.O. Box 10726 Ft Worth, TX 76114",
+            "Amount": 890.97,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/10/2021",
+            "Name": "Kim Weir",
+            "Address": "4110 Aspen Rowlett, TX 75088",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/14/2021",
+            "Name": "Anna Casey",
+            "Address": "2718 Gladiolus Dallas, TX 75233",
+            "Amount": 16000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2021",
+            "Name": "CBD Provisions",
+            "Address": "1530 Main Dallas, TX 75201",
+            "Amount": 373.39,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/17/2021",
+            "Name": "Trompo",
+            "Address": "407 W 10th Street Dallas, TX 75208",
+            "Amount": 2706.25,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/21/2021",
+            "Name": "ELITE NEWS",
+            "Address": "2349 CEDAR CREST Dallas, TX 75203",
+            "Amount": 215.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/21/2021",
+            "Name": "Wayfair",
+            "Address": "4 Copley Boston, MA 02116",
+            "Amount": 389.69,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/23/2021",
+            "Name": "Jasmine Crockett Campaign",
+            "Address": "P.O. Box 152868 Dallas, TX 75315",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Contribution Fees",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/28/2021",
+            "Name": "Walmart",
+            "Address": "2827 S Buckner Dallas, TX 75227",
+            "Amount": 105.31,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Event Expense",
+            "Description": "Event Expense",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Reginald Clayton",
+            "Address": "3011 Park Row Suite 283Dallas, TX 75215",
+            "Amount": 1432.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Charlotte Prear",
+            "Address": "5812 Logancraft Dallas, TX 75227",
+            "Amount": 1610.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Kilee Livingston",
+            "Address": "1805 Camancho Dallas, TX 75201",
+            "Amount": 683.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Janet Hayes",
+            "Address": "1500 Bluegrove Lancaster, TX 75134",
+            "Amount": 1335.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Mindiana Otero",
+            "Address": "9821 Summerwood Dallas, TX 75243",
+            "Amount": 400.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Mayra Resendez",
+            "Address": "9002 Prairie Wood PlaceDallas, TX 75217",
+            "Amount": 600.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contract Labor",
+            "Description": "Contract Labor",
+            "Source": "srp0000002353_20210715_192232.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

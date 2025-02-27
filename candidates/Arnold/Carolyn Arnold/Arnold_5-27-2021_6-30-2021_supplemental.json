@@ -1,0 +1,200 @@
+{
+    "candidate_info": {
+        "first_name": "Carolyn",
+        "last_name": "Arnold",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 1100.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 26099.0,
+            "Total Parsed Contributions": 1100.0,
+            "Total Parsed Expenditures": 26099.0,
+            "Total Itemized Reported Contributions": 1100.0,
+            "Total Itemized Reported Expenditures": 26099.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002330_20210715_163638.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002330_20210715_163638.pdf"
+        ],
+        "period": "5/27/2021_6/30/2021",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "Austin S Schenkel",
+            "Address": "3317 Purdue Ave Dallas, TX 75225",
+            "Amount": 600.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2021",
+            "Name": "Kenneth King self",
+            "Address": "1445 75South Buffalo, TX 75831",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "06/03/2021",
+            "Name": "Teresa Moore Clear Channel",
+            "Address": "P.O. Box 847247 Dallas, TX 75284",
+            "Amount": 600.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Jack English Wizardphone",
+            "Address": "1013 Farmington Indian Trail, NC 28079",
+            "Amount": 700.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Polling Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2021",
+            "Name": "Crickett Wireless Crickett Wireless",
+            "Address": "3200 Lancaster Dallas, TX 75216",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Nethal Jackson NBJ&Associates",
+            "Address": "2851 Toluca Dallas, TX 75224",
+            "Amount": 4000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "CCCP Printing CCCP Printing Company",
+            "Address": "5534 Hanpton Dallas, TX 75232",
+            "Amount": 250.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/04/2021",
+            "Name": "Karay Event Planning",
+            "Address": "P.O. Box 764978 Dallas, TX 75376",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/07/2021",
+            "Name": "Freda Keglar Keglar Call Team",
+            "Address": "1626 Mentor Dallas, TX 75216",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/15/2021",
+            "Name": "MMS Company MMS",
+            "Address": "217 N. IH35 DeSoto, TX 75115",
+            "Amount": 4108.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/01/2021",
+            "Name": "Rod Collins Bulldog Billboards",
+            "Address": "4310 Buena Vista Dallas, TX 75205",
+            "Amount": 2075.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Jeff Dalton Democracy Toolbox",
+            "Address": "8552 Royal County DowMn DcKrinney, TX 75070",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "Jeff Ross The Order Desk",
+            "Address": "Dallas, TX 75220",
+            "Amount": 2001.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "Nealy Group The Nealy Group",
+            "Address": "P.O. Box 191803 Dallas, TX 75219",
+            "Amount": 1500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "05/28/2021",
+            "Name": "Steve Echols Reilly Echols Printing",
+            "Address": "1710 Harwood Dallas, TX 75215",
+            "Amount": 2115.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/02/2021",
+            "Name": "Zach Bullard Strategies",
+            "Address": "2710 Routh Street Dallas, TX 75082",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        },
+        {
+            "Transaction_Date": "06/05/2021",
+            "Name": "Shell Oil Shell Petroleum",
+            "Address": "500 W. Kiest Dallas, TX 75224",
+            "Amount": 100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Travel In District",
+            "Description": "n/a",
+            "Source": "srp0000002330_20210715_163638.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

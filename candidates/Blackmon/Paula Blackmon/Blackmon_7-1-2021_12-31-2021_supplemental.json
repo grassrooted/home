@@ -1,0 +1,320 @@
+{
+    "candidate_info": {
+        "first_name": "Paula",
+        "last_name": "Blackmon",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 9000.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 354.86,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 1771.43,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 975.41,
+            "TOTAL POLITICAL EXPENDITURES": 14028.56,
+            "Total Parsed Contributions": 9000.0,
+            "Total Parsed Expenditures": 15799.99,
+            "Total Itemized Reported Contributions": 9000.0,
+            "Total Itemized Reported Expenditures": 15799.99
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002367_20220105_183646.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002367_20220105_183646.pdf"
+        ],
+        "period": "7/1/2021_12/31/2021",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "07/23/2021",
+            "Name": "Craig Hall",
+            "Address": "6801 Gaylord Pkwy Suite 100 Frisco, TX 75034",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "07/23/2021",
+            "Name": "Domingo Garcia",
+            "Address": "1111 W Mockingbird Suite 1200 Dallas, TX 75247",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "07/23/2021",
+            "Name": "Kathryn Hall",
+            "Address": "6801 Gaylord Pkwy Suite 100 Frisco, TX 75034",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/20/2021",
+            "Name": "Tim Byrne",
+            "Address": "2000 McKinney Ave Suite 1000 Dallas , TX 75201",
+            "Amount": 2000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/20/2021",
+            "Name": "Jeff Courtwright",
+            "Address": "6758 Avalon Ave Dallas, TX 75214",
+            "Amount": 2000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "09/29/2021",
+            "Name": "Mack Pogue",
+            "Address": "P.O. Box 1920 Dallas, TX 75221",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "09/29/2021",
+            "Name": "Delores Pogue",
+            "Address": "P.O. Box 1920 Dallas, TX 75221",
+            "Amount": 1000.0,
+            "Transaction_Type": "Officeholder Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/31/2021",
+            "Name": "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 354.86,
+            "Transaction_Type": "Officeholder Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2021",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 975.41,
+            "Transaction_Type": "Campaign Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/23/2021",
+            "Name": "Lakewood Country Club",
+            "Address": "6430 Gaston Ave Dallas, TX 75214",
+            "Amount": 370.31,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "(cid:9)Food/Beverage Expense",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "11/24/2021",
+            "Name": "Kents Fine Chocolates",
+            "Address": "8526 Eustis Dallas, TX 75218",
+            "Amount": 324.75,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2021",
+            "Name": "Neiman Marcus",
+            "Address": "8687 N Central Expy Dallas, TX 75225",
+            "Amount": 306.3,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "(cid:9)Food/Beverage Expense",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2021",
+            "Name": "Doc Popcorn",
+            "Address": "920 S Harwood Dallas, TX 75201",
+            "Amount": 415.21,
+            "Transaction_Type": "Officeholder Funds for Officeholder Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "07/06/2021",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon Atlanta, GA 30308",
+            "Amount": 181.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2021",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon Atlanta, GA 30308",
+            "Amount": 181.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "09/02/2021",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon Atlanta, GA 30308",
+            "Amount": 181.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "10/04/2021",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon Atlanta, GA 30308",
+            "Amount": 181.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "11/02/2021",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon Atlanta, GA 30308",
+            "Amount": 181.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2021",
+            "Name": "MailChimp",
+            "Address": "675 Ponce de Leon Atlanta, GA 30308",
+            "Amount": 181.22,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Advertising",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "07/22/2021",
+            "Name": "Trulucks Seafood",
+            "Address": "400 Colorado Austin, TX 78701",
+            "Amount": 140.34,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "(cid:9)Food/Beverage Expense",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/16/2021",
+            "Name": "Hudson House",
+            "Address": "4040 Abrams Rd Dallas, TX 75214",
+            "Amount": 130.34,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "(cid:9)Food/Beverage Expense",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/23/2021",
+            "Name": "Meso Maya",
+            "Address": "1611 McKinney Ave Dallas, TX 75202",
+            "Amount": 136.37,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Food/Beverage Expense",
+            "Description": "(cid:9)Food/Beverage Expense",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "08/23/2021",
+            "Name": "Tim Reeves Consulting",
+            "Address": "2310 5214 Vickery Dallas, TX 75206",
+            "Amount": 2200.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "General Consulting",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "09/09/2021",
+            "Name": "NLLEO",
+            "Address": "3730 Ladd St. Dallas, TX 75212",
+            "Amount": 126.99,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Contribution",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "09/10/2021",
+            "Name": "Tim Reeves Consulting",
+            "Address": "5214 Vickery Dallas, TX 75206",
+            "Amount": 1100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "General Consulting",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "10/07/2021",
+            "Name": "Tim Reeves Consulting",
+            "Address": "5214 Vickery Dallas, TX 75206",
+            "Amount": 1100.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "General Consulting",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "12/26/2021",
+            "Name": "Tim Reeves Consulting",
+            "Address": "5214 Vickery Dallas, TX 75206",
+            "Amount": 2200.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "General Consulting",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "10/20/2021",
+            "Name": "William Chris Vineyards",
+            "Address": "10352 US Hwy 290 Hye, TX 78635",
+            "Amount": 831.79,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Gift/Awards/Memorials Expense",
+            "Description": "Gifts",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "11/04/2021",
+            "Name": "Upward Public Affairs",
+            "Address": "2211 Weatherbee Fort Worth, TX 76110",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2021",
+            "Name": "Upward Public Affairs",
+            "Address": "2211 Weatherbee Fort Worth, TX 76110",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Consulting Expense",
+            "Description": "Consulting",
+            "Source": "srp0000002367_20220105_183646.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

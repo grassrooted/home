@@ -1,0 +1,43 @@
+{
+    "candidate_info": {
+        "first_name": "carolyn",
+        "last_name": "arnold",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 135.0,
+            "Total Parsed Contributions": 0,
+            "Total Parsed Expenditures": 135.0,
+            "Total Itemized Reported Contributions": 0.0,
+            "Total Itemized Reported Expenditures": 135.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002031_20200714_161930.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002031_20200714_161930.pdf"
+        ],
+        "period": "1/1/2020_6/30/2020",
+        "related files": null
+    },
+    "contributions": [],
+    "expenditures": [
+        {
+            "Transaction_Date": "03/15/2020",
+            "Name": "Crickett Wireless Crickett",
+            "Address": "3200 S. Lancaster Dallas, TX 75216",
+            "Amount": 135.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "n/a",
+            "Source": "srp0000002031_20200714_161930.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

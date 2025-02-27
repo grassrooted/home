@@ -1,0 +1,894 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Ridley",
+        "office_sought": "Council District 14",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 671.8,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 16677.87,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 241.58,
+            "TOTAL POLITICAL EXPENDITURES": 18180.67,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 25535.41,
+            "Total Parsed Contributions": 16677.87,
+            "Total Parsed Expenditures": 18422.25,
+            "Total Itemized Reported Contributions": 17349.67,
+            "Total Itemized Reported Expenditures": 18422.25,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "03-23-2021_04-21-2021",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000002227_20210423_135604.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "04/21/2021",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 671.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2021",
+            "Name": "Thomas C Shiels",
+            "Address": "2300 Leonard St. Suite 506 Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2021",
+            "Name": "Mark Winnubst",
+            "Address": "4 Doral Pl. Richardson, TX 75080",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/29/2021",
+            "Name": "Denise Siegal",
+            "Address": "701 Huntley St. Dallas, TX 75214",
+            "Amount": 110.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/03/2021",
+            "Name": "Norma Minnis",
+            "Address": "6219 Prospect Ave. Dallas, TX 75214",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2021",
+            "Name": "Rebecca Pederson",
+            "Address": "5228 Mercedes Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2021",
+            "Name": "Emily Black",
+            "Address": "5345 Mercedes Ave. Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/10/2021",
+            "Name": "Melanie Vanlandingham",
+            "Address": "6311 Lakeshore Dr. Dallas, TX 75214",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/10/2021",
+            "Name": "Nancy McCoy",
+            "Address": "3525 Turtle Creek Blvd. Suite 3B Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/10/2021",
+            "Name": "Mark Parker",
+            "Address": "3525 Turtle Creek Blvd. Suite 11A Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/11/2021",
+            "Name": "Philip Henderson",
+            "Address": "3131 Maple Ave. Suite 6B Dallas, TX 75201",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/14/2021",
+            "Name": "Jack H Breard Jr.",
+            "Address": "3831 Turtle Creek Blvd. Suite 21E Dallas, TX 75219",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/14/2021",
+            "Name": "Tom Dunlap",
+            "Address": "10511 Berry Knoll Dr. Dallas, TX 75230",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Calvin Chaney",
+            "Address": "5907 Swiss Ave. Dallas, TX 75214",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Glenn Offut",
+            "Address": "6038 Bryan Parkway Dallas, TX 75206",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Kevin Rogers",
+            "Address": "6312 Bryan Parkway Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Linda Solomon",
+            "Address": "6145 Bryan Parkway Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Lori Palmer",
+            "Address": "10255 County Rd. 356 Terrell, TX 75161",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Jane Sandlin",
+            "Address": "3131 Maple Ave. Suite 5G Dallas, TX 75201",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Clark Willingham",
+            "Address": "3525 Turtle Creek Blvd. Suite 18A Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2021",
+            "Name": "J. McDonald Williams",
+            "Address": "8604 Greenville Ave. Suite 200 Dallas, TX 75243",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Elizabeth Gunby",
+            "Address": "4224 Swiss Ave. Dallas, TX 75204",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Elizabeth Offut",
+            "Address": "6201 Bryan Parkway Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Katie Offut",
+            "Address": "6201 Bryan Parkway Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "RuLan Hebeler",
+            "Address": "3600 Lexington Ave. Dallas, TX 75205",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/24/2021",
+            "Name": "Daryl N Davis",
+            "Address": "6201 E. Grand Ave. Dallas, TX 75223",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2021",
+            "Name": "Scott Helms",
+            "Address": "6242 Belmont Ave, Dallas, TX 75214",
+            "Amount": 5.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2021",
+            "Name": "Glenn Offut",
+            "Address": "6038 Bryan Parkway Dallas, TX 75206",
+            "Amount": 515.24,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2021",
+            "Name": "Harryette Ehrhardt",
+            "Address": "3525 Turtle Creek Blvd. Suite 8A Dallas, TX 75219",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2021",
+            "Name": "Marcel Quimby",
+            "Address": "7001 Hammond Dallas, TX 75223",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2021",
+            "Name": "Marcus Watson",
+            "Address": "4343 Congress Ave. Suite 251 Dallas, TX 75219",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2021",
+            "Name": "Thomas West",
+            "Address": "7027 E. Grand Ave. Dallas, TX 75223",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2021",
+            "Name": "Adam Murphy",
+            "Address": "3435 Dickason Ave. Suite 2111 Dallas, TX 75219",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/30/2021",
+            "Name": "Mary Mesh",
+            "Address": "5837 Victor St. Dallas, TX 75214",
+            "Amount": 257.78,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/31/2021",
+            "Name": "Wendell Hansen",
+            "Address": "3813 Wentwood Dr. Dallas, TX 75225",
+            "Amount": 515.24,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2021",
+            "Name": "Kraig Post",
+            "Address": "5402 Tremont St. Dallas, TX 75214",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2021",
+            "Name": "Michael Karnowski",
+            "Address": "5921 Worth St. Dallas, TX 75214",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/02/2021",
+            "Name": "Ed Zahra",
+            "Address": "1003 Valencia Dallas, TX 75225",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/02/2021",
+            "Name": "Laura Freeland",
+            "Address": "6009 Bryan Parkway Dallas, TX 75206",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2021",
+            "Name": "Christopher Craig",
+            "Address": "1604 McCoy St. Dallas, TX 75204",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/06/2021",
+            "Name": "Paul Barnes",
+            "Address": "5327 Morningside Ave. Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/06/2021",
+            "Name": "David Hines",
+            "Address": "5415 Morningside Ave. Dallas, TX 75206",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/07/2021",
+            "Name": "Scott Chase",
+            "Address": "1700 Pacific Ave. Suite 3700 Dallas, TX 75201",
+            "Amount": 257.78,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/07/2021",
+            "Name": "Roxanne McCreery",
+            "Address": "7035 Coronado Ave. Dallas, TX 75214",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "Julie Lowenberg",
+            "Address": "2828 Hood St. Suite 1102 Dallas, TX 75219",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "William Thompson",
+            "Address": "4922 Junius St. Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "Paul Hille",
+            "Address": "5927 Palo Pinto Ave. Dallas, TX 75206",
+            "Amount": 515.24,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "Eric Graham",
+            "Address": "5326 Junius St. Dallas, TX 75214",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "George Dailey",
+            "Address": "2310 N. Henderson Suite 303 Dallas, TX 75206",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2021",
+            "Name": "David Parsons",
+            "Address": "5317 McCommas Blvd. Dallas, TX 75206",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/10/2021",
+            "Name": "Richard A Schumacher",
+            "Address": "P.O. Box 835526 Richardson, TX 75083",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/10/2021",
+            "Name": "Ryan Holliman",
+            "Address": "3939 Buena Vista St. Dallas, TX 75204",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/10/2021",
+            "Name": "Cynthia Dooley",
+            "Address": "5403 Vickery Blvd. Dallas, TX 75206",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/11/2021",
+            "Name": "Emily Hollis",
+            "Address": "2900 McKinnon Suite 1405 Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/12/2021",
+            "Name": "Joan Jackson",
+            "Address": "6033 Penrose Ave. Dallas, TX 75206",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/12/2021",
+            "Name": "Gregory Davis",
+            "Address": "3615 Gillespie St. Suite G Dallas, TX 75219",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/13/2021",
+            "Name": "Sarah Naifeh",
+            "Address": "2525 Turtle Creek Blvd. Suite 416 Dallas, TX 75219",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/14/2021",
+            "Name": "Jessica McCune",
+            "Address": "1230 S.E. 12th St. Ocala, FL 34471",
+            "Amount": 75.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Sewall Cutler Jr.",
+            "Address": "6044 Royal Crest Dr. Dallas, TX 75230",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Simon Lee",
+            "Address": "4111 Gilbert Suite 319 Dallas, TX 75219",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Linda Unger",
+            "Address": "5902 Morningside Ave. Dallas, TX 75206",
+            "Amount": 36.35,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Brandon Dooley",
+            "Address": "3203 Carlisle St. Suite 182 Dallas, TX 75204",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2021",
+            "Name": "Ann Joseph",
+            "Address": "5200 Swiss Ave. Dallas, TX 75214",
+            "Amount": 26.06,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2021",
+            "Name": "Teresa Bond",
+            "Address": "1815 Loving Ave. Dallas, TX 75214",
+            "Amount": 103.3,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2021",
+            "Name": "James Atkins",
+            "Address": "3525 Turtle Creek Blvd. Suite 3A Dallas, TX 75219",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/18/2021",
+            "Name": "Chrystin Pleasants",
+            "Address": "4920 Tremont St. Dallas, TX 75214",
+            "Amount": 51.8,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/21/2021",
+            "Name": "Laura Freeland",
+            "Address": "6009 Bryan Parkway Dallas, TX 75206",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2021",
+            "Name": "Taylor Willis",
+            "Address": "5201 Miller Ave. Suite 2 Dallas, TX 75206",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/13/2021",
+            "Name": "David E Hairston",
+            "Address": "3215 Carlisle St. Suite 223 Dallas, TX 75204",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/13/2021",
+            "Name": "David Brown",
+            "Address": "6315 Lakeshore Dr. Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/13/2021",
+            "Name": "Nathan Hollis",
+            "Address": "4022 Buena Vista St. Dallas, TX 75204",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/12/2021",
+            "Name": "Richard Shaffer",
+            "Address": "3131 Maple Ave. Suite 11A Dallas, TX 75201",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/11/2021",
+            "Name": "Linda Mitchell",
+            "Address": "5451 Vickery Blvd. Dallas, TX 75206",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2021",
+            "Name": "Lindaqq Parsel",
+            "Address": "3401 Lee Parkway Suite 1001 Dallas, TX 75219",
+            "Amount": 40.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2021",
+            "Name": "Walter Keith",
+            "Address": "5914 Bryan Parkway Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "Liz Wally",
+            "Address": "5528 Victor St. Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "Allen Hare",
+            "Address": "5831 Columbia Ave. Dallas, TX 75214",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/08/2021",
+            "Name": "John Maline",
+            "Address": "5919 Birchbrook Dr. Suite 227 Dallas, TX 75206",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/03/2021",
+            "Name": "Brennan Greef",
+            "Address": "706 Dumont St. Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/29/2021",
+            "Name": "Gregory White",
+            "Address": "1002 Cordova St. Dallas, TX 75223",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2021",
+            "Name": "Nathan Hollis",
+            "Address": "4022 Buena Vista St. Dallas, TX 75204",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2021",
+            "Name": "Roddrick West",
+            "Address": "1512 Commerce St. Suite 712 Dallas, TX 75201",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Roxanne McCreery",
+            "Address": "7035 Coronado Ave. Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Emily Clark",
+            "Address": "4012 Rawlins St. Dallas, TX 75219",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/18/2021",
+            "Name": "Betsy Porter",
+            "Address": "6849 Coronado Ave. Dallas, TX 75214",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Louise Weber",
+            "Address": "6169 Woodcrest Ln. Dallas, TX 75214",
+            "Amount": 26.06,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Drew Dixon",
+            "Address": "5909 Wiinton St. Dallas, TX 75206",
+            "Amount": 26.06,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/13/2021",
+            "Name": "Jim Rain",
+            "Address": "6154 Marquita Dallas, TX 75214",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/12/2021",
+            "Name": "Kenneth Rippetoe",
+            "Address": "6010 McCommas Blvd. Dallas, TX 75206",
+            "Amount": 26.06,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/19/2021",
+            "Name": "Dean Jordan",
+            "Address": "6256 Saratoga Cir. Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/14/2021",
+            "Name": "Rebecca Kaye",
+            "Address": "1510 N. Washington Ave. Suite 101 Dallas, TX 75204",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/18/2021",
+            "Name": "Michael Degroot",
+            "Address": "7014 Coronado Ave. Dallas, TX 75214",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "04/21/2021",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 241.58,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2021",
+            "Name": "Lakewood Advocate",
+            "Address": "6301 Gaston Ave. Suite 8D2a0llas, TX 75214",
+            "Amount": 829.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "print advertisement",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/24/2021",
+            "Name": "Lakewood Advocate",
+            "Address": "6301 Gaston Ave. Suite 8D2a0llas, TX 75214",
+            "Amount": 459.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "online ad",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 965.6,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "print door hangers",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1759.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "print mailers",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/01/2021",
+            "Name": "Mail House",
+            "Address": "4834 Top Line Dr. Dallas, TX 75247",
+            "Amount": 3460.29,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mail out ads",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/03/2021",
+            "Name": "Taylor Adams",
+            "Address": "519 N. Oak Cliff Blvd. Dallas, TX 75208",
+            "Amount": 2000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "pay contract labor",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/06/2021",
+            "Name": "K&R Screen Graphics",
+            "Address": "3915 Main St. Dallas, TX 75226",
+            "Amount": 1872.73,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "print yard signs",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2021",
+            "Name": "Dallas Voice",
+            "Address": "1825 Market Center BlvdD.a Slluaist,e T2X40 75207",
+            "Amount": 832.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "print advertisement",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 1792.7,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "print mailers",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2021",
+            "Name": "Mail House",
+            "Address": "4834 Top Line Dr. Dallas, TX 75247",
+            "Amount": 3433.82,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mail out ads",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2021",
+            "Name": "Robert Rojas",
+            "Address": "3915 Main St. Dallas, TX 75226",
+            "Amount": 100.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "print T-shirts",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2021",
+            "Name": "Walls Printing",
+            "Address": "9171 King Arthur Dallas, TX 75247",
+            "Amount": 434.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "print door hangers",
+            "Source": "pdf_files/tec0000002227_20210423_135604.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

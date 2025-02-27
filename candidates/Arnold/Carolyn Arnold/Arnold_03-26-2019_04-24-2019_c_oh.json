@@ -1,0 +1,129 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Arnold",
+        "office_sought": "Council District 4",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 6470.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 1535.0,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 0.0,
+            "Total Parsed Contributions": 6470.0,
+            "Total Parsed Expenditures": 1535.0,
+            "Total Itemized Reported Contributions": 6470.0,
+            "Total Itemized Reported Expenditures": 1535.0
+        }
+    },
+    "form_data": {
+        "period": "03-26-2019_04-24-2019",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000001848_20190426_161641.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "03/27/2019",
+            "Name": "Susan Hawkins self",
+            "Address": "5006 Shadywoood Ln Dallas, TX 75209",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2019",
+            "Name": "Jill Bownman self",
+            "Address": "1201 Elm Street Dallas, TX 75270",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "MetroTex Realtors MetroTexBuilders PAC",
+            "Address": "820 N. Stemmons Dallas, TX 75247",
+            "Amount": 2500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/24/2019",
+            "Name": "Kevin Wiley self",
+            "Address": "325 N. St. Paul Dallas, TX 75201",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2019",
+            "Name": "Deborah Haynes self",
+            "Address": "6846 Talbot Pky Dallas, TX 75232",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2019",
+            "Name": "William Tapscott self",
+            "Address": "310 Parkview Sunnyvale, TX 75182",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2019",
+            "Name": "Al Wright self",
+            "Address": "3440 Polk Dallas, TX 75224",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2019",
+            "Name": "Sherry Henderson self",
+            "Address": "2105 Commerce Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "Barbara Hill self",
+            "Address": "1818 Huntingdon Dallas, TX 75232",
+            "Amount": 20.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "04/24/2019",
+            "Name": "Crickett Wireless Crickett Wireless Service",
+            "Address": "3306 W. Camp WisdomDallas, TX 75232",
+            "Amount": 135.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "Don Miller BHP Printers",
+            "Address": "1026 Zang Dallas, TX 75208",
+            "Amount": 800.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2019",
+            "Name": "Phil Foster Campaign to Elect - Phil Foster",
+            "Address": "3440 S. Polk Dallas, TX 75224",
+            "Amount": 600.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Salaries/Wages/Contract Labor",
+            "Description": "n/a",
+            "Source": "pdf_files/tec0000001848_20190426_161641.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

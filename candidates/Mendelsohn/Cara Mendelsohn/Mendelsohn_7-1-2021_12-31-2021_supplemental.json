@@ -1,0 +1,65 @@
+{
+    "candidate_info": {
+        "first_name": "Cara",
+        "last_name": "Mendelsohn",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 6000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 0.0,
+            "Total Parsed Contributions": 6000.0,
+            "Total Parsed Expenditures": 0,
+            "Total Itemized Reported Contributions": 6000.0,
+            "Total Itemized Reported Expenditures": 0.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002369_20220117_223510.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002369_20220117_223510.pdf"
+        ],
+        "period": "7/1/2021_12/31/2021",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "07/09/2021",
+            "Name": "Mack Pogue",
+            "Address": "4300 Rheims Pl Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002369_20220117_223510.pdf"
+        },
+        {
+            "Transaction_Date": "07/09/2021",
+            "Name": "Delores J Pogue",
+            "Address": "4300 Rheims Pl Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002369_20220117_223510.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2021",
+            "Name": "Jeff and Jeannie Courtwright",
+            "Address": "6758 Avalon Ave Dallas, TX 75214",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002369_20220117_223510.pdf"
+        },
+        {
+            "Transaction_Date": "07/06/2021",
+            "Name": "Tim and Melanie Byrne",
+            "Address": "5330 Yolanda Dallas, TX 75229",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002369_20220117_223510.pdf"
+        }
+    ],
+    "expenditures": [],
+    "in_kind_contributions": []
+}

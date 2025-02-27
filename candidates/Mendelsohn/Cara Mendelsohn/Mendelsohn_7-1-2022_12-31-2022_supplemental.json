@@ -1,0 +1,114 @@
+{
+    "candidate_info": {
+        "first_name": "Cara",
+        "last_name": "Mendelsohn",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 13000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 913.87,
+            "Total Parsed Contributions": 8000.0,
+            "Total Parsed Expenditures": 0,
+            "Total Itemized Reported Contributions": 13000.0,
+            "Total Itemized Reported Expenditures": 913.87,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002484_20230110_202759.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002484_20230110_202759.pdf"
+        ],
+        "period": "7/1/2022_12/31/2022",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "10/22/2022",
+            "Name": "William Addy",
+            "Address": "3805 Normandy Ave Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "10/22/2022",
+            "Name": "Lydia Addy",
+            "Address": "3805 Normandy Ave Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "10/31/2022",
+            "Name": "HBA of Greater Dallas HOMEPAC",
+            "Address": "5816 W. Plano Pkwy Plano, TX 75093",
+            "Amount": 2500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "11/03/2022",
+            "Name": "Beth Mazziotta",
+            "Address": "7114 Royal Lane Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "07/01/2022",
+            "Name": "Ray L Hunt",
+            "Address": "1900 N Akard Street Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "12/05/2022",
+            "Name": "Willis Johnson",
+            "Address": "1001 Belleview St Suite P1 Dallas, TX 75215",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "12/03/2022",
+            "Name": "Barbara Stein",
+            "Address": "9338 Meadowbrook Dr Dallas, TX 75220",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution Retired",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "12/02/2022",
+            "Name": "Leland Burk",
+            "Address": "5311 Park Ln Dallas, TX 75220",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "11/03/2022",
+            "Name": "Buzz and Nancy Deitchman",
+            "Address": "17205 Wester Way Ct Dallas, TX 75248",
+            "Amount": 2000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        },
+        {
+            "Transaction_Date": "10/03/2022",
+            "Name": "Robert Goad",
+            "Address": "ue Management Mint House",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution Head of Reven",
+            "Source": "srp0000002484_20230110_202759.pdf"
+        }
+    ],
+    "expenditures": [],
+    "in_kind_contributions": []
+}

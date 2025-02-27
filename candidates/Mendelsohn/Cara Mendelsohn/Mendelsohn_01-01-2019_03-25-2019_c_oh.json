@@ -1,0 +1,232 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Mendelsohn",
+        "office_sought": "Council District 12",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 405.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 8505.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 13196.25,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 7320.27,
+            "Total Parsed Contributions": 7505.0,
+            "Total Parsed Expenditures": 11453.09,
+            "Total Itemized Reported Contributions": 8910.0,
+            "Total Itemized Reported Expenditures": 13196.25,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "01-01-2019_03-25-2019",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000001768_20190404_114230.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "03/25/2019",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 405.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "GILBERT ARANZA",
+            "Address": "P.O. Box 601527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "GILBERT ARANZA",
+            "Address": "P.O. Box 601527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "GILBERT ARANZA",
+            "Address": "P.O. Box 601527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "GILBERT ARANZA",
+            "Address": "P.O. Box 601527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "GILBERT ARANZA",
+            "Address": "P.O. Box 601527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2019",
+            "Name": "GILBERT ARANZA",
+            "Address": "P.O. Box 601527",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/16/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy Plano, TX 75075",
+            "Amount": 234.56,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "1000 push cards",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "01/23/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy SuiteP 1l2an7o, TX 75075",
+            "Amount": 64.21,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "150 postcards",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "02/06/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy SuiteP 1l2an7o, TX 75075",
+            "Amount": 240.64,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "500 postcards",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "02/13/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy SuiteP 1l2an7o, TX 75075",
+            "Amount": 219.29,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "1000 postcards",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "02/18/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy SuiteP 1l2an7o, TX 75075",
+            "Amount": 234.56,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "1000 push cards",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/12/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy SuiteP 1l2an7o, TX 75075",
+            "Amount": 303.92,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "1500 postcards",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "01/14/2019",
+            "Name": "DRI Printing Services",
+            "Address": "8000 Haskell Av Van Nuys, CA 91406",
+            "Amount": 97.88,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "2 car decals",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/21/2019",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304Austin, CA 78701",
+            "Amount": 4927.53,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "preparation and sending senior mailers",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "03/18/2019",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304Austin, CA 78701",
+            "Amount": 4330.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consult $1000,data mgmt $2700,4x4s$630.5",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "02/08/2019",
+            "Name": "USPS",
+            "Address": "5995 Summerside Dr Dallas, TX 75248",
+            "Amount": 210.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "postcard stamps",
+            "Description": "600 postcard stamps",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "02/25/2019",
+            "Name": "USPS",
+            "Address": "5995 Summerside Dr Dallas, TX 75248",
+            "Amount": 175.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "postcard stamps",
+            "Description": "500 postcard stamps",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Transaction_Date": "01/07/2019",
+            "Name": "Vistaprint",
+            "Address": "95 Hayden Av Lexington, MA 02421",
+            "Amount": 415.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "40 t-shirts, hats, 50 bumper stickers",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        }
+    ],
+    "in_kind_contributions": [
+        {
+            "Date": "02/03/2019",
+            "Name": "Mike Douglass",
+            "Address": "5209 Corinthian Bay Plano, TX 75093",
+            "Amount": 200.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "40 used fence posts",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Date": "01/29/2019",
+            "Name": "Michele Mecca",
+            "Address": "5420 Hilton Head Dr Dallas, TX 75287",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "refreshments for campaign  kick-off event",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        },
+        {
+            "Date": "03/25/2019",
+            "Name": "Alan Weissman",
+            "Address": "17427 Tamaron Dr Dallas, TX 75287",
+            "Amount": 400.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "refreshments for meet &  greets",
+            "Source": "pdf_files/tec0000001768_20190404_114230.pdf"
+        }
+    ]
+}

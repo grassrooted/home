@@ -1,0 +1,739 @@
+{
+    "candidate_info": {
+        "first_name": "Kevin",
+        "last_name": "Stewart",
+        "office_sought": "Council District 10",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 23875.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 22190.8,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 36986.9,
+            "Total Parsed Contributions": 23875.0,
+            "Total Parsed Expenditures": 22190.8,
+            "Total Itemized Reported Contributions": 23875.0,
+            "Total Itemized Reported Expenditures": 22190.8
+        }
+    },
+    "form_data": {
+        "period": null,
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000002543_20230406_075433.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "01/16/2023",
+            "Name": "Claudia Goode",
+            "Address": "9757 Wisterwood Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "01/17/2023",
+            "Name": "Frank Stevenson",
+            "Address": "5346 Weninah Dr. Dallas, TX 75209",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "01/20/2023",
+            "Name": "Brennan Blair",
+            "Address": "706 Dumont Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "01/20/2023",
+            "Name": "Kile Brown",
+            "Address": "9611 Crestedge Dallas, TX 75238",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/04/2023",
+            "Name": "Bonnie Cavin",
+            "Address": "10924 Cactus Lane Dallas, TX 75238",
+            "Amount": 75.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/04/2023",
+            "Name": "Bobby Abtahi",
+            "Address": "1126 N. Zang Dallas, TX 75203",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/04/2023",
+            "Name": "John Dean",
+            "Address": "7319 Hundley Dallas, TX 75231",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/08/2023",
+            "Name": "KP Jennings",
+            "Address": "1787 Angus Ridge Dr. Kernersville, NC 27284",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/08/2023",
+            "Name": "Susan Arends",
+            "Address": "10149 Trailpine Dr. Dallas, TX 75231",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/12/2023",
+            "Name": "Christal Moomaw",
+            "Address": "8115 Windy Terrace Cr. Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/12/2023",
+            "Name": "Patti Clapp",
+            "Address": "8418 Trail Hill Dr. Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/12/2023",
+            "Name": "Fred Halstead",
+            "Address": "130 Pinnacle Club Dr Mabank, TX 75156",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/12/2023",
+            "Name": "Donna Halstead",
+            "Address": "130 Pinnacle Club Dr Mabank, TX 75156",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/12/2023",
+            "Name": "Cox Michael",
+            "Address": "6007 Glencove St Houston, TX 77007",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Glenda Gerteisen",
+            "Address": "9920 Robin Hill Lane Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Dallas Dupre",
+            "Address": "9310 Emberglow Lane Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Maxey Kitty",
+            "Address": "9207 Shoreview Rd. Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Connie Baird",
+            "Address": "9603 Viewside Dallas, TX 75231",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Jackie Counts",
+            "Address": "9615 Viewside Dr. Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Mary Tabor",
+            "Address": "7405 Craigshire Dallas, TX 75231",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Alan Walne",
+            "Address": "10020 Caribou Trail Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Pete Schenkel",
+            "Address": "4231 Belclaire Ave Dallas, TX 75205",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Jesus Montfort",
+            "Address": "1610 Hyland Greens Dr. Grapevine, TX 76051",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Jane Montfort",
+            "Address": "1610 Hyland Greens Dr. Grapevine, TX 76051",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Mary Vasquez",
+            "Address": "1709 East Ave Katy, TX 77493",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Gilbert Aranza",
+            "Address": "P.O. Box 601527 Dallas, TX 75360",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Locke Lord LLP",
+            "Address": "2200 Ross Ave 2200 Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/16/2023",
+            "Name": "Robin Crawford",
+            "Address": "10025 Estate Lane Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/16/2023",
+            "Name": "Paul Peters",
+            "Address": "3905 Centenary Ave Dallas, TX 75225",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/16/2023",
+            "Name": "Deette Peters",
+            "Address": "3905 Centenary Ave Dallas, TX 75225",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/16/2023",
+            "Name": "Lynn McClendon",
+            "Address": "9030 Dunmore Dr. Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/16/2023",
+            "Name": "Jane McCurdy",
+            "Address": "9339 Faircrest Dallas, TX 75238",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/18/2023",
+            "Name": "Eleanor Haussler",
+            "Address": "9062 Ridgeway Close Cincinnati, OH 45236",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/18/2023",
+            "Name": "Trudy Sanders",
+            "Address": "8916 Vista View Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/20/2023",
+            "Name": "Jerry Allen",
+            "Address": "9426 Dartcrest Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/20/2023",
+            "Name": "Cinda Koch",
+            "Address": "9907 Capridge Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/20/2023",
+            "Name": "Lelani Bucki",
+            "Address": "8056 Forest Trail Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2023",
+            "Name": "Katherine Slade",
+            "Address": "5328 Waneta Dr Dallas, TX 75209",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2023",
+            "Name": "Cliff Whisnant",
+            "Address": "8727 Thunderbird Ln Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/24/2023",
+            "Name": "Judith Canion",
+            "Address": "9715 Windham Dallas, TX 75243",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/26/2023",
+            "Name": "Kelly Klemme",
+            "Address": "9525 Milltrail Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/26/2023",
+            "Name": "Eileen Cason",
+            "Address": "9133 Loma Vista Dallas, TX 75243",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2023",
+            "Name": "Phillip Gorman",
+            "Address": "10139 Bettywood Ln Dallas, TX 75243",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2023",
+            "Name": "Mary Browder",
+            "Address": "9840 Elmcrest Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2023",
+            "Name": "John Threadgill",
+            "Address": "9104 Kingsley Creek Cr Dallas, TX 75231",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2023",
+            "Name": "Preston Walhood",
+            "Address": "5319 W. University Blvd Dallas, TX 75209",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2023",
+            "Name": "Eileen Cason",
+            "Address": "9133 Loma Vista Dallas, TX 75243",
+            "Amount": 75.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2023",
+            "Name": "William Whitehill",
+            "Address": "747 Meadowlark Ln Coppell, TX 75019",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2023",
+            "Name": "Jo Baggett",
+            "Address": "10116 Estate Lane Dallas, TX 75238",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2023",
+            "Name": "Harriet Miers",
+            "Address": "12076 Tavel Circle Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/01/2023",
+            "Name": "Lori Bradley",
+            "Address": "7909 Briar Brook Ct. Dallas, TX 75218",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/02/2023",
+            "Name": "Mike Rosamond",
+            "Address": "6839 Colfax Dr. Dallas, TX 75231",
+            "Amount": 275.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/05/2023",
+            "Name": "Jim Rain",
+            "Address": "2200 Ross Ave Dallas, TX 75201",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2023",
+            "Name": "Diana Baker",
+            "Address": "8515 Greenville Ave Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/08/2023",
+            "Name": "Carole Rylander",
+            "Address": "6873 Blackwood Dr Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/10/2023",
+            "Name": "Neal Sleeper",
+            "Address": "3374 Blackburn St Dallas, TX 75204",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/10/2023",
+            "Name": "Shannon McCord",
+            "Address": "7704 Lemmonwood Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/10/2023",
+            "Name": "Jim Lomonaco",
+            "Address": "8643 Richardson Branch Tr Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/10/2023",
+            "Name": "Patsy Camp",
+            "Address": "9116 Whitehurst Dallas, TX 75243",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/10/2023",
+            "Name": "Allison Griffin",
+            "Address": "9635 Lanshire Dallas, TX 75238",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/14/2023",
+            "Name": "Joseph North",
+            "Address": "10868 Caprock Circle Dallas, TX 75218",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/18/2023",
+            "Name": "Richard Duge",
+            "Address": "9644 Trailview Dallas, TX 75238",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/19/2023",
+            "Name": "Jon Alspaw",
+            "Address": "9102 Locarno Dallas, TX 75243",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/21/2023",
+            "Name": "Walter Dunlap",
+            "Address": "P.O. Box 74313 Dallas, TX 75374",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/21/2023",
+            "Name": "Paula Davis",
+            "Address": "9039 Maguires Bridge Dallas, TX 75231",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/23/2023",
+            "Name": "Donna Chereck",
+            "Address": "8726 Arbor Park Ct. Dallas, TX 75243",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2023",
+            "Name": "Terri Hawkins",
+            "Address": "9026 Meadowknoll Dallas, TX 75243",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2023",
+            "Name": "Rebecca Lones",
+            "Address": "9932 Capridge Dr Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2023",
+            "Name": "Patricia Rooney",
+            "Address": "8035 Nimrod Dallas, TX 75238",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2023",
+            "Name": "Robert Irby",
+            "Address": "10030 Lakemere Dr Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2023",
+            "Name": "Taama Forasiepe",
+            "Address": "8014 Nimord Trail Dallas, TX 75238",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2023",
+            "Name": "John Morrow Jr",
+            "Address": "8522 Stable Glen Dr Dallas, TX 75243",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2023",
+            "Name": "Lee Halford Jr",
+            "Address": "9623 Viewside Dr Dallas, TX 75231",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2023",
+            "Name": "Leopard Viola LLC",
+            "Address": "1901 N. Akard St Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/18/2023",
+            "Name": "Charles Myers",
+            "Address": "10336 Trailcliff Dr Dallas, TX 75238",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2023",
+            "Name": "Glenda Miller",
+            "Address": "9624 Robin Meadow Dr Dallas, TX 75243",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2023",
+            "Name": "Barkley Miller",
+            "Address": "9624 Robin Meadow Dr Dallas, TX 75243",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/25/2023",
+            "Name": "Geoffrey Polma",
+            "Address": "6133 Crestmont Dallas, TX 75214",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2023",
+            "Name": "Rita Cox",
+            "Address": "7129 Tabor Dr Dallas, TX 75231",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/03/2023",
+            "Name": "Clayton Henry",
+            "Address": "9109 Moss Trail Dallas, TX 75231",
+            "Amount": 3000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "02/15/2023",
+            "Name": "Clayton Henry",
+            "Address": "9109 Moss Trail Dallas, TX 75231",
+            "Amount": 3000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/02/2023",
+            "Name": "Clayton Henry",
+            "Address": "9109 Moss Trail Dallas, TX 75231",
+            "Amount": 3000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "01/03/2023",
+            "Name": "Graphics Management",
+            "Address": "9109 Moss Trail Dallas, TX 75231",
+            "Amount": 6058.17,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Campaign materials",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/02/2023",
+            "Name": "Graphics Management",
+            "Address": "9109 Moss Trail Dallas, TX 75231",
+            "Amount": 3777.43,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "Campaign materials",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/21/2023",
+            "Name": "Bodell Communications",
+            "Address": "9611 Faircrest Dallas, TX 75238",
+            "Amount": 1200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Communications",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2023",
+            "Name": "Murphy Nasica",
+            "Address": "919 Congress Ave Austin, TX 78701",
+            "Amount": 1500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "Political Consulting",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2023",
+            "Name": "Anedot",
+            "Address": "1340 Poydras St New Orleans, LA 70112",
+            "Amount": 655.2,
+            "Transaction_Type": "Expenditure",
+            "Category": "Fees",
+            "Description": "Digital Fundraising Expense",
+            "Source": "pdf_files/tec0000002543_20230406_075433.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

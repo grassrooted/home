@@ -1,0 +1,152 @@
+{
+    "candidate_info": {
+        "first_name": "Jaime",
+        "last_name": "Resendez",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 150.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 1160.72,
+            "Total Parsed Contributions": 150.0,
+            "Total Parsed Expenditures": 1160.72,
+            "Total Itemized Reported Contributions": 150.0,
+            "Total Itemized Reported Expenditures": 1160.72
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002052_20200715_163517.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002052_20200715_163517.pdf"
+        ],
+        "period": "1/1/2020_6/30/2020",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "05/08/2020",
+            "Name": "Mr Larry Offutt n/a",
+            "Address": "6038 Bryan Pkwy Dallas, TX 75206",
+            "Amount": 150.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "01/13/2020",
+            "Name": "Go Daddy",
+            "Address": "14455 Hayden Rd Suite 1S0c0ottsdale, AZ 85260",
+            "Amount": 312.03,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "website",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "01/16/2020",
+            "Name": "USPS",
+            "Address": "350 S Buckner Dallas, TX 75217",
+            "Amount": 106.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "P.O. Box",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "01/31/2020",
+            "Name": "Chase Bank",
+            "Address": "1838 S Buckner Dallas, TX 75217",
+            "Amount": 12.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "02/28/2020",
+            "Name": "Chase Bank",
+            "Address": "1838 S. Buckner Dallas, TX 75217",
+            "Amount": 12.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "03/02/2020",
+            "Name": "SE Dallas Chamber of Commerce",
+            "Address": "802 S. Buckner Dallas, TX 75210",
+            "Amount": 500.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Contributions/Donations Made By",
+            "Description": "Scholarship",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "03/18/2020",
+            "Name": "Go Daddy",
+            "Address": "14455 Hayden Rd Suite 1S0c0ottsdale, AZ 85260",
+            "Amount": 166.04,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Advertising Expense",
+            "Description": "Website",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "03/31/2020",
+            "Name": "Chase Bank",
+            "Address": "1838 S Buckner Dallas, TX 75217",
+            "Amount": 12.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "04/30/2020",
+            "Name": "Chase Bank",
+            "Address": "1838 S. Buckner Dallas, TX 75217",
+            "Amount": 12.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "05/29/2020",
+            "Name": "Chase Bank",
+            "Address": "1838 S. Buckner Dallas, TX 75217",
+            "Amount": 12.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "06/30/2020",
+            "Name": "Chase Bank",
+            "Address": "1838 S. Buckner Dallas, TX 75217",
+            "Amount": 12.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Bank Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        },
+        {
+            "Transaction_Date": "05/08/2020",
+            "Name": "Paypal",
+            "Address": "2211 North First St. San Jose, CA 95131",
+            "Amount": 4.65,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Fees",
+            "Description": "Transaction Fee",
+            "Source": "srp0000002052_20200715_163517.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

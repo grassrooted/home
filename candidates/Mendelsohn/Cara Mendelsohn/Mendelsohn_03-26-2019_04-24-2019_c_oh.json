@@ -1,0 +1,380 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Mendelsohn",
+        "office_sought": "Council District 12",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 205.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 19680.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 29878.33,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 7674.42,
+            "Total Parsed Contributions": 19680.0,
+            "Total Parsed Expenditures": 29800.74,
+            "Total Itemized Reported Contributions": 19885.0,
+            "Total Itemized Reported Expenditures": 29878.33,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "03-26-2019_04-24-2019",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000001815_20190425_204619.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "04/24/2019",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 205.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "Metrotex Association of Realtors, Inc. Political Action Committee",
+            "Address": "8201 N Stemmons Frwy Dallas, TX 75247",
+            "Amount": 2500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/22/2019",
+            "Name": "The Real Estate Council Political Action Committee",
+            "Address": "3100 N McKinnon St Suite 1150 Dallas, TX 75201",
+            "Amount": 2500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "HBA of Greater Dallas Homepac",
+            "Address": "5816 W Plano Pkwy Plano, TX 75093",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/24/2019",
+            "Name": "Citizens For Affordable Housing PAC",
+            "Address": "7114 Royal Ln Dallas, TX 75230",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2019",
+            "Name": "Dallas Retired Firefighters Association PAC Fund",
+            "Address": "P.O. Box 117540 Carrollton, TX 75011",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/18/2019",
+            "Name": "HBA of Greater Dallas Homepac",
+            "Address": "5816 W Plano Pkwy Plano, TX 75093",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2019",
+            "Name": "Jean and David Dean",
+            "Address": "P.O. Box 140039 Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2019",
+            "Name": "Michael and Patricia Sutton",
+            "Address": "6202 Oakleaf Rd Dallas, TX 75248",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2019",
+            "Name": "Dallas Firefighters Association Public Safety Committee",
+            "Address": "10956 Audelia Rd Dallas, TX 75243",
+            "Amount": 1500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2019",
+            "Name": "Dallas Police Officer PAC",
+            "Address": "1412 Griffin St. East Dallas, TX 75215",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2019",
+            "Name": "Wick Allison",
+            "Address": "4340 Versailles Ave Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/29/2019",
+            "Name": "42 Real Estate, LLC",
+            "Address": "2105 Commerce St Suite 342 Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2019",
+            "Name": "Mike and Diane Gruber",
+            "Address": "1445 Ross Ave Suite 2500 Dallas, TX 75202",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2019",
+            "Name": "John and Diane Matthews",
+            "Address": "120 Winding Creek Way Argyle, TX 76266",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2019",
+            "Name": "J McDonald Williams",
+            "Address": "8604 Greenville Ave Suite 200 Dallas, TX 75243",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2019",
+            "Name": "Ellen Carter Williams",
+            "Address": "8604 Greenville Ave Suite 200 Dallas, TX 75243",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2019",
+            "Name": "Mary C Evans",
+            "Address": "11407 W Ricks Circle Dallas, TX 75230",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2019",
+            "Name": "Jack Bronstad",
+            "Address": "6223 Pineview Rd Dallas, TX 75248",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/28/2019",
+            "Name": "Carol Aaron",
+            "Address": "9707 Meadow Brook Dr Dallas, TX 75220",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/26/2019",
+            "Name": "Tanya Ragan",
+            "Address": "630 Pearl Dallas, TX 75201",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2019",
+            "Name": "Benjamin Mesches",
+            "Address": "18715 Stoneridge Dr Dallas, TX 75252",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/07/2019",
+            "Name": "Eileen Disraeli",
+            "Address": "5506 Tamaron Dr Dallas, TX 75287",
+            "Amount": 75.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2019",
+            "Name": "Larry Strauss",
+            "Address": "5708 Eastman Dr Plano, TX 75093",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/20/2019",
+            "Name": "Lee Kleinman",
+            "Address": "11322 E Ricks Dr Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/22/2019",
+            "Name": "Jean Callison",
+            "Address": "1705 Burning Tree Ln Plano, TX 75093",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "Lucy Billingsley",
+            "Address": "1722 Routh Street Suite 770 Dallas, TX 75201",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/23/2019",
+            "Name": "Aleksandra Rosen",
+            "Address": "6924 Brentfield Dr Dallas, TX 75248",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/24/2019",
+            "Name": "Steve Atkinson",
+            "Address": "5926 Tree Shadow Trl Dallas, TX 75252",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "04/20/2019",
+            "Name": "USPS",
+            "Address": "5995 Summerside Dr Dallas, TX 75248",
+            "Amount": 175.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "postcard stamps",
+            "Description": "postage",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/18/2019",
+            "Name": "USPS",
+            "Address": "5995 Summerside Dr Dallas, TX 75248",
+            "Amount": 23.45,
+            "Transaction_Type": "Expenditure",
+            "Category": "postage",
+            "Description": "postage",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2019",
+            "Name": "Alphagraphics",
+            "Address": "601 W Plano Pkwy Plano, TX 75075",
+            "Amount": 48.55,
+            "Transaction_Type": "Expenditure",
+            "Category": "Printing Expense",
+            "Description": "printing",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/24/2019",
+            "Name": "MNA",
+            "Address": "815 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 3750.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/22/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 7369.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mailer",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/16/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, CA 78701",
+            "Amount": 5300.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "advertising",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/15/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 1285.15,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mailer",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/12/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 7369.95,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "mailer",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/11/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 725.25,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/09/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 853.44,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "advertising",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "04/04/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 1000.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        },
+        {
+            "Transaction_Date": "03/27/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 1900.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "advertising and consulting",
+            "Source": "pdf_files/tec0000001815_20190425_204619.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

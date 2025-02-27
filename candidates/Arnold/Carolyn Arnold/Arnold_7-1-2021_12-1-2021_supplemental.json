@@ -1,0 +1,92 @@
+{
+    "candidate_info": {
+        "first_name": "Carolyn",
+        "last_name": "Arnold",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES OF $100 OR LESS, UNLESS ITEMIZED": 0.0,
+            "TOTAL OFFICEHOLDER EXPENDITURES": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 6000.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 225.0,
+            "Total Parsed Contributions": 6000.0,
+            "Total Parsed Expenditures": 225.0,
+            "Total Itemized Reported Contributions": 6000.0,
+            "Total Itemized Reported Expenditures": 225.0
+        }
+    },
+    "form_data": {
+        "data_source": [
+            "https://campfin.dallascityhall.com/FinalReports/tec0000002410_20220118_153432.pdf",
+            "https://campfin.dallascityhall.com/FinalReports/srp0000002410_20220118_153432.pdf"
+        ],
+        "period": "7/1/2021_12/1/2021",
+        "related files": null
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "07/09/2021",
+            "Name": "Delores Pogue self",
+            "Address": "2000 McKinney Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2021",
+            "Name": "Jeff Courtwright self",
+            "Address": "6758 Avalon Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        },
+        {
+            "Transaction_Date": "08/02/2021",
+            "Name": "Jeannie Courtwright self",
+            "Address": "6758 Avalon Dallas, TX 75214",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        },
+        {
+            "Transaction_Date": "07/06/2021",
+            "Name": "Timothy Byrne self",
+            "Address": "2000 McKinney Ave Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        },
+        {
+            "Transaction_Date": "07/06/2021",
+            "Name": "Melanie Byrne self",
+            "Address": "2000 McKinney Dallas, TX 75201",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        },
+        {
+            "Transaction_Date": "08/09/2021",
+            "Name": "Mack Pogue self",
+            "Address": "P.O. Box 1920 Dallas, TX 75221",
+            "Amount": 1000.0,
+            "Transaction_Type": "Campaign Contribution",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "08/15/2021",
+            "Name": "Crickett Wireless Wireless Service",
+            "Address": "3200 S. Lancaster Dallas, TX 75216",
+            "Amount": 225.0,
+            "Transaction_Type": "Campaign Funds for Campaign Expenditures",
+            "Category": "Office Overhead/Rental Expense",
+            "Description": "n/a",
+            "Source": "srp0000002410_20220118_153432.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}

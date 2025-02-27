@@ -1,0 +1,186 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Mendelsohn",
+        "office_sought": "Council District 12",
+        "report_totals": {
+            "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS (OTHER THAN PLEDGES LOANS, OR GUARANTEES OF LOANS), UNLESS ITEMIZED": 70.0,
+            "TOTAL POLITICAL CONTRIBUTIONS (OTHER THAN PLEDGES, LOANS, OR GUARANTEES OF LOANS)": 8620.0,
+            "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS UNLESS ITEMIZED": 0.0,
+            "TOTAL POLITICAL EXPENDITURES": 11727.73,
+            "TOTAL POLITICAL CONTRIBUTIONS MAINTAINED AS OF THE LAST DAY OF REPORTING PERIOD": 5080.36,
+            "Total Parsed Contributions": 8620.0,
+            "Total Parsed Expenditures": 11713.38,
+            "Total Itemized Reported Contributions": 8690.0,
+            "Total Itemized Reported Expenditures": 11727.73,
+            "Contribution Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "04-25-2019_06-30-2019",
+        "data_source": "https://campfin.dallascityhall.com/FinalReports/tec0000001887_20190714_180506.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "06/30/2019",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 70.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2019",
+            "Name": "P Wise",
+            "Address": "3444 University Blvd Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/04/2019",
+            "Name": "Barry Hancock",
+            "Address": "3843 Maplewood Dallas, TX 75205",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "04/25/2019",
+            "Name": "Barbara Rabin",
+            "Address": "24 Downs Lake Cir Dallas, TX 75230",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "04/27/2019",
+            "Name": "Bill Ohland Bill Ohland Business",
+            "Address": "P.O. Box 595789 Dallas, TX 75359",
+            "Amount": 500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/08/2019",
+            "Name": "Apartment Association of Greater Dallas-PAC",
+            "Address": "5728 LBJ Frwy Suite 100 Dallas, TX 75240",
+            "Amount": 2500.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/23/2019",
+            "Name": "Gary Solomon",
+            "Address": "5615 Willow Wood Ln Dallas, TX 75252",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2019",
+            "Name": "Tre Black",
+            "Address": "1133 South Madison Avenue Dallas, TX 75208",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2019",
+            "Name": "Sherry Goldberg",
+            "Address": "4 Robledo Drive Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/02/2019",
+            "Name": "Ken Goldberg",
+            "Address": "4 Robledo Drive Dallas, TX 75230",
+            "Amount": 1000.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "06/03/2019",
+            "Name": "Katherine Krause",
+            "Address": "1600 Viceroy Suite 400 Dallas, TX 75235",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "05/03/2019",
+            "Name": "The Home Depot",
+            "Address": "2200 North Coit Rd Richardson, TX 75080",
+            "Amount": 116.69,
+            "Transaction_Type": "Expenditure",
+            "Category": "Advertising Expense",
+            "Description": "sign zip ties; sign posts",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/04/2019",
+            "Name": "Coffee House Cafe",
+            "Address": "6150 Frankford Rd Dallas, TX 75252",
+            "Amount": 259.89,
+            "Transaction_Type": "Expenditure",
+            "Category": "Event Expense",
+            "Description": "election night event",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "04/30/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 350.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/01/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 5736.8,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/03/2019",
+            "Name": "MNA",
+            "Address": "805 Brazos St Suite 304 Austin, TX 78701",
+            "Amount": 2750.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        },
+        {
+            "Transaction_Date": "05/21/2019",
+            "Name": "MNA",
+            "Address": "30480 Brazos St Suite 30A4ustin, TX 78701",
+            "Amount": 2500.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "Consulting Expense",
+            "Description": "consulting",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        }
+    ],
+    "in_kind_contributions": [
+        {
+            "Date": "05/04/2019",
+            "Name": "Michele Mecca",
+            "Address": "5420 Hilton Head Dr Dallas, TX 75287",
+            "Amount": 500.0,
+            "Transaction_Type": "In-Kind Contribution",
+            "Description": "refreshments for election  night event",
+            "Source": "pdf_files/tec0000001887_20190714_180506.pdf"
+        }
+    ]
+}
