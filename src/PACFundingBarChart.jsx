@@ -46,13 +46,13 @@ const PACFundingBarChart = ({ allContributions }) => {
       <h2 className="text-xl font-bold mb-4">PAC Contributions by Recipient</h2>
       {sortedRecipients.length > 0 ? (
         <div className="chart-container">
-          <Bar data={chartData} options={{ responsive: true, maintainAspectRatio: false }} width="100%" height="500px" />
+          <Bar data={chartData} options={{ responsive: true, maintainAspectRatio: false }} width="100%" />
         </div>
       ) : (
         <p>No PAC contributions found.</p>
       )}
       {recipientsWithoutPACFunding.length > 0 && (
-        <div className="mt-4 p-2 bg-gray-800 rounded">
+        <div className="p-2 bg-gray-800 rounded">
           <h3 className="text-lg font-semibold">Recipients Without PAC Contributions:</h3>
           <ul className="list-disc pl-5">
             {recipientsWithoutPACFunding.map((name, index) => (
