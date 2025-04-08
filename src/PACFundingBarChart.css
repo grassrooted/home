@@ -1,0 +1,19 @@
+.chart-container {
+    display: flex;                /* Enable flexbox */
+    justify-content: center;      /* Horizontally center content */
+    align-items: center;          /* Vertically center content */
+    height: 500px;                /* Fixed height */
+    overflow: hidden;             /* Prevent overflow */
+  }
+  
+  #PACFundingBarChartWrapper {
+    display: flex;                /* Enable flexbox on wrapper */
+    flex-direction: column;       /* Stack children vertically */
+    align-items: center;          /* Center items horizontally */
+    justify-content: center;      /* Center items vertically */
+    text-align: center;           /* Center text */
+    margin: 5px;
+    padding: 20px;                /* Add some padding around the content */
+    min-height: 100vh;            /* Ensure wrapper takes up at least the full viewport height */
+  }
+  

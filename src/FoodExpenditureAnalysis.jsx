@@ -48,7 +48,7 @@ const FoodExpenditureAnalysis = ({ expenditure_data }) => {
       <h3 className="text-lg font-semibold mt-4">Frequently Visited Vendors</h3>
       <ul>
         {displayedVendors.map(([vendor, stats]) => (
-          <li key={vendor}>{vendor} - ${stats.totalAmount.toFixed(2)} spent</li>
+          <li key={vendor}>{vendor} - ${stats.totalAmount.toFixed(2)}</li>
         ))}
       </ul>
       {frequentVendors.length > 10 && (

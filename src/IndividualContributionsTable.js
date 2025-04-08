@@ -51,8 +51,9 @@ function IndividualContributionsTable({ profile, selectedDateRange, contribution
 
         const table = new Tabulator("#individual-contributions-table", {
             data: tableData,
-            layout: "fitColumns",
+            layout: "fitDataFill",
             columns: columns,
+            renderHorizontal: "virtual",
             autoResize: true,
             rowFormatter: (row) => {
                 const index = row.getPosition(true);

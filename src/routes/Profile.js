@@ -19,6 +19,7 @@ import FoodExpenditureAnalysis from '../FoodExpenditureAnalysis';
 import DonationList from '../DonationList';
 import DonorVolunteerLineGraph from '../DonorVolunteerLineGraph';
 import DonorOccupationPieChart from '../DonorOccupationPieChart';
+import VoterCard from '../VoterCard';
 
 const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {

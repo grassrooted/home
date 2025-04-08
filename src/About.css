@@ -4,9 +4,14 @@
 }
 
 .about-detail h1{
-    color: #2C3E50;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #004AAD, #9F2B00);
     margin: 8px;
     padding: 2px;
+    border: black solid 2px;
+    border-radius: 12px;
+    padding: 5px;
 }
 
 .about-detail h3{

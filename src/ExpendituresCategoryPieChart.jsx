@@ -73,7 +73,7 @@ const ExpendituresCategorySunburstChart = ({ records, profile }) => {
         spacing: [10, 10, 10, 10], // Consistent padding
     },
     title: {
-        text: "Top 5 Expense Categories + Top 5 Recipients",
+        text: "Top 5 Expense Categories and Vendors",
         style: { color: "#ffffff", fontSize: "18px" }
     },
     tooltip: {
@@ -123,8 +123,10 @@ const ExpendituresCategorySunburstChart = ({ records, profile }) => {
 
 
     return (
-        <div className="section" id="expenditure-category-section">
-            <HighchartsReact highcharts={Highcharts} options={options} />
+        <div className="section" id="expenditure-category-wrapper">
+            <div className="section" id="expenditure-category-pie-chart">
+                <HighchartsReact highcharts={Highcharts} options={options} />
+            </div>
         </div>
     );
 };

@@ -1,7 +1,19 @@
+#expenditure-category-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
 #expenditure-category-section{
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     justify-content: center;
     margin-top: 20px;
+    padding: 5px;
+    height: 350px;
+    width: 350px;
 }

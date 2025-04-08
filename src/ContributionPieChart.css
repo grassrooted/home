@@ -17,41 +17,10 @@
   max-width: 400px;
 }
 
-table {
-  border-collapse: collapse;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin: 10px;
-  width: 100%;
-  max-width: 600px;
-}
-
-td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-  color: white;
-}
-
-tr:last-child td {
-  border-bottom: none;
-}
-
 /* Mobile Styles */
 @media (max-width: 480px) {
   #funding-summary-pie-chart {
       max-width: 280px;
-  }
-
-  table {
-      font-size: 14px;
-      width: 90%;
-  }
-
-  td {
-      padding: 8px 10px;
   }
 
   h1 {

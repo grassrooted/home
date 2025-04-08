@@ -428,18 +428,11 @@ i {
 
 
 .section{
-  transition: all 0.2s ease;
   align-items: center;
   text-align: center;
   margin: 5px;
   padding: 5px;
 }
-
-.section:hover {
-  border-radius: 5px;
-  border: 2px solid #eaeaea;
-  }
-
 
 
 .nav-name-container{

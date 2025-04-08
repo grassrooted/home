@@ -33,7 +33,8 @@ function IndividualExpendituresTable({ profile, selectedDateRange, expenditure_d
         const columns = [
             { title: "Vendor", field: "Name", headerFilter: true },
             { title: "Amount ($)", field: profile.contribution_fields.Amount, formatter: "money", headerFilter: true },
-            { title: "Candidate", field: profile.contribution_fields.Recipient },
+            { title: "Category", field: "Category", headerFilter: true },
+            { title: "Description", field: "Description", headerFilter: true },
             {
                 title: "Transaction Date",
                 field: profile.contribution_fields.Transaction_Date,
@@ -51,8 +52,9 @@ function IndividualExpendituresTable({ profile, selectedDateRange, expenditure_d
 
         const table = new Tabulator("#individual-expenditures-table", {
             data: tableData,
-            layout: "fitColumns",
+            layout: "fitDataFill",
             columns: columns,
+            renderHorizontal: "virtual",
             autoResize: true,
             rowFormatter: (row) => {
                 const index = row.getPosition(true);

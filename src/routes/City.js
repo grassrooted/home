@@ -8,6 +8,7 @@ import StackedBarChartDonorSummary from '../StackedBarChartDonorSummary';
 import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import CumulativeContributionsTimeline from '../CumulativeContributionsTimeline';
+import PACFundingBarChart from '../PACFundingBarChart';
 
 const generateElectionCycles = (profiles) => {
     const earliestFirstElection = Math.min(
@@ -110,6 +111,9 @@ function City() {
                 <StackedBarChartDonorSummary cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
                 <CumulativeContributionsTimeline cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
             </span>
+
+            <PACFundingBarChart 
+                allContributions={allContributions} />
 
             <ProfileStream cityId={cityId} cityProfileData={cityProfileData} />
             <IndividualContributionsTable
