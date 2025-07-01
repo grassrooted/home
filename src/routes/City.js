@@ -9,6 +9,7 @@ import ElectionCycleDropdown from '../ElectionCycleDropdown';
 import IndividualContributionsTable from '../IndividualContributionsTable';
 import CumulativeContributionsTimeline from '../CumulativeContributionsTimeline';
 import PACFundingBarChart from '../PACFundingBarChart';
+import HeatmapMap from '../HeatmapMap';
 
 const generateElectionCycles = (profiles) => {
     const earliestFirstElection = Math.min(
@@ -39,6 +40,28 @@ const generateElectionCycles = (profiles) => {
 
     return electionCycles;
 };
+
+const geocodedData2 = [
+    { lat: 32.74, lng: -96.83, amount: 50 },
+    { lat: 32.84, lng: -96.70, amount: 250 },
+    { lat: 32.75, lng: -96.82, amount: 50 },
+    { lat: 32.75, lng: -96.83, amount: 100 },
+    { lat: 32.87, lng: -96.76, amount: 200 },
+    { lat: 32.90, lng: -96.78, amount: 250 },
+    { lat: 32.91, lng: -96.89, amount: 1000 },
+    { lat: 32.78, lng: -96.83, amount: 250 },
+  ];
+
+const geocodedData3 = [
+    { lat: 32.747, lng: -96.838, amount: 50 },
+    { lat: 32.840, lng: -96.705, amount: 250 },
+    { lat: 32.751, lng: -96.828, amount: 50 },
+    { lat: 32.755, lng: -96.839, amount: 100 },
+    { lat: 32.879, lng: -96.769, amount: 200 },
+    { lat: 32.906, lng: -96.783, amount: 250 },
+    { lat: 32.919, lng: -96.896, amount: 1000 },
+    { lat: 32.786, lng: -96.834, amount: 250 },
+  ];
 
 function City() {
     const { cityId } = useParams();
@@ -106,6 +129,8 @@ function City() {
                 setSelectedDateRange={setSelectedDateRange}
             />
             <Header city={city_config.name} profile={city_config} />
+
+            <HeatmapMap points={geocodedData2} />
             
             <span className='side-by-side'>
                 <StackedBarChartDonorSummary cityProfileData={cityProfileData} selectedDateRange={selectedDateRange} />
