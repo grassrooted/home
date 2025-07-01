@@ -1,0 +1,802 @@
+{
+    "candidate_info": {
+        "first_name": "Not Found",
+        "last_name": "Alter",
+        "office_sought": "Not Found",
+        "report_totals": {
+            "SCHEDULE A1: MONETARY POLITICAL CONTRIBUTIONS": 7478.0,
+            "SCHEDULE F1: POLITICAL EXPENDITURES FROM POLITICAL CONTRIBUTIONS": 56511.35,
+            "Total Itemized Reported Contributions": 14956.0,
+            "Total Itemized Reported Expenditures": 113022.7,
+            "Contribution Mismatch": true,
+            "Expenditure Mismatch": true
+        }
+    },
+    "form_data": {
+        "period": "12/06/2020  12/31/2020",
+        "data_source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+    },
+    "contributions": [
+        {
+            "Transaction_Date": "12/06/2020  12/31/2020",
+            "Name": "TOTAL POLITICAL CONTRIBUTIONS OF $50 OR LESS",
+            "Address": "N/A",
+            "Amount": 7478.0,
+            "Transaction_Type": "Contribution",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "ADAMS, LYNN",
+            "Address": "4901 WESTVIEW DR AUSTIN, TX 78731",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Management consultant ",
+            "Employer": "  self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2020",
+            "Name": "Adams, Cristina",
+            "Address": "5921 Mount Bonnell Rd. Austin, TX 78731",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Writer ",
+            "Employer": "  Self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Almanza, Susana",
+            "Address": "103 Larch Terrace Austin, TX 78741",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Director ",
+            "Employer": "  PODER",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Arnold, Sam",
+            "Address": "2104 MORLEY DR AUSTIN, TX 78752",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Recruiter ",
+            "Employer": "  Liaison Resources, LP",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Beall, Jonathan",
+            "Address": "2503 Flora Cv Austin, TX 7874",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Telecom ",
+            "Employer": "  TDI",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Bean, Molly",
+            "Address": "4100 Jackson Ave. Austin, TX 78731",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  retired ",
+            "Employer": "  retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Binder, Bob",
+            "Address": "40 Sterzing St Unit A Austin, TX 78704",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Bob Binder & Associates, PC - mostly retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Castro, Nicole",
+            "Address": "PO Box 1085 Round Rock, TX 7880",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  attorney ",
+            "Employer": "  Metcalfe Wolff Stuart & Williams LLP",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Charles, Gregory",
+            "Address": "3117 Festus Drive Austin, TX 78748",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  ",
+            "Employer": "",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Chopra, Susan",
+            "Address": "2801 RAE DELL AVE AUSTIN, TX 78704",
+            "Amount": 20.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  UX Designer ",
+            "Employer": "  Indeed",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "Cofer, George",
+            "Address": "330 Gentry Drive Austin, TX 7874",
+            "Amount": 35.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Hill Country Conservancy ",
+            "Employer": "  CEO",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Cooksey, Frank",
+            "Address": "2208 Matthews Drive Austin, TX 78703",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Cooper, C Wade",
+            "Address": "500 Gregory Place #10 Westlake Hills, TX 7874",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Jackson Walker LLP",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Copeland, James",
+            "Address": "1208 W 39th St Austin, TX 7875",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Scientist ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Cousar, James",
+            "Address": "1110 W 7th St Austin, TX 78703",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Curtis, Timothy",
+            "Address": "8127 Mesa Dr B20-114 ste c100 Austin, TX 78759",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Di-Capua, Yoav",
+            "Address": "1309 Willow Austin, TX 78702",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Historian ",
+            "Employer": "  Univeristy of Texas",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Echlols, Catharine",
+            "Address": "508 Harris Ave Austin, TX 78705",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  professor ",
+            "Employer": "  University of Texas",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Espinosa, Debra",
+            "Address": "3704 Gilbert St Austin, TX 78703",
+            "Amount": 30.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  SAHM ",
+            "Employer": "  NA",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Fowler, Elaina",
+            "Address": "8008 Two Coves Dr Austin, TX 78730",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Consultant ",
+            "Employer": "  Self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "Friedholm, De Ann",
+            "Address": "4314 Sinclair Ave Austin, TX 7875",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Gordon, Roger",
+            "Address": "901 S. Mopac Expy. Austin, TX 7874",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Greaves, Carlos",
+            "Address": "2001 Pecos St. Ste 200 Austin, TX 78703",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Engineer ",
+            "Employer": "  UnitedLex",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Griffith, Beverly",
+            "Address": "3711 Taylors Dr. Austin, TX 78703",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "Haden, Lorri",
+            "Address": "140 Ruth Avenue Suite 1820 Austin, TX 78757",
+            "Amount": 20.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2020",
+            "Name": "Hanna, Jett",
+            "Address": "112 Highlandale Dr Apt. 405 Austin, TX 78731",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Lawyer ",
+            "Employer": "  TLIE",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Harris, Nancy",
+            "Address": "PO Box 9723 Austin, TX 787",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  ",
+            "Employer": "",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Harutunian, Anne",
+            "Address": "PO Box 14488 Austin, TX 7871",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Engineer ",
+            "Employer": "  Harutunian Engineering",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Harutunian, Takoohy",
+            "Address": "PO Box 14487 Austin, TX 7871",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Engineer ",
+            "Employer": "  Harutunian Engineering",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2020",
+            "Name": "Hendler, Scott",
+            "Address": "1301 West 25th ST Austin, TX 78705",
+            "Amount": 800.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Hendler Flores Law",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Hilliard, Corky",
+            "Address": "4120 Lawless St Austin, TX 78723",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Mgt consult ",
+            "Employer": "  Self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/12/2020",
+            "Name": "Houghton, Dudley",
+            "Address": "3219 Bridle Path Austin, TX 78703",
+            "Amount": 400.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2020",
+            "Name": "Hurt, Carrie",
+            "Address": "21505 serendipity place Spicewood, TX 789",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  President ",
+            "Employer": "  BBB",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Iscoe, Neil",
+            "Address": "3415 Mount Barker Dr #83 AUSTIN, TX 78731",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Technology Executive ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Kelly-Mahaffey, Larry",
+            "Address": "3300 Dunliegh Dr Austin, TX 78745",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  retired ",
+            "Employer": "  none",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/15/2020",
+            "Name": "Kolinek, Linda",
+            "Address": "2415 CR 10 Paige, TX 7859",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Exeuctive Assistant ",
+            "Employer": "  Metcalfe Wolff Stuart & Williams, LLP",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Kuchinsky, ari",
+            "Address": "12213 lake stone dr austin, TX 78738",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Metcalfe Wolff Stuart & Williams, LLP",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Lang, Eric",
+            "Address": "7809 w rim Austin, TX 78731",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Manager ",
+            "Employer": "  Trs",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Marston, Jim",
+            "Address": "2810 Townes Lane Austin, TX 78703",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Metcalfe, Steven",
+            "Address": "388 Cortona Austin, TX 7874",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Lawyer ",
+            "Employer": "  Metcalfe, Wolff, Stuart & Williams",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "Moeser, Bob",
+            "Address": "4705 Greystone Drive Austin, TX 78731",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  unemployed ",
+            "Employer": "  unemployed",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Moffat, Susan",
+            "Address": "4112 Speedway Austin, TX 78751",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  editor/copywriter ",
+            "Employer": "  self",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/13/2020",
+            "Name": "Nayak, Susan",
+            "Address": "4415 Marathon Blvd Austin, TX 7875",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Management and Website Consulting ",
+            "Employer": "  Self Employed",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "O'Quin, John",
+            "Address": "3907 Berryhill Way Circle Austin, TX 78731",
+            "Amount": 250.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Orr, Janie",
+            "Address": "3700 Greenway Austin, TX 78705",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "Petty, Carol",
+            "Address": "4905 Fariveiw Drive Austin, TX 78731",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Clergy ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Pfluger, Kenneth",
+            "Address": "2408 Bridle Path Austin, TX 78703",
+            "Amount": 55.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  real estate ",
+            "Employer": "  relator",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Pierce, Kevin",
+            "Address": "4500 Avenue D Austin, TX 78751",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Metcalfe Wolff Stuart & Williams",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Purnell, Neva",
+            "Address": "3014 Windsor Rd Austin, TX 78703",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "RAI, VARUN",
+            "Address": "7554 Fireoak Dr Austin, TX 78759",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Professor ",
+            "Employer": "  UT Austin",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Santiago, Gwendolyn",
+            "Address": "485 Twin Valley Dr Austin, TX 78731",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "Schiff, David",
+            "Address": "980 Harmony Way Middleton, WI 5352",
+            "Amount": 36.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Specialist ",
+            "Employer": "  Apple",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "Stein, Susan",
+            "Address": "8230 Spicewood Spgs Rd., #3 Austin, TX 78759",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Stephens, Patty",
+            "Address": "Lake Austin west side #03 Austin, TX 7874",
+            "Amount": 100.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Social Worker ",
+            "Employer": "  Dr Stephens",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Tripoli, Nick",
+            "Address": "2900 S 1st St Austin, TX 78704",
+            "Amount": 7.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Sr. Financial Analyst ",
+            "Employer": "  City of Austin",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Troy, Jennifer",
+            "Address": "4510 Placid Pl AUSTIN, TX 78731",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  ",
+            "Employer": "",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/06/2020",
+            "Name": "Umphress, John",
+            "Address": "204 Geraghty Ave Austin, TX 78757",
+            "Amount": 300.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Retired ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "WOLFF, David",
+            "Address": "120 W 8TH ST AUSTIN, TX 78703",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  MWSW",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/07/2020",
+            "Name": "Westbrook, Jay",
+            "Address": "4707 Balcones Dr Austin, TX 78731",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Prof ",
+            "Employer": "  UT Austin",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/14/2020",
+            "Name": "Wiliams, Talley",
+            "Address": "8209 Dark Ridge Cove austin, TX 78737",
+            "Amount": 50.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Attorney ",
+            "Employer": "  Metcalfe Wolff Stuart Williams LLP",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/09/2020",
+            "Name": "Woodruff, David",
+            "Address": "1400 W 30th St Austin, TX 78703",
+            "Amount": 25.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  editor ",
+            "Employer": "  State of Texas",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/11/2020",
+            "Name": "York, Phyllis",
+            "Address": "310 Funston St Austin, TX 78703",
+            "Amount": 200.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Information Technology ",
+            "Employer": "  Retired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/08/2020",
+            "Name": "ZELLER, CHARLES",
+            "Address": "811 N Tumbleweed Trl Austin, TX 78733",
+            "Amount": 150.0,
+            "Transaction_Type": "Contribution",
+            "Occupation": "  Engineer ",
+            "Employer": "  Retrired",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        }
+    ],
+    "expenditures": [
+        {
+            "Transaction_Date": "12/06/2020  12/31/2020",
+            "Name": "TOTAL POLITICAL EXPENDITURES OF $100 OR LESS",
+            "Address": "N/A",
+            "Amount": 56511.35,
+            "Transaction_Type": "Expenditure",
+            "Category": "N/A",
+            "Description": "N/A",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Donateway",
+            "Address": "Austin, TX 78703",
+            "Amount": 307.37,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Credit Card Fees",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Mailchimp",
+            "Address": "Atlanta, GA 30308",
+            "Amount": 80.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Email",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "USPS",
+            "Address": "Austin, TX 78705",
+            "Amount": 519.75,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Stamps",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 200.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Graphic Design",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 2511.46,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Phonebanking",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 4275.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Canvassing",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 14650.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Communications, Field, General Consulting",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 4966.62,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Phonebanking",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 5332.5,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Canvassing",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 400.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Graphic Design",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 864.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "Website Hosting",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/31/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 15275.0,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "General Consuting",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        },
+        {
+            "Transaction_Date": "12/10/2020",
+            "Name": "Y Strategy",
+            "Address": "Austin, TX 78723",
+            "Amount": 7129.65,
+            "Transaction_Type": "Expenditure",
+            "Category": "(See Categories listed at the top of this schedule)",
+            "Description": "mail production",
+            "Source": "Alter, Alison B./Alter, Alison B_documentcfm?id=353103.pdf"
+        }
+    ],
+    "in_kind_contributions": []
+}
