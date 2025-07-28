@@ -4,6 +4,7 @@ import { getCities } from "../Cities";
 import MainBanner from "../MainBanner";
 import Footer from "../Footer";
 import React, { useEffect, useState } from 'react';
+import '../index.css';
 
 export default function Root() {
   const [cities, setCities] = useState(null);

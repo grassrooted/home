@@ -1,144 +1,67 @@
 import React, { useMemo } from 'react';
-import { Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, BarElement, Tooltip, Legend, CategoryScale, LinearScale } from 'chart.js';
 import './StackedBarChartDonorSummary.css';
 
-ChartJS.register(BarElement, Tooltip, Legend, CategoryScale, LinearScale);
-
 function StackedBarChartDonorSummary({ cityProfileData, selectedDateRange }) {
-    const chartData = useMemo(() => {
-        const labels = cityProfileData.map(profile => profile.name);
-        const smallDollarData = [];
-        const largeDollarData = [];
-        const pacData = [];
-        const selfFundingData = [];
-        const otherCandidatesData = [];
-        const otherData = [];
-
-        const smallDollarLimit = 100;
-        const bigDonorLimit = cityProfileData[0].individual_limit;
-
-
-        cityProfileData.forEach(profile => {
+    const pacData = useMemo(() => {
+        return cityProfileData.map(profile => {
             const filteredData = selectedDateRange === 'all'
                 ? profile.contributions
                 : profile.contributions.filter(record => {
-                    const transactionDate = new Date(record[profile.contribution_fields.Transaction_Date]);
-                    return transactionDate >= selectedDateRange.start && transactionDate <= selectedDateRange.end;
+                    const date = new Date(record[profile.contribution_fields.Transaction_Date]);
+                    return date >= selectedDateRange.start && date <= selectedDateRange.end;
                 });
 
-
-            const categoryTotals = {
-                smallDollar: 0,
-                bigDonor: 0,
-                pac: 0,
-                selfFunding: 0,
-                otherCandidates: 0,
-                other: 0,
-            };
-
-            const candidateName = profile.name.toLowerCase();
-
-            const otherCandidateNames = cityProfileData.map(candidate => candidate.name.toLowerCase());
-
-            filteredData.forEach(contribution => {
-                const amount = contribution[profile.contribution_fields.Amount];
-                const donorName = contribution[profile.contribution_fields.Donor].toLowerCase();
-                const donorNameParts = donorName.split(",");
-                const donorLastName = donorNameParts[0]?.trim();
-                const donorFirstName = donorNameParts[1]?.trim();
-                const formattedDonorName = `${donorFirstName} ${donorLastName}`.toLowerCase();
-
-                if (donorName === candidateName || formattedDonorName === candidateName) {
-                    categoryTotals.selfFunding += amount;
-                } else if (otherCandidateNames.includes(donorName) || otherCandidateNames.includes(formattedDonorName)) {
-                    categoryTotals.otherCandidates += amount;
-                } else if (donorName.includes("pac") || donorName.includes("committee")) {
-                    categoryTotals.pac += amount;
-                } else if (amount < smallDollarLimit) {
-                    categoryTotals.smallDollar += amount;
-                } else if (amount >= bigDonorLimit) {
-                    categoryTotals.bigDonor += amount;
-                } else {
-                    categoryTotals.other += amount;
+            let totalPAC = 0;
+            filteredData.forEach(record => {
+                const donorName = record[profile.contribution_fields.Donor]?.toLowerCase();
+                const amount = record[profile.contribution_fields.Amount];
+                if (donorName?.includes('pac') || donorName?.includes('committee')) {
+                    totalPAC += amount;
                 }
             });
 
-            smallDollarData.push(categoryTotals.smallDollar);
-            largeDollarData.push(categoryTotals.bigDonor);
-            pacData.push(categoryTotals.pac);
-            selfFundingData.push(categoryTotals.selfFunding);
-            otherCandidatesData.push(categoryTotals.otherCandidates);
-            otherData.push(categoryTotals.other);
-        });
-
-        return {
-            labels,
-            datasets: [
-                {
-                    label: `Large Dollar (Individual Donations ${bigDonorLimit}+)`,
-                    data: largeDollarData,
-                    backgroundColor: '#ff5722',
-                },
-                {
-                    label: 'Other',
-                    data: otherData,
-                    backgroundColor: '#9e9e9e',
-                },
-                {
-                    label: 'PAC',
-                    data: pacData,
-                    backgroundColor: '#3f51b5',
-                },
-                {
-                    label: 'Small Dollar (Individual Donations <$100)',
-                    data: smallDollarData,
-                    backgroundColor: '#4caf50',
-                },
-
-                {
-                    label: 'Self-Funding',
-                    data: selfFundingData,
-                    backgroundColor: '#9c27b0',
-                },
-                {
-                    label: 'Other Candidates',
-                    data: otherCandidatesData,
-                    backgroundColor: '#ffc107',
-                },
-            ],
-        };
+            return {
+                name: profile.name,
+                pacAmount: totalPAC,
+                headshot: `${process.env.PUBLIC_URL}${profile.path_to_headshot_photo}` || null
+            };
+        }).sort((a, b) => b.pacAmount - a.pacAmount);
     }, [cityProfileData, selectedDateRange]);
 
-    const options = {
-        responsive: true,
-        plugins: {
-            legend: { position: 'bottom' },
-            tooltip: {
-                callbacks: {
-                    label: function (context) {
-                        const value = context.raw;
-                        return `${context.dataset.label}: $${value.toLocaleString()}`;
-                    },
-                },
-            },
-        },
-        scales: {
-            x: { stacked: true },
-            y: { stacked: true },
-        },
-    };
+    const maxPAC = useMemo(() => Math.max(...pacData.map(p => p.pacAmount), 0), [pacData]);
 
     return (
-        <div id="contribution-bar-chart-section">
-            <h2>Donor Summary</h2>
-            <h4>
-                <i>
-                    Showing data from {selectedDateRange.start.toLocaleDateString()} to {selectedDateRange.end.toLocaleDateString()}
-                </i>
-            </h4>
-            <div id="stacked-bar-chart-wrapper">
-                <Bar data={chartData} options={options} width="100%"/>
+        <div className="vertical-pac-chart-container">
+            <div className="vertical-line">
+                {Array.from({ length: 6 }).map((_, i) => {
+                    const val = Math.round((i / 5) * maxPAC);
+                    return (
+                        <div key={i} className="tick" style={{ bottom: `${(i / 5) * 100}%` }}>
+                            <div className="tick-label">${val.toLocaleString()}</div>
+                        </div>
+                    );
+                })}
+                {pacData.map((profile, idx) => {
+                    const position = (profile.pacAmount / maxPAC) * 100;
+                    const isRight = idx % 2 === 0;
+                    return (
+                        <div
+                            key={profile.name}
+                            className={`profile-marker ${isRight ? 'right' : 'left'}`}
+                            style={{ bottom: `${position}%` }}
+                        >
+                            <img
+                                src={profile.headshot || '/placeholder.png'}
+                                alt={profile.name}
+                                className="headshot"
+                            />
+                            <div className="profile-label">
+                                <span className="name" style={{color: "black"}}>{profile.name}</span>
+                                <span className="amount">${profile.pacAmount.toLocaleString()}</span>
+                            </div>
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );

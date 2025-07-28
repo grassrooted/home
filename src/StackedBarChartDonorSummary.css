@@ -1,48 +1,99 @@
-/* General Styling for the Chart Container */
-#contribution-bar-chart-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: black;
-    width: 100%; /* Ensure it takes full width */
-    margin: 20px auto;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-#stacked-bar-chart-wrapper{
-    height: 550px;
-    width: 550px;
-    margin-bottom: 20px;
+.vertical-axis-container {
     display: flex;
     justify-content: center;
-}
-/* Title and Subtitle Styling */
-#contribution-bar-chart-section h2,
-#contribution-bar-chart-section h4 {
-    text-align: center;
-    margin: 10px 0;
-}
-
-
-@media (max-width: 480px) {
-    #contribution-bar-chart-section {
-        padding: 0;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    padding: 2rem 1rem;
+  }
+  
+  .axis-wrapper {
+    position: relative;
+    width: 4px;
+    background-color: #444;
+    height: 100%;
+  }
+  
+  .tick-mark {
+    left: -8px;
+    width: 20px;
+    height: 1px;
+    background-color: #999;
+    font-size: 0.75rem;
+    color: #666;
+    text-align: left;
+  }
+  
+  .tick-label {
+    left: 12px;
+    transform: translateY(50%);
+    white-space: nowrap;
+  }
+  
+  .data-point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .data-point, .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    color: #222;
+  }
+  
+  .data-point, .headshot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid #ccc;
+  }
+  
+  .data-point, .placeholder {
+    background-color: #bbb;
+  }
+  
+  .data-point, .amount {
+    font-size: clamp(0.5rem, 0.9vw, 0.75rem);
+    color: #666;
+  }
+  
+  .label-right, .content-wrapper {
+    flex-direction: row;
+    margin-left: 0.5rem;
+  }
+  
+  .label-left, .content-wrapper {
+    flex-direction: row-reverse;
+    margin-right: 0.5rem;
+    text-align: right;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: clamp(0.5rem, 1vw, 0.8rem);
+  }
+  
+  @media (max-width: 600px) {
+    .data-point, .headshot, .placeholder {
+      width: 24px;
+      height: 24px;
     }
-
-    /* Adjust the title and subtitle font sizes for mobile screens */
-    #contribution-bar-chart-section h2 {
-        font-size: 18px;
+  
+    .name {
+      font-size: 0.65rem;
     }
-
-    #contribution-bar-chart-section h4 {
-        font-size: 14px;
+  
+    .data-point, .amount {
+      font-size: 0.55rem;
     }
-    .chartjs-size-monitor,
-    .chartjs-size-monitor-expand,
-    .chartjs-size-monitor-shrink {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-}
+  }
+  

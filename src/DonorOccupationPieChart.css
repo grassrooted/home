@@ -1,7 +1,6 @@
 #occupation-pie-chart-wrapper {
     display: flex;
     flex-direction: column;
-    background: black;
     border-radius: 8px;
     justify-content: center;
     margin-top: 20px;
@@ -17,7 +16,6 @@
 
 #donor-occupation-table{
     border-collapse: collapse;
-    background-color: black;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;

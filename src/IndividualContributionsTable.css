@@ -2,7 +2,7 @@
 #individual-contributions-wrapper {
     height: 500px;
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: black;
     background-color: #1a1a1a;
     padding: 20px;
     border-radius: 8px;
@@ -20,7 +20,7 @@
 
 /* Header styling */
 #individual-contributions-wrapper h1 {
-    color: white;
+    color: black;
     font-size: 2rem;
 }
 
@@ -32,7 +32,7 @@
 
 #individual-contributions-wrapper i {
     font-style: italic;
-    color: #dcdcdc;
+    color: black;
 }
 
 /* CSV download button styling */
@@ -68,7 +68,7 @@ th, td {
 /* Table header styling */
 th {
     background-color: #333;
-    color: white;
+    color: black;
     font-size: 1rem;
     border-bottom: 2px solid #fff;
     position: sticky;

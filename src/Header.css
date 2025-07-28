@@ -1,24 +1,26 @@
-#district-locator-btn, #data-source-btn {
-    font-size: 1rem;
-    font-family: inherit;
-    border: none;
-    border-radius: 8px;
-    padding: 0.5rem 0.75rem;
-    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
-    background-color: #1545fc;
-    line-height: 1.5;
-    margin: 2px;
-    min-width: 138px;
-}
-
-#district-locator-btn:hover, #data-source-btn:hover{
-    background: #0437F2;
-}
-
-a {
-    color: white;
+#data-source-btn{
     text-decoration: none;
+    border: 1px solid #3e51b5;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #3e51b5;
+    padding: 3px;
+    font-size: 1rem;
 }
+#district-locator-btn {
+    text-decoration: none;
+    background-color: white;
+    color: #3e51b5;
+    border: 1px solid #3e51b5;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 1rem;
+}
+
+#district-locator-btn:hover{
+    background: #F5F5F5;
+}
+
 #header {
     font-size: 2rem;
     transition: all 0.2s ease;
@@ -26,13 +28,17 @@ a {
     padding: 2px;
     align-items: center;
     text-align: center;
+    color: #0F325A;
 }
-
+#city-header-name{
+    left: 0;
+}
 .row-span {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+
 }
 
 button {

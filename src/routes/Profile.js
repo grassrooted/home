@@ -20,6 +20,7 @@ import DonationList from '../DonationList';
 import DonorVolunteerLineGraph from '../DonorVolunteerLineGraph';
 import DonorOccupationPieChart from '../DonorOccupationPieChart';
 import VoterCard from '../VoterCard';
+import HeatmapMap from '../HeatmapMap';
 
 const aggregateDataByName = (data, profile) => {
     return data.reduce((acc, contribution) => {
@@ -115,84 +116,113 @@ function Profile() {
     if (error) return <div>{error}</div>;
     if (!profile || !electionCycles.length || !selectedDateRange) return <div>Preparing data...</div>;
 
-    return (
-        <div>
-            <ElectionCycleDropdown 
-                electionCycles={electionCycles} 
-                selectedDateRange={selectedDateRange} 
-                setSelectedDateRange={setSelectedDateRange} />
 
-            <Header 
+    const geocodedData2 = [
+        { lat: 32.74, lng: -96.83, amount: 50 },
+        { lat: 32.84, lng: -96.70, amount: 250 },
+        { lat: 32.75, lng: -96.82, amount: 50 },
+        { lat: 32.75, lng: -96.83, amount: 100 },
+        { lat: 32.87, lng: -96.76, amount: 200 },
+        { lat: 32.90, lng: -96.78, amount: 250 },
+        { lat: 32.91, lng: -96.89, amount: 1000 },
+        { lat: 32.78, lng: -96.83, amount: 250 },
+      ];
+    
+    const geocodedData3 = [
+        { lat: 32.747, lng: -96.838, amount: 50 },
+        { lat: 32.840, lng: -96.705, amount: 250 },
+        { lat: 32.751, lng: -96.828, amount: 50 },
+        { lat: 32.755, lng: -96.839, amount: 100 },
+        { lat: 32.879, lng: -96.769, amount: 200 },
+        { lat: 32.906, lng: -96.783, amount: 250 },
+        { lat: 32.919, lng: -96.896, amount: 1000 },
+        { lat: 32.786, lng: -96.834, amount: 250 },
+      ];
+    return (
+        <div id="profile-page">
+
+            <div id="profile-content">
+                <ElectionCycleDropdown 
+                    electionCycles={electionCycles} 
+                    selectedDateRange={selectedDateRange} 
+                    setSelectedDateRange={setSelectedDateRange} />
+                <Header 
                 city={profile.city} 
                 profile={profile} />
 
-            <ProfileSnapshot 
-                profile={profile} />
+                <ProfileSnapshot 
+                    profile={profile} />
 
+                <Highlights 
+                    profile={profile}
+                    aggregated_data={aggregatedData}
+                    contribution_data={profile.contributions}
+                    selectedDateRange={selectedDateRange}
+                    expenditure_data={profile.expenditures}/>
 
-            <Highlights 
-                profile={profile}
-                aggregated_data={aggregatedData}
-                contribution_data={profile.contributions}
-                selectedDateRange={selectedDateRange}
-                expenditure_data={profile.expenditures}/>
+                {profile.contributions.some(contribution => contribution.Occupation) && (
+                    <DonorOccupationPieChart contribution_data={profile.contributions} />
+                )}
 
-            {profile.contributions.some(contribution => contribution.Occupation) && (
-                <DonorOccupationPieChart contribution_data={profile.contributions} />
-            )}
+                <TimelineChart 
+                    profile={profile}
+                    contribution_data={profile.contributions}
+                    expenditure_data={profile.expenditures}/>
 
-            <TimelineChart 
-                profile={profile}
-                contribution_data={profile.contributions}
-                expenditure_data={profile.expenditures}/>
+                <span className='side-by-side'>
+                    <AggregatedDataTable 
+                        profile={profile} 
+                        contribution_data={profile.contributions}
+                        selectedDateRange={selectedDateRange} />
 
-            <span className='side-by-side'>
-                <AggregatedDataTable 
+                    <AggregatedExpendituresTable
+                        profile={profile}
+                        expenditure_data={profile.expenditures}
+                        selectedDateRange={selectedDateRange}/>
+                </span>
+
+                <DonorVolunteerLineGraph
+                    expenditure_data={profile.expenditures} />
+
+                <span className='side-by-side'>
+                    <ContributionPieChart
+                        profile={profile}
+                        contribution_data={profile.contributions}
+                        profiles={profiles} 
+                        selectedDateRange={selectedDateRange} />
+
+                    <ExpendituresCategoryPieChart
+                        profile={profile}
+                        records={profile.expenditures} />
+                </span>
+
+                <span className='side-by-side' id="text-data-box">
+                    <MembershipList 
+                        expenditure_data={profile.expenditures}/>
+                        
+                    <FoodExpenditureAnalysis
+                        expenditure_data={profile.expenditures} />
+
+                    <DonationList
+                        expenditure_data={profile.expenditures} />
+                </span>
+
+                <IndividualContributionsTable 
                     profile={profile} 
                     contribution_data={profile.contributions}
                     selectedDateRange={selectedDateRange} />
 
-                <AggregatedExpendituresTable
-                    profile={profile}
+                <IndividualExpendituresTable 
+                    profile={profile} 
                     expenditure_data={profile.expenditures}
-                    selectedDateRange={selectedDateRange}/>
-            </span>
-
-            <DonorVolunteerLineGraph
-                expenditure_data={profile.expenditures} />
-
-            <span className='side-by-side'>
-                <ContributionPieChart
-                    profile={profile}
-                    contribution_data={profile.contributions}
-                    profiles={profiles} 
                     selectedDateRange={selectedDateRange} />
 
-                <ExpendituresCategoryPieChart
-                    profile={profile}
-                    records={profile.expenditures} />
-            </span>
+            </div>
 
-            <span className='side-by-side' id="text-data-box">
-                <MembershipList 
-                    expenditure_data={profile.expenditures}/>
-                    
-                <FoodExpenditureAnalysis
-                    expenditure_data={profile.expenditures} />
+            <div id="profile-map-container">
+                <HeatmapMap points={geocodedData2} />
+            </div>
 
-                <DonationList
-                    expenditure_data={profile.expenditures} />
-            </span>
-
-            <IndividualContributionsTable 
-                profile={profile} 
-                contribution_data={profile.contributions}
-                selectedDateRange={selectedDateRange} />
-
-            <IndividualExpendituresTable 
-                profile={profile} 
-                expenditure_data={profile.expenditures}
-                selectedDateRange={selectedDateRange} />
         </div>
     );
 }

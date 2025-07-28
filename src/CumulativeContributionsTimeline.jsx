@@ -97,7 +97,7 @@ function CumulativeContributionsTimeline({ cityProfileData, selectedDateRange })
 
     return (
         <div id="timeline-graph-container">
-            <h1 id="timeline-graph-title">Cumulative Contribution Timeline</h1>
+            <h2 id="timeline-graph-title">Cumulative Contribution Timeline</h2>
             <p id="timeline-graph-description">
                 This graph shows the cumulative contributions received by each candidate over time.
             </p>

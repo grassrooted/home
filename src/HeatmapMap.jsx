@@ -10,7 +10,7 @@ function HeatmapMap({ points }) {
       <MapContainer
         center={[32.7767, -96.7970]} // Dallas, TX
         zoom={11}
-        style={{ height: '100%', width: '100%' }}
+        style={{ height: '100%'}}
       >
         <TileLayer
           attribution="&copy; OpenStreetMap contributors"

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   box-sizing: border-box;
@@ -24,9 +27,10 @@ html,
 body {
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
   line-height: 1.5;
   color: white;
-  background-color: black;
+  background-color: #F5F5F5;
 }
 textarea,
 input,
@@ -100,6 +104,12 @@ form[action$="destroy"] button {
 #root {
   display: flex;
   flex-direction: row;
+}
+
+#city-header{
+  background-color: #E6E6E6;
+  padding: 30px;
+  padding-top: 0px;
 }
 
 #sidebar {
@@ -430,7 +440,6 @@ i {
 .section{
   align-items: center;
   text-align: center;
-  margin: 5px;
   padding: 5px;
 }
 
@@ -456,17 +465,45 @@ i {
 }
 
 #content {
-  margin: 1.2rem;
-  padding: 0 1.2rem;
-  margin-top: 80px;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#profile-page {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+#profile-map-container {
+  position: fixed;
+  top: 60px; /* below header */
+  left: 0;
+  width: 60%;
+  height: calc(100vh - 60px);
+  background-color: #cceeff;
+  z-index: 1;
+  pointer-events: none; /* ensures map doesn’t trap pointer events if needed */
+}
+
+#profile-content {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 40%;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  background-color: #f4f4f4;
+  z-index: 2;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .side-by-side {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
 }
 
 #text-data-box:hover {
@@ -487,9 +524,6 @@ i {
       align-items: center;
       padding-top: 4em;
   }
-  #content {
-      margin-top: 80px;
-  }
   .box-wrapper {
     font-size: 3rem;
   }
@@ -499,5 +533,21 @@ i {
   .side-by-side {
     flex-direction: column;
   }
+
+  #profile-map-container {
+      width: 100%;
+      height: 40%;
+      top: auto;
+      bottom: 0;
+      left: 0;
+    }
+  
+  #profile-content {
+      width: 100%;
+      height: 60%;
+      top: 60px;
+      right: auto;
+      overflow-y: auto;
+    }
 }
 

@@ -1,13 +1,14 @@
 #expenditure-category-wrapper {
-    display: flex;
-    flex-direction: column;
-    background: black;
-    border-radius: 8px;
-    justify-content: center;
-    margin-top: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center; /* Center chart on wide screens */
+  overflow-x: hidden;   /* Prevent horizontal scroll just in case */
+}
 
-#expenditure-category-section{
+  #expenditure-category-pie-chart {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -15,5 +16,7 @@
     margin-top: 20px;
     padding: 5px;
     height: 350px;
-    width: 350px;
-}
+    width: 100%;
+    max-width: 350px; /* This ensures it shrinks on small screens */
+    box-sizing: border-box;
+  }

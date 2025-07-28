@@ -1,10 +1,9 @@
 .main-banner {
-    position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     padding: 0 20px;
-    background-color: black;
+    background-color: #F8F9FA;
     height: 80px;
     z-index: 11;
     width: 100%;
@@ -30,7 +29,6 @@
 }
 
 .hamburger-icon {
-    position: absolute;
     right: 0;
     margin: 20px;
     display: none;
@@ -48,7 +46,7 @@
 .menu-item {
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: bold;
     position: relative;
@@ -84,7 +82,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .dropdown-item:hover {

@@ -7,6 +7,10 @@
     height: 240px;
   }
 
+  #profile-stream a{
+    text-decoration: none;
+  }
+
   .profileSnapshot{
       transition: all 0.2s ease;
       border-radius: 5px;
@@ -14,7 +18,7 @@
       align-items: center;
       text-align: center;
       border-color: white;
-      color: #F1F2EB;
+      color: black;
   }
 
   .profileSnapshot h1{
